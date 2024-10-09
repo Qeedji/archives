@@ -1,7 +1,7 @@
 # ADESOFT CALENDAR
 *RELEASE NOTE*
 
-## `2015-11-25` V1.10.10 [download](applets/connector-adesoft-V1.10.10/delivery/adesoft-calendar-V1.10.10.saz){.auth-downloads}   
+## `2015-11-25` V1.10.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/applets/connector-adesoft-V1.10.10/delivery/adesoft-calendar-V1.10.10.saz)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **MODELS PACKAGE**
@@ -17,15 +17,15 @@
 
 #INFORMATION
 ***********************************************************************
-#### **DOCUMENTATION**  
-- Installation guide (002A/EN) [download](applets/connector-adesoft-V1.10.10/delivery/adesoft-calendar-user-manual-002A_en.pdf){.auth-downloads}
+#### **DOCUMENTATION**
+- Installation guide (002A/EN) [download](https://github.com/Qeedji/archives/blob/master/downloads/applets/connector-adesoft-V1.10.10/delivery/adesoft-calendar-user-manual-002A_en.pdf)
 #### **MODELS PACKAGE**
-- Install Model package 3.24 to get the last version of Meeting Room        
+- Install Model package 3.24 to get the last version of Meeting Room
 #### **NOTE TO EXPORT CALENDAR ICS FROM APPLET PHP**
-- In order to export ICS calendar with applet PHP, enter this URL in Web browser  
+- In order to export ICS calendar with applet PHP, enter this URL in Web browser
 	- ```http://<domain>/plugnCast/.applets/.adesoft-calendar/2ical.php?calendarId=<roomId>```
 		- with <domain> = Briva (or PlgnCast) server IP address
-		- with <roomId> = *all_rooms* (or *room1*, ...)   
+		- with <roomId> = *all_rooms* (or *room1*, ...)
 - The ICS is downloaded after a while in your PC (*myDownloads* directory)
 - Note: this URL can be used also with suffix *&debug=yes* (for technical support only)
    - ```http://<domain>/plugnCast/.applets/.adesoft-calendar/2ical.php?calendarId=<roomId>&debug=yes```

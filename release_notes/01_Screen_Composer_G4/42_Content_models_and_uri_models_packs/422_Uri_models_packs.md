@@ -2,16 +2,16 @@
 *RELEASE NOTE*
 
 ## `2022-03-29` Uri models packs
-- TV channels France 001A [Download](addons/uri_models_packs/uris-chaines_tv_france_demodulateur_dvb_t-screen_composer_g4-setup-001A.zip){.auth-downloads}
-- Device peripherals 001A [Download](addons/uri_models_packs/uris-peripheral_device-screen_composer_g4-setup-001A.zip){.auth-downloads}
-- Web TV channels 003A [Download](addons/uri_models_packs/uris-web_tv_channels-screen_composer_g4-setup-003A.zip){.auth-downloads}
+- TV channels France 001A [Download](https://github.com/Qeedji/archives/blob/master/downloads/addons/uri_models_packs/uris-chaines_tv_france_demodulateur_dvb_t-screen_composer_g4-setup-001A.zip)
+- Device peripherals 001A [Download](https://github.com/Qeedji/archives/blob/master/downloads/addons/uri_models_packs/uris-peripheral_device-screen_composer_g4-setup-001A.zip)
+- Web TV channels 003A [Download](https://github.com/Qeedji/archives/blob/master/downloads/addons/uri_models_packs/uris-web_tv_channels-screen_composer_g4-setup-003A.zip)
 
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the following URI model names
 	- *ABC News Live - EN*
 	- *CNA News - EN*
 	- *NBC News - EN*
-	- *Welt - DE*   
+	- *Welt - DE*
 - Change: remove the following URI model name
 	- *CBS News - EN*
 >##### **PERIPHERALS URI MODELS**
@@ -64,20 +64,20 @@
 | TF1                                                   | TV Channels France (DVB-T demodulator)   |  1.20.14		  |
 | TMC                                                   | TV Channels France (DVB-T demodulator)   |  1.20.14		  |
 | W9                                                    | TV Channels France (DVB-T demodulator)   |  1.20.14		  |
->##### **COMPATIBILITY** 
+>##### **COMPATIBILITY**
 - Screen Composer 4.10.12 (or above)
-    - SignCom 1.10.11    
+    - SignCom 1.10.11
 - Gekkota G4
-    - Gekkota OS V4.13.15 (or above) 
+    - Gekkota OS V4.13.15 (or above)
         - for DMB400 devices
         - for SMA300 devices
-    - Gekkota OS V4.13.10 (or above) 
+    - Gekkota OS V4.13.10 (or above)
         - for DME204 devices
-    - Gekkota OS V4.13.13 (or above) 
-        - for SMT210 devices 
+    - Gekkota OS V4.13.13 (or above)
+        - for SMT210 devices
      - Gekkota RT V4.13.15 (or above)
-- Gekkota G3 
-    - Gekkota OS V3.12.58 (or above) 
+- Gekkota G3
+    - Gekkota OS V3.12.58 (or above)
         - for SMA300 devices
     - Gekkota OS V3.12.57 (or above)
         - for DMB300 devices
@@ -90,9 +90,9 @@
 ***********************************************************************
 
 ## `2022-03-07` Uri models packs
-- TV channels France 001A [Download](addons/uri_models_packs/uris-chaines_tv_france_demodulateur_dvb_t-screen_composer_g4-setup-001A.zip){.auth-downloads}
-- Device peripherals 001A [Download](addons/uri_models_packs/uris-peripheral_device-screen_composer_g4-setup-001A.zip){.auth-downloads}
-- Web TV channels 002A [Download](addons/uri_models_packs/uris-web_tv_channels-screen_composer_g4-setup-002A.zip){.auth-downloads}
+- TV channels France 001A [Download](https://github.com/Qeedji/archives/blob/master/downloads/addons/uri_models_packs/uris-chaines_tv_france_demodulateur_dvb_t-screen_composer_g4-setup-001A.zip)
+- Device peripherals 001A [Download](https://github.com/Qeedji/archives/blob/master/downloads/addons/uri_models_packs/uris-peripheral_device-screen_composer_g4-setup-001A.zip)
+- Web TV channels 002A [Download](https://github.com/Qeedji/archives/blob/master/downloads/addons/uri_models_packs/uris-web_tv_channels-screen_composer_g4-setup-002A.zip)
 
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the following URI model names
@@ -104,9 +104,9 @@
 	- *RT France - FR*
 
 ## `2021-12-01` Uri models packs
-- TV channels France 001A [Download](addons/uri_models_packs/uris-chaines_tv_france_demodulateur_dvb_t-screen_composer_g4-setup-001A.zip){.auth-downloads}
-- Device peripherals 001A [Download](addons/uri_models_packs/uris-peripheral_device-screen_composer_g4-setup-001A.zip){.auth-downloads}
-- Web TV channels 001A [Download](addons/uri_models_packs/uris-web_tv_channels-screen_composer_g4-setup-001A.zip){.auth-downloads}
+- TV channels France 001A [Download](https://github.com/Qeedji/archives/blob/master/downloads/addons/uri_models_packs/uris-chaines_tv_france_demodulateur_dvb_t-screen_composer_g4-setup-001A.zip)
+- Device peripherals 001A [Download](https://github.com/Qeedji/archives/blob/master/downloads/addons/uri_models_packs/uris-peripheral_device-screen_composer_g4-setup-001A.zip)
+- Web TV channels 001A [Download](https://github.com/Qeedji/archives/blob/master/downloads/addons/uri_models_packs/uris-web_tv_channels-screen_composer_g4-setup-001A.zip)
 
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for Russian metadata
