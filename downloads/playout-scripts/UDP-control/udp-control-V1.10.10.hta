@@ -1,0 +1,247 @@
+﻿<html>
+
+<head>
+	<script type="text/javascript">
+		//===============================================================================================
+		// PARAMETERs to change if required.
+
+		// to be changed to the local IP address of the computer where this application will be executed
+		var localIP = "192.168.19.21";
+
+		// To be changed only if a firewall prevents messages to use that port for outgoing messages
+		var localPort = 2808;
+
+		// To be changed according to the value present in udp_controls.js
+		var remotePort = 2818;
+
+		// Add / delete devices as required
+		var devices = [{
+				ip: "192.168.1.123",
+				name: "Player1"
+			},
+			{
+				ip: "192.168.1.65",
+				name: "Player2"
+			},
+			{
+				ip: "192.168.1.104",
+				name: "Player3"
+			},
+			{
+				ip: "192.168.1.66",
+				name: "Player4"
+			},
+			{
+				ip: "192.168.1.123",
+				name: "Player5"
+			}
+		];
+		// CMD is fixed => DO NOT CHANGE
+		var buttons = [{
+				label: "Allumer écran",
+				cmd: "screenOn"
+			},
+			{
+				label: "Éteindre écran",
+				cmd: "screenOff"
+			},
+			{
+				label: "Caméra direct",
+				cmd: "streamOn"
+			},
+			{
+				label: "Programmation",
+				cmd: "scheduleOn"
+			}
+		];
+
+		var SHOWLOG = false;
+		//===============================================================================================
+	</script>
+	<hta:application id="oHTA" applicationname="Innes media controller" scroll="no" singleinstance="no" windowstate="normal"
+	    application="yes" border="thin" caption="yes" contextmenu="no" showintaskbar="yes" borderstyle="normal" sysmenu="yes"
+	    maximizebutton="no" BorderStyle="complex">
+		<title>Innes media controller</title>
+
+		<style>
+			body{
+					font-family:Arial;
+					color:black;	
+					background-color:white;
+					font-size:0.8em;
+					overflow-x: hidden;
+					overflow-y: auto;
+					margin: 0;					
+				}
+				#deviceBar {
+					float:left;	
+					width:35%;
+				}
+
+				#buttonsBar{
+					float:left;	
+					text-align:center;
+					width:65%;
+					position: absolute;
+					margin-top: 20px;
+				}
+				
+				#buttonsBar input{
+					margin:3px;
+				}
+				
+				.udpbutton{
+					padding : 10%;
+					width : 24%;
+					margin : 5%;
+				} 
+				
+				.udpCheckBox {
+					margin-top: 20px;
+					width:20%;
+					checked: 
+				}
+				.udpCheckBoxLabel {
+					width:80%;
+				}
+		</style>
+		<script type="text/javascript">
+			var applicationWidth = 1000;
+			var konsole;
+			var deviceCheckBoxes = [];
+
+
+			function sendUDP() {
+				clearLog();
+				log("CMD : " + this.cmd);
+
+				var l = deviceCheckBoxes.length;
+				for (var i = 0; i < l; i++) {
+					if (deviceCheckBoxes[i].checked) {
+						sendUDPMsg(deviceCheckBoxes[i].ip, this.cmd);
+					}
+				}
+			}
+
+			function sendUDPMsg(remoteAddress, dataToSend) {
+				try {
+					log("\ntestSend local " + localPort + " remote " + remoteAddress + ":" + remotePort + " ... ");
+
+					var psCmds = "$Address = [system.net.IPAddress]::Parse('" + remoteAddress + "');";
+					psCmds += "$end = New-Object System.Net.IPEndPoint $Address , " + remotePort + ";";
+					psCmds +=
+						"$Saddrf = [System.Net.Sockets.AddressFamily]::InterNetwork;$SocketType  = [System.Net.Sockets.SocketType]::Dgram;$protocolType  = [System.Net.Sockets.ProtocolType]::UDP;";
+					psCmds += "$lAddress = [system.net.IPAddress]::Parse('" + localIP + "');";
+
+					psCmds += "$ipLocalEndPoint  = new-object Net.IPEndPoint $lAddress , " + localPort + ";";
+					psCmds +=
+						"$Sock = New-Object System.Net.Sockets.Socket $saddrf , $SocketType , $protocolType;$Sock.TTL = 26;$sock.Bind( $ipLocalEndPoint );";
+					psCmds += "$sock.Connect( $end );"
+					psCmds += "$Enc = [System.Text.Encoding]::ASCII;$Buffer   = $Enc.GetBytes('" + dataToSend + "');";
+					psCmds += "$Sock.Send( $Buffer );";
+					psCmds += "$Sock.Close( );";
+
+					sCmd = 'powershell.exe ' + psCmds;
+					var objShell = new ActiveXObject("WScript.shell");
+					iResult = objShell.Run(sCmd, 0, true);
+					log("rez " + iResult);
+				} catch (ex) {
+					log("exception = " + ex.message);
+				}
+			}
+
+			function createButton() {
+				var button = document.createElement("input");
+				button.setAttribute("type", "button");
+				button.className = "udpbutton";
+				return button;
+			}
+
+			function createButtons() {
+				var buttonsBar = document.getElementById("buttonsBar");
+				if (buttons) {
+					var l = buttons.length;
+					for (var i = 0; i < l; i++) {
+						var value = buttons[i];
+						if (value.cmd && value.cmd != "") {
+							var button = createButton();
+							var label = (value.label && value.label != "") ? value.label : value.cmd;
+							button.setAttribute("value", label);
+							button.setAttribute("cmd", value.cmd);
+							button.onclick = sendUDP;
+							buttonsBar.appendChild(button);
+						}
+					}
+				}
+			}
+
+			function createDevices() {
+				var devicesBar = document.getElementById("deviceBar");
+				if (devices) {
+					var l = devices.length;
+					for (var i = 0; i < l; i++) {
+						var value = devices[i];
+						var device = document.createElement("input");
+						device.setAttribute("type", "checkbox");
+						device.className = "udpCheckBox";
+						device.setAttribute("ip", value.ip);
+						var label = document.createElement('label')
+						label.htmlFor = value.name;
+						label.className = "udpCheckBoxLabel";
+						label.appendChild(document.createTextNode(value.name + ' (' + value.ip + ')'));
+
+						deviceCheckBoxes.push(device);
+
+						devicesBar.appendChild(device);
+						devicesBar.appendChild(label);
+					}
+				}
+				var l = deviceCheckBoxes.length;
+				for (var i = 0; i < l; i++) {
+					deviceCheckBoxes[i].checked = true;
+				}
+			}
+
+
+
+			function init() {
+				createButtons();
+				createDevices();
+				var maxHeight = window.screen.height - 100;
+				var appWindowHeight = document.body.scrollHeight + 80;
+				if (appWindowHeight > maxHeight) {
+					appWindowHeight = maxHeight;
+				}
+				window.resizeTo(applicationWidth, appWindowHeight);
+
+				if (SHOWLOG) {
+					konsole = document.getElementById("konsole");
+				}
+			};
+
+			function log(msg) {
+				if (konsole) {
+					konsole.innerHTML += "<br>" + msg;
+				}
+			}
+
+			function clearLog(msg) {
+				if (konsole) {
+					konsole.innerHTML = "";
+				}
+			}
+		</script>
+</head>
+
+<body onload="init()">
+	<div id="general">
+		<div id="deviceBar">
+		</div>
+		<div id="buttonsBar">
+		</div>
+	</div>
+	<div id="konsole">
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+1,infinite,/Script/keyboard infrared/medias/video.mp4
+2,media,/Script/keyboard infrared/medias/image.png
+3,media,/Script/keyboard infrared/medias/agenda.maff
+4,media,/Script/keyboard infrared/medias/widget.wgt
+5,media,/Script/keyboard infrared/medias/PDF.pdf
+6,media,/Script/keyboard infrared/medias/powerpoint.pptx
+7,media,/Script/keyboard infrared/medias/education.maff
+8,media,/Script/keyboard infrared/medias/video2.mp4
+9,media,/Script/keyboard infrared/medias/image2.jpg
+red,media,/Script/keyboard infrared/medias/slidemaker.wgt
+yellow,media,/Script/keyboard infrared/medias/slidemaker2.wgt
+blue,media,/Script/keyboard infrared/medias/weather banner.maff
+green,media,/Script/keyboard infrared/medias/world clock.maff
