@@ -1,0 +1,110 @@
+# Driver USB to serial: supported vendor ID
+
+#### **SUMMARY** `2017-09-20` (last update)
+- The ```USB-to-serial``` devices drivers supported by Gekkota4 are:
+	- PROFILIC (vendor ID hex: 067b) and
+	- FTDI (vendor ID hex: 0403)
+#### **INFORMATION**
+- The goal of this documentation is to install serial interface on the USB connector
+- for example to use AVCommand RS232DTE and control several monitors
+#### **COMPATIBILITIES**
+- DMB400
+- Gekkota4 4.10.10 beta141 (or above)
+
+#### **CONFIGURATION OF YOUR SERIAL INTERFACE**
+- These preference are permitting to configure your serial interface
+	- ```innes.adapter.serial.uart_1.config```
+	- ```innes.adapter.serial.uart_1.syspath ```
+	- ```innes.adapter.serial.uart_2.config```
+	- ```innes.adapter.serial.uart_2.syspath```
+	- ```innes.adapter.serial.uart_3.config```
+	- ```innes.adapter.serial.uart_3.syspath```
+	- ```innes.adapter.serial.uart_4.config```
+	- ```innes.adapter.serial.uart_4.syspath```
+	- ```innes.adapter.serial.uart_5.config```
+	- ```innes.adapter.serial.uart_5.syspath```
+- Defaut value (to use RS232 DTE connector)
+	- ```innes.adapter.serial.uart_1.config ``` = ```{"baudrate":9600,"parity":"none","stopbits":"1","flowcontrol":"off"}```
+	- ```innes.adapter.serial.uart_1.syspath ``` = ```/dev/ttyAS1```
+- In case you are using USB-to-serial adaptor 5->1, 4->1, 3->1, 2->1 or 1->1, it is required to :
+	- change the ```innes.adapter.serial.uart_<i>.syspath``` to USB (```/dev/ttyUSB<i>```) instead of RS232 DTE (```/dev/ttyAS1```)
+		- ```innes.adapter.serial.uart_1.syspath``` = ```/dev/ttyUSB0```
+		- ```innes.adapter.serial.uart_2.syspath``` = ```/dev/ttyUSB1```
+		- ```innes.adapter.serial.uart_3.syspath``` = ```/dev/ttyUSB2```
+		- ```innes.adapter.serial.uart_4.syspath``` = ```/dev/ttyUSB3```
+		- ```innes.adapter.serial.uart_5.syspath``` = ```/dev/ttyUSB4```
+	- propagate the ```simple-protocol``` value to all the ```innes.app-profile.av-cmd.uart_<i>.*.*.class-name```:
+		- ```innes.app-profile.av-cmd.uart_1.*.*.class-name``` = ```simple-protocol```
+		- ```innes.app-profile.av-cmd.uart_2.*.*.class-name``` = ```simple-protocol```
+		- ```innes.app-profile.av-cmd.uart_3.*.*.class-name``` = ```simple-protocol```
+		- ```innes.app-profile.av-cmd.uart_4.*.*.class-name``` = ```simple-protocol```
+		- ```innes.app-profile.av-cmd.uart_5.*.*.class-name``` = ```simple-protocol```
+	- activate the AVCommand RS232 for all the UART on USB
+		- ```innes.app-profile.av-cmd.simple-protocol.uart_1.*.*.authorized``` = ```true```
+		- ```innes.app-profile.av-cmd.simple-protocol.uart_2.*.*.authorized``` = ```true```
+		- ```innes.app-profile.av-cmd.simple-protocol.uart_3.*.*.authorized``` = ```true```
+		- ```innes.app-profile.av-cmd.simple-protocol.uart_4.*.*.authorized``` = ```true```
+		- ```innes.app-profile.av-cmd.simple-protocol.uart_5.*.*.authorized``` = ```true```
+	- propagate the <protocol-name> (for example <protocol-name> = ```samsung_m1```) for all the UART on USB
+	    - ```innes.app-profile.av-cmd.simple-protocol.uart_1.*.*.authorized``` = ```<protocol_name>```
+	    - ```innes.app-profile.av-cmd.simple-protocol.uart_2.*.*.authorized``` = ```<protocol_name>```
+	    - ```innes.app-profile.av-cmd.simple-protocol.uart_3.*.*.authorized``` = ```<protocol_name>```
+	    - ```innes.app-profile.av-cmd.simple-protocol.uart_4.*.*.authorized``` = ```<protocol_name>```
+	    - ```innes.app-profile.av-cmd.simple-protocol.uart_5.*.*.authorized``` = ```<protocol_name>```
+
+#### **WHAT ABOUT OTHER VENDOR ID**
+- These other vendors showed below are not supported because they have been deliberately inactivated in the source code to save memory code place
+	- ADI
+	- ATMEL
+	- BAYER
+	- DE
+	- ELEKTOR
+	- EVOLUTION
+	- FIC
+	- GN_OTOMETRICS
+	- ICOM
+	- IDTECH
+	- INTERBIOMETRICS
+	- IONICS
+	- JETI
+	- KOBIL
+	- KONDO
+	- LARSENBRUSGAARD
+	- MARVELL
+	- MICROCHIP
+	- MOBILITY
+	- MTXORB
+	- NEWPORT
+	- OCT
+	- OLIMEX
+	- PAPOUCH
+    - PI
+    - POSIFLEX
+    - QIHARDWARE
+    - RATOC
+    - RTSYSTEMS
+    - SEALEVEL
+    - ST
+    - TELLDUS
+	- TESTO
+	- TML
+#### **YOU DON'T REMIND THE VENDOR ID OF YOUR ADAPTER: GET IT WITH LINUX COMMAND**
+- In case you don't remind the apaptor device vendor, it is possible to retrieve it with a linux command line (patch installation is required to navigate in the linux file system, contact support.innes.pro for more information),
+	- disconnect your adaptor USB-serial
+		- type: lsusb
+			- ex
+				- ```Bus 001 Device 004: ID 0424:2514```
+				- ```Bus 001 Device 001: ID 1d6b:0002```
+	- connect adaptor USB-serial, and your device appears
+		- type: lsusb
+			- ex
+				- ```Bus 001 Device 004: ID 0424:2514```
+				- ```Bus 001 Device 001: ID 1d6b:0002```
+				- ```Bus 001 Device 006: ID 067b:2303```
+			- The added line is corresponding to your own adapter
+			- Description
+				- in the line ```Bus 001 Device 006: ID 067b:2303```,
+					-  The vendor ID is the first value (ex: ```067b```)
+					-  The device ID (or product ID) is the second value (ex: ```2303```) (2303 = Device 2303 HXA)
+			- Information
+					- typing vendor ID in a Web browser ("vendor ID" + "067b") should lead to the name of your adaptor vendor
