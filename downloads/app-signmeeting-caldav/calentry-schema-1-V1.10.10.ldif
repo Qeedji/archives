@@ -1,0 +1,120 @@
+#
+# Active Directory Schema Extension for SoGo Calendar Resources
+# by Sven Tegethoff (s.tegethoff@tigress.com)
+#
+# Modified by Patrice Levesque <plevesque@inverse.ca>
+# to work around current limitations of Samba 4.
+#
+# Based on IETF documents:
+#
+# RFC 2739 (Calendar Attributes for vCard and LDAP)
+# draft-gryphon-ldap-schema-vcard4-00
+#
+# Using alernate OIDs from vcard4 draft to prevent conflict
+# with default AD schema
+#
+
+dn: cn=calCalURI,cn=Schema,cn=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.4.1.33592.1.3.27
+cn: calCalURI
+name: calCalURI
+lDAPDisplayName: calCalURI
+description: URI to a snapshot of the users entire default calendar
+attributeSyntax: 2.5.5.12
+oMSyntax: 64
+isSingleValued: TRUE
+
+dn: cn=calFBURL,cn=Schema,cn=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.4.1.33592.1.3.29
+cn: calFBURL
+name: calFBURL
+lDAPDisplayName: calFBURL
+description: URI to the users default free/busy time data
+attributeSyntax: 2.5.5.12
+oMSyntax: 64
+isSingleValued: TRUE
+
+dn: cn=calCAPURI,cn=Schema,cn=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.4.1.33592.1.3.28
+cn: calCAPURI
+name: calCAPURI
+lDAPDisplayName: calCAPURI
+description: URI used to communicate with the users calendar
+attributeSyntax: 2.5.5.12
+oMSyntax: 64
+isSingleValued: TRUE
+
+dn: cn=calCalAdrURI,cn=Schema,cn=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.4.1.33592.1.3.26
+cn: calCalAdrURI
+name: calCalAdrURI
+lDAPDisplayName: calCalAdrURI
+description: URI to which event requests should be sent for the user
+attributeSyntax: 2.5.5.12
+oMSyntax: 64
+isSingleValued: TRUE
+
+dn: cn=calOtherCalURIs,cn=Schema,cn=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.4.1.33592.1.3.31
+cn: calOtherCalURIs
+name: calOtherCalURIs
+lDAPDisplayName: calOtherCalURIs
+description: URIs to snapshots of non-default calendars belonging to the user
+attributeSyntax: 2.5.5.12
+oMSyntax: 64
+isSingleValued: FALSE
+
+dn: cn=calOtherFBURLs,cn=Schema,cn=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.4.1.33592.1.3.33
+cn: calOtherFBURLs
+name: calOtherFBURLs
+lDAPDisplayName: calOtherFBURLs
+description: URIs to non-default free/busy data belonging to the user
+attributeSyntax: 2.5.5.12
+oMSyntax: 64
+isSingleValued: FALSE
+
+dn: cn=calOtherCAPURIs,cn=Schema,cn=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.4.1.33592.1.3.32
+cn: calOtherCAPURIs
+name: calOtherCAPURIs
+lDAPDisplayName: calOtherCAPURIs
+description: URIs to non-default calendars belonging to the user
+attributeSyntax: 2.5.5.12
+oMSyntax: 64
+isSingleValued: FALSE
+
+dn: cn=calOtherCalAdrURIs,cn=Schema,cn=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.4.1.33592.1.3.30
+cn: calOtherCalAdrURIs
+name: calOtherCalAdrURIs
+lDAPDisplayName: calOtherCalAdrURIs
+description: URIs of destinations for event requests to non-default calendars
+attributeSyntax: 2.5.5.12
+oMSyntax: 64
+isSingleValued: FALSE
+

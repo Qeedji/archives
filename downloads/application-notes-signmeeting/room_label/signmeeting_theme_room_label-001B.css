@@ -1,0 +1,103 @@
+/**
+ * Room label customizable CSS
+ *
+ * Feel free to edit the proposed fields based on your needs.
+ *
+ * For the color palette, it is recommanded to use:
+ * 		color: #000; // black
+ * 		color: #474747; // dark gray
+ * 		color: #696969;	// gray
+ * 		color: #B3B3B3; // light gray
+ * 		color: #FFF; 		// white
+ *
+ * If you want to use an external media (image, video...), please ensure that it has been added in the publication (see ScreenComposer MEDIA tab).
+ * Then specify the URL relatively to this file's location.
+ *
+ * Example 1: The CSS and the media are in the same directory.
+ * 		./assets/theme_room_screen.css
+ * 		./assets/my_image.png
+ *	=> The style to apply is:
+ * 			background-image: url("my_image.png");
+ * 	The path requires just the image's file name.
+ *
+ * Example 2: The CSS and the media are in two different directories.
+ * 			./css/theme_room_screen.css
+ * 			./images/my_image.png
+ *	=> The style to apply is:
+ * 			background-image: url("../images/my_image.png");
+ *	The path goes up one level (../), then follows the "images" directory (images/) and ends up with the image's file name (my_image.png)
+ */
+
+/* Banner */
+.roomLabel #banner {
+  background-color: #FFF;
+}
+
+.roomLabel #banner #date_and_time,
+.roomLabel #banner #active_directory_connection_status,
+.roomLabel #banner #banner_title {
+  color: #000;
+}
+
+/* Main Page container element */
+.container {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAJYCAMAAADLzmQRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMAUExURdvb2////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGSdCNQAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjEuNWRHWFIAAATISURBVHhe7dYBDQAADMOg3b/pCynBBNsBADkGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAARQYAAEUGAABFBgAAPbcHn5ewPdxxvFwAAAAASUVORK5CYII=');
+  background-size: 100%;
+}
+
+/*
+  CSS classes matching the deviceInfo variables specific to each device are set on the container.
+  It allows you to apply specific CSS rules based on the device.
+  A prefix is used for CSS compatibility and to match the deviceInfo Name.
+  For example:
+    .MAC_00-1C-E6-02-38-63 #mainpage_current_summary {
+      color: red;
+    }
+  The names of the classes is the concatenation of the device specific information:
+    - MAC_<mac_address_value> with <mac_address_value> being the current MAC address of your device.
+    - UUID_<uuid_device_value> with <uuid_device_value> being the Universal Unique identifier of your device.
+    - HOSTNAME_<hostname_value> with <hostname_value> being the Hostname defined on your device,
+    - FIELD<field_number>_<field_value> with <field_number> being the index of the field variable (from 1 to 5) and <field_value> its value on your device.
+*/
+.MAC_00-1C-E6-02-38-63 #mainpage_current_summary {
+  color: inherit;
+}
+
+/* Current Meeting section */
+#mainpage_current_summary,
+#mainpage_current_location,
+#mainpage_current_attendees,
+#mainpage_current_meeting-state {
+  color: #000000;
+}
+
+#mainpage_current_date,
+#mainpage_current_description,
+#mainpage_current_organizer {
+  color: #474747;
+}
+
+#mainpage_current_description-label,
+#mainpage_current_organizer-label,
+#mainpage_current_attendees-label {
+  color: #696969;
+}
+
+/* Next Meeting section */
+#mainpage_next_summary {
+  color: #000000;
+}
+
+#mainpage_next_date {
+  color: #474747;
+}
+
+#mainpage_next_meeting-state {
+  color: #696969;
+}
+
+/* Buttons for the booking actions */
+#buttonBar,
+.labelButtonIcon {
+  color: #474747;
+}

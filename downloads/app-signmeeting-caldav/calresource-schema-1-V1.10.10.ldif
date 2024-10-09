@@ -1,0 +1,287 @@
+#
+# Active Directory Schema Extension for SoGo Calendar Resources
+# by Sven Tegethoff (s.tegethoff@tigress.com)
+#
+# Modified by Patrice Levesque <plevesque@inverse.ca>
+# to work around current limitations of Samba 4.
+#
+# Based on IETF documents:
+# draft-cal-resource-schema-03
+#
+# Attribute "Categories" renamed to "CalCategories" to prevent
+# conflict with AD default schema.
+#
+
+dn: CN=kind,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.0
+cn: kind
+name: kind
+lDAPDisplayName: kind
+description: Kind of Object
+attributeSyntax: 2.5.5.12
+oMSyntax: 64
+isSingleValued: TRUE
+
+dn: CN=vcardUid,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.1
+cn: vcardUid
+name: vcardUid
+lDAPDisplayName: vcardUid
+description: VCard UniqueID
+attributeSyntax: 2.5.5.12
+oMSyntax: 64
+isSingleValued: TRUE
+
+dn: CN=nickName,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.2
+cn: nickName
+name: nickName
+lDAPDisplayName: nickName
+description: Nick Name
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+
+dn: CN=calCategories,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.3
+cn: calCategories
+name: calCategories
+lDAPDisplayName: calCategories
+description: Calendar Categories
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+
+dn: CN=restricted,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.4
+cn: restricted
+name: restricted
+lDAPDisplayName: restricted
+description: Access Restricted
+attributeSyntax: 2.5.5.8
+oMSyntax: 1
+isSingleValued: FALSE
+
+dn: CN=admittanceURL,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.5
+cn: admittanceURL
+name: admittanceURL
+lDAPDisplayName: admittanceURL
+description: Cal Resource Admittance Info URL
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+
+dn: CN=accessibilityURL,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.6
+cn: accessibilityURL
+name: accessibilityURL
+lDAPDisplayName: accessibilityURL
+description: Cal Resource accessibility Info URL
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+
+dn: CN=capacity,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.7
+cn: capacity
+name: capacity
+lDAPDisplayName: capacity
+description: Cal Resource Capacity
+attributeSyntax: 2.5.5.9
+oMSyntax: 2
+isSingleValued: FALSE
+
+dn: CN=inventoryList,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.8
+cn: inventoryList
+name: inventoryList
+lDAPDisplayName: inventoryList
+description: Inventory List
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+
+dn: CN=inventoryURL,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.9
+cn: inventoryURL
+name: inventoryURL
+lDAPDisplayName: inventoryURL
+description: Cal Resource Inventory Info URL
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+
+dn: CN=resourceManager,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.10
+cn: resourceManager
+name: resourceManager
+lDAPDisplayName: resourceManager
+description: Cal Resource Manager Info
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+
+dn: CN=timeZoneID,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.11
+cn: timeZoneID
+name: timeZoneID
+lDAPDisplayName: timeZoneID
+description: Cal Time Zone ID
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+
+dn: CN=multiplebookings,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.12
+cn: multiplebookings
+name: multiplebookings
+lDAPDisplayName: multiplebookings
+description: Cal Num Bookings Allowed
+attributeSyntax: 2.5.5.9
+oMSyntax: 2
+isSingleValued: FALSE
+
+dn: CN=maxInstances,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.13
+cn: maxInstances
+name: maxInstances
+lDAPDisplayName: maxInstances
+description: Cal Maximum Instances allowed
+attributeSyntax: 2.5.5.9
+oMSyntax: 2
+isSingleValued: FALSE
+
+dn: CN=bookingWindowStart,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.14
+cn: bookingWindowStart
+name: bookingWindowStart
+lDAPDisplayName: bookingWindowStart
+description: Cal Booking Window Start
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+
+dn: CN=bookingWindowEnd,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.15
+cn: bookingWindowEnd
+name: bookingWindowEnd
+lDAPDisplayName: bookingWindowEnd
+description: Cal Booking Window End
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+
+dn: CN=autoschedule,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.16
+cn: autoschedule
+name: autoschedule
+lDAPDisplayName: autoschedule
+description: Cal Scheduling no approval required
+attributeSyntax: 2.5.5.8
+oMSyntax: 1
+isSingleValued: FALSE
+
+dn: CN=approvalInfoURL,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.17
+cn: approvalInfoURL
+name: approvalInfoURL
+lDAPDisplayName: approvalInfoURL
+description: Cal Sched Approval Info
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+
+dn: CN=schedAdmin,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.18
+cn: schedAdmin
+name: schedAdmin
+lDAPDisplayName: schedAdmin
+description: Cal Sched Admin Info
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+
+dn: CN=nocost,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.19
+cn: nocost
+name: nocost
+lDAPDisplayName: nocost
+description: Free or Priced resource
+attributeSyntax: 2.5.5.8
+oMSyntax: 1
+isSingleValued: FALSE
+
+dn: CN=costURL,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: attributeSchema
+attributeID: 1.3.6.1.1.5.0.20
+cn: costURL
+name: costURL
+lDAPDisplayName: costURL
+description: Cal Resource Cost Info
+attributeSyntax: 2.5.5.5
+oMSyntax: 22
+isSingleValued: FALSE
+

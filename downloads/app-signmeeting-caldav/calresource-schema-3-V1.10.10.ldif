@@ -1,0 +1,74 @@
+#
+# Active Directory Schema Extension for SoGo Calendar Resources
+# by Sven Tegethoff (s.tegethoff@tigress.com)
+#
+# Modified by Patrice Levesque <plevesque@inverse.ca>
+# to work around current limitations of Samba 4.
+#
+# Based on IETF documents:
+# draft-cal-resource-schema-03
+#
+# Attribute "Categories" renamed to "CalCategories" to prevent
+# conflict with AD default schema.
+#
+
+dn: CN=admittanceInfo,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: classSchema
+governsID: 1.3.6.1.1.5.1.2
+cn: admittanceInfo
+name: admittanceInfo
+lDAPDisplayName: admittanceInfo
+description: Calendar Resource Admittance Info Class
+subClassOf: calendarResource
+objectClassCategory: 3
+mayContain: admittanceurl
+defaultObjectCategory: CN=admittanceInfo,CN=Schema,CN=Configuration,dc=example,dc=com
+
+dn: CN=inventoryInfo,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: classSchema
+governsID: 1.3.6.1.1.5.1.3
+cn: inventoryInfo
+name: inventoryInfo
+lDAPDisplayName: inventoryInfo
+description: Calendar Resource Inventory Info Class
+subClassOf: calendarResource
+objectClassCategory: 3
+mayContain: inventorylist
+mayContain: inventoryurl
+defaultObjectCategory: CN=inventoryInfo,CN=Schema,CN=Configuration,dc=example,dc=com
+
+dn: CN=schedApprovalInfo,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: classSchema
+governsID: 1.3.6.1.1.5.1.4
+cn: schedApprovalInfo
+name: schedApprovalInfo
+lDAPDisplayName: schedApprovalInfo
+description: Calendar Sched Approval Class
+subClassOf: calendarResource
+objectClassCategory: 3
+mayContain: autoschedule
+mayContain: approvalinfourl
+mayContain: schedadmin
+defaultObjectCategory: CN=schedApprovalInfo,CN=Schema,CN=Configuration,dc=example,dc=com
+
+dn: CN=calendarResourceCost,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: classSchema
+governsID: 1.3.6.1.1.5.1.5
+cn: calendarResourceCost
+name: calendarResourceCost
+lDAPDisplayName: calendarResourceCost
+description: Calendar Resource Cost Object Class
+subClassOf: calendarResource
+objectClassCategory: 3
+mayContain: nocost
+mayContain: costurl
+defaultObjectCategory: CN=calendarResourceCost,CN=Schema,CN=Configuration,dc=example,dc=com
+

@@ -1,0 +1,27 @@
+#
+# Active Directory Demo Entry for SoGo Calendar Resources
+# by Sven Tegethoff (s.tegethoff@tigress.com)
+#
+
+
+#
+# Insert example "Meeting Room" resource
+#
+
+dn: cn=Room6, cn=users, dc=example,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+objectClass: CalendarResource
+objectClass: calEntry
+cn: Room6
+sn: room6
+displayName: Room Six
+givenName: Room Six
+Kind: location
+mail: room6@example.com
+uid: room6
+Multiplebookings: 1
+sAMAccountName: room6

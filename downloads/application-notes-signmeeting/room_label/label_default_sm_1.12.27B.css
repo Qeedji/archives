@@ -1,0 +1,70 @@
+/* ========================================*/
+/* Suitable colors for SLATE106            */
+/* ========================================*/
+/* WHITE:            #FFFFFF               */
+/* LIGHT GREY:       #A0A0A0               */
+/* DARK GREY:        #606060               */
+/* BLACK value:      #000000               */
+/* ========================================*/
+
+#container
+{
+ background-color:#A0A0A0;
+}
+
+/*=================*/
+/* CURRENT MEETING */
+/*=================*/
+#mainpage_current_date
+{
+ color:#FFFFFF;
+}
+#mainpage_current_summary
+{
+ color:#000000;
+}
+#mainpage_current_description-label
+{
+ color:#606060;
+}
+#mainpage_current_description
+{
+ color:#606060;
+}
+#mainpage_current_organizer-label
+{
+ color:#606060;
+}
+#mainpage_current_organizer
+{
+ color:#FFFFFF;
+}
+
+/*=================*/
+/* NEXT MEETING    */
+/*=================*/
+#mainpage_next_location
+{
+ color:#FFFFFF;
+}
+#mainpage_next_summary
+{
+ color:#FFFFFF;
+}
+#mainpage_next_date
+{
+ color:#000000;
+}
+#mainpage_next_description-label
+{
+ color:#606060;
+}
+#mainpage_next_description
+{
+ color:#000000;
+}
+#mainpage_next_meeting-state
+{
+ color:#606060;
+}
+

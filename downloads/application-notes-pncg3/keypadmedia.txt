@@ -1,0 +1,7 @@
+1,infinite,/Script keyboard infrared V1.10.11/medias/distribution-1.mp4
+2,media,/Script keyboard infrared V1.10.11/medias/location-1.mp4
+3,media,/Script keyboard infrared V1.10.11/medias/380M1018_1920.jpg
+4,media,/Script keyboard infrared V1.10.11/medias/Aeroplane.wgt
+5,media,/Script keyboard infrared V1.10.11/medias/pdf_implementation.pdf
+6,media,/Script keyboard infrared V1.10.11/medias/2011_OffreJeudi_20112008_ppt2003.pps
+7,media,/Script keyboard infrared V1.10.11/medias/Bloc d'information.maff

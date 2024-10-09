@@ -1,0 +1,45 @@
+#
+# Active Directory Schema Extension for SoGo Calendar Resources
+# by Sven Tegethoff (s.tegethoff@tigress.com)
+#
+# Modified by Patrice Levesque <plevesque@inverse.ca>
+# to work around current limitations of Samba 4.
+#
+# Based on IETF documents:
+# draft-cal-resource-schema-03
+#
+# Attribute "Categories" renamed to "CalCategories" to prevent
+# conflict with AD default schema.
+#
+
+dn: CN=calendarResource,CN=Schema,CN=Configuration,dc=example,dc=com
+changeType: add
+objectClass: top
+objectClass: classSchema
+governsID: 1.3.6.1.1.5.1.1
+cn: calendarResource
+name: calendarResource
+lDAPDisplayName: calendarResource
+description: Calendar Resource Object Class
+subClassOf: calEntry
+objectClassCategory: 3
+mustContain: cn
+mayContain: kind
+mayContain: nickname
+mayContain: description
+mayContain: ou
+mayContain: calcategories
+mayContain: member
+mayContain: uniquemember
+mayContain: accessibilityurl
+mayContain: capacity
+mayContain: owner
+mayContain: resourcemanager
+mayContain: timezoneid
+mayContain: multiplebookings
+mayContain: maxinstances
+mayContain: bookingwindowstart
+mayContain: bookingwindowend
+mayContain: vcarduid
+defaultObjectCategory: CN=calendarResource,CN=Schema,CN=Configuration,dc=example,dc=com
+

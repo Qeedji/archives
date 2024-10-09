@@ -1,0 +1,132 @@
+efolders applet version history 
+
+
+  2014-01-10 : V1.10.24 efolders
+-----------------------------------------------------------------------
+Constraints : 
+- Plugncast Studio V2.50.10 minimum (latest recommanded)
+- Plugncast Server V2.50.27 minimum
+-----------------------------------------------------------------------
+- Permits to insert, drag and drop these following extension files :
+	.txt, .xls, .xlsx, .csv, .tsv
+
+
+
+**********************************************************************************************************************************************
+**********************************************************************************************************************************************
+**                              Old versions history                                                                                        **
+**********************************************************************************************************************************************
+**********************************************************************************************************************************************
+
+
+  2013-11-25 : V1.10.23 efolders
+-----------------------------------------------------------------------
+Constraints : 
+- Plugncast Studio V2.50.10 minimum (latest recommanded)
+- Plugncast Server V2.50.27 minimum
+-----------------------------------------------------------------------
+- Limit to 10 simultaneous requests in order to make work MacOs + Firefox configuration
+
+
+
+  2012-11-19 : V1.10.22 efolders
+-----------------------------------------------------------------------
+Constraints : 
+- Plugncast Studio V2.50.10 minimum (latest recommanded)
+- Plugncast Server V2.50.27 minimum
+-----------------------------------------------------------------------
+- Add the possibility to program an http proxy (basic authentication only)
+- Fix possibility to rename extensions with capital letters
+- Fix troubles when using special characters in file names
+- Fix automatic refresh
+- Fix a trouble while editing a model which renders it unusable
+- Fix a trouble while editing a model which launches the viwe of the model in the same time
+- Fix a trouble while editing a model which smalls the edition window each time it is called
+
+
+
+  2012-06-29 : V1.10.21 efolders
+-----------------------------------------------------------------------
+Constraints : 
+- Plugncast Studio V2.50.10 minimum (latest recommanded)
+- Plugncast Server V2.50.26 minimum
+-----------------------------------------------------------------------
+- Update supported file extensions list
+- Only flash models are viewable (no maff)
+- Edition window resize for low-resolutions
+- Change viewer window implementation
+- Accept file extensions with capital letters
+- Prevents from removing file extension while renaming a file
+- Rename 'media' by 'file'
+- Fix media with character '+' in the name
+- Fix drag and drop which didn't respect the medias order
+- Media preview is launched in a separated window. If the explorer doesn't support the media type, you should install the correct plugin. An example is given in a separated document, to view videos, with vlc plugin.
+
+
+
+  2011-11-04 : V1.10.20 efolders
+-----------------------------------------------------------------------
+Constraints : 
+- Plugncast Studio V2.50.10 minimum (latest recommanded)
+- Plugncast Server V2.50.25 minimum
+-----------------------------------------------------------------------
+- Fix compatibility with flash player version > 10.1
+- opt-out option automatically activated
+- Incorrect positionning of pop-ups
+- Rename file fails with characters " and %
+- If many files are added at the same time, an error is displayed
+- Fix file transfers interrupted after 1min. Now, file transfers work for files <2GB.
+- Permits to load masks created with a SDK version different from the one which permits to create efolder applet
+- Works with a port different to 80
+- No cache for media preview (except video)
+- Fix if a mask doesn't have a thumbnail, it didn't work
+- Add 'Bibliothèque personnelle', which correspond to local medias
+- Media preview is launched in a separated window. If the explorer doesn't support the media type, you should install the correct plugin. An example is given in a separated document, to view videos, with vlc plugin.
+
+
+
+  2010-11-25 : V1.10.15 efolders
+-----------------------------------------------------------------------
+Constraints : 
+- Plugncast Studio V2.50.10 minimum
+- Plugncast Server V2.50.10 minimum
+-----------------------------------------------------------------------
+- Fix http communication trouble. (Fix local efolder malfunction when using a certain amount of users/players)
+- Correct "Dossiers Externalisées" in "Dossiers Externalisés"
+
+
+
+  2010-10-28 : V1.10.14 efolders
+-----------------------------------------------------------------------
+Constraints : 
+- Plugncast Studio V2.50.10 minimum
+- Plugncast Server V2.50.10 minimum
+-----------------------------------------------------------------------
+- Fix files *.JPG *.vob *.f4v no visible
+- Fix audio container no access to shared media
+- Fix editing a playlist that contains files with special characters is no considered
+
+
+
+  2010-03-01 : V1.10.13 efolders
+-----------------------------------------------------------------------
+Constraints : 
+- Plugncast Studio V2.50.10 minimum
+- Plugncast Server V2.50.10 minimum
+-----------------------------------------------------------------------
+- Add possibility to name new mask
+- Add metadata editing. For medias in containers associate to a playlist.
+- Add support to .F4V
+
+
+
+  2009-12-14 : V1.10.12 efolders
+-----------------------------------------------------------------------
+Constraints : 
+- Plugncast Studio V2.50.10 minimum
+- Plugncast Server V2.50.10 minimum
+-----------------------------------------------------------------------
+- Add containers compatibility
+- Add local medias, server shared medias, masks, xspf format playlists
+- Video formats and GIF supported
+- Add opt-out option

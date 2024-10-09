@@ -1,0 +1,43 @@
+
+.room_title
+{
+ color:#FFFFFF;
+ background-color:#393939;
+ border-color : #000000;
+}
+
+.room_name
+{
+ color:#FFFFFF;
+ background-color:#393939;
+ border-color : #000000;
+}
+
+.title_time_interval
+{
+  color:#FFFFFF;
+  background-color:#393939;
+  border-color : #000000;
+}
+
+.calendar_event_free
+{
+ background-color:#00FF00;
+ border-color : #000000;
+}
+
+.calendar_event_busy
+{
+ background-color:#FF0000;	
+ border-color : #000000;
+}
+
+.calendar_event_title
+{
+	color:#000000;
+}
+
+.calendar_event_organizer
+{
+	color:#000000;
+}

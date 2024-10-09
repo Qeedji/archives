@@ -1,0 +1,93 @@
+
+#container
+{
+ background-color:#FFFFFF;
+}
+
+/* CURRENT MEETING */
+#mainpage_current_summary
+{
+ color:#000000;
+}
+#mainpage_current_date
+{
+ color:#474747;
+}
+#mainpage_current_description-label
+{
+ color:#696969;
+}
+#mainpage_current_description
+{
+ color:#474747;
+}
+
+#mainpage_current_location
+{
+ color:#000000;
+}
+#mainpage_current_organizer-label
+{
+ color:#696969;
+}
+#mainpage_current_organizer
+{
+ color:#474747;
+}
+#mainpage_current_attendees-label
+{
+ color:#474747;
+}
+#mainpage_current_attendees
+{
+ color:#000000;
+}
+#mainpage_current_meeting-state
+{
+ color:#000000;
+}
+
+/* NEXT MEETING */
+#mainpage_next_summary
+{
+ color:#000000;
+}
+#mainpage_next_date
+{
+ color:#474747;
+}
+#mainpage_next_meeting-state
+{
+ color:#696969;
+}
+
+
+
+#mainpage_next_location
+{
+ color:#B3B3B3;
+}
+#mainpage_next_organizer
+{
+ color:#B3B3B3;
+}
+#mainpage_next_organizer-label
+{
+ color:#B3B3B3;
+}
+#mainpage_next_attendeesLabel
+{
+ color:#000000;
+}
+#mainpage_next_attendees
+{
+ color:#000000;
+}
+#mainpage_next_description
+{
+ color:#000000;
+}
+#mainpage_next_description-label
+{
+ color:#000000;
+}

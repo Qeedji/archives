@@ -1,0 +1,138 @@
+
+.container
+{
+/*    Define background as a color  */
+   
+ background-color:rgba(255,128,0,0.8);
+ 
+ /*  url contains relative path from CSS to image 
+ 
+ NB for a background image, the image has to be added manually in the publication 
+ (see ScreenComposer MEDIA tab)
+  
+ Example 1 
+     CSS is in a sub-directory CSS                 ./css/theme_sm.css
+     Image is in a sub-directory images           ./images/diagonal3.png	  
+ 
+     Path go up one level (../) and then define images directory (images/)  and image file name (diagonal3.png)
+ 
+     background-image: url("../images/diagonal3.png");
+ 
+ Example 2 
+     CSS and Image are in the same directory
+	No path is require just image name 
+ 
+     background-image: url("RT-events-1.jpg");
+ */
+ 
+}
+
+/*
+Rather than setting the background on the container Class (above) can use customer select classes 
+
+Add customer classes (cusClass1, cusClass2) as follows with the required background
+
+In SignMeeting configuration for each required player define the name of the CSS class. In this example cusClass1 or cusClass2 (without the . in front)
+
+Any players without a custom CSS class will use the default container class above.
+
+*/
+.cusClass1
+{
+ /*background-color:rgba(0,255,128,0.8);*/
+ 
+ background-image: url("RT-events-1.jpg");
+ background-size: contain;
+}
+
+.cusClass2
+{
+ /*background-color:rgba(128,128,255,0.8);*/
+ 
+ background-image: url("ship.jpg");
+ background-size: cover;
+
+}
+
+#mainpage_current_summary
+{
+ color:#0077FF;
+ border-left: 1px solid white;
+}
+#mainpage_current_location
+{
+ color:#FF0000;
+}
+#mainpage_current_organizer
+{
+ color:#00FF00;
+}
+#mainpage_current_organizer-label
+{
+ color:#FF0000;
+}
+
+#mainpage_current_attendees-label
+{
+ color:#FF5000;
+}
+#mainpage_current_attendees
+{
+ color:#00FF00;
+}
+#mainpage_current_description
+{
+ color:#0077FF;
+}
+#mainpage_current_description-label
+{
+ color:#FF5858;
+}
+#mainpage_current_date
+{
+ color:#4477FF;
+}
+#mainpage_current_meeting-state
+{
+ color:#555555;
+}
+
+/* NEXT MEETING */
+#mainpage_next_summary
+{
+ color:#7700FF;
+}
+
+#mainpage_next_organizer-label
+{
+ color:#55FF00;
+}
+
+#mainpage_next_organizer
+{
+ color:#FF0000;
+}
+#mainpage_next_attendees-label
+{
+ color:#00FF00;
+}
+#mainpage_next_attendees
+{
+ color:#FF0000;
+}
+
+#mainpage_next_description
+{
+ color:#0077FF;
+}
+
+
+#mainpage_next_date
+{
+ color:#7755FF;
+}
+
+#mainpage_next_meeting-state
+{
+ color:#77FF99;
+}
