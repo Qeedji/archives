@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            height: 100%;
+        }
+        #globalGrid {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+        }
+
+        #gotopageGroup {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #controlsColumn {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        .button {
+            -webkit-user-select: none;
+            /* Chrome 49+ */
+            -moz-user-select: none;
+            /* Firefox 43+ */
+            -ms-user-select: none;
+            /* No support yet */
+            user-select: none;
+            pointer-events: auto;
+            background-color: rgb(47, 65, 47);
+            border: none;
+            color: white;
+            padding: 10px 25px;
+            text-align: center;
+            text-decoration: none;
+            width: 80px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        #logArea {
+            width: 170px;
+            height: 100%;
+            border: 1px solid #000;
+            overflow: auto;
+        }
+
+        #iframepdf {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+
+        #targetPage {
+            height: 18px;
+            width: 10px;
+            padding: 10px 10px;
+            margin-left: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="globalGrid">
+        <div id="controlsColumn">
+            <div class="button" onclick="previousPage()">Previous</div>
+            <div class="button" onclick="nextPage()">Next</div>
+            <div id="gotopageGroup">
+                <div class="button" onclick="goToPage()">Go to Page</div>
+                <input type="text" id="targetPage" value="3"></input>
+            </div>
+            <div class="button" onclick="restart()">Restart</div>
+            <div>Events</div>
+            <div id="logArea"></div>
+        </div>
+        <iframe id="iframepdf" src="mask.pdf"></iframe>
+    </div>
+
+    <script type="text/javascript">
+
+        var MyIframe = document.getElementById("iframepdf");
+        var MyIframeWindow = MyIframe.contentWindow;
+        var logAreaText = "";
+
+        function restart() {
+            MyIframeWindow.postMessage("restart", "*");
+        }
+
+        function nextPage() {
+            MyIframeWindow.postMessage("gotoNext", "*");
+        }
+
+        function previousPage() {
+            MyIframeWindow.postMessage("gotoPrev", "*");
+        }
+
+        function goToPage() {
+            var targetPageNumber = document.getElementById("targetPage").value;
+            var goToPageMessage = {
+                type: "gotoPage",
+                detail: parseInt(targetPageNumber)
+            };
+            MyIframeWindow.postMessage(goToPageMessage, "*");
+        }
+
+        function numPages() {
+            MyIframeWindow.postMessage("numPages", "*");
+        }
+
+        window.addEventListener("message", function (event) {
+            if (event.source === MyIframeWindow) {
+                var type;
+                if (typeof event.data === "string") {
+                    type = event.data.toLowerCase();
+                } else {
+                    type = event.data.type.toLowerCase();
+                }
+
+                
+
+                logAreaText = logAreaText + "<br>" + type;
+                if (event.data.detail) {
+                    logAreaText = logAreaText + " " + event.data.detail;
+                }
+                document.getElementById("logArea").innerHTML = logAreaText;
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

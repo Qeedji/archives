@@ -1,0 +1,15 @@
+#display {
+  bottom: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-family: Arial;
+  /* By default the attribute "font-size" is calculated by an algorithm 
+     to adapt layout changes but you can set a fixed value if needed */
+  /* font-size: 50px; */ 
+  text-shadow: 1px 1px 0px black, -1px -1px black;
+  background-color: rgba(0, 0, 0, 0.200);
+  padding-right: 10px;
+  padding-left: 10px;
+  z-index: 100;
+  /* set z-index to be sure div is on top */
+}

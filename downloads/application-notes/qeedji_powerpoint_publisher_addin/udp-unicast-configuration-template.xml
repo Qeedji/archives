@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app xmlns="urn:tech.qeedji.powerpoint.publisher">
+	<script type="text/javascript"><![CDATA[
+		//----- udp-unicast-configuration-template-001A.xml -----
+		// USER CONFIGURATION 
+		const localAddress = "192.168.2.37"; // device IP address
+		const localPort = 1810; // UDP messages listening port
+		// END OF USER CONFIGURATION 
+		//---------------------------------------------------------
+		const udpClient = new window.UdpClientUnicast(logger);
+		const anyRemoteAddress = "192.168.10.10";
+		const anyRemotePort = 1800;
+		const onMessageReceived = function (message) {
+			const currentPageNumber = PptxMediaPlayersAddin.getCurrentPageNumber();
+			const pagesCount = PptxMediaPlayersAddin.getPagesCount();
+			logger.debug(`Current page number: ${currentPageNumber}, Pages count: ${pagesCount}, Message received: ${message}`);
+			switch (message) {
+				case "previousPage":
+					{
+						PptxMediaPlayersAddin.previousPage(); // display the previous page of your MS-PowerPoint presentation when the message "previousPage" is received
+						break;
+					}
+				case "nextPage":
+					{
+						PptxMediaPlayersAddin.nextPage(); // display the next page of your MS-PowerPoint presentation when the message "nextPage" is received
+						break;
+					}
+				default:
+					{
+						const goToPagePrefix = "goToPage ";
+						if (message.indexOf(goToPagePrefix) === 0) {
+							const pageNumber = parseInt(message.substring(goToPagePrefix.length), 10);
+							if (Number.isInteger(pageNumber)) {
+								PptxMediaPlayersAddin.goToPage(pageNumber); // display a specific page of your MS-PowerPoint presentation (e.g. the message "goToPage 2" allows to display the page 2 of your MS-PowerPoint presentation).
+							}
+						}
+					}
+			}
+		};
+		udpClient.listenForUdpMessages(localAddress, localPort, anyRemoteAddress, anyRemotePort, onMessageReceived);
+]]>	</script>
+</app>

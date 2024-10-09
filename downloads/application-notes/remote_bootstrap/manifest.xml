@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:pzpm="ns.innes.gekkota.manifest" xmlns:xpf="ns.innes.xpf.3">
+    <Description about="ns.innes.gekkota.manifest#metadata">
+        <pzpm:publish-id>03f2c993-413d-4f45-9af9-fb74cba847dc</pzpm:publish-id>
+        <pzpm:publish-size>1936907</pzpm:publish-size>
+        <pzpm:publish-generator>Innes Screen Composer G3 V3.20.15</pzpm:publish-generator>
+        <pzpm:publish-date>2019-08-13T12:38:37.419Z</pzpm:publish-date>
+    </Description>
+    <Description about="ns.innes.gekkota.manifest#launcher">
+        <pzpm:bootstrap src="player.html"/>
+    </Description>
+    <Description about="urn:innes:manifest:cache">
+        <Bag>
+            <li>.medias/emergency/emergency.maff</li>
+            <li>.medias/emergency/emergency.txt</li>
+            <li>.scripts/aVCommand-playzilla4-gekkota-4.js</li>
+            <li>.scripts/check-platform-gekkota.js</li>
+            <li>.scripts/es-observable-1.10.min.js</li>
+            <li>.scripts/playzilla-screencomposer-gekkota-4.12.10.min.js</li>
+            <li>.scripts/powerSupply-playzilla4-gekkota-4.js</li>
+            <li>.scripts/sound-playzilla4-gekkota-4.js</li>
+            <li>.scripts/target-invalid-msg.js</li>
+            <li>.scripts/xpfDisplay-playzilla4-gekkota-4.js</li>
+            <li>.styles/error-icon.png</li>
+            <li>.styles/playzilla.css</li>
+            <li>.styles/target-invalid-msg.css</li>
+            <li>player.html</li>
+            <li>target-invalid-msg.html</li>
+            <li>variables.xml</li>
+        </Bag>
+    </Description>
+</RDF>

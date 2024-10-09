@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title></title>
+
+<style>
+	body {
+		position: absolute;
+		margin: 0;
+		background-color: black;
+		width: 100%;
+		height: 100%;
+	}
+</style>
+<script type="text/javascript">
+	/**
+ ****************************************BEGIN EDIT*********************************************************
+ */
+const powerBiUrl="http://user:pass@ip:port/Reports/powerbi/test"
+
+const refreshInterval = 300; // seconds
+/**
+ ****************************************END EDIT***********************************************************
+ */
+// @ts-check
+var started = false
+var iframe = null
+var rootDocument = null
+var firstShow = true;
+var logger = log4Service.getLogger("powerbi");
+
+function appendConsole(str) {
+	/** @type {HTMLTextAreaElement} */
+	// @ts-ignore
+	var console = document.getElementById("console")
+	if (console)
+	{
+		console.value = console.value + str + "\n";
+	}
+	logger.debug(str, null)
+}
+
+function checkClass(node, cl, depth = 6) {
+	for (let p = node, i = 0; i < depth; i++, p = p.parentNode) {
+		if (!p)
+			return false
+		// appendConsole("checkClass name = " + p.className)
+		if (p.className && p.className.includes(cl))
+			return true
+	}
+	return false
+}
+function start() {
+	if (started)
+		return
+	appendConsole("start");
+	try {
+		var doc = iframe.contentDocument;
+		if (!doc.body || !(doc.body.className.includes("report")))
+		{
+			appendConsole("!doc.body");
+			setTimeout(start, 500)
+			return;
+		}
+		appendConsole("doc.body.className = " + doc.body.className);
+		if (!doc.body || !(doc.body.className.includes("report")))
+		{
+			appendConsole("bad classname");
+			setTimeout(start, 500)
+			return;
+		}
+		var btn = doc.querySelector(".nav-pbi-refresh")
+		if (!btn)
+		{
+			appendConsole("!btn");
+			setTimeout(start, 100)
+			return;
+		}
+		started = true
+		setInterval(refresh, refreshInterval * 1000)
+	} catch (ex) {
+		appendConsole("Exception line " + ex.lineNumber + " " + ex);
+		setTimeout(start, 500)
+	}
+	
+}
+function refresh()
+{
+	appendConsole("refresh");
+	var doc = iframe.contentDocument;
+	var btn = doc.querySelector(".nav-pbi-refresh > a:nth-child(1)")
+	if (btn)
+	{
+		appendConsole("click");
+		btn.click()
+	}
+}
+function loadIframe() {
+	try {
+		iframe = document.createElement("iframe");
+		iframe.style.position = "absolute"
+		iframe.style.top = "0px"
+		iframe.style.width = "100%";
+		iframe.style.height = "100%";
+		iframe.style.border = "0";
+		iframe.style.margin = "0";
+		iframe.style.backgroundColor = "white";
+		iframe.style.color = "black";
+		iframe.src = powerBiUrl; 
+		iframe.mozbrowser = true;
+		document.body.appendChild(iframe);
+		setTimeout(start, 100)
+		appendConsole("ok - access document content for iframe " + iframe.src);
+	} catch (e) {
+		appendConsole("ko - cannot access document content for iframe ");
+		appendConsole("exception  : " + e);
+	}
+}
+
+function load() {
+	rootDocument = window.document
+	loadIframe();
+}
+</script>
+<script type="text/xml">
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.4.0-1">
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<rdf:Description rdf:about=""
+				xmlns:is="ns.innes.metadata"
+			is:userDuration="00:00:10"
+			is:userDurationPolicy="alwaystakecare"/>
+	</rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>
+</script></head>
+
+<body onload="load()">
+	<!-- <textarea  id="console" cols="80" rows="100"> </textarea> -->
+</body></html>

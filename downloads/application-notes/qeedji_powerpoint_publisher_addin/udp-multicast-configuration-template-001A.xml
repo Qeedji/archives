@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app xmlns="urn:tech.qeedji.powerpoint.publisher">
+	<script type="text/javascript"><![CDATA[
+		//----- udp-multicast-configuration-template-001A.xml -----
+		// USER CONFIGURATION 
+		const multicastGroup = "239.255.0.1"; // group multicast 224.X.X.X or 239.X.X.X
+		const localPort = 30001; // UDP messages listening port
+		//---------------------------------------------------------
+		const udpClient = new window.UdpClientMulticast(logger);
+		const onMessageReceived = function (message) {
+			const currentPageNumber = PptxMediaPlayersAddin.getCurrentPageNumber();
+			const pagesCount = PptxMediaPlayersAddin.getPagesCount();
+			logger.debug(`Current page number: ${currentPageNumber}, Pages count: ${pagesCount}, Message received: ${message}`);
+
+			switch (message) {
+				case "previousPage":
+					{
+						PptxMediaPlayersAddin.previousPage(); // display the previous page of your MS-PowerPoint presentation when the message "previousPage" is received
+						break;
+					}
+				case "nextPage":
+					{
+						PptxMediaPlayersAddin.nextPage(); // display the next page of your MS-PowerPoint presentation when the message "nextPage" is received
+						break;
+					}
+				default:
+					{
+						const goToPagePrefix = "goToPage ";
+						if (message.indexOf(goToPagePrefix) === 0) {
+							const pageNumber = parseInt(message.substring(goToPagePrefix.length), 10);
+							if (Number.isInteger(pageNumber)) {
+								PptxMediaPlayersAddin.goToPage(pageNumber); // display a specific page of your MS-PowerPoint presentation (e.g. the message "goToPage 2" allows to display the page 2 of your MS-PowerPoint presentation).
+							}
+						}
+					}
+			}
+		};
+		udpClient.listenForUdpMessages(localPort, multicastGroup, onMessageReceived);
+]]></script>
+</app>

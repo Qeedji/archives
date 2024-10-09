@@ -1,0 +1,134 @@
+<h1 id="gpioconfiguration">GPIO Configuration</h1>
+
+<h4 id="summary"><strong>SUMMARY</strong></h4>
+
+<ul>
+<li>The goal of this application note is to explain how to configure available GPIO on Phoenix or Jack connector with a configuration script able to
+
+<ul>
+<li>configure GPIO
+
+<ul>
+<li>as input or output (Phoenix or Jack35 connector)
+
+<ul>
+<li><em>please refer to installation guide of the used platform to identify the capabilities for each supported GPIO</em></li>
+</ul></li>
+<li>debouncing filter</li>
+</ul></li>
+<li>configure Infrared (Jack35 connector)</li>
+</ul></li>
+<li>Please see information chapter below to know the supported naming formats</li>
+</ul>
+
+<h4 id="configurationscript"><strong>CONFIGURATION SCRIPT</strong></h4>
+
+<h2 id="2016-01-13v1.10.15download.auth-downloads"><code>2016-01-13</code> V1.10.15 <a href="application-notes/gpios-V1.10.15/delivery/GPIOs_example_000000000000.js">Download</a></h2>
+
+<blockquote>
+<h5 id="bugfixnewfeaturesminorupdates"><strong>BUG FIX, NEW FEATURES, MINOR UPDATES</strong></h5>
+
+<ul>
+<li><p>Change: active infrared when GPIO Jack35 is inactive (and reciprocally) </p>
+
+<h5 id="compatibilities"><strong>COMPATIBILITIES</strong></h5></li>
+<li>Gekkota V3.12.26 (or above)</li>
+<li>Screen Composer 3.11.10 (or above)</li>
+<li>DMB300, DMC200, SMA200, SMP200, SMT210, SMA300</li>
+</ul>
+</blockquote>
+
+<h1 id="information">INFORMATION</h1>
+
+<hr />
+
+<h4 id="documentation"><strong>DOCUMENTATION</strong></h4>
+
+<p>| Description | Version | |
+| :&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;- | :&#8212;&#8212;-| :&#8212;&#8212;&#8212;&#8212;&#8211; |
+| GPIO application note (EN) | 003A | <a href="application-notes/gpios-V1.10.15/delivery/Use-of-GPIOs-application-note_003A_en.pdf">Download</a> |
+| GPIO application note (FR) | 003A |<a href="application-notes/gpios-V1.10.15/delivery/Utilisation-des-GPIOs-Note-d'application-003A_fr.pdf">Download</a> |</p>
+
+<h4 id="configurationfile:supportednaming"><strong>CONFIGURATION FILE: SUPPORTED NAMING</strong></h4>
+
+<ul>
+<li>These configuration filename format are supported through USB
+
+<ul>
+<li><code>000000000000.js</code></li>
+<li><code>&lt;MAC&gt;.js</code> (upper case only)
+
+<ul>
+<li>ex: 001CE602fc01.js</li>
+</ul></li>
+<li><code>&lt;Mac&gt;.configuration.js</code> (lower case as well as upper case)
+
+<ul>
+<li>ex: 00&#8211;1C-E6&#8211;02-FC&#8211;01.js or</li>
+<li>ex: 00&#8211;1c-e6&#8211;02-fc&#8211;01.js</li>
+</ul></li>
+<li><code>&lt;hostname&gt;.configuration.js</code> (lower case as well as upper case)</li>
+<li><code>&lt;UUID&gt;.configuration.js</code> (lower case as well as upper case)</li>
+<li><p><code>configuration.js</code> </p>
+
+<h4 id="installationerrormessage"><strong>INSTALLATION ERROR MESSAGE</strong></h4></li>
+</ul></li>
+<li><p>An installation error message can be raised by Gekkota in case the configuration file is not compatible with the target player </p>
+
+<h4 id="installationerrormessagewheninjectingconfigurationfilewithgekkota3.12.20andabove"><strong>INSTALLATION ERROR MESSAGE WHEN INJECTING CONFIGURATION FILE WITH GEKKOTA 3.12.20 (and above)</strong></h4></li>
+<li><em>Installation error</em> message can pop with Gekkota 3.12.20 (and above) in case script installation because legacy script JS is containing obsolete command line making it not compatible with this version.</li>
+<li>2 possible ways permit to solve the issue
+
+<ul>
+<li>Either make compatible your own configuration script js (ex: <em>000000000000.js</em>) by opening it
+
+<ul>
+<li>replacing <code>var logger = logService.getLogger(&quot;autoconf&quot;);</code> by <code>var logger = new Logger(&quot;autoconf&quot;);</code></li>
+<li>replacing <code>log(&quot;Autoconf start&quot;);</code> by <code>logger.debug(&quot;Autoconf start&quot;);</code></li>
+</ul></li>
+<li>Or download the script JS 1.10.13 (or above) at the top of this page and configure it again according to your needs</li>
+</ul></li>
+</ul>
+
+<h1 id="oldversionshistory">OLD VERSIONS HISTORY</h1>
+
+<hr />
+
+<h2 id="2015-09-22v1.10.14download.auth-downloads"><code>2015-09-22</code> V1.10.14 <a href="application-notes/GPIOs-V1.10.14/GPIOs_example_000000000000.js">Download</a></h2>
+
+<blockquote>
+<h5 id="bugfixnewfeaturesminorupdates"><strong>BUG FIX, NEW FEATURES, MINOR UPDATES</strong></h5>
+
+<ul>
+<li>Change: integrate dynamic platform detection inside the *.js permitting to share only one configuration file between several players family without modifying the variable <code>var Platform</code>
+
+<ul>
+<li>In any case, the initialized variable of script 1.10.14 below has not to be modified anymore
+
+<ul>
+<li><code>var Platform=undefined</code>;</li>
+</ul></li>
+<li>Please refer to GPIO application note 003A for more information</li>
+</ul></li>
+</ul>
+</blockquote>
+
+<h2 id="2015-06-30v1.10.13download.auth-downloads"><code>2015-06-30</code> V1.10.13 <a href="technical-notes/GPIOs-V1.10.13/GPIOs_example_000000000000.js">Download</a></h2>
+
+<blockquote>
+<h5 id="bugfixnewfeaturesminorupdates"><strong>BUG FIX, NEW FEATURES, MINOR UPDATES</strong></h5>
+
+<ul>
+<li>Change new logger API to match Gekkota 3.12.20 (and above)</li>
+</ul>
+</blockquote>
+
+<h2 id="2014-07-11v1.10.12download.auth-downloads"><code>2014-07-11</code> V1.10.12 <a href="technical-notes/GPIOs-V1.10.12/GPIOs_example_000000000000.js">Download</a></h2>
+
+<blockquote>
+<h5 id="bugfixnewfeaturesminorupdates"><strong>BUG FIX, NEW FEATURES, MINOR UPDATES</strong></h5>
+
+<ul>
+<li>Initial version</li>
+</ul>
+</blockquote>
