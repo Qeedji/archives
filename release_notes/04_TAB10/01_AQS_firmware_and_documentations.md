@@ -71,7 +71,7 @@
 #### **DEBUG MODE**
 The debug mode is deactivated by default    
 #### **ISO FILE FOR FACTORY RECOVERY**
-To get the `aosp-tab10-setup-9.10.19.iso` file for factory recovery, contact support@qeedji.tech
+To get the `aosp-tab10-setup-9.10.19.iso` [download](https://github.com/Qeedji/aosp-TAB10s-sdk/tree/master/bin) file for factory recovery
 
 #OLD VERSIONS HISTORY
 *********************************************************************************************************

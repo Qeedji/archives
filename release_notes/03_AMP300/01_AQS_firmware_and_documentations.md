@@ -68,7 +68,7 @@
 #### **DEBUG MODE**
 The debug mode is deactivated by default    
 #### **ISO FILE FOR FACTORY RECOVERY**
-To get the `aosp-amp300-setup-9.10.20.iso` file for factory recovery, contact support@qeedji.tech
+To get the `aosp-amp300-setup-9.10.19.iso` [download](https://github.com/Qeedji/aosp-AMP300-sdk/tree/main/bin) file for factory recovery
 
 #OLD VERSIONS HISTORY
 *********************************************************************************************************
