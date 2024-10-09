@@ -3,7 +3,7 @@
 #### **SUMMARY**
 - The goal of this documentation is to explain how to generate HTML5 page with Hippo freeware
 
-##`2013-07-05` (last update)
+## `2013-07-05` (last update)
 
 #INFORMATION
 ***********************************************************************

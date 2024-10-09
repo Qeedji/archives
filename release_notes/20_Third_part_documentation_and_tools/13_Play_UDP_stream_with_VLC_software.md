@@ -3,7 +3,7 @@
 #### **SUMMARY**
 - The aim of this documentation is to explain how to play an UDP stream with VLC software in unicast or in multicast
 
-##`2018-09-04` (last update)
+## `2018-09-04` (last update)
 
 #INFORMATION
 ***********************************************************************

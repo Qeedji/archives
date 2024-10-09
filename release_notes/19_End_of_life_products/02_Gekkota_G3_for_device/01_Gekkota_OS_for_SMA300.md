@@ -5,7 +5,7 @@
 
 *For the device whose the PSN is 01090-XXXXX or 00812-XXXXX, the minimal Gekkota OS version to support the WLAN properly is 3.12.58*
 
-##`2019-03-01` V3.12.58 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.58.zip)
+## `2019-03-01` V3.12.58 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.58.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: WLAN may not working with some rare device embedding the last WLAN chip
 >##### **COMPATIBILITIES**
@@ -24,10 +24,10 @@
 #### **SUPPORTED MEDIAS**
 - Gekkota supported medias and performances [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-supported-medias-and-performances.pdf)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2018-10-23` V3.12.57 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.57.zip)
+## `2018-10-23` V3.12.57 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.57.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for TLS 1.2 (Transport Layer Security)
 - Add support for new WLAN chip
@@ -36,12 +36,12 @@
 - Fix: in some case, the device could not stop rebooting after having unplugged the power supply (very rare)
 - Fix: a message *content temporarily unavailable* could be displayed when playing several times a same video whose resolution is 540x1920 (portrait)
 
-##`2018-01-12` V3.12.51 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.51.zip)
+## `2018-01-12` V3.12.51 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.51.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: sometimes content could be completely frozen after having played a same video media several times (rare)
 - Fix: GIF medias could freeze for a while when loading some specific PDF media at the same time
 
-##`2017-11-10` V3.12.49 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.49.zip)
+## `2017-11-10` V3.12.49 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.49.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *NTLM V2* authentication
 - Add support for ```German``` language (WebUI)
@@ -73,7 +73,7 @@
 - Fix: email attachment was not supported
 - Fix: unexpected black screen could be displayed infinitely due to the device which did not manage to boot-up properly (rare)
 
-##`2017-04-27` V3.12.42 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.42.zip)
+## `2017-04-27` V3.12.42 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.42.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: a device reboot could occur when publishing with Screen Composer or PlugnCast G2 (rare)
 >##### **WILL BE CORRECTED IN NEXT VERSIONS**
@@ -85,20 +85,20 @@
 - PlugnCast Studio V2.51.11
 - PlugnCast Server V2.50.32
 
-##`2017-04-13` V3.12.41 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.41.zip)
+## `2017-04-13` V3.12.41 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.41.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: device could reboot when playing video sequence with playlist audio in audio zone
 - Fix: the canal could stop to be played after a while with scenes generated with old version of PlugnCast Studio (ex: V2.11.13)
 - Fix: (rare) audio track could be not rendered anymore after a while when playing audio playlist inside an audio channel (seen with PlugnCast G2 configuration)
 
-##`2017-03-29` V3.12.40 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.40.zip)
+## `2017-03-29` V3.12.40 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.40.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: restore value *Gekkota-3* for HTML tag *middleware* in Gekkota 3 device status.xml
 - Fix: content of remote directory was not properly updated (PlugnCast G3 configuration) in case renaming, adding or removing file (or directories)
 - Fix: issue to connect to device WebUI/configuration with Google Chrome (Chrome version > 15th March 2017)
 - Fix: decoding issue when broadcasted by DME204
 
-##`2017-02-24` V3.12.38
+## `2017-02-24` V3.12.38
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: sometimes some unexpected screen standby exit (or enter) could be noticed (seen on PlugnCast G2 environment)
 - Fix: sometimes some scenes could not start (seen on PlugnCast G2 environment)
@@ -109,7 +109,7 @@
 - Fix: sometimes, the secondary channel could not stop after having pressed several times and rapidly on a same key (Keyboard Channel)
 - Change remote control calibration to improve infrared remote control management
 
-##`2016-11-07` V3.12.37 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.37.zip)
+## `2016-11-07` V3.12.37 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.37.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of "download directory" hyperlink (in WebUI) permitting to save the playout as tar gz archive
 	- To decompress the archive, use one of the softwares
@@ -118,16 +118,16 @@
 - Fix: was not able to get the new content of image media updated remotely every 'n' minute from a WebDAV server
 - Fix: in some case, some image of WebUI could not be displayed after having pressed F5 key in Mozilla Firefox Web browser with preference ```network.http.pipelining = true``` activated
 
-##`2016-10-19` V3.12.36 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.36.zip)
+## `2016-10-19` V3.12.36 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.36.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: was facing issue to connect to WLAN router when its SSID broadcasting is not activated (not visible)
 - Fix: player could face issue to take a playout containing a file whose size is more than 2 GB
 
-##`2016-08-29` V3.12.34 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.34.zip)
+## `2016-08-29` V3.12.34 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.34.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: audio artefact may occur after a while (for example: 1 hour) when playing audio medias with audio output on HDMI
 
-##`2016-08-09` V3.12.33 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.33.zip)
+## `2016-08-09` V3.12.33 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.33.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of HTML DOM (Document Object Model) permitting to modify dynamically HTML page element with JavaScript file
 - Add preferences permitting to not display monitor-monitoring data *power-mode* and *input-source* in device-status (by example in case the screen is raising inconsistent data)
@@ -141,7 +141,7 @@
 - Fix: xpf file or media file of size 0 KB could be noticed randomly in case reboot immediately after publication (making appear unexpected *no content* message or *media temporarily unavailable* message)
 - Fix: some video could be displayed in 4-3 aspect ratio instead 16-9 aspect ratio
 
-##`2016-06-01` V3.12.31 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.31.zip)
+## `2016-06-01` V3.12.31 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.31.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add possibility to export a playout as *tar.gz* archive (from player to PC with a Web browser) (WebUI)
 	- ```http://<player_IP_address>/.playout/?export```
@@ -227,11 +227,11 @@
 - Fix: sometimes video media with short duration (lower than 3'50") could not be played when using player synchronization script (V1.10.12 or above)
 - Fix directory opening issue when the directory name is containig special characters (WebUI)
 
-##`2016-02-12` V3.12.28 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.28.zip)
+## `2016-02-12` V3.12.28 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.28.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: unexpected error message *content temporarily unavailable* when playing a same PDF media several times
 
-##`2016-02-03` V3.12.26 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.26.zip)
+## `2016-02-03` V3.12.26 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-3.12.26.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add DNS suffix
 - Add display mode
@@ -309,7 +309,7 @@
 - Fix audio conflict when media with audio is played in main zone and another audio is played at the same time in audio zone (PlugnCast G3 configuration)
 - Fix Gekkota robustness issue at limit implying unexpected player reboot with some specific customer network configurations (PlugnCast G3 configuration)
 
-##`2015-09-25` V3.12.24
+## `2015-09-25` V3.12.24
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of WWAN module
 - Fix capability to support WLAN and WWAN
@@ -336,7 +336,7 @@
 - Fix publication issue when software release is programmed (PlugnCast G2 configuration without status server)
 - Fix container playlist unexpected playback blocking when trying to play a missing media (PlugnCast G2 configuration)
 
-##`2015-07-07` V3.12.21
+## `2015-07-07` V3.12.21
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change information screen when media can not be played (small rectangle with transparence instead of full screen red cross)
 	- ```content temporarily unavailable... (code <i>)```
@@ -349,7 +349,7 @@
 - Fix unexpected green line display at the bottom of video (interlacing detection is now realized by VPU instead extractor)
 - Fix login and password was kept displayed in playback error information message for URI containing [login:password]
 
-##`2015-06-29` V3.12.20
+## `2015-06-29` V3.12.20
 >##### **INSTALLATION ERROR MESSAGE WHEN INJECTING SCRIPT JS WITH GEKKOTA 3.12.20**
 - *Installation error* message can pop with Gekkota 3.12.20 in case script installation because legacy script JS is containing obsolete command line making it not compatible with this version
 - Please refer to technical documentation to solve the issue or upgrade to above version
@@ -404,6 +404,6 @@
 - Fix red cross display while playing media whose file name is containing %, %de (PlugnCast G2 configuration)
 - Fix unexpected playout entirely redownloaded after ethernet cable unplug for more than 3 minutes (PlugnCast G2 configuration)
 
-##`2015-06-04` V3.12.19
+## `2015-06-04` V3.12.19
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

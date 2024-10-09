@@ -10,7 +10,7 @@
 
 - The *Fail soft mode* is a security feature implemented in Gekkota_os (except LCAN & EEEBOX) since Gekkota 3.12.15. For security reasons, the fail soft mode feature is automatic and can not be removed from the player
 
-##`2017-07-18` (last update)
+## `2017-07-18` (last update)
 
 #INFORMATION
 ***********************************************************************

@@ -3,7 +3,7 @@
 #### **SUMMARY**
 - The goal of this document is to list the supported RS232 commands embedded in Gekkota (DMB300 & DMC200)
 
-##`2016-09-12` (last update)
+## `2016-09-12` (last update)
 
 #INFORMATION
 ***********************************************************************

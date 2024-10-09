@@ -3,7 +3,7 @@
 
 *To update your content model pack, download the archive models-V3.5X.zip available just below, open Screen Composer G3, click on menu ```Import templates or app```, then select the archive downloaded. For more information about the content model pack installation, refer to the Screen-composer user manual.*
 
-##`2021-05-11` V3.65 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/content-models-ontologies-and-uris.models-screen_composer_g3-setup-3.65.zip)
+## `2021-05-11` V3.65 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/content-models-ontologies-and-uris.models-screen_composer_g3-setup-3.65.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "MeetingRoom Mono - Landscape"
 	- Add support for `Playzilla` 4.XX.YY when running on `Gekkota OS 3.XX.YY` or `Gekkota RT 3.XX.YY`
@@ -178,20 +178,20 @@
 #### **SAAS SERVER MODELS**
 - For customer working with SAAS server, specific models should be delivered directly on SAAS server. Contact **support@innes.fr** for more information
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2021-02-10` V3.64 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/content-models-ontologies-and-uris.models-screen_composer_g3-setup-3.64.zip)
+## `2021-02-10` V3.64 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/content-models-ontologies-and-uris.models-screen_composer_g3-setup-3.64.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "News feeds 16-9"
 - "News feeds horizontal banner"
 
-##`2020-03-09` V3.63 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/content-models-ontologies-and-uris.models-screen_composer_g3-setup-3.63.zip)
+## `2020-03-09` V3.63 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/content-models-ontologies-and-uris.models-screen_composer_g3-setup-3.63.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "MeetingRoom - Mono - Landscape"
  	- Add support multiple calendar
 
-##`2020-03-09` V3.62 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/content-models-ontologies-and-uris.models-screen_composer_g3-setup-3.62.zip)
+## `2020-03-09` V3.62 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/content-models-ontologies-and-uris.models-screen_composer_g3-setup-3.62.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "MeetingRoom - Summarization - Landscape" and "MeetingRoom - Summarization - Portrait"
 	- Add support for `Playzilla` 4.XX.YY when running on `Gekkota OS 3.XX.YY` or `Gekkota RT 3.XX.YY`
@@ -222,14 +222,14 @@
 - "Facebook"
 	- Removed
 
-##`2018-10-23` V3.61 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.61.zip)
+## `2018-10-23` V3.61 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.61.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Remove these WebTV URI:
 	- EuroNews - FR
 	- EuroNews - EN
 	- EuroNews - DE
 
-##`2018-10-09` V3.60 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.60.zip)
+## `2018-10-09` V3.60 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.60.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Real Estate Ads AC3 - France
 	- Initial version
@@ -238,7 +238,7 @@
 - Scrolling text from file
 	- Change: when a variable was used in the text input, all the files situated on the parent directory situated just before the variable was wrongly loaded in the mask. Now it is required to add manually the resource in the playout manifest
 
-##`2018-10-08` V3.59 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.59.zip)
+## `2018-10-08` V3.59 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.59.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add the Web TV channels
     - France24 - EN
@@ -254,33 +254,33 @@
 	- SkyNews - EN (instead of SkyNews)
 - Fix: the Web TV channels URI was not working except after having changed its URI type from *video* to *iframe*
 
-##`2018-10-03` V3.58 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.58.zip)
+## `2018-10-03` V3.58 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.58.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add the Web TV channels
     - France24
     - SkyNews
 - Change: the France TV channels thumbnails have now a watermark *TNT*
 
-##`2018-08-10` V3.57 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.57.zip)
+## `2018-08-10` V3.57 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.57.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - News feeds horizontal banner
 	- Variables with the format ```{$custom:<varname>}``` was not supported in the form input
 - `Audio/video input` URI
 	- Change URI format to ```urn:innes:av-input```
 
-##`2018-04-09` V3.55 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.55.zip)
+## `2018-04-09` V3.55 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.55.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Onthology
 	- "Sound"
 		- Initial release
 
-##`2018-02-05` V3.54 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.54.zip)
+## `2018-02-05` V3.54 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.54.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Onthology
 	- "DetectionHID"
 		- Fix: was not working on DMB400
 
-##`2018-02-02` V3.53 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.53.zip)
+## `2018-02-02` V3.53 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.53.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Agenda"
     - Initial release
@@ -309,7 +309,7 @@
 - "RichText Area"
     - *Model has been removed*
 
-##`2018-01-17` V3.52 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.52.zip)
+## `2018-01-17` V3.52 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.52.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Audio-video input"
 	- Change value to ```urn:innes:av-input```
@@ -319,11 +319,11 @@
 	- Thursday content and Tuesday content could be wrong
     - School building name could be shortened sometimes
 
-##`2017-08-30` V3.51 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.51.zip)
+## `2017-08-30` V3.51 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.51.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: removed SWF models
 
-##`2017-08-02` V3.50 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.50.zip)
+## `2017-08-02` V3.50 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.50.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Scrolling text"
 	- Removed (deprecated)
@@ -347,7 +347,7 @@
 - "Display"
 	- Device could keep device awoken when a standby task was programmed around the current time
 
-##`2017-07-07` V3.49 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.49.zip)
+## `2017-07-07` V3.49 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.49.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Education - Exams"
 	- Initial release, based on HTML5
@@ -373,7 +373,7 @@
 - "Slideshow - Image and text"
 	- Initial release, based on HTML5
 
-##`2017-05-04` V3.48 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.48.zip)
+## `2017-05-04` V3.48 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.48.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Onthologies: add support for German language
 	- "AppColorLed"
@@ -404,14 +404,14 @@
 		- XpfFileMonitor.rdf,
 		- XpfAVCommand.rdf
 
-##`2017-04-24` V3.47 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.47.zip)
+## `2017-04-24` V3.47 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.47.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Scrolling text"
 	- Add support for German language
 - "News feeds horizontal banner"
 	- Add support for German language
 
-##`2017-04-14` V3.46 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.46.zip)
+## `2017-04-14` V3.46 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.46.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Information bloc"
 	- Add support for German language
@@ -420,18 +420,18 @@
 - "Richtext area"
 	- Add support for German language
 
-##`2017-04-10` V3.45 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.45.zip)
+## `2017-04-10` V3.45 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.45.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Info Trafic Sytadin"
 	- Fix: map overlap at the right of the screen in time slot preview (PlugnCast G3 configuration)
 	- Fix: was not working properly with DMB400 (Gekkota 4)
 
-##`2017-03-15` V3.44 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.44.zip)
+## `2017-03-15` V3.44 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.44.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Texte défilant horizontal par fichier"
 	- Removed
 
-##`2017-02-08` V3.43 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.43.zip)
+## `2017-02-08` V3.43 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.43.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "ESII Banner vertical"
 	- Add an option to display only the popup (hiding of the information for services and lines)
@@ -441,13 +441,13 @@
 	- "Phoenix"
 		- Fix: was not supported on Gekkota 4
 
-##`2017-01-09` V3.42 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.42.zip)
+## `2017-01-09` V3.42 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.42.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Onthologies
 	- "AVCommand"
 		- Fix: was not supported on Gekkota 4
 
-##`2017-01-03` V3.41 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.41.zip)
+## `2017-01-03` V3.41 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.41.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Onthologies
 	- Restore publication functionnality on Screen Composer with Playzilla4/DMB400
@@ -479,7 +479,7 @@
 			-  number of accident
 		-  Add possibility to change text format
 
-##`2016-12-29` V3.40 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.40.zip)
+## `2016-12-29` V3.40 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.40.zip)
 >##### **IMPORTANT**
 - When imported with Screen Composer 3.20.XX, the ontologies are rewritten implying publication issue on DMB400. To restore the publication, install the next model pack
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -490,7 +490,7 @@
 - "Free feeds Sytadin"
 	- Deletion
 
-##`2016-10-17` V3.39 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.39.zip)
+## `2016-10-17` V3.39 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.39.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Fil d'actualités bandeau horizontal"
 	- Change: spinner place (displayed when loading the RSS)
@@ -501,7 +501,7 @@
 	- Fix: base URI was not working (local RSS)
 	- Fix: when RSS name can be found, display usual error message *content temporarily unavailable (code 0)*
 
-##`2016-10-14` V3.38 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.38.zip)
+## `2016-10-14` V3.38 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.38.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "MeetingRoom - Mono - Landscape"
     - Add optional room prefix (in the banner)
@@ -538,14 +538,14 @@
     - Fix: when changing the column title centring, the width of several columns could change unexpectedly
     - Fix: could stop getting properly the meetings properly when played n times after having displayed no meeting
 
-##`2016-10-10` V3.37 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.37.zip)
+## `2016-10-10` V3.37 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.37.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "ESII Banner vertical"
 	- Fix: in some case, the media ESII was not displaying all the information contained in the UDP message
 	- Change: error message for the avaiable space for the service title
 	- Change: prevent touch screen selection (SMT210)
 
-##`2016-09-28` V3.36 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.36.zip)
+## `2016-09-28` V3.36 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.36.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Fil d'actualités 16-9"
 	- Modification due to source code review
@@ -589,7 +589,7 @@
     - Fix: HTTP server (type Briva) was not working on Gekkota G2
     - Fix: no event message could be displayed sometimes after a while when displaying meeting on several pages
 
-##`2016-09-19` V3.35 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.35.zip)
+## `2016-09-19` V3.35 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.35.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Meetingroom - Mono - Landscape"
 	- Add support of format option for Time an Date
@@ -620,7 +620,7 @@
              - ex: for applet name Gesroom installed on ```C:\Users\Public\Documents\Innes Briva\Server\.accounts\innes_domaine\.applets\.gesroom-calendar```, the name to enter is ```gesroom-calendar```
     - Fix: restore support of attachment (working with CalendarUI applet only)
 
-##`2016-09-08` V3.34 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.34.zip)
+## `2016-09-08` V3.34 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.34.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Fil d'actualités 16/9"
     - Initial version (HTML technology in MAFF container)
@@ -635,7 +635,7 @@
 	    	- note: with behaviour 1X, pass to next media afterwards
     	- Support base URI (rss file has to be inserted as linked media)
 
-##`2016-09-07` V3.33 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.33.zip)
+## `2016-09-07` V3.33 [download](https://github.com/Qeedji/archives/blob/master/downloads/models-package/models-V3.33.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Fil d'actualités bandeau horizontal"
 	- Add: dash character between title and description
@@ -645,7 +645,7 @@
 	- Change: background images are now centered
 	- Change: convert HTML format to text format
 
-##`2016-09-05` V3.32
+## `2016-09-05` V3.32
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Texte défilant horizontal"
 	- Add support of Playzilla 4.0
@@ -655,7 +655,7 @@
 	- "France Info"
 	- "CNews"
 
-##`2016-04-05` V3.31
+## `2016-04-05` V3.31
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add URI models
 	- "LCI"
@@ -665,7 +665,7 @@
 	- "France O HD"
 	- "F3 Bretagne"
 
-##`2016-03-08` V3.30
+## `2016-03-08` V3.30
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Onthologie
 	- "DetectionHID"
@@ -676,7 +676,7 @@
 			- "Standby mode"
 		- Fix: in some case, HID interactivity detection could fail
 
-##`2016-03-02` V3.29
+## `2016-03-02` V3.29
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add URI models
 	- "6ter"
@@ -695,19 +695,19 @@
 	- "DirectStar"
 	- "Direct8"
 
-##`2016-03-01` V3.28
+## `2016-03-01` V3.28
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Diaporama with rich text"
  	- Initial version (generic)
 
-##`2016-02-26` V3.27
+## `2016-02-26` V3.27
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Diaporama image et texte"
 	- Initial version (custom)
 - "Fil d'actualités 16/9"
 	- Initial version (custom)
 
-##`2015-12-15` V3.26
+## `2015-12-15` V3.26
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Meetingroom - Summarization - Landscape"
     - Fix playback issue with player G2 by removing support of duration 1X (played one time) and  fixed duration) for Playzilla G2
@@ -716,12 +716,12 @@
 - "Meetingroom - Mono - Landscape"
 	- Fix playback issue with player G2 by removing support of duration 1X (played one time) and  fixed duration) for Playzilla G2
 
-##`2015-12-01` V3.25
+## `2015-12-01` V3.25
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "DetectionHID"
 	- Inital version
 
-##`2015-11-25` V3.24
+## `2015-11-25` V3.24
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Meetingroom - Summarization - Landscape"
 	- Add support Adesoft connector
@@ -760,7 +760,7 @@
 - "Timer"
 	- Inital version
 
-##`2015-11-05` V3.23
+## `2015-11-05` V3.23
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Meetingroom - Summarization - Landscape"
 	- Add title scrolling when the title is too large
@@ -786,7 +786,7 @@
 	- Add font size selection for the room name
 	- Change: header display is now optional
 
-##`2015-10-22` V3.22
+## `2015-10-22` V3.22
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Bloc d'information"
 	- Add background color for image1 et image2
@@ -799,7 +799,7 @@
 	- Fix: italic and bold preview did not work
  	- Fix: display background checkerboard when png with transparence is selected
 
-##`2015-10-22` V3.21
+## `2015-10-22` V3.21
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Bloc d'information"
 	- Initial version
@@ -808,7 +808,7 @@
 - "Nombre de jours sans accident ou l'absence - Portrait"
 	- Add possibility to choose working days and exception
 
-##`2015-09-29` V3.20
+## `2015-09-29` V3.20
 >##### **IMPORTANT**
 - For customer delivered with "Texte défilant horizontal par fichier" v1.10.14, installing this package will remove the overlay feature in case the model instance is edited (automatical return to "Texte défilant horizontal par fichier" v1.10.13). Indeed, the mask product name supporting overlay has changed and is called now "Texte défilant horizontal". The default version of this new mask is 1.10.10. Consequently all the instances of this mask requiring overlay need to be made again
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -820,16 +820,16 @@
 	- Gekkota 3.12.24 (overlay supported on DMB300) (or above)
 	- Playzilla G2 not supported
 
-##`2015-07-17` V3.19
+## `2015-07-17` V3.19
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Removing of obsolete flash RSS and flash RSS 16-9
 
-##`2015-06-17` V3.18
+## `2015-06-17` V3.18
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "QLite-Banner"
     - Initial version
 
-##`2015-05-29` V3.17
+## `2015-05-29` V3.17
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Meeting room - Summarization - Landscape", "Meeting room - Summarization - Portrait"
     - Add support HTTP ICS by [path+file name] or [path + variable] as well
@@ -848,7 +848,7 @@
     - Fix recurring meetings for Zimbra (specific recurring computation needed for Zimbra)
     - Removed the possibility to display the attachments
 
-##`2015-05-26` V3.16
+## `2015-05-26` V3.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Fil d'actualité bandeau horizontal"
 	- Initial version (HTML technology in MAFF container)
@@ -858,19 +858,19 @@
 	- Fix SWF was played twice
 	- Fix bad intrinsic media duration when played alternatively with other media
 
-##`2014-03-16` V3.15
+## `2014-03-16` V3.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Meeting room - Mono - Landscape"
 	- Add red cross diplay when media resource is not available (PlugnCast G3 environment)
 	- Fix huge memory leak when meeting room is played alternatively with other medias (causing instability of player)
 	- Fix media plaback is stopped automatically after a timeout of 5 minutes when resource is not available (PlugnCast G2 environment)
 
-##`2014-03-10` V3.14
+## `2014-03-10` V3.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Zone de texte par fichier"
 	- Fix (in file manager) unvisibility of some directory containing some special characters
 
-##`2014-03-02` V3.13
+## `2014-03-02` V3.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Zone riche texte"
 	- Fix PlugnCast compliancy
@@ -886,7 +886,7 @@
 	- Fix huge memory leak when meeting room is played alternatively with other medias (causing instability of player)
 	- Fix download error management
 
-##`2014-01-30` V3.10.20
+## `2014-01-30` V3.10.20
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - "Menu du jour - Large"
  	- Add check box for default titles

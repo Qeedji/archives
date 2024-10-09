@@ -1,7 +1,7 @@
 # SignMeeting JOOXTER
 *RELEASE NOTE*
 
-##`2021-06-11` V1.13.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-setup-1.13.11.appi)
+## `2021-06-11` V1.13.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-setup-1.13.11.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *Book now* button for *Room label* display profile
 - Add support for NFC badging with *Room label* display profile as well as for *Room Screen* display profile
@@ -101,10 +101,10 @@
 	- the check in by script can work only when the meeting is really pending (does not work inside the anticipated display period)
 	- the *pendingFreeDelay* variable at the beginning of the script allows to define the timeout (by default, 15 minutes) before checking out (declaring that the room is empty and has to be shortened)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2017-07-12` V1.12.27 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-setup-1.12.27.appi)
+## `2017-07-12` V1.12.27 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-setup-1.12.27.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: improve resource drag'n drop accuracy to support properly SMH300/SLATE106 devices
 - Change: when a new device is newly registered, a screen is prompted to enter the appropriate layout for this new device (default: *Room screen* or *Room label*)
@@ -118,6 +118,6 @@
 - LDAP V3 (used by Windows Server 2000/Active directory and above Windows Server version)
 - Briva LDAP
 
-##`2017-05-22` V1.12.26 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-setup-1.12.26.appi)
+## `2017-05-22` V1.12.26 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-setup-1.12.26.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial release

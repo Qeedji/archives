@@ -1,7 +1,7 @@
 # Gekkota Desktop
 *RELEASE NOTE*
 
-##`2019-03-08` V3.12.58 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-desktop/gekkota_desktop-nt_ia32-setup-3.12.58.exe)
+## `2019-03-08` V3.12.58 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-desktop/gekkota_desktop-nt_ia32-setup-3.12.58.exe)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: a video over UDP could not be played in case using a *DME204* encoder-streamer with the audio inactivated
 >##### **COMPATIBILITIES**
@@ -16,29 +16,29 @@
 #### **SUPPORTED MEDIAS DOCUMENTATION**
 - Gekkota supported media and performances [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-supported-medias-and-performances.pdf)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2018-03-19` V3.12.54 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-desktop/gekkota_desktop-nt_ia32-setup-3.12.54.exe)
+## `2018-03-19` V3.12.54 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-desktop/gekkota_desktop-nt_ia32-setup-3.12.54.exe)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: MS-PowerPoint media playback could lead to the display of the message *content temporarily unavailable* since a recent MS-Windows 10 system update
 - Fix: the content could be not displayed in full screen after having unplugged then plugged again HDMI cable (MS-Windows 10)
 
-##`2017-10-03` V3.12.47
+## `2017-10-03` V3.12.47
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: some MS-PowerPoint medias was not played properly
 - Fix: some video could not be played sometimes (while they were properly decoded in a previous version)
 
-##`2017-03-09` V3.12.39
+## `2017-03-09` V3.12.39
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: files whose path name length was 260 characters was not supported
 - Fix: directories whose path name length was between 247 and 259 characters was not supported
 
-##`2017-02-24` V3.12.38
+## `2017-02-24` V3.12.38
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: restore support remote media over FTP
 
-##`2016-11-07` V3.12.37
+## `2016-11-07` V3.12.37
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of "download directory" hyperlink (in WebUI) permitting to save the playout as tar gz archive
 	- To decompress the archive, use one of the softwares
@@ -47,7 +47,7 @@
 - Fix: was not able to get the new content of image media updated remotely every 'n' minute from a WebDAV server
 - Fix: in some case, some image of WebUI could not be displayed after having pressed F5 key in Mozilla Firefox Web browser with preference ```network.http.pipelining = true``` activated
 
-##`2016-08-09` V3.12.33
+## `2016-08-09` V3.12.33
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of HTML DOM (Document Object Model) permitting to modify dynamically HTML page element with JavaScript file
 - Fix: reboot when using SignMeeting with email (when accessing to navigator.messaging.email.accounts) (especially SignMeeting configuration)
@@ -57,11 +57,11 @@
 - Fix: in case a variable (inside an URI) can not be resolved, a media downloading error is raised
 - Fix: some video could be displayed in 4-3 aspect ratio instead 16-9 aspect ratio
 
-##`2016-06-03` V3.12.32
+## `2016-06-03` V3.12.32
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: set default value for the preference ```innes.app-profile.monitor-monitoring.i2c_1.<your_connector>.authorized``` to false
 
-##`2016-06-01` V3.12.31
+## `2016-06-01` V3.12.31
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix (workaround) in some very rare cases, a multimedia sequence could not keep looping (never ending without any reason) (seen in PlugnCast G2 configuration)
 - Fix PDF viewing issue in interactive mode and duration per page is different of zero
@@ -71,11 +71,11 @@
 - Fix: in case 2 screens configuration (using same graphics card), Gekkota was not displayed in one of the screen in case the second screen is set as main screen (menu Display > Personalized your screen)
 - Fix MS-PowerPoint viewing issue, or unexpected decoding stopping issue for Virtual Desktop size upper than 4K (Screen Wall configuration)
 
-##`2016-02-12` V3.12.28
+## `2016-02-12` V3.12.28
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: unexpected error message *content temporarily unavailable* when playing a same PDF media several times
 
-##`2016-02-03` V3.12.26
+## `2016-02-03` V3.12.26
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: extend software decoder maximal resolution to 4K (5120 x 3200) instead of HD (1920 x 1080)
 - Change PDF viewer to increase PDF viewing efficiency
@@ -92,7 +92,7 @@
 - Fix player crash when using LDAP request with null search filter
 - Fix: playout did not start when remote resource becomes available (after playout publishing with remote resource not available)
 
-##`2015-09-25` V3.12.24
+## `2015-09-25` V3.12.24
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change user agent by replacing *Playzilla* by product name *Gekkota Desktop*. For example: ```Mozilla/5.0 (Windows NT 6.2; WOW64; rv:14.0) Gecko/20150917 GekkotaDesktop/3.12.24```
 - Change: close automatically socket when html document is closed (IDL UDP socket multicast)
@@ -100,7 +100,7 @@
 - Fix *content temporarily unavailable* displayed a couple of time (few minutes) when decoding stream on UDP in case encoder/streamer restart (indeed decoding could stop due to old timestamp wrong management)
 - Fix unexpected crash in case a video transition while decoding UDP stream (mp4 container, full HD)
 - Fix player crash when playing video (mp4 container) with fixed duration
-##`2015-07-07` V3.12.21
+## `2015-07-07` V3.12.21
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change information screen when media can not be played (small rectangle with transparence instead of full screen red cross)
 	- ```content temporarily unavailable... (code <i>)```
@@ -112,7 +112,7 @@
 - Fix *content temporarily unavailable* message display in case [media path size + media name size] is over 260 caracters
 - Fix login and password was kept displayed in playback error information message for URI containing [login:password]
 
-##`2015-06-29` V3.12.20
+## `2015-06-29` V3.12.20
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add UDP web socket multicast IDL support
 - Add timezone IDL support
@@ -131,22 +131,22 @@
 - Fix random playout stop just after midnight (in case daily event whose slot is from midnight to midnight in calendar)
 - Fix potential blocking issue while email sending (threadsafe)
 
-##`2015-05-18` V3.12.19
+## `2015-05-18` V3.12.19
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix rare crash when zapping between mp4 video (short playback duration ~ 4sec)
 - Fix rare Gekkota crash after few hours when decoding different short video (mp4 container, 3MB size)
 
-##`2015-04-10` V3.12.18
+## `2015-04-10` V3.12.18
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add security to not crash when playing Meeting Room Summarization Google Calendar after few seconds
 
-##`2015-03-06` V3.12.16
+## `2015-03-06` V3.12.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix issue in calendar with "until" function (player was playing the event one day too much in configuration "0h to 0h" or "all day long")
 - Fix jerky video (when  played inside HTML) after one loopback
 - Fix red cross displayed when HTML was containing non-existing resource
 
-##`2015-02-17` V3.12.15
+## `2015-02-17` V3.12.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of scripts 'js' in migration module (xpf g2 to xpf g3)
 - Add support of SCXML
@@ -161,11 +161,11 @@
 - Fix random consecutive scanning failed (example of message *{nsiSystemAdapterDigitalTvReceiver.startScan} has failed*)
 - Fix services list saving issue when list contains data services (example of message *Saving has failed*)
 
-##`2015-02-03` V3.12.13
+## `2015-02-03` V3.12.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix powerpoint playback issue
 
-##`2015-1-09` V3.12.11
+## `2015-1-09` V3.12.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of full WGT API (localization)
 - Change logo Playzilla to logo Gekkota
@@ -175,7 +175,7 @@
 - Fix random unworking UDP streaming after reboot
 - Fix huge SWF loading issue
 
-##`2014-12-05` V3.12.10
+## `2014-12-05` V3.12.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add VC1 video decoder support
 - Add Microsoft SQL Server WebIdl
@@ -188,21 +188,21 @@
 - Fix empty online cache with a new publication
 - Fix udp not correctly working with ts paquets size of different values (not all = 7x188 bytes)
 
-##`2014-10-31` V3.11.15
+## `2014-10-31` V3.11.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add UDP web socket IDL support
 - Fix URI with distant PDF
 
-##`2014-10-07` V3.11.14
+## `2014-10-07` V3.11.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of .wgt file format
 
-##`2014-08-13` V3.11.10
+## `2014-08-13` V3.11.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - New version of pdfjs viewer
 - Fix a crash with an ics using 'TZID'
 
-##`2014-05-20` V3.10.44
+## `2014-05-20` V3.10.44
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add the possibility to use flashvar in plugncast G2 mode, with variables resolution inside
 - Add the possibility to inhibit keyboard and pointer, with new preferences :
@@ -247,13 +247,13 @@
 - Fix a very rare trouble in plugncast G2 mode : if the server is switched off, it can block the playzilla until its next reboot (red circle)
 - Fix preference 'innes.video-with-audio.skip-late-frames' to true
 
-##`2013-11-28` V3.10.36
+## `2013-11-28` V3.10.36
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix blocks installation on windows XP
 - Fix a potential crash when a video is inserted in an html5 tag, and then removed from dom
 - Fix a very rare trouble with flash : it may not been played correctly (red cross)
 
-##`2013-11-12` V3.10.34
+## `2013-11-12` V3.10.34
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add an html error when the maximum image surfaces has been reached
 - Change: audio files are played more rapidly when used inside a playfolder
@@ -261,7 +261,7 @@
 - Fix bad detection of audio end (in case of playing multiple times)
 - Fix use of jquery 1 and jquery 2
 
-##`2013-10-17` V3.10.34_beta5
+## `2013-10-17` V3.10.34_beta5
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add the preference 'innes.avkit.audio-output-sample-rate' (see after for details)
 - Add NTLM support
@@ -274,7 +274,7 @@
 - Fix video file which size is 0 were detected as wrong after 30 seconds
 - Fix flash with linked medias which doesn't retrieve its linked information when it is renammed as .sWf for example (fix case sensitivity)
 
-##`2013-07-31` V3.10.32_beta8
+## `2013-07-31` V3.10.32_beta8
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add AVI container support
 - Add pixel ratio management : videos on which pixels are not square are correctly rendered
@@ -289,7 +289,7 @@
 - Fix a rare blocking situation at the end of a video
 - Fix fixed duration media which didn't stop after a failing previous media
 
-##`2013-05-17` V3.10.31_beta9
+## `2013-05-17` V3.10.31_beta9
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Increase internal pdf viewer version
 - Add improvments for audio management, especially when audio driver isn't available all the time
@@ -299,7 +299,7 @@
 - Fix hardware video decoding for HD4000-based platforms
 - Fix memory leaks
 
-##`2013-04-11` V3.10.30_beta3
+## `2013-04-11` V3.10.30_beta3
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change the max time value on which a javascript is declared as broken to 60seconds. If it occurs, a system message is displayed and the player reboots
 - Improve robustness and performance with MPEG-TS flows (udp), and for long duration
@@ -310,7 +310,7 @@
 - Fix a rare blocking situation at the end of a video
 - Fix regression with default playzilla language = english
 
-##`2013-03-06` V3.10.28_beta36
+## `2013-03-06` V3.10.28_beta36
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add Test mode resizeable, which permits to see all the characters (especially in rotation mode)
 - Improve robustness with MPEG-TS flows (udp)
@@ -320,7 +320,7 @@
 - Fix audio desynchronisation after a MPEG-TS flow cut
 - Fix a blocking situation when using play 2x a video
 
-##`2013-02-21` V3.10.28_beta32
+## `2013-02-21` V3.10.28_beta32
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Improve scrolling text (use only the maff model for it, not a .txt file)
 - Add MPEG2 audio decoder
@@ -341,31 +341,31 @@
 - Fix a trouble on certain web sites
 - Fix scrolling text
 
-##`2012-11-09` V3.10.25
+## `2012-11-09` V3.10.25
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change upgrade video decoding library version : imsdk 2012R3
 - Change icons and logos
 
-##`2012-10-10` V3.10.23
+## `2012-10-10` V3.10.23
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix powerpoint not working on certain windows embedded
 - Change video decode is done in software (hardware acceleration will be done in a future version)
 
-##`2012-09-21` V3.10.22 beta 22
+## `2012-09-21` V3.10.22 beta 22
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add a file watcher
 - Fix Text maff models used in infinite mode
 - Fix mp3 file alone or in indefinite play blocks after 1 pass
 - Fix MPEG2-PS which blocks at the end
 
-##`2012-09-17` V3.10.22 beta 20
+## `2012-09-17` V3.10.22 beta 20
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add video's audio support
 - Enable crossdomain load when source is FILE
 - Fix Trouble while using powerpoint, on platforms which have office2010
 - Fix schedule not correctly followed
 
-##`2012-08-06` V3.10.20 beta 11
+## `2012-08-06` V3.10.20 beta 11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 

@@ -1,7 +1,7 @@
 # SignMeeting Jooxter
 *RELEASE NOTE*
     
-##`2023-04-19` V2.12.11 [download](app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-addin-2.12.11.appi){.auth-downloads}   
+## `2023-04-19` V2.12.11 [download](app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-addin-2.12.11.appi){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *Gekkota 5*
 - Add support for PDF media or MS-PowerPoint media as screen saver
@@ -69,11 +69,11 @@
 # HISTORY
 ***********************************************************************
 
-##`2022-08-22` V2.11.12 [download](app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-addin-2.11.12.appi){.auth-downloads}   
+## `2022-08-22` V2.11.12 [download](app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-addin-2.11.12.appi){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for `AQS` for AMP300 media players
 
-##`2022-05-18` V2.11.11 [download](app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-addin-2.11.11.appi){.auth-downloads}   
+## `2022-05-18` V2.11.11 [download](app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-addin-2.11.11.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - Once this SignMeeting version is installed, in case you had to install the previous SignMeeting version afterwards, contact support@innes.pro 

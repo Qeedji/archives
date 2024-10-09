@@ -5,7 +5,7 @@
 
 *Never make electric unplug on your player while software upgrade is in progress (green led blinking 6 times every 4 seconds) else the player may not be able to work properly*
 
-##`2020-10-22` V4.13.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smt210/gekkota_os-smt210-setup-4.13.13.zip)
+## `2020-10-22` V4.13.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smt210/gekkota_os-smt210-setup-4.13.13.zip)
 >##### **IMPORTANT IN CASE MIGRATION V3.12.XX TO 4.13.13**
 - Before upgrading to Gekkota 4 middleware:
     - Ensure that your current SMT210 middleware version is at least 3.12.20 (and not a beta version),
@@ -177,10 +177,10 @@
 - In case the wireless configuration of the router has just been modified, it is required that the SMT210 device is rebooting once to access again to the WLAN network. In this case, a daily device reboot task is sufficient to work around.
 
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2019-10-17` V4.11.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smt210/gekkota_os-smt210-setup-4.11.12.zip)
+## `2019-10-17` V4.11.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smt210/gekkota_os-smt210-setup-4.11.12.zip)
 >##### **IMPORTANT IN CASE MIGRATION V3.12.XX TO 4.11.12**
 - Before upgrading to Gekkota 4 middleware:
     - Ensure that your current SMT210 middleware version is at least 3.12.20 (and not a beta version)
@@ -193,7 +193,7 @@
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - In some case, the device could not start after a Gekkota 3.XX.YY to Gekkota 4.XX.YY software migration. A power supply unplug/plug was required to solve the issue.
 
-##`2019-06-21` V4.11.11
+## `2019-06-21` V4.11.11
 >##### **IMPORTANT IN CASE MIGRATION V3.12.XX TO 4.11.11**
 - Before upgrading to Gekkota 4 middleware:
     - Ensure that your current SMT210 middleware version is at least 3.12.20 (and not a beta version)
@@ -239,7 +239,7 @@
 - Fix: USB injection was not working with some USB stick models
 - Fix: an unexpected black screen could occur (very rare)
 
-##`2018-12-05` V4.10.17
+## `2018-12-05` V4.10.17
 >##### **IMPORTANT IN CASE MIGRATION V3.12.XX TO 4.10.17**
 - Before upgrading to Gekkota 4 middleware:
     - Ensure that your current SMT210 middleware version is at least 3.12.20 (and not a beta version)

@@ -3,7 +3,7 @@
 
 *Never make electric unplug on your player while software upgrade is in progress (green led enlightened for few minutes) else the player may not be able to work properly*
 
-##`2018-10-13` V3.12.57 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.57.zip)
+## `2018-10-13` V3.12.57 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.57.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for TLS 1.2 (Transport Layer Security)
 - Fix: attachments could be not properly attached in the email when containing some non-ASCII characters
@@ -20,10 +20,10 @@
 #### **FEATURES & TROUBLESHOOT FIXING GUIDE**
 - Features & troubleshoot fixing guide 001A/EN [download](https://github.com/Qeedji/archives/blob/master/downloads/troubleshoot-fixing-guide-Gekkota/Gekkota-troubleshoot-fixing-guide-001A_en.pdf) 
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2018-04-26` V3.12.55 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.55.zip)
+## `2018-04-26` V3.12.55 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.55.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *NTLM V2* authentication
 - Add support for ```German``` language (WebUI)
@@ -55,18 +55,18 @@
 - Fix: email attachment was not supported
 - Fix: unexpected black screen could be displayed infinitely due to the device which did not manage to boot-up properly (very rare)
 
-##`2017-04-27` V3.12.42 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.42.zip)
+## `2017-04-27` V3.12.42 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.42.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: a device reboot could occur when publishing with Screen Composer or PlugnCast G2 (rare)
 - Fix: a immediate device reboot could be noticed when playing a specific Web page
 
-##`2017-03-29` V3.12.40 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.40.zip)
+## `2017-03-29` V3.12.40 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.40.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: restore value *Gekkota-3* for HTML tag *middleware* in Gekkota 3 device status.xml
 - Fix: content of remote directory was not properly updated (PlugnCast G3 configuration) in case renaming, adding or removing file (or directories)
 - Fix: issue to connect to device WebUI/configuration with Google Chrome (Chrome version > 15th March 2017)
 
-##`2016-11-07` V3.12.37 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.37.zip)
+## `2016-11-07` V3.12.37 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.37.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for "download directory" hyperlink (in WebUI) permitting to save the playout as tar gz archive
 	- To decompress the archive, use one of the softwares
@@ -75,12 +75,12 @@
 - Fix: was not able to get the new content of image media updated remotely every 'n' minute from a WebDAV server
 - Fix: in some case, some image of WebUI could not be displayed after having pressed F5 key in Mozilla Firefox Web browser with preference ```network.http.pipelining = true``` activated
 
-##`2016-10-05` V3.12.35 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.35.zip)
+## `2016-10-05` V3.12.35 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.35.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: in some case, player could not be not able to play any TNT channel leading to *content temporarily unavailable* (now, when DVB-T express card is not able to provide DVB-T data properly for 10 seconds, a workaround is detecting this anomaly and make reboot the player)
 - Fix: player could face issue to take a playout containing a file whose size is more than 2 GB
 
-##`2016-08-09` V3.12.33 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.33.zip)
+## `2016-08-09` V3.12.33 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.33.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for HTML DOM (Document Object Model) permitting to modify dynamically HTML page element with JavaScript file
 - Add preferences permitting to not display monitor-monitoring data *power-mode* and *input-source* in device-status (by example in case the screen is raising inconsistent data)
@@ -97,7 +97,7 @@
 - Fix: xpf file or media file of size 0 KB could be noticed randomly in case reboot immediately after publication (making appear unexpected *no content* message or *media temporarily unavailable* message)
 - Fix: some video could be displayed in 4-3 aspect ratio instead 16-9 aspect ratio
 
-##`2016-06-01` V3.12.31 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.31.zip)
+## `2016-06-01` V3.12.31 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.31.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add possibility to export a playout as *tar.gz* archive (from player to PC with a Web browser) (WebUI)
 	- ```http://<player_IP_address>/.playout/?export```
@@ -169,7 +169,7 @@
 - Fix: boot time was increased implying black screen displaying *Skipping non-existent adapter gma500 GPIOC* when edid of a screen could not be fecthed
 - Fix directory opening issue when the directory name is containig special characters (WebUI)
 
-##`2016-04-19` V3.12.30 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.30.zip)
+## `2016-04-19` V3.12.30 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.30.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix unexpected jerky effect on some interlaced H264 video (typically HD DVBT)
 - Fix: no content screen is displayed infinitely after a publication, due to a filesystem corruption (a reboot was solving the issue)
@@ -180,7 +180,7 @@
 - Fix: Reboot capability was not stopped at the configuration script injection (PlugnCast G2 configuration)
 - Fix: player was not able to take a playout with some custom CMS server (due to wrong management of etag file containing ```;``` character)
 
-##`2016-02-29` V3.12.29 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.29.zip)
+## `2016-02-29` V3.12.29 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.29.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add possibility to read player status (status.xml) through the player WebDAV server
  	- ```http::/<player_IP_Addr>/.status/```
@@ -191,11 +191,11 @@
 - Fix PDF viewing issue in interactive mode and duration per page is different of zero
 - Fix: very rare unexpected video tearing noticed on some player (video medias, transitions between media) which could be solved previously only after a player reboot (occurrence rate was depending on some platform)
 
-##`2016-02-12` V3.12.28 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.28.zip)
+## `2016-02-12` V3.12.28 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.28.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: unexpected error message *content temporarily unavailable* when playing a same PDF media several times
 
-##`2016-02-03` V3.12.26 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.26.zip)
+## `2016-02-03` V3.12.26 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmc200/gekkota_os-dmc200-setup-3.12.26.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add display modes
 	- "1280x720 60Hz CEA-861"
@@ -248,7 +248,7 @@
 - Fix audio conflict when media with audio is played in main zone and another audio is played at the same time in audio zone (PlugnCast G3 configuration)
 - Fix Gekkota robustness issue at limit implying unexpected player reboot with some specific customer network configurations (PlugnCast G3 configuration)
 
-##`2015-09-25` V3.12.24
+## `2015-09-25` V3.12.24
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for configuration file injection through USB with file naming ```configuration.js```
 - Add support for configuration file injection through USB for identification method with file naming for ```<Mac>.js```, ```<UUID>.js```, ```<hostname>.configuration.js``` (in lower case as well as in upper case)
@@ -272,7 +272,7 @@
 - Fix publication issue when software release is programmed (PlugnCast G2 configuration without status server)
 - Fix container playlist unexpected playback blocking when trying to play a missing media (PlugnCast G2 configuration)
 
-##`2015-07-07` V3.12.21
+## `2015-07-07` V3.12.21
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change information screen when media can not be played (small rectangle with transparence instead of full screen red cross)
 	- ```content temporarily unavailable... (code <i>)```
@@ -285,7 +285,7 @@
 - Fix crash when playing web site storing a lot of image in graphics memory
 - Fix login and password was kept displayed in playback error information message for URI containing [login:password]
 
-##`2015-06-29` V3.12.20
+## `2015-06-29` V3.12.20
 >##### **INSTALLATION ERROR MESSAGE WHEN INJECTING SCRIPT JS WITH GEKKOTA 3.12.20**
 - *Installation error* message can pop with Gekkota 3.12.20 in case script installation because legacy script JS is containing obsolete command line making it not compatible with this version
 - Please refer to technical documentation to solve the issue or upgrade to above version
@@ -325,7 +325,7 @@
 - Fix red cross display while playing media whose file name is containing %, %de (PlugnCast G2 configuration)
 - Fix unexpected playout entirely redownloaded after ethernet cable unplug for more than 3 minutes (PlugnCast G2 configuration)
 
-##`2015-05-18` V3.12.19
+## `2015-05-18` V3.12.19
 >##### **IMPORTANT BEFORE UPGRADING**
 - In case software migration from Gekkota 3.12.18 to this version, the playout will be entirely redownloaded once (just after the player restart). Please wait the end of the playout download before doing any further software migration actions
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -340,7 +340,7 @@
 - Fix playout deadlock while playing playlist whose one of media name is containing '{' (PlugnCast G2 environment)
 - Fix red cross when playing media name containing '%' or '%de' (PlugnCast G2 environment)
 
-##`2015-04-10` V3.12.18
+## `2015-04-10` V3.12.18
 >##### **IMPORTANT BEFORE DOWNGRADING**
 - Especially for this version Gekkota 3.12.18, once installed, in PlugnCast G2 environment:
 	- It is forbidden to downgrade to any previous version otherwise the publication function will not work definitively
@@ -354,14 +354,14 @@
 - Fix directory HTTP download issue when containing special character ';'
 - Fix content HTTP download issue with server Proxy Squid activated [cache setup forced] (PlugnCast environment)
 
-##`2015-03-09` V3.12.16
+## `2015-03-09` V3.12.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix default scene not displayed with PlugnCast G2 configuration (issue in migration script G2-> G3)
 - Fix issue in calendar with "until" function (player was playing the event one day too much in configuration "0h to 0h" or "all day long")
 - Fix jerky video (when  played inside HTML) after one loopback
 - Fix red cross displayed when HTML was containing non-existing resource
 
-##`2015-02-17` V3.12.15
+## `2015-02-17` V3.12.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for of scripts 'js' in migration module (xpf g2 to xpf g3)
 - Add support for SCXML
@@ -376,7 +376,7 @@
 - Fix random consecutive scanning failed (example of message *{nsiSystemAdapterDigitalTvReceiver.startScan} has failed*)
 - Fix services list saving issue when list contains data services (example of message *Saving has failed*)
 
-##`2015-01-09` V3.12.11
+## `2015-01-09` V3.12.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for DHCP timeout  configuration in WebUI
 - Add support for full WGT API (localization)
@@ -388,7 +388,7 @@
 - Fix random unworking UDP streaming after reboot
 - Fix huge SWF loading issue
 
-##`2014-12-08` V3.12.10
+## `2014-12-08` V3.12.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add Microsoft SQL Server WebIdl
 - Add MySQL WebIdl
@@ -406,7 +406,7 @@
 - Fix a video playing inside a flash makes all video files not played after
 - Fix checkdisk feature which could imply that powerpoint are not properly rendered afterwards
 
-##`2014-10-31` V3.11.15
+## `2014-10-31` V3.11.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add UDP web socket IDL support
 - Add Web UI icons to hide/show the passwords
@@ -419,19 +419,19 @@
 - Fix web UI : button 'Validate' active in Maintenance/Preference, even without modification
 - Fix URI with distant PDF
 
-##`2014-10-07` V3.11.14
+## `2014-10-07` V3.11.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Support media with FTP distant ressource
 
-##`2014-08-28` V3.11.12
+## `2014-08-28` V3.11.12
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for .wgt file format
 
-##`2014-08-14` V3.11.11
+## `2014-08-14` V3.11.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix deinterlace mode 'linear' and 'discard' which make appear a green line on the top of video
 
-##`2014-08-13` V3.11.10
+## `2014-08-13` V3.11.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Improve plugncast g2 mode functionnalities : can receive download and/or standby and/or reboot task without the need of having an active content update task
 - Improve plugncast g2 mode functionnalities : task can be scheduled in time slot
@@ -447,14 +447,14 @@
 - Fix a crash with an ics using 'TZID'
 - Fix a trouble when changing from a DVBT channel to an other
 
-##`2014-05-20` V3.10.44
+## `2014-05-20` V3.10.44
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add new RS232 executables : extron_m1_input, extron_m2_input, extron_m3_input, extron_m4_input
 - Add a new display output mode '1280x720 60Hz CGV CPLine AV-HD'
 - Add the possibility to support not-standard resolutions for video whith width and height between 1080 and 1920
 - Fix a case with a quicktime video container not supported
 
-##`2014-04-30` V3.10.43
+## `2014-04-30` V3.10.43
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change rename the swf file of the UI
 - Fix a case of ScreenComposer new publication not detected (when very small publications, as a .maff file)
@@ -469,14 +469,14 @@
 - Fix in udp : a delay between video and audio could occur (depends on the udp multiplexing)
 - Fix UI accessible in ipv6
 
-##`2014-04-07` V3.10.42
+## `2014-04-07` V3.10.42
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add a new preference to show/hide the pointer cursor : ```innes.player.display.show-cursor```
 - - Change rename the preference ```innes.hid.pointer-event.*. authorized``` by ```innes.hid.pointer-event.*.authorized``` (remove the unwanted space character)
 - Fix bad decoding of video which could occur, and green screen which could replace the video
 - Fix a case with a quicktime video container : with MPEG2 audio, it could make reboot Gekkota
 
-##`2014-04-01` V3.10.41
+## `2014-04-01` V3.10.41
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add a new proxy type : automatic configuration script
 - Add support for binary type certificates
@@ -509,14 +509,14 @@
 - Fix a rare trouble : video can become green for ever
 - Fix preference 'innes.video-with-audio.skip-late-frames' to true
 
-##`2014-01-29` V3.10.39
+## `2014-01-29` V3.10.39
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add powerpoint 2010 support
 - Add brightness feature
 - Fix trouble with V3.10.38 : the clean fonction of ScreenComposer didn't work anymore
 - Fix a potential system general blocking or slowing
 
-##`2013-12-24` V3.10.38
+## `2013-12-24` V3.10.38
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add new feature in plugncast http mode : when player date is more than 24H delayed from server date, it automatically updates its date
 - Add the possibility to interrupt current publication with a newer one
@@ -529,7 +529,7 @@
 - Fix use with proxy with domain
 - Fix WebUI possibility to use wrong adresses
 
-##`2013-11-28` V3.10.36
+## `2013-11-28` V3.10.36
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add the preference 'innes.avkit.audio-output-sample-rate' (see after for details)
 - Add an html error when the maximum image surfaces has been reached
@@ -550,7 +550,7 @@
 - Fix video file of null size puts 1 min to display the red cross
 - Fix bad detection of audio end (in case of playing multiple times)
 
-##`2013-10-09` V3.10.33
+## `2013-10-09` V3.10.33
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add WMA support in ASF container
 - Add NTLM support
@@ -576,7 +576,7 @@
 - Fix performance troubles in plugncast ftp mode
 - Fix a rare blocking case : with HDD option, access to disk may block, the watchdog will reboot the player
 
-##`2013-08-01` V3.10.32
+## `2013-08-01` V3.10.32
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add AVI container support
 - Add ASF container support + VC1 video decoder
@@ -588,12 +588,12 @@
 - Change duration (optimization) of download after a publication in http mode, especially when there is nothing new to download and use of very big containers
 - Fix in random mode : share the random information between scenes
 
-##`2013-07-04` V3.10.32_beta2
+## `2013-07-04` V3.10.32_beta2
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change maxbitrate idl with discrete values instead of a number in kbps
 - Fix: use of JavaScript file on USB dongle with test card activated were not authorized (configuration-by-script)
 
-##`2013-06-19` V3.10.31_beta16
+## `2013-06-19` V3.10.31_beta16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add MPEG4.2 decoder on MP4 container
 - Add a new bitrate limitation at 56kbps
@@ -603,7 +603,7 @@
 - Fix a trouble with autoconfiguration : when test mode is activated, and script has an error, test mode wasn't come back
 - Fix a case of reboot with video
 
-##`2013-05-30` V3.10.31_beta12
+## `2013-05-30` V3.10.31_beta12
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add configuration-by-script feature
 - Add pixel ratio management : videos on which pixels are not square are correctly rendered
@@ -634,7 +634,7 @@
 - Fix several memory leaks
 - Fix regression with default Gekkota language = english
 
-##`2013-03-27` V3.10.29_beta5
+## `2013-03-27` V3.10.29_beta5
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change audio/video synchronisation (optimization)
 - Fix When a video is not real time, some images are let passing instead of blocking totally the video. If there is no audio associated to the video, the behaviour is not the same : all the video is displayed, even if not real time
@@ -643,7 +643,7 @@
 - Fix a crash at the end of video
 - Fix system warning/error not displayed if Gekkota is in display off (example : when usb dongle inserted, nothing was displayed on the screen)
 
-##`2013-03-22` V3.10.29_beta3
+## `2013-03-22` V3.10.29_beta3
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add LAN bitrate limitation (tuned for http plugncast mode)
 - Change the max time value on which a javascript is declared as broken to 60seconds. If it occurs, a system message is displayed and the player reboots
@@ -656,7 +656,7 @@
 - Fix a rare blocking situation at the end of a video
 - Fix blockings while passing from DVB-T to udp
 
-##`2013-03-06` V3.10.28_beta36
+## `2013-03-06` V3.10.28_beta36
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add test mode resizeable, which permits to see all the characters (especially in rotation mode)
 - Change improve robustness with MPEG-TS flows (DVB-T and udp)
@@ -668,7 +668,7 @@
 - Fix audio desynchronisation after a MPEG-TS flow cut
 - Fix a blocking situation when using play 2x a video
 
-##`2013-02-11` V3.10.28_beta29
+## `2013-02-11` V3.10.28_beta29
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Improve scrolling text (use only the maff model for it, not a .txt file)
 - Add DVB-T option (cvbs is not included for now, DVB-T HD channels are temporarily blocked)
@@ -685,7 +685,7 @@
 - Fix webui change the hostname not taken into account with Chrome
 - Improve robustness with interrupted datas flows (dvb-t or udp)
 
-##`2013-01-14` V3.10.28_beta10
+## `2013-01-14` V3.10.28_beta10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add rotation modes
 - Change increase internal pdf viewer version
@@ -693,7 +693,7 @@
 - Fix use with containers
 - Fix some blocking video
 
-##`2012-12-12` V3.10.28_beta4
+## `2012-12-12` V3.10.28_beta4
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add video decoding support (always hardware accelerated)
 - Add new output mode : "1280x720 60Hz SONY", for SONY displays in digital input
@@ -714,7 +714,7 @@
 - Fix standby mode
 - Fix background color between scenes in plugncast use
 
-##`2012-11-16`  V3.10.26
+## `2012-11-16`  V3.10.26
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add compatibility with PlugnCast V2.xx.yy
 - Add udp support. Considering that MPEG2 audio isn't supported yet, general cases can only work without audio
@@ -730,7 +730,7 @@
 - Fix a memory leak while downloading
 - Fix impossible to add content with usb dongle after canceling publishing with Screen Composer
 
-##`2012-10-09` V3.10.23
+## `2012-10-09` V3.10.23
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add the possibility to remove the red cross in case of media trouble : for that, modify the preference 'innes.xpf.media-error-duration', which defines the duration of the red cross. If you set this preference to the value '0', the red cross will never appear.
 - Add audio of video
@@ -744,11 +744,11 @@
 - Fix Text maff models used in infinite mode
 - Fix regression with usb partial injector
 
-##`2012-08-27` V3.10.20 beta 21
+## `2012-08-27` V3.10.20 beta 21
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add pdf format support
 - Fix containers not properly working
 
-##`2012-05-30` V3.10.11 beta 29
+## `2012-05-30` V3.10.11 beta 29
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - initial version

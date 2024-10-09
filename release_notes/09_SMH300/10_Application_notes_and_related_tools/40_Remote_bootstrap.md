@@ -13,7 +13,7 @@ instead the default local bootstrap:
 | ```manifest.xml```
 | ```player.html```
 
-##`2019-08-13` (last update)
+## `2019-08-13` (last update)
 - App `app-blue-screen-example.tar.gz` with local bootstrap example [download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/remote_bootstrap/app-blue-screen-example.tar.gz)
 - App `app-logo-remote-bootstrap.tar.gz` with remote bootstrap example [download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/remote_bootstrap/app-logo-remote-bootstrap.tar.gz)
 - Remote App example `remoteAppTest.html` hosted on a WebDAV server [download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/remote_bootstrap/remoteAppTest.html)

@@ -1,7 +1,7 @@
 # Patch ftp to http (PlugnCast G2 configuration)
 *RELEASE NOTE*
 
-##`2015-04-19` V3.10.11
+## `2015-04-19` V3.10.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of
 	- ```ftp://<domain>``` to ```http://<domain>/plugnCast/```
@@ -20,7 +20,7 @@
 | LCAN |   [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-pncg2-ftp-to-http/pncg2%20ftp%20to%20http-lcan-patch-3.10.11.frm) |
 
 
-##`2015-12-15` V3.10.10
+## `2015-12-15` V3.10.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
  	- ```ftp://<domain>/``` to ```http://<domain>/plugnCast/```

@@ -1,7 +1,7 @@
 # SignMeeting iCalendar
 *RELEASE NOTE*
     
-##`2023-04-19` V2.12.11 [download](app-signmeeting-ical/signmeeting_ical-screen_composer-addin-2.12.11.appi){.auth-downloads}   
+## `2023-04-19` V2.12.11 [download](app-signmeeting-ical/signmeeting_ical-screen_composer-addin-2.12.11.appi){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *Gekkota 5*
 - Add support for PDF media or MS-PowerPoint media as screen saver
@@ -64,7 +64,7 @@
 # HISTORY
 ***********************************************************************
 
-##`2022-08-22` V2.11.12 [download](app-signmeeting-ical/signmeeting_ical-screen_composer-addin-2.11.12.appi){.auth-downloads}   
+## `2022-08-22` V2.11.12 [download](app-signmeeting-ical/signmeeting_ical-screen_composer-addin-2.11.12.appi){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for `AQS` for AMP300 media players
 - Fix: the special characters are now supported inside the URL input, by keeping the following characters as URL operator 
@@ -76,7 +76,7 @@
 - Fix: the event, taking place across several days, was not displayed if the event start date was more than one month ago  
 - Fix: the event was not displayed some specific days for the event taking place across several months
 
-##`2022-05-18` V2.11.11 [download](app-signmeeting-ical/signmeeting_ical-screen_composer-addin-2.11.11.appi){.auth-downloads}   
+## `2022-05-18` V2.11.11 [download](app-signmeeting-ical/signmeeting_ical-screen_composer-addin-2.11.11.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - Once this SignMeeting version is installed, in case you had to install the previous SignMeeting version afterwards, contact support@innes.pro 
@@ -100,7 +100,7 @@
 - Fix: a publication error was raised when a font file or an image file was added in the *linked medias* part of the form   
 - Fix: in some case, in the *Device* tab of SignMeeting form, the window *Setting the display profile for the device* could be opened instead of the window *Setting the resource for the display profile* (and reciprocally)
 
-##`2022-02-04` V2.11.10 [download](app-signmeeting-ical/signmeeting_ical-screen_composer-addin-2.11.10.appi){.auth-downloads}   
+## `2022-02-04` V2.11.10 [download](app-signmeeting-ical/signmeeting_ical-screen_composer-addin-2.11.10.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - Once this SignMeeting version is installed, in case you had to install the previous SignMeeting version afterwards, contact support@innes.pro 
@@ -110,13 +110,13 @@
 - Change: when edited, the data source is highlighted in light green style instead of yellow style
 - Fix: it was not possible anymore to watch the reservation for the room resources situated into the second reservation and consultation page
 
-##`2021-08-04` V2.10.11 [download](app-signmeeting-ical/signmeeting_ical-screen_composer-addin-2.10.11.appi){.auth-downloads}   
+## `2021-08-04` V2.10.11 [download](app-signmeeting-ical/signmeeting_ical-screen_composer-addin-2.10.11.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version  
 
-##`2021-06-02` V2.10.10 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.10.10.appi){.auth-downloads}   
+## `2021-06-02` V2.10.10 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.10.10.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - This version implies to load a .css file to customize the color of the theme for the *Summary screen by event* display profile

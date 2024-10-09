@@ -3,7 +3,7 @@
 
 **After October 2020, any new or inactive tenants of MS-Exchange Online will have Basic Authentication disabled by default. In the second half of 2021, active MS-Exchange Online users will have Basic Authentication disabled. In both cases, the authentication will be replaced by the OAuth authentication. That implies to create an Azure Active Directory (Azure AD) application for your SignMeeting Appi then enter the three required values resulting from the application creation in the SignMeeting form (V1.13.11 or above) meaning: the application (client) ID value, the client secret value and the tenant ID value. For further information, refer to the SignMeeting user manual.**
 
-##`2021-01-13` V1.13.11
+## `2021-01-13` V1.13.11
 >##### **IMPORTANT**
 - For users having existing `SignMeeting` projects in the previous version `SignMeeting 1.12.XX`,
     - Install `Screen Composer V3.20.15`
@@ -85,9 +85,9 @@
 	- the check in by script can work only when the meeting is really pending (does not work inside the anticipated display period)
 	- the *pendingFreeDelay* variable at the beginning of the script allows to define the timeout (by default, 15 minutes) before checking out (declaring that the room is empty and has to be shortened)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
-##`2019-06-17` V1.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.13.10.appi)
+## `2019-06-17` V1.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.13.10.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for Gekkota 4 devices
 - Add support for an option ```Hide the meeting content for privacy level``` in the menu ```Datasource > Advanced``` allowing to completely hide the meeting *Organizer*, *Description*, *Title* and *Attendees* when the sensitivity of the meeting is either
@@ -151,7 +151,7 @@
 - Fix: add possibility to several SLATE106 device to display the information of a same room
 - Fix: in some cases, the organizer and the title could not display for one or several resource (*summary screen by resource* display profil)
 
-##`2017-08-04` V1.12.27 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.27.appi)
+## `2017-08-04` V1.12.27 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.27.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *Room label* display profil for SMH300 device (connected to SLATE106 devices)
 - Fix: time zone management
@@ -182,19 +182,19 @@
 - CSS File for *Summary screen by resource* display profil V1.12.22 (for SignMeeting version V1.10.22 or above) [download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes-signmeeting/summary_screen_by_resource/theme_roomgrid_sm_1.12.22.css)
 - CSS File for *Room Label* display profil V1.12.27B (for SignMeeting version V1.12.27 or above) [download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes-signmeeting/room_label/label_default_sm_1.12.27B.css)
 
-##`2017-05-22` V1.12.26 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.26.appi)
+## `2017-05-22` V1.12.26 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.26.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: translating issue from *french* language to *german* language
 - Fix: it was not possible to program a meeting the day after with SignMeeting (german language only)
 
-##`2017-04-12` V1.12.25 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.25.appi)
+## `2017-04-12` V1.12.25 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.25.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *German* language
 - Add support for custom Javascript file permitting to control SignMeeting buttons (JavaScript provided only for some specific customers)
 - Fix: scrolling attendees overlap on button “Room screen”
 - Fix: timezone was not taken into account properly
 
-##`2017-01-12` V1.12.23 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.23.appi)
+## `2017-01-12` V1.12.23 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.23.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Summary screen by resource
 	- Change: default backgrouns colour for line to green to grey (like Room Screen)
@@ -205,13 +205,13 @@
 		- *dddd mmmm yyyy*
 	- Change: the option *back to the main page  after the inactivity timeout expired* is inactivated when no interactive menu is selected
 
-##`2016-11-09` V1.12.22 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.22.appi)
+## `2016-11-09` V1.12.22 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.22.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new display profil type: "Summary screen by resource"
 	- landscape
 	- portrait
 
-##`2016-10-05` V1.12.21 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.21.appi)
+## `2016-10-05` V1.12.21 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.21.appi)
 >##### **IMPORTANT**
 - In order to use SignMeeting EWS V1.12.21, a previous version SignMeeting EWS need to be installed before (else SignMeeting could never manage to collect the meeting)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -222,7 +222,7 @@
 - Fix: all day meeting accross several day with no recurrence was not supported
 	- ex: ```start```: *Monday 9th*, ```all day``` long (no recurrence) until ```end:``` *Friday 13th*
 
-##`2016-08-05` V1.12.20 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.20.appi)
+## `2016-08-05` V1.12.20 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.20.appi)
 >##### **IMPORTANT**
 - In case the CSS file version 1.10.12 (or below) is used in your SignMeeting, when migrating to SignMeeting 1.10.20, the default colour of buttons will be transparent (no colour). To solve the issue, you have to upgrade your CSS to version 1.10.20 and define the button colour inside
 - SMTP tab need to be validated before being able to activate notification page (Room Screen tab)
@@ -250,7 +250,7 @@
 - Change: menu pictogram by calendar pictogram (on main page of Room Screen tab)
 - Fix: In order to be able to display background content, general theme needed to be activated first. By contrary, in order to be able to display Playzilla background, general theme needed to be inactivated
 
-##`2016-06-13` V1.12.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.19.appi)
+## `2016-06-13` V1.12.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.19.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for vizualization of meeting scheduled accross several days, or all day long
 	- Note: In this case, SignMeeting is splitting the meeting accross several days as much as there is day to display the meeting from *working day start time* to *working day end time*.
@@ -290,7 +290,7 @@
 - Fix: connection error was not well raised to the user when LDAP server was not responding
 - Fix: In console mode, check LDAP filter matching for each RFID badging
 
-##`2016-03-10` V1.12.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.16.appi)
+## `2016-03-10` V1.12.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.16.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add new items in event detail
 	-  number of attendees (at the right of attendees)
@@ -307,7 +307,7 @@
 - Fix: when exiting TV screen standby, could not be able to collect the meeting until next refresh timeout (now refresh timeout is decreased to 3 minutes when screen is in standby and standby duration is upper than refresh timeout)
 - Fix: could not be able to collect the meeting if AVCmd profile is activated (stuck in standby mode)
 
-##`2015-12-07` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.13.appi)
+## `2015-12-07` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.13.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support new API CSS class in device edition permitting to display, when there is a meeting in room screen, to give possibility to have a CSS theme different for each player
 	- require theme_css_generic-V1.10.12.css (available for download)
@@ -321,7 +321,7 @@
 - Fix: pressing "room is emptied" the second time was doing nothing (in case reccurent meeting)
 - Fix: attendees could be displayed on 2 lines instead be scrolled on 1 line (Room screen)
 
-##`2015-10-12` V1.12.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.12.appi)
+## `2015-10-12` V1.12.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ews/signmeeting_ews-screen_composer-setup-1.12.12.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add attendees list display with scrolling
 - Add support for a signs library (72 icons) or signs importation (for resources in summary screen)
@@ -370,7 +370,7 @@
 - Fix: delete unexpected text at the beginning of the description with EWS2007 (ex: ```Quand : mercredi 16 septembre 2015 14:00-15:30. Paris, Madrid Où : Room 1 *~*~*~*~*~*~*~*~*~*```)
 - Fix: reservation and consultation page date was dynamically become SignMeeting current date (room screen)
 
-##`2015-06-09` V1.11.17
+## `2015-06-09` V1.11.17
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add: return to main screen when timeout "no user activity" of screen "book a meeting" has expired
 - Change: alarms for mono are now fixed (not configurable)
@@ -380,35 +380,35 @@
 - Fix error message not displayed when the player not properly configured
 - Fix "Book now" button availability issue when playing with navigation menu
 
-##`2015-02-09` V1.11.16
+## `2015-02-09` V1.11.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add possibility to set position of the banner at the top (or at the bottom) of the screen.
 - Add alarm management & alarm display (architecture 1.11X)
 - Add new button “book now” (architecture 1.11X)
 
-##`2015-02-05` V1.10.58
+## `2015-02-05` V1.10.58
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change banner design (shows the colour of side leds)
 - Fix issue on date/time display on the banner
 
-##`2015-01-07` V1.10.57
+## `2015-01-07` V1.10.57
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix shift between text and border (landscape & portrait)
 
-##`2014-12-19` V1.10.55
+## `2014-12-19` V1.10.55
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add picture from attachement
 
-##`2014-10-17` V1.10.51
+## `2014-10-17` V1.10.51
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix recurrent meeting calculations
 
-##`2014-09-29` V1.10.50
+## `2014-09-29` V1.10.50
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix compatibility with Screen Composer 3.11.x
 - Fix 2 files not present
 
-##`2014-09-18` V1.10.49
+## `2014-09-18` V1.10.49
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support new app format : .appi
 - Add management user account primary SMTP address
@@ -417,15 +417,15 @@
 - Change data conversion for All Day events fix
 - Fix Panel LEDs behavior with SMT210 players
 
-##`2014-07-02` V1.10.47
+## `2014-07-02` V1.10.47
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: huge rework (and fix)
 
-##`2013-11-29` V1.10.27
+## `2013-11-29` V1.10.27
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix infinite loop when looking for recurring events (VIEW)
 
-##`2013-10-22` V1.10.26
+## `2013-10-22` V1.10.26
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add set LED to display red when busy, blue when idle
 - Add compatibility with MS-Exchange server SP1 and SP2
@@ -448,6 +448,6 @@
 - Fix troubles with not bookable rooms
 - Fix calculation for the meeting width and position to be accurate, leave a small space between each. Display correctly on 800x600 screen
 
-##`2013-10-01` V1.10.24
+## `2013-10-01` V1.10.24
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

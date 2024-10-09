@@ -5,7 +5,7 @@
 
 *Never make electric unplug on your player while software upgrade is in progress (green led blinking 6 times every 4 seconds) else the player may not be able to work properly*
 
-##`2023-11-29` V4.14.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.16.zip)
+## `2023-11-29` V4.14.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.16.zip)
 >##### **IMPORTANT IN CASE MIGRATION V3.12.XX TO 4.14.16**
 - Before upgrading to Gekkota 4 middleware:
     - Ensure that your current SMA300 middleware version is at least 3.12.20 (and not a beta version)
@@ -80,10 +80,10 @@
       	- embedded
 	- OLE injection (MS objects)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2023-04-19` V4.14.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.15.zip)
+## `2023-04-19` V4.14.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.15.zip)
 >##### **IMPORTANT IN CASE MIGRATION V3.12.XX TO 4.14.15**
 - Before upgrading to Gekkota 4 middleware:
     - Ensure that your current SMA300 middleware version is at least 3.12.20 (and not a beta version)
@@ -95,7 +95,7 @@
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the *video* inserted in the slidemaster template of MS-PowerPoint medias was not played
 
-##`2023-01-13` V4.14.14 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.14.zip)
+## `2023-01-13` V4.14.14 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.14.zip)
 >##### **IMPORTANT IN CASE MIGRATION V3.12.XX TO 4.14.14**
 - Before upgrading to Gekkota 4 middleware:
     - Ensure that your current SMA300 middleware version is at least 3.12.20 (and not a beta version)
@@ -125,7 +125,7 @@
 	- some unexpected text overlap was noticed
 - Fix: changing an audio parameter value in the *Output* pane of the *Configuration* menu of the Web user interface was leading to an automatical validation of the other parameters without the user consent
 
-##`2022-12-20` V4.14.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.13.zip)
+## `2022-12-20` V4.14.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.13.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: MS-Powerpoint medias playback
 	- the video and audio medias embedded inside MS-PowerPoint medias was not played
@@ -133,12 +133,12 @@
 - Fix: in some cases, the device could finalize the App content downloading coming from *XPF* server only after a device reboot
 - Fix: in some cases, after having pushed an App having a playfolder with service account M365, the playfolder was not playing immediately the new content of the remote directory
 
-##`2022-09-14` V4.14.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.12.zip)
+## `2022-09-14` V4.14.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.12.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the `_` character was not supported in the *Name* input of the *Logs* pane in the *Maintenance* menu of the device configuration Web interface
 - Fix: in some case, the audio channel could start several dozens of seconds after the visual channel has started (App mode in *Pull WebDAV - xpf compatibility*)
 
-##`2022-06-24` V4.14.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.11.zip)
+## `2022-06-24` V4.14.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.11.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for Microsoft 365 services accounts
 - Add support for CIFS services accounts
@@ -148,7 +148,7 @@
 - Fix: in some case, the date shown in the Web user interface was wrong
 - Fix: the *last modified time* status value was not available for files got through FTP
 
-##`2022-04-06` V4.14.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.10.zip)
+## `2022-04-06` V4.14.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.14.10.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for GAP App (`.gap` extension) downloading in the *Pull WebDAV* mode of the *App* pane of the *Configuration* menu of the Web user interface
 - Add support for GAP App (`.gap` extension) loading in the *Local deposit* mode of the *App* pane of the *Configuration* menu of the Web user interface
@@ -173,7 +173,7 @@
 - Fix: some Web page could be not displayed anymore
 - Fix: after a App content updating by a USB mass storage insertion in the device, the state value of the launcher HTML tag in the device status was not updated with the right value
 
-##`2021-05-12` V4.13.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.13.15.zip)
+## `2021-05-12` V4.13.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.13.15.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change the default value for the `innes.app-profile.manifest-downloader:g3.*.*.*.heartbeat` user preference to 45 seconds instead of 1 minute and change the default value for the `innes.app-profile.manifest-downloader:g3.*.*.*.heartbeat.max-startup-time` user preference to 30000 milliseconds instead of 200 milliseconds
 - Change the default value for the `innes.app-profile.manifest-downloader:g2.*.*.*.heartbeat` user preference to 45 seconds instead of 1 minute and change the default value for the `innes.app-profile.manifest-downloader:g2.*.*.*.heartbeat.max-startup-time` user preference to 30000 milliseconds instead of 200 milliseconds
@@ -182,7 +182,7 @@
 - Fix: in case using remote file inside playfolder, and the origin directory content is empty, the playfolder could play no media after one publication of two until the next playfolder update
 - Fix: when using some App, some image could be not displayed letting appear the background image
 
-##`2020-10-06` V4.13.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.13.12.zip)
+## `2020-10-06` V4.13.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.13.12.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for content update by USB with the pattern ```manifest.<MAC>.xml```
     - with ```<MAC>``` value matching with the *AA-BB-CC-DD-EE-FF* pattern
@@ -194,7 +194,7 @@
 - Fix: a message *content temporarily unavailable* was displayed when playing a video media with .wmv container containing a `WMA Pro` audio track (media generated from the last versions of MS-PowerPoint)
 - Fix: in *Pull WebDAV (xpf compatibility)* configuration, some unexpected empty content could be noticed when using an opt-out conditioned by a date variable
 
-##`2020-08-05` V4.13.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.13.11.zip)
+## `2020-08-05` V4.13.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.13.11.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for these printable characters in the security key value in the `WLAN` pane of the WebUI
 	- ```#$%&'()*+,-./:;<=>?@[]^_{} ~|```
@@ -210,7 +210,7 @@
 - Fix: the device could be able to install a specific corrupted firmware
 - Fix: in some case, a inconsistent reboot manager calendar value could make reboot the device
 
-##`2020-03-28` V4.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.13.10.zip)
+## `2020-03-28` V4.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.13.10.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for `802.1X` security for LAN network with the authentication methods:
     - *EAP MD5*
@@ -273,12 +273,12 @@
 - Fix: was not able to play a media inside a container conditioned by a date variable (mode Pull WebDAV - xpf compatibility)
 - Fix: in some rare case, an artefact could be displayed for a while at device start-up
 
-##`2019-11-04` V4.12.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.12.11.zip)
+## `2019-11-04` V4.12.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.12.11.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the keys combinations with the ALT key was not working with *AZERTY* keyboards (for example `@`)
 - Fix: using manifest remote file with ```smb://``` scheme URL could make reboot the device each time the downloader timer expires
 
-##`2019-08-04` V4.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.12.10.zip)
+## `2019-08-04` V4.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.12.10.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new WLAN chipset
 - Add support for RTP MPEG Stream
@@ -349,7 +349,7 @@
 - Fix: some recent mp4 video could return a message content temporarily unavailable
 - Fix: in some case, a playout content could be not played when two scenes was starting at the same time (Pull WebDAV - xpf compatibility configuration) (rare)
 
-##`2019-02-27` V4.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.11.10.zip)
+## `2019-02-27` V4.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.11.10.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for HTML5 WebUI
 - Add support for a new directory ```.playlog/``` in the WebUI
@@ -397,11 +397,11 @@
 - Fix: some scrollbar could be displayed along the edge of a system scene when the rotation was 90°
 - Fix: some skip frames could be noticed when playing some video media when a new content was pushed on the WebDAV directory at the same time
 
-##`2018-10-31` V4.10.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.10.16.zip)
+## `2018-10-31` V4.10.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.10.16.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: in some custom network configurations, a message *content temporarily unavailable* could be displayed when playing some multicast streams
 
-##`2018-10-03` V4.10.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.10.15.zip)
+## `2018-10-03` V4.10.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.10.15.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for DASH MSE (```Media Source Extensions```)
     - The DASH MSE is activated by default (meaning the preference ```media.mediasource.enable``` is set to ```true```)
@@ -427,7 +427,7 @@
 - Fix: the player could reboot when playing a wrong RTP/SDP Audio Video Profile
 - Fix: UDP stream could not be played in case using the DME204 streamer whose the WebUI parameter ```Output > Ethernet > Audio ``` was unselected
 
-##`2018-08-09` V4.10.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.10.13.zip)
+## `2018-08-09` V4.10.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.10.13.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for scrolling text in overlay
 	- Note when using the model ```Scrolling text from file```: has to be displayed in a zone whose height is maximum up to 20% of grid height
@@ -437,7 +437,7 @@
 - Fix: the gradient background of MS-PowerPoint medias could be not rendered properly
 - Fix: a unexpected message *content temporarily unavailable* could be displayed when playing some video medias with PCM audio (Mp4 container)
 
-##`2018-06-06` V4.10.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.10.12.zip)
+## `2018-06-06` V4.10.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-sma300/gekkota_os-sma300-setup-4.10.12.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for MS-PowerPoint media
     - 2007/2010/2013/2016

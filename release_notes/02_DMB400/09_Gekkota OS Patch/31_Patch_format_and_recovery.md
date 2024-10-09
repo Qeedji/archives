@@ -16,10 +16,10 @@
 - Check your device type, and choose the appropriate *USB format* or *USB recovery* patch for your platform among the choices below.
 
 #### **USB RECOVERY**
-##`2022-10-10` DMB400 4.14.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-format-and-recovery/usb-recovery-DMB400-V4.14.12.zip)
+## `2022-10-10` DMB400 4.14.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-format-and-recovery/usb-recovery-DMB400-V4.14.12.zip)
 
 #### **USB FORMAT**
-##`2022-10-10` DMB400 4.14.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-format-and-recovery/usb-format-DMB400-V4.14.12.zip)
+## `2022-10-10` DMB400 4.14.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-format-and-recovery/usb-format-DMB400-V4.14.12.zip)
 
 #INFORMATION
 ***********************************************************************

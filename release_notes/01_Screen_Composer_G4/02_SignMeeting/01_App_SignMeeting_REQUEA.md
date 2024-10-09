@@ -1,7 +1,7 @@
 # SignMeeting Requea
 *RELEASE NOTE*
     
-##`2023-08-24` V2.12.10 [download](app-signmeeting-requea/signmeeting_requea-screen_composer-addin-2.12.10.appi){.auth-downloads}   
+## `2023-08-24` V2.12.10 [download](app-signmeeting-requea/signmeeting_requea-screen_composer-addin-2.12.10.appi){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version for Screen Composer G4      
 >##### **KNOWN LIMITATIONS**

@@ -2,7 +2,7 @@
 
 *The SignCom App is not part of Screen Composer delivery. It needs to be imported in Screen Composer to work with any Gekkota 4 projects types.*
 
-##`2019-09-25` V4.11.13
+## `2019-09-25` V4.11.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: is now supporting Gekkota 3 devices
 >##### **COMPATIBILITIES**
@@ -54,19 +54,19 @@ For further information, see the list of supported media on your device in the *
 
 &sup2; For further information, contact *support@innes.fr*
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2018-08-09` V4.10.20
+## `2018-08-09` V4.10.20
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the playout could not start properly by displaying the message *the execution of a script blocks Gekkota, rebooting* when the date of the device was more than 23 days before the date of the first event in the calendar
 
-##`2018-04-23` V4.10.19
+## `2018-04-23` V4.10.19
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: playing streamed video medias was not working anymore
 - Fix: sometimes immediately after a publication, and when several video medias had to start at the same time, all the video medias could not start and the error message *content temporarily unavailable* was not displayed
 
-##`2018-04-05` V4.10.18
+## `2018-04-05` V4.10.18
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: in alphabetical order, the file are now sorted first in the list when the filename has some number characters (for example in playfolder)
 - Change: a message *This version is not supported on this device* is now raised when the App is played on a device out of scope or from a Web browser
@@ -76,7 +76,7 @@ For further information, see the list of supported media on your device in the *
 - Fix: memory leak when repeating URI media (Web page with video especially)
 - Fix: sometimes nothing was played after having played a emptied playfolder
 
-##`2017-10-27` V4.10.17
+## `2017-10-27` V4.10.17
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for PPSX and PPTX playback
     - refer to the documentation *Gekkota supported media and performances* to know whether MS-PowerPoint medias are supported by your device
@@ -86,7 +86,7 @@ For further information, see the list of supported media on your device in the *
 - Fix: opt-out with non-alphabetic character was not played
 - Fix: playing of medias using a variable could failed in case the path file name is containing character ```{``` or ```}```
 
-##`2017-06-30` V4.10.16
+## `2017-06-30` V4.10.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for extensions webp, sdp, ismc and mpd
 - Fix: could stop to play the next medias after a while
@@ -96,24 +96,24 @@ For further information, see the list of supported media on your device in the *
 - Fix: book interactivity was not working (PDF)
 - Change: when variable can not be resolved, replace by empty string (instead raising a error)
 
-##`2017-04-04` V4.10.15
+## `2017-04-04` V4.10.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: once publication was done, the device could stop to play the content the month after the start date of a recurring content
 
-##`2017-03-24` V4.10.14
+## `2017-03-24` V4.10.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of *Webp* image
 - Fix: playback was stuck when a playfolder pointing on a not existing directory (no fall back) was played alone in a time slot
 - Fix: playback was stuck when playing a playfolder pointing on a directory having only one media, and playfolder behaviour was  *play only one media*
 
-##`2017-03-01` V4.10.13
+## `2017-03-01` V4.10.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: sometimes it was not possible to update a media being played
 - Change error message: *this content is not compatible with this platform* by *content temporarily unavailable (code 0)*
 - Fix: the model *Scrolling text from file* (V1.10.13) could not start
 - Fix: background image could appear between pictures when playing playfolder of HD pictures (DMB400)
 
-##`2017-01-25` V4.10.12
+## `2017-01-25` V4.10.12
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: a scrolling bar was displayed when playing Web page in resized zone
 - Fix: in some case, the background image was not be displayed when playing media with transparency (ex: Trafic Info Sytadin)
@@ -121,7 +121,7 @@ For further information, see the list of supported media on your device in the *
 - Fix: in case unexpected error was raised when playing a only one media in a zone, the App was not trying to play it again (staying on error message: *content temporarily unavailable*)
 - Fix: the password could be displayed in the Web page in case authentication error when playing URI playfile
 
-##`2017-01-10` V4.10.11
+## `2017-01-10` V4.10.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: content temporarily unavailable when some medias are played inside playlist
 - Fix: vob media was not supported
@@ -129,7 +129,7 @@ For further information, see the list of supported media on your device in the *
 >##### **COMPATIBILITIES**
 - Screen Composer G3 V3.20.11 (and above)
 
-##`2017-01-03` V4.10.10
+## `2017-01-03` V4.10.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **COMPATIBILITIES**

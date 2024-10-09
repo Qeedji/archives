@@ -3,7 +3,7 @@
 
 *Never make electric unplug on your device while APK installation is in progress*
   
-##`2024-01-12` Demo APK for AMP300 device
+## `2024-01-12` Demo APK for AMP300 device
 - `device_power_standby` 1.10.11 [download](amp300/APK/device_power_standby-qeedjisystem_aosp-setup-1.10.11.apk){.free-downloads}
 - `system_button` 1.11.10 [download](amp300/APK/system_button-qeedjisystem_aosp-setup-1.11.10.apk){.free-downloads}
 - `power_manager_calendar` 1.10.10 [download](amp300/APK/power_manager_calendar-qeedjisystem_aosp-setup-1.10.10.apk){.free-downloads}
@@ -31,14 +31,14 @@
 
 [Link to URL Webview configuration script](https://github.com/Qeedji/aosp-amp300-sdk/tree/master/examples/url_webview/configuration/000000000000.js)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2023-01-25` Demo APK for AMP300 device
+## `2023-01-25` Demo APK for AMP300 device
 - `device_power_standby` 1.10.11 [download](amp300/APK/device_power_standby-qeedjisystem_aosp-setup-1.10.11.apk){.free-downloads}
 - `system_button` 1.11.10 [download](amp300/APK/system_button-qeedjisystem_aosp-setup-1.11.10.apk){.free-downloads}
 
-##`2022-09-12` Demo APK for AMP300 device
+## `2022-09-12` Demo APK for AMP300 device
 - `device_power_standby` 1.10.11 [download](amp300/APK/device_power_standby-amp300-setup-1.10.11.apk){.free-downloads}
 - `system_button` 1.11.10 [download](amp300/APK/system_button-amp300-setup-1.11.10.apk){.free-downloads} 
 
@@ -46,7 +46,7 @@
 - Change: this APK requiring now *system user* execution rights to be executed are signed with a Qeedji Java KeyStore
     - `system_button`
 
-##`2022-07-25` Demo APK for AMP300 device
+## `2022-07-25` Demo APK for AMP300 device
 - `device_power_standby` 1.10.11 [download](amp300/APK/device_power_standby-amp300-setup-1.10.11.apk){.free-downloads}
 - `system_button` 1.10.11 [download](amp300/APK/system_button-amp300-setup-1.10.11.apk){.free-downloads} 
 

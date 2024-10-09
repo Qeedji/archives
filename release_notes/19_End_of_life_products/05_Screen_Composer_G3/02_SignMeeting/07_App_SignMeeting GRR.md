@@ -1,7 +1,7 @@
 # SignMeeting GRR
 *RELEASE NOTE*
 
-##`2021-01-19` V1.13.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-grr/signmeeting_grr-screen_composer-setup-1.13.11.appi)
+## `2021-01-19` V1.13.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-grr/signmeeting_grr-screen_composer-setup-1.13.11.appi)
 >##### **IMPORTANT**
 - For users having existing `SignMeeting` projects in the previous version `SignMeeting 1.11.XX`,
     - Install `Screen Composer V3.20.15`
@@ -67,10 +67,10 @@
 	- the script is suitable for *RoomLabel* display profil (SMH300) and is not suitable for tablet and media players.
 	- the *pendingFreeDelay* variable at the beginning of the script allows to define the timeout (by default, 15 minutes) before checking out (declaring that the room is empty and has to be shortened)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2019-06-17` V1.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-grr/signmeeting_grr-screen_composer-setup-1.13.10.appi)
+## `2019-06-17` V1.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-grr/signmeeting_grr-screen_composer-setup-1.13.10.appi)
 >##### **IMPORTANT**
 - For users having existing `SignMeeting` projects in the previous version `SignMeeting 1.11.XX`,
     - Install `Screen Composer V3.20.15`
@@ -192,7 +192,7 @@
 - Add support for *German* language
 - Add support for custom Javascript file permitting to control SignMeeting buttons (JavaScript provided only for some specific customers)
 
-##`2015-06-10` V1.11.17 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-grr/signmeeting_grr-screen_composer-setup-1.11.17.appi)
+## `2015-06-10` V1.11.17 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-grr/signmeeting_grr-screen_composer-setup-1.11.17.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add confirmation screen when pressing "Room is empty" button
 - Add: return to main screen when timeout "no user activity" of screen "book a meeting" has expired (based on IDLE api)
@@ -203,13 +203,13 @@
 - Fix error message not displayed when the player not properly configured
 - Fix "Book now" button availability issue when playing with navigation menu
 
-##`2015-01-16` V1.11.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-grr/signmeeting_grr-screen_composer-setup-1.11.15.appi)
+## `2015-01-16` V1.11.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-grr/signmeeting_grr-screen_composer-setup-1.11.15.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change split the date and time display in two lines with different formats
 - Change default value to false for parameter 'return to the background when no meeting'
 - Fix date/time format not properly shown when upgrading from an older version
 - Fix in case server not available at SignMeeting start-up and becomes available afterwards
 
-##`2014-12-16` V1.11.11
+## `2014-12-16` V1.11.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

@@ -1,7 +1,7 @@
 # GESROOM CALENDAR
 *RELEASE NOTE*
 
-##`2016-09-21` V1.10.11 [download](applets/connector-gesroom-V1.10.11/delivery/gesroom-calendar-V1.10.11.saz){.auth-downloads}   
+## `2016-09-21` V1.10.11 [download](applets/connector-gesroom-V1.10.11/delivery/gesroom-calendar-V1.10.11.saz){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: full path of .asmx file need to be written in the configuration.xml
 	- ```http://<your-safeware-gesroom-server>.hds-group.com/ws_innes/WSINNES.asmx```
@@ -46,9 +46,9 @@
 - In order to get the WSDL file of your Gesroom server, use the full path of .asmx file + suffix "?WSDL"
 	- ```http://<your-safeware-gesroom-server>.hds-group.com/ws_innes/WSINNES.asmx?WSDL``` 
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2016-08-25` V1.10.10    
+## `2016-08-25` V1.10.10    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

@@ -1,7 +1,7 @@
 # Configuration by script
 *RELEASE NOTE*
 
-##`2023-09-05` V1.12.13 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.12.13/delivery/example_000000000000-V1.12.13.js)
+## `2023-09-05` V1.12.13 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.12.13/delivery/example_000000000000-V1.12.13.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for these new functions
 	- enableSwapDisk()
@@ -40,10 +40,10 @@
 - An installation error is raised when a function activated in the configuration-by-script is not supported by the middleware or when a syntax error has been inserted in the *.js* configuration script by the user. You can check the JavaScript line error in the device status.xml after the installation of the *.js* configuration script has failed
 - The function setHostname() is not supported with Gekkota RT
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2023-04-21` V1.12.12 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.12.12/delivery/example_000000000000-V1.12.12.js)
+## `2023-04-21` V1.12.12 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.12.12/delivery/example_000000000000-V1.12.12.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for these new functions
 	- UrlLauncherCredentialIdentifierPasswordWithWebPageForm()
@@ -57,7 +57,7 @@
 - Change: rename CredentialUserPassword() function by UrlLauncherCredentialIdentifierPasswordBasicAuth()
 - Change: rename CredentialUserPasswordDomain() function by UrlLauncherCredentialIdentifierPasswordBasicAuthDomain()
 
-##`2023-02-01` V1.12.11 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.12.11/delivery/example_000000000000-V1.12.11.js)
+## `2023-02-01` V1.12.11 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.12.11/delivery/example_000000000000-V1.12.11.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for DMB300 Gekkota OS 5.10.11 for:
 	- setPhoenixGPIOfunction()
@@ -65,7 +65,7 @@
 - Add support for DMB300 Gekkota OS 5.10.11 for:
 	- setJackGPIO()
 
-##`2022-12-19` V1.12.10 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.12.10/delivery/example_000000000000-V1.12.10.js)
+## `2022-12-19` V1.12.10 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.12.10/delivery/example_000000000000-V1.12.10.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for these new functions supported by the *Gekkota 5* middleware
     - setUrlLauncherWebserver()
@@ -79,18 +79,18 @@
     - isUpperG4()
     - isG5()
 
-##`2022-09-14` V1.11.34 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.34/delivery/example_000000000000-V1.11.34.js)
+## `2022-09-14` V1.11.34 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.34/delivery/example_000000000000-V1.11.34.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: Add support for the *checkCompatibility()* function at the beginning of the script preventing it to be executed on other OS than *Gekkota 3* and *Gekkota 4*
 
-##`2022-04-06` V1.11.33 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.33/delivery/example_000000000000-V1.11.33.js)
+## `2022-04-06` V1.11.33 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.33/delivery/example_000000000000-V1.11.33.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new functions to configure the GAP server
 	- setGAPserver (URL, credential_login, credential_pw)
 	- setGAPserverHeartbeat (heartbeat)
 - Fix: the function setAddonServerHeartbeat(heartbeat) was not working
 
-##`2021-09-20` V1.11.32 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.32/delivery/example_000000000000-V1.11.32.js)
+## `2021-09-20` V1.11.32 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.32/delivery/example_000000000000-V1.11.32.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new functions to set the way (*port* and *http*/*https* scheme) to access to the device WebDAV server and to the device Web user interface
 	- enableWebserverHttps(port);
@@ -98,7 +98,7 @@
 	- disableWebserverHttp();
 	- disableWebserverHttps();
 
-##`2021-05-12` V1.11.31 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.31/delivery/example_000000000000-V1.11.31.js)
+## `2021-05-12` V1.11.31 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.31/delivery/example_000000000000-V1.11.31.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Remove the *aHeartbeat* parameter for the functions below
 	- setPlugnCastG3("http://<ip_addr>/.frontals/.webdav/<domain>/", "login", "password");
@@ -112,7 +112,7 @@
 	- setPlugnCastG2Heartbeat(aHeartbeat);
 - Modify the function to set the heartbeat so that they set effectively the heartbeat with a random part value = aHeartbeat x (45 + random[0-30])) seconds
 
-##`2020-12-10` V1.11.30 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.30/delivery/example_000000000000-V1.11.30.js)
+## `2020-12-10` V1.11.30 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.30/delivery/example_000000000000-V1.11.30.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for function to install the *EnOcean* push button devices on SMH300 hub
 	- `SetHubServerPushButton()`
@@ -121,20 +121,20 @@
 - Change: this function to pair SLATEs is now only compatible with SMH300 embeddding Gekkota OS 4.13.14 (or above)
 	- `SetWpanHubServerConfiguration()`
 
-##`2020-09-29` V1.11.29 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.29/delivery/example_000000000000-V1.11.29.js)
+## `2020-09-29` V1.11.29 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.29/delivery/example_000000000000-V1.11.29.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new functions
 	- setNoProxyForDeliveryServer(true)
 	- setNoProxyForStatusServer(true)
 	- setNoProxyForSoftwareAndConfigurationInstallationServer(true)
 
-##`2020-08-06` V1.11.28 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.28/delivery/example_000000000000-V1.11.28.js)
+## `2020-08-06` V1.11.28 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.28/delivery/example_000000000000-V1.11.28.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the new function ```setUtcTime("<date_string>");``` to set system OS date and time (UTC)
     - the support for this function requires Gekkota OS 4.13.11 (or above)
 - Add support for Gekkota RT 4.YY.ZZ middleware
 
-##`2020-04-27` V1.11.27 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.27/delivery/example_000000000000-V1.11.27.js)
+## `2020-04-27` V1.11.27 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.27/delivery/example_000000000000-V1.11.27.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new functions to activate the `802.1X` security on LAN interface
     - setLanSecurity(lan, lan-security, eap-security);
@@ -153,7 +153,7 @@
 - Change setPowerManagerAvcmdDelay() function to support DME204 device
 - Change setPowerManagerLevels() function to support DME204 device
 
-##`2019-10-31` V1.11.26 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.26/delivery/example_000000000000-V1.11.26.js)
+## `2019-10-31` V1.11.26 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.26/delivery/example_000000000000-V1.11.26.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new functions to activate or not the CEC feature
 	- setCecIsActivated(true)
@@ -177,7 +177,7 @@
 - The content of this function has been uncommented back and slightly modified so that the Javascript is interpreted properly with Gekkota 3.XX.YY as well as Gekkota 4.XX.YY
 	- SetWpanHubServerConfiguration(aConfiguration)
 
-##`2019-08-28` V1.11.25 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.25/delivery/example_000000000000-V1.11.25.js)
+## `2019-08-28` V1.11.25 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.25/delivery/example_000000000000-V1.11.25.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new functions to activate or not the test card display with a keys press combination
 	- enableTestCardKeyEvent()
@@ -200,13 +200,13 @@
 	- enableStreamerProtocolRtmp("192.168.1.16/live", "myStream"); // RTMP server, stream key
 	- setStreamerAudioSamplerate(48000);
 
-##`2019-07-30` V1.11.23 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.23/delivery/example_000000000000-V1.11.23.js)
+## `2019-07-30` V1.11.23 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.23/delivery/example_000000000000-V1.11.23.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: restore compatibility for Gekkota 3 devices (except SMH300)
 - Change: the content of the function *SetWpanHubServerConfiguration* is temporary commented and make nothing by default
 	- For SMH300, to restore the behavior of this function with Gekkota OS 4.11.11 (or above), delete the lines containing TEMPORARY COMMENTED in the function SetWpanHubServerConfiguration
 
-##`2019-06-20` V1.11.22 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.22/delivery/example_000000000000-V1.11.22.js)
+## `2019-06-20` V1.11.22 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.22/delivery/example_000000000000-V1.11.22.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for SMH300/Gekkota 4 device
 - Add support for:
@@ -236,7 +236,7 @@
 		- setPictureFrameWakeupHeartBeatDayInterval()
 - Remove support for SMH300/Gekkota 3 device
 
-##`2019-03-20` V1.11.21 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.21/delivery/example_000000000000-V1.11.21.js)
+## `2019-03-20` V1.11.21 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.21/delivery/example_000000000000-V1.11.21.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new functions to support the Playlog feature:
 	- setPlaylog("http://<webdav_server_ip_addr>/...", "login", "password", "23:00")
@@ -247,7 +247,7 @@
 	- setAppModePush()
 - Fix: some functions could not work with Gekkota 3 RT
 
-##`2019-02-19` V1.11.20 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.20/delivery/example_000000000000-V1.11.20.js)
+## `2019-02-19` V1.11.20 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.20/delivery/example_000000000000-V1.11.20.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for a new function to activate/inactivate the soundcard
 	- setSoundCardIsActivated(true)
@@ -260,12 +260,12 @@
 	- enableHidKeyboard()
 	- disableHidKeyboard()
 
-##`2018-12-05` V1.11.19 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.19/delivery/example_000000000000-V1.11.19.js)
+## `2018-12-05` V1.11.19 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.19/delivery/example_000000000000-V1.11.19.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for SMT210 Gekkota4 device for the function setPhoenixGPIO()
 - Add support for SMT210 Gekkota4 device for the function setJackGPIO()
 
-##`2018-08-29` V1.11.18 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.18/delivery/example_000000000000-V1.11.18.js)
+## `2018-08-29` V1.11.18 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.18/delivery/example_000000000000-V1.11.18.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for dme204 device
 - Add some functions for dme204 devices
@@ -332,7 +332,7 @@
 	- setStatusServer("http://<ip_addr>/.frontals/.webdav/<domain1>/.device-status", 1, "admin", "admin");
 	- setAddonServer( "http://<ip_addr>/.frontals/.webdav/<domain1>/.setup", 1, "admin", "admin");
 
-##`2018-03-12` V1.11.17 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.17/delivery/example_000000000000-V1.11.17.js)
+## `2018-03-12` V1.11.17 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.17/delivery/example_000000000000-V1.11.17.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: rename
 	- enableSlates106TestCard() by enableSlate106TestCard()
@@ -340,7 +340,7 @@
 	- setSlates106Pincode(1234) by - setSlate106Pincode(1234)
 	- disableSlates106Pincode() by disableSlate106Pincode()
 
-##`2018-02-20` V1.11.16 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.16/delivery/example_000000000000-V1.11.16.js)
+## `2018-02-20` V1.11.16 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.16/delivery/example_000000000000-V1.11.16.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for a new functions
 	- enableTestCard()
@@ -356,16 +356,16 @@
 	- setJackGPIO()
 		- Add test of SMA300 device
 
-##`2017-11-09` V1.11.15 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.15/delivery/example_000000000000-V1.11.15.js)
+## `2017-11-09` V1.11.15 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.15/delivery/example_000000000000-V1.11.15.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for a new function
 	- setHttpAdaptiveStreamingMaxBitrate(n)
 
-##`2017-08-30` V1.11.14 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.14/delivery/example_000000000000-V1.11.14.js)
+## `2017-08-30` V1.11.14 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.14/delivery/example_000000000000-V1.11.14.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Delete obsolete code line
 
-##`2017-08-11` V1.11.13 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.13/delivery/example_000000000000-V1.11.13.js)
+## `2017-08-11` V1.11.13 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.13/delivery/example_000000000000-V1.11.13.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new video decoder settings functions
 	- setDecodingGroupIsEnable(true); // ---- This one to authorize video multi-decoding (requires using of Screen Composer 3.12.20 or PlugnCast 3.10.39)
@@ -386,18 +386,18 @@
 	- setWLanModeInfraWithKey(wlan, "Qeedji", "WPA", "9876543210"); // ---- for mode Infra, SSID Qeedji, security WPA with key 9876543210
 	- setWLanModeInfraWithKey(wlan, "Qeedji", "WPA2", "9876543210"); // ---- for mode Infra, SSID Qeedji, security WPA2 with key 9876543210
 
-##`2017-06-06` V1.11.12 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.12/delivery/example_000000000000-V1.11.12.js)
+## `2017-06-06` V1.11.12 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.12/delivery/example_000000000000-V1.11.12.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new PTP functions
 	- setClockSyncEnablePtpLayer2();
 	- setClockSyncSetPtpDomain(0);
 	- setClockSyncSetPtpTimeout(30);
 
-##`2017-03-01` V1.11.11 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.11/delivery/example_000000000000-V1.11.11.js)
+## `2017-03-01` V1.11.11 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.11/delivery/example_000000000000-V1.11.11.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: SetDns was not working for Gekkota RT
 
-##`2017-02-27` V1.11.10 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.10/delivery/example_000000000000-V1.11.10.js)
+## `2017-02-27` V1.11.10 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.11.10/delivery/example_000000000000-V1.11.10.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for GPIO management
 - Add support for new functions
@@ -438,20 +438,20 @@
 		- setColorAdjustment
 - Add support for GPIO read/write for Phoenix and GPIO
 
-##`2016-08-09` V1.10.21 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.10.21/delivery/example_000000000000-V1.10.21.js)
+## `2016-08-09` V1.10.21 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/configuration-by-script-V1.10.21/delivery/example_000000000000-V1.10.21.js)
 >##### **IMPORTANT**
 - After having copy-pasted the certificate in the script js, don't forget to add ```/n/``` behind each line of the certificate (except for the last line, as described in the file), else a script installation error will be raised
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for certificate adding
 
-##`2016-05-27` V1.10.20
+## `2016-05-27` V1.10.20
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Set connector for audio output (for SMA300 only)
 	- setAudioOutput
 		- JACK35
 		- HDMI
 
-##`2016-01-11` V1.10.19
+## `2016-01-11` V1.10.19
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - NTP
 	- *setClockSyncEnableNtp*
@@ -487,7 +487,7 @@
 		- tcp/ip
 	- Note: add custom protocol example (TVDeviceName, TVDeviceProtocol)
 
-##`2016-01-06` V1.10.18
+## `2016-01-06` V1.10.18
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add functions
 	- *setStatusServer* (and *disableStatusServer*)
@@ -495,21 +495,21 @@
 	- *setAddonServer* (and *disableAddonServer*)
 		- permits to set WebUI server parameters for device status http download
 
-##`2015-06-30` V1.10.17
+## `2015-06-30` V1.10.17
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change new logger API to match Gekkota 3.12.20 (and above)
 
-##`2015-03-03` V1.10.16
+## `2015-03-03` V1.10.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add function
 	- *setOverscan*
 
-##`2014-11-11` V1.10.15
+## `2014-11-11` V1.10.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Update documentation (002A)
 - Add english version
 
-##`2014-01-11` V1.10.14
+## `2014-01-11` V1.10.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add hostname
 - Add functions linked to

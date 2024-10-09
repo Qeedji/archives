@@ -1,7 +1,7 @@
 # ZIMBRA CALENDAR
 *RELEASE NOTE*
 
-##`2015-11-20` V1.10.13 [download](applets/connector-zimbra-V1.10.13/delivery/zimbra-calendar-V1.10.13.saz){.auth-downloads}   
+## `2015-11-20` V1.10.13 [download](applets/connector-zimbra-V1.10.13/delivery/zimbra-calendar-V1.10.13.saz){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add: debug option by URL option *&debug=YES*
 - Add: get the "Organizer display name" 
@@ -38,10 +38,10 @@
 - Note: this URL can be used also with suffix *&debug=yes* (for technical support only)
    - ```http://<domain>/plugnCast/.applets/.zimbra-calendar/2ical.php?calendarId=<roomId>&debug=yes```
    
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2015-05-19` V1.10.12 [download](applets/bs-wa-zimbra-V1.10.12/zimbra-calendar-V1.10.12.saz){.auth-downloads}   
+## `2015-05-19` V1.10.12 [download](applets/bs-wa-zimbra-V1.10.12/zimbra-calendar-V1.10.12.saz){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support recurring meetings
 - Add security to not have UID doubloons
@@ -49,6 +49,6 @@
 - Change: set DTSTAMP to *start date* instead of default *current time* to avoid download data too often (monitor also DTSTAMP to set it to the modified date when possible)
 - Change: remove the location from the attendees
 
-##`2014-12-31` V1.10.10 [download](applets/bs-wa-zimbra-V1.10.10/zimbra-calendar-V1.10.10.saz){.auth-downloads}   
+## `2014-12-31` V1.10.10 [download](applets/bs-wa-zimbra-V1.10.10/zimbra-calendar-V1.10.10.saz){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial release

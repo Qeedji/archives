@@ -1,7 +1,7 @@
 # ICS CALENDAR REQUEA
 *RELEASE NOTE*
 
-##`2013-08-12` V1.10.16 [download](applets/pcs-wa-requea-V1.10.17/ics-calendar-V1.10.16/ics-calendar-V1.10.16.saz){.auth-downloads}   
+## `2013-08-12` V1.10.16 [download](applets/pcs-wa-requea-V1.10.17/ics-calendar-V1.10.16/ics-calendar-V1.10.16.saz){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change (optimization) attachment
 - Add security to not downloaded again when the file has not changed (Playzilla G3 only)
@@ -49,10 +49,10 @@
       
  	- Apply the %20 policy for all the file for the value inside the tag ```<param name>...</param>```
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2013-02-21` V1.10.15
+## `2013-02-21` V1.10.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add new parameter *sendCacheOnServerError* 
 - Fix event not correctly read
@@ -60,17 +60,17 @@
 - Fix trouble for 'all day' events
 - Fix *day-event* for *endRelated* configuration parameter
 
-##`2012-02-16` V1.10.13
+## `2012-02-16` V1.10.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add compatibility with SAAS servers
 - Fix memory leak 
 
-##`2012-01-13` V1.10.11
+## `2012-01-13` V1.10.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support multiple ics resources configuration in a calendar
 - Fix alarms issue 
 - Fix filtering method (was mixing id=1 and id=001)
 
-##`2011-11-04` V1.10.10
+## `2011-11-04` V1.10.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial release

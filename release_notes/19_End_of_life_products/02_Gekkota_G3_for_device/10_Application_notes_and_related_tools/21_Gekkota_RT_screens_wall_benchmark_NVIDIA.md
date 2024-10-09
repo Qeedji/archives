@@ -40,7 +40,7 @@
 		- Display Connectors: 4 DisplayPort 1.2 + Stereo
 		- DisplayPort: 1.2
 		- Note: Hardware decoding DXVA2 is allowed for AVC & HEVC formats.
-##`2016-05-04` (last update)
+## `2016-05-04` (last update)
 
 #INFORMATION
 ***********************************************************************

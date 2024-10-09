@@ -3,7 +3,7 @@
 #### **SUMMARY**
 Some Web page viewed properly on PC computers owning a large amount of volatile memory may not be played after a while when played several time on a device. To work around, running this playout script is forcing the device the free the memory previously required each time the playing of the Web page has ended.
 
-##`2019-07-29` callGCatEnd-V1.10.10.js [download](https://github.com/Qeedji/archives/blob/master/downloads/playout-scripts/garbage-collector-on-URI-ending/callGCatEnd-V1.10.10.js)
+## `2019-07-29` callGCatEnd-V1.10.10.js [download](https://github.com/Qeedji/archives/blob/master/downloads/playout-scripts/garbage-collector-on-URI-ending/callGCatEnd-V1.10.10.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **COMPATIBILITY**

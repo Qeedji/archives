@@ -1,7 +1,7 @@
 # Patch remove testcard
 *RELEASE NOTE*
 
-##`2013-09-18` V3.11.10
+## `2013-09-18` V3.11.10
 |              Platform                             |    Patch Install    |
 | :------------------------------------------------ | :------------------ |
 | SMA300 | [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-remove-testcard/remove%20testcard-sma300-patch-3.11.10.frm) |

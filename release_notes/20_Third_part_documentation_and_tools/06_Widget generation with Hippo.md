@@ -3,7 +3,7 @@
 #### **SUMMARY**
 - The aim of this documentation is to explain how to generate a widget with Hippo freeware from the model library Hippo. It explains how to include scripting as well in order to manage properly media self-stop
 
-##`2015-07-01` (last update)
+## `2015-07-01` (last update)
 
 #INFORMATION
 ***********************************************************************

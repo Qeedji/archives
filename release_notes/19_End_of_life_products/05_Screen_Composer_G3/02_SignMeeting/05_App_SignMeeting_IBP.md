@@ -3,7 +3,7 @@
 
 *Attention not compatible with Screen Composer V3.20.10*
 
-##`2015-06-09` V1.11.17 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ibp/signmeeting_ibp-screen_composer-setup-1.11.17.appi)
+## `2015-06-09` V1.11.17 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ibp/signmeeting_ibp-screen_composer-setup-1.11.17.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add a confirmation screen when pressing "Room is empty" button
 - Add support "book now"
@@ -50,21 +50,21 @@
 		- click again on SignMeeting link (version modification should be noticed)
 #### **DATASOURCE HOSTED ON DISTANT SERVER**
 - Some slowness could be noticed when booking (or cancelling) a meeting in case datasource is referring to distant server with poor reaction capability
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2014-11-25` V1.10.53 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ibp/signmeeting_ibp-screen_composer-setup-1.10.53.appi)
+## `2014-11-25` V1.10.53 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-ibp/signmeeting_ibp-screen_composer-setup-1.10.53.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix all features for the standard version
 
-##`2014-10-02` V1.10.51
+## `2014-10-02` V1.10.51
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix server connection
 
-##`2014-09-29` V1.10.50
+## `2014-09-29` V1.10.50
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix 2 files not present
 
-##`2014-09-23` V1.10.49
+## `2014-09-23` V1.10.49
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

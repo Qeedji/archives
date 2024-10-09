@@ -3,7 +3,7 @@
 #### **SUMMARY**
 - The goal of this document is to explain how to configure a laptop Windows 10 to behave as a Wifi Access Point
 
-##`2016-08-05` (last update)
+## `2016-08-05` (last update)
 
 #INFORMATION
 ***********************************************************************

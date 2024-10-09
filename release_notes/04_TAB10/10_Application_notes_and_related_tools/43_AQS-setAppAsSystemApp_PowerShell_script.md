@@ -3,7 +3,7 @@
 
 This PowerShell script allows to generate a `app-list-signed.xml` file from a `app-list.xml` containing the applicationId of APKs to be granted as System App. The content of the generated `app-list-signed.xml` file can be then copied in a configuration script so that the APK, using `AQS` or `AOSP` features requiring `system user` execution rights, can be executed on the `AQS` device.   
 
-##`2022-09-05` AQS-setAppAsSystemApp~001B.zip [Download](application-notes/aosp/powershell-script/AQS-setAppAsSystemApp/delivery/AQS-setAppAsSystemApp~001B.zip){.free-downloads}
+## `2022-09-05` AQS-setAppAsSystemApp~001B.zip [Download](application-notes/aosp/powershell-script/AQS-setAppAsSystemApp/delivery/AQS-setAppAsSystemApp~001B.zip){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for `xml` file name definition in the PowerShell command 
 >##### **COMPATIBILITIES**
@@ -17,10 +17,10 @@ This PowerShell script allows to generate a `app-list-signed.xml` file from a `a
 #### **DOCUMENTATION**  
 For further information, refer to the *TAB10s* and *AMP300* developer manual.
 		
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2022-08-08` AQS-setAppAsSystemApp~001A.zip
+## `2022-08-08` AQS-setAppAsSystemApp~001A.zip
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 >- Initial version  
 >##### **COMPATIBILITIES**

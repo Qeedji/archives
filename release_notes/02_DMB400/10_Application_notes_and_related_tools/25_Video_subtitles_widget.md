@@ -8,7 +8,7 @@
 - Gekkota V4.11.10 (or above)
 - PlugnCast 3.10.50 (or above) / Playzilla 4.11.11
 
-##`2019-09-12` (last update)
+## `2019-09-12` (last update)
 - Add support for German language
 - Fix: default duration property was 00:00:00 (instead 00:00:10)
 
@@ -61,7 +61,7 @@
 
 The widget models is tested with the last available Smart monitors OS versions.
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 | Description                  | Version |                                                                                                  |
 | :----------------------------| :-------| :----------------------------------------------------------------------------------------------- |

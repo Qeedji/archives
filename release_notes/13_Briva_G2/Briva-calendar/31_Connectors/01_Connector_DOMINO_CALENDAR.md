@@ -1,7 +1,7 @@
 # DOMINO CALENDAR
 *RELEASE NOTE*
 
-##`2011-11-30` V1.10.18 [download](applets/pcs-wa-domino-V1.10.16/domino-calendar-V1.10.18/domino-calendar-V1.10.18.saz){.auth-downloads}   
+## `2011-11-30` V1.10.18 [download](applets/pcs-wa-domino-V1.10.16/domino-calendar-V1.10.18/domino-calendar-V1.10.18.saz){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix server dead lock due to locked file on PHP module 
 - Fix resource filtering when resource is inactivated
@@ -21,13 +21,13 @@
 - Models package 3.10.16 [download](applets/pcs-wa-domino-V1.10.16/models-V3.10.16/models-V3.10.16.zip){.auth-downloads}
 - Examples and documentation [download](applets/pcs-wa-domino-V1.10.16/models-V3.10.16/examples-and-documentation.zip){.auth-downloads}  
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2011-11-24` V1.10.17
+## `2011-11-24` V1.10.17
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add (in configuration.xml) the following parameters: *startRelated*, *startOffset*, *endRelated*, *endOffset*, *label*
 
-##`2011-04-27` V1.10.16
+## `2011-04-27` V1.10.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

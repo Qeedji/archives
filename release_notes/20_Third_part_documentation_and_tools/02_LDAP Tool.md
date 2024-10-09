@@ -5,7 +5,7 @@
 
 *RELEASE NOTE*
 
-##`2015-10-14` V1.10.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/tools/LDAP-Tool-V1.10.10.zip)
+## `2015-10-14` V1.10.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/tools/LDAP-Tool-V1.10.10.zip)
 
 #INFORMATION
 ***********************************************************************

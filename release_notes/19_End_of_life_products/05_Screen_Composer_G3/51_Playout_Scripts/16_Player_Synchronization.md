@@ -5,7 +5,7 @@
 	- one of the player reboots or
 	- one of the player content is updated
 
-##`2016-08-09` V1.10.13 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/player-synchronization/xpfSyncManager-V1.10.13.js)
+## `2016-08-09` V1.10.13 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/player-synchronization/xpfSyncManager-V1.10.13.js)
 >##### **IMPORTANT**
 - Previous script may be not compatible so please take care to update all the synchronized players with the same version of the script
 - Never use this script for other topic than screen wall (with only one video played by player) else unexpected bad side effects should be noticed
@@ -26,10 +26,10 @@
 #### **DOCUMENTATION**
 - Player synchronization - User guide (006C/EN) [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/player-synchronization/player-synchronization-application-note-006C_en.pdf)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2016-06-01` V1.10.12 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/player-synchronization/xpfSyncManager-V1.10.12.js)
+## `2016-06-01` V1.10.12 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/player-synchronization/xpfSyncManager-V1.10.12.js)
 >##### **IMPORTANT**
 - Previous script may be not compatible so please take care to update all the synchronized players with the same version of the script
 - Never use this script for other topic than screen wall (with only one video played by player) else unexpected bad side effects should be noticed
@@ -37,7 +37,7 @@
 - Change: do not support playfolder/container anymore (because not accurate enough at video loopback)
 - Fix: At loopback, the video media could restart with an random unexpected delay (now when played infinitely, video end/restart event management is completely bypassed)
 
-##`2016-03-17` V1.10.11 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/player-synchronization/xpfSyncManager-V1.10.11.js)
+## `2016-03-17` V1.10.11 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/player-synchronization/xpfSyncManager-V1.10.11.js)
 >##### **IMPORTANT**
 - Previous script may be not compatible so please take care to update all the synchronized players with the same version of script
 - Never use this script for other topic else important unexpected side effects should be noticed
@@ -51,7 +51,7 @@
 - Note: PlugnCast G2 opt-out is not supported (unexpected black screen side effect noticed when using several multimedia sequences)
 - Note: In case several medias exist in a playfolder, the script is able to restart the media currently played but the player synchronization is not warrantied
 
-##`2016-02-03` V1.10.10 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/player-synchronization/xpfSyncManager-V1.10.10.js)
+## `2016-02-03` V1.10.10 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/player-synchronization/xpfSyncManager-V1.10.10.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 	- the script is able to restart a video media (played infinitely)

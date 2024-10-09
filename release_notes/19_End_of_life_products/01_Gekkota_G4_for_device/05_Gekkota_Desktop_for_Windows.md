@@ -3,7 +3,7 @@
 
 *Gekkota Desktop G4 is a product allowing to open Web interfaces supporting Flash technology.*
 
-##`2020-10-29` V4.13.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-desktop/gekkota_desktop-nt_ia32-setup-4.13.13.exe)
+## `2020-10-29` V4.13.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-desktop/gekkota_desktop-nt_ia32-setup-4.13.13.exe)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **COMPATIBILITIES**
@@ -47,6 +47,6 @@ URL encoder example: [https://www.urlencoder.org/](https://www.urlencoder.org/):
 
 **Warning**: do not insert unexpected unvisible character like `space` or `carriage return` character at the beginning or at the end of the URL to encode else the encoded login credentials will be wrong
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 

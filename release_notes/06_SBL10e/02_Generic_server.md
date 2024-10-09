@@ -3,7 +3,7 @@
 
 The *generic_server* application periodically connects to a custom data source server to retrieve and display the appropriate light state and colour.
 
-##`2023-06-22` V1.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/generic_server/V1.12.10/bm0032_generic_server-sbl10e-setup-1.12.10.bin)
+## `2023-06-22` V1.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/generic_server/V1.12.10/bm0032_generic_server-sbl10e-setup-1.12.10.bin)
 >##### **IMPORTANT**
 - Change: does support the *discover* command from only Qether V1.12.10 (and above)
 - Change: does support the *configure* command from only Qether V1.12.10 (and above)
@@ -31,10 +31,10 @@ User manual 1.12.10~002A_en [download](https://github.com/Qeedji/archives/blob/m
 #### **CONFIGURATION SCRIPT TEMPLATE**
 `000000000000.js` template 004A for `generic_server` V1.12.10 (or above) [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/generic_server/V1.12.10/configuration-script-template/000000000000.js)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2022-05-20` V1.11.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/generic_server/V1.11.13/bm0032_generic_server-sbl10e-setup-1.11.13.bin)
+## `2022-05-20` V1.11.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/generic_server/V1.11.13/bm0032_generic_server-sbl10e-setup-1.11.13.bin)
 >##### **IMPORTANT**
 - Change: does support the *discover* command from only Qether V1.12.10 (and above)
 - Change: does support the *configure* command from only Qether V1.12.10 (and above)
@@ -42,14 +42,14 @@ User manual 1.12.10~002A_en [download](https://github.com/Qeedji/archives/blob/m
 - Fix: proxy server was not working anymore
 - Fix: in case using a proxy server, the domain value was transmitted already resolved to the proxy server
 
-##`2022-05-13` V1.11.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/generic_server/V1.11.12/bm0032_generic_server-sbl10e-setup-1.11.12.bin)
+## `2022-05-13` V1.11.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/generic_server/V1.11.12/bm0032_generic_server-sbl10e-setup-1.11.12.bin)
 >##### **IMPORTANT**
 - Change: do not support the *discover* command from Qether V1.11.13 (and below)
 - Change: do not support the *configure* command from Qether V1.11.13 (and below)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: some HTTP error code values returned by the remote server could prevent the application to work properly definitively. The restoration of the application software by Qether was not possible
 
-##`2022-01-11` V1.11.11
+## `2022-01-11` V1.11.11
 >##### **IMPORTANT**
 - Change: do not support the *discover* command from Qether V1.11.13 (and below)
 - Change: do not support the *configure* command from Qether V1.11.13 (and below)
@@ -63,7 +63,7 @@ User manual 1.12.10~002A_en [download](https://github.com/Qeedji/archives/blob/m
 - Add support for the *system.tftp.enable* user preference
 - Fix: in some case, in case the device had a static IP address and DNS servers was found automatically, the device network access was down until the timeout for the connexion attempts to the DHCP server had expired
 
-##`2021-10-08` V1.11.10
+## `2021-10-08` V1.11.10
 >##### **IMPORTANT**
 - Change: do not support anymore the *discover* command from Qether V1.11.13 (and below)
 - Change: do not support anymore the *configure* command from Qether V1.11.13 (and below)
@@ -73,7 +73,7 @@ User manual 1.12.10~002A_en [download](https://github.com/Qeedji/archives/blob/m
 - SBL10e device
 - Qether 1.12.10 (or above)
 
-##`2021-10-01` V1.10.15
+## `2021-10-01` V1.10.15
 >##### **IMPORTANT**
 - Change: do not support anymore the *discover* command from Qether V1.11.13 (and below)
 - Change: do not support anymore the *configure* command from Qether V1.11.13 (and below)
@@ -113,14 +113,14 @@ User manual 1.12.10~002A_en [download](https://github.com/Qeedji/archives/blob/m
 >#### **PREFS.JSON EXAMPLE**
 `prefs.json` example for `generic_server` [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/generic_server/V1.10.15/prefs-json-example/prefs.json)
 
-##`2021-09-09` V1.10.14
+## `2021-09-09` V1.10.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: the minimal value for *Heartbeat* is 2 seconds instead of 10 seconds
 >##### **COMPATIBILITIES**
 - SBL10e device
 - Qether 1.11.13 (or above)
 
-##`2021-09-07` V1.10.13
+## `2021-09-07` V1.10.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **COMPATIBILITIES**

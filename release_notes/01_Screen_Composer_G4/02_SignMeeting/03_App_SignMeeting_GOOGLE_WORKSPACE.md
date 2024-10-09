@@ -1,7 +1,7 @@
 # SignMeeting Google Workspace
 *RELEASE NOTE*
 
-##`2023-04-19` V2.12.11 [download](app-signmeeting-google-workspace/signmeeting_google_workspace-screen_composer-addin-2.12.11.appi){.auth-downloads} 
+## `2023-04-19` V2.12.11 [download](app-signmeeting-google-workspace/signmeeting_google_workspace-screen_composer-addin-2.12.11.appi){.auth-downloads} 
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *Gekkota 5*
 - Add support for PDF media or MS-PowerPoint media as screen saver
@@ -85,17 +85,17 @@ In some rare case, after a reboot or after a screen composer publication, the ev
 #### **MIGRATION**
 - Migration from SignMeeting 1.13.11 to SignMeeting 2.yy.zz is not supported
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2022-08-22` V2.11.12 [download](app-signmeeting-google-workspace/signmeeting_google_workspace-screen_composer-addin-2.11.12.appi){.auth-downloads} 
+## `2022-08-22` V2.11.12 [download](app-signmeeting-google-workspace/signmeeting_google_workspace-screen_composer-addin-2.11.12.appi){.auth-downloads} 
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for `AQS` for AMP300 media players
 - Fix: the event, taking place across several days, was not displayed the day before the last day when the end time was lower than the start time
 - Fix: the event, taking place across several days, was not displayed if the event start date was more than one month ago
 - Fix: the event was not displayed some specific days for the event taking place across several months   
 
-##`2022-05-18` V2.11.11 [download](app-signmeeting-google-workspace/signmeeting_google_workspace-screen_composer-addin-2.11.11.appi){.auth-downloads} 
+## `2022-05-18` V2.11.11 [download](app-signmeeting-google-workspace/signmeeting_google_workspace-screen_composer-addin-2.11.11.appi){.auth-downloads} 
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - Migration from SignMeeting 1.13.11 to SignMeeting 2.11.zz is not yet supported
@@ -124,7 +124,7 @@ In some rare case, after a reboot or after a screen composer publication, the ev
 - Fix: a same meeting spread in two rooms resource located in two different buildings could not be displayed for each room calendar
 - Fix: in some case, after a publication or after a device reboot, some of the events could be not displayed until the next automatic refresh
 
-##`2022-02-04` V2.11.10 [download](app-signmeeting-google-workspace/signmeeting_google_workspace-screen_composer-addin-2.11.10.appi){.auth-downloads} 
+## `2022-02-04` V2.11.10 [download](app-signmeeting-google-workspace/signmeeting_google_workspace-screen_composer-addin-2.11.10.appi){.auth-downloads} 
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - Migration from SignMeeting 1.13.11 to SignMeeting 2.11.zz is not yet supported

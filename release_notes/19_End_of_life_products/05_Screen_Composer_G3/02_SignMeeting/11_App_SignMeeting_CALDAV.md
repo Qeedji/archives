@@ -1,7 +1,7 @@
 # SignMeeting CALDAV
 *RELEASE NOTE*
 
-##`2016-06-13` V1.12.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-caldav/signmeeting_caldav-screen_composer-setup-1.12.19.appi)
+## `2016-06-13` V1.12.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-caldav/signmeeting_caldav-screen_composer-setup-1.12.19.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of vizualization of meeting scheduled accross several days, or all day long
 	- Note: In this case, SignMeeting is splitting the meeting accross several days as much as there is day to display the meeting from *working day start time* to *working day end time*.
@@ -127,10 +127,10 @@
 		- enter ```cusClass1``` in *device/edit/CSS class* field
 - Add the required media *./images/diagonal3.png* in Screen Composer manifest (*medias* tab)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2016-04-26` V1.12.18 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-caldav/signmeeting_caldav-screen_composer-setup-1.12.18.appi)
+## `2016-04-26` V1.12.18 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-caldav/signmeeting_caldav-screen_composer-setup-1.12.18.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of Sogo calendar system (with attachments)
 - Add support conflict detection by managing *busy*/*free* status (Sogo)
@@ -142,7 +142,7 @@
 	- Room ID was not properly managed in CalDAV (Kerio calendar system)
 	- Room was not automatically added in attendees list (Kerio Calendar system)
 
-##`2016-03-20` V1.12.17
+## `2016-03-20` V1.12.17
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 	- for Kerio-connect (limited version)

@@ -3,7 +3,7 @@
 #### **SUMMARY**
 - The goal of this documentation is to describe the device WebUI interface in order to configure your properly your device
 
-##`2017-10-19` (last update)
+## `2017-10-19` (last update)
 
 #INFORMATION
 ***********************************************************************

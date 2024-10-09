@@ -3,7 +3,7 @@
 
 *Never make electric unplug on your device while firmware upgrade is in progress else the device may not be able to work properly*
 
-##`2024-10-08` V9.11.10_beta10 [download](tab10/aosp-tab10-setup-9.11.10_beta10.fqs){.free-downloads}
+## `2024-10-08` V9.11.10_beta10 [download](tab10/aosp-tab10-setup-9.11.10_beta10.fqs){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *Retrieve tasks to be executed from a http(s) server* section in the *Servers* pane of the *Configuration* menu of the device configuration Web user interface to self-administrate the device from a remote server
 - Change: embed these built-in Apps:
@@ -73,10 +73,10 @@ The debug mode is deactivated by default
 #### **ISO FILE FOR FACTORY RECOVERY**
 To get the `aosp-tab10-setup-9.10.19.iso` [download](https://github.com/Qeedji/aosp-TAB10s-sdk/tree/master/bin) file for factory recovery
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2024-06-01` V9.10.20 [download](tab10/aosp-tab10-setup-9.10.20.fqs){.free-downloads}
+## `2024-06-01` V9.10.20 [download](tab10/aosp-tab10-setup-9.10.20.fqs){.free-downloads}
 >##### **NOTE**
 - After having upgraded the firmware version, in case an older version of URL launcher had been installed by the end user, it is advised to remove this older version of URL launcher 
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -84,14 +84,14 @@ To get the `aosp-tab10-setup-9.10.19.iso` [download](https://github.com/Qeedji/a
 - Fix: the `*` character was not supported in the *No proxy for* input (e.g. *.qeedji.tech) in the *LAN_1* pane or in the *WLAN_1* pane of the *Configuration* menu in the device configuration Web user interface  
 - Fix: after a scheduled device restart, in some cases, the App could stop running, displaying *no content*
  
-##`2024-03-27` V9.10.19 [download](tab10/aosp-tab10-setup-9.10.19.fqs){.free-downloads}
+## `2024-03-27` V9.10.19 [download](tab10/aosp-tab10-setup-9.10.19.fqs){.free-downloads}
 >##### **NOTE**
 - After having upgraded the firmware version, in case an older version of URL launcher had been installed by the end user, it is advised to remove this older version of URL launcher 
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: embed URL_launcher 1.10.19
 - Fix: the specific .p12 certificates having no password for some specific part of the certificate could not be installed in the *802.1X certificates* section of the *Certificates* pane of the *Configuration* menu in the device configuration Web user interface
 
-##`2024-01-18` V9.10.18 [download](tab10/aosp-tab10-setup-9.10.18.fqs){.free-downloads} 
+## `2024-01-18` V9.10.18 [download](tab10/aosp-tab10-setup-9.10.18.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -100,7 +100,7 @@ For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. Fo
 - Change: embed *URL Launcher* 1.10.18
 - Fix: in some case, the playback of the video media having no audio track could not start at all or could freeze on the first image of the video media
 
-##`2023-12-20` V9.10.17 [download](tab10/aosp-tab10-setup-9.10.17.fqs){.free-downloads} 
+## `2023-12-20` V9.10.17 [download](tab10/aosp-tab10-setup-9.10.17.fqs){.free-downloads} 
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *Power BI Online Viewer* 1.10.10 built-in App
 - Add support these two device models value in the *Device* pane of the *Information* menu in the device configuration Web interface 
@@ -113,7 +113,7 @@ For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. Fo
 - Fix: the audio volume was staying to 6% after a device start-up when the reboot task happened within a power manager task
 - Fix: in some rare cases, the device could not start
 
-##`2023-09-28` V9.10.16 [download](tab10/aosp-tab10-setup-9.10.16.fqs){.free-downloads} 
+## `2023-09-28` V9.10.16 [download](tab10/aosp-tab10-setup-9.10.16.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -123,7 +123,7 @@ For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. Fo
 - Change: embed the *Media Folder Injector* App V1.10.10 vendor App in the table of installed APK in the *Apps* menu of the *Configuration* tab in the device configuration Web user interface
 - Change: embed the *URL launcher* App V1.10.16 vendor App in the table of installed APK in the *Apps* menu of the *Configuration* tab in the device configuration Web user interface
 
-##`2023-07-06` V9.10.15 [download](tab10/aosp-tab10-setup-9.10.15.fqs){.free-downloads} 
+## `2023-07-06` V9.10.15 [download](tab10/aosp-tab10-setup-9.10.15.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -134,7 +134,7 @@ For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. Fo
 - Add support for *Gallery* App in the Android App view
 - Fix: in some rare case, the AOSP middleware could not start anymore and was displaying this surround light error code: 5 consecutive short green flashes of 300 ms, periodic in alternance with 4 seconds Off
 
-##`2023-04-03` V9.10.14 [download](tab10/aosp-tab10-setup-9.10.14.fqs){.free-downloads} 
+## `2023-04-03` V9.10.14 [download](tab10/aosp-tab10-setup-9.10.14.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -163,13 +163,13 @@ For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. Fo
 - Fix: in some case, some pages of some PDF medias were drawn too slowly
 - Fix: the pictogram of the RFID tag App was not rendered properly
 
-##`2023-02-07` V9.10.13 [download](tab10/aosp-tab10-setup-9.10.13.fqs){.free-downloads} 
+## `2023-02-07` V9.10.13 [download](tab10/aosp-tab10-setup-9.10.13.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: in some cases, when using an *USB-C to Jack 3.5* adapter, the level of the *volume of multimedia contents* in the *Output* pane of the *Configuration* menu in the device configuration Web user interface could be reset to 20% causing a weak audio volume on the *Jack 3.5* connector
 
-##`2023-01-24` V9.10.12 [download](tab10/aosp-tab10-setup-9.10.12.fqs){.free-downloads} 
+## `2023-01-24` V9.10.12 [download](tab10/aosp-tab10-setup-9.10.12.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -192,7 +192,7 @@ For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. Fo
 - Fix: the Bluetooth was activated without the user consent when pressing on the *Bluetooth address* item of the *About tablet* menu in the Android *Settings* menu 
 - Fix: in the *Administration* pane of the *Configuration* tab in the device configuration Web user interface, the credential name with dot characters could not persist after reboot
 
-##`2022-12-02` V9.10.11 [download](tab10/aosp-tab10-setup-9.10.11.fqs){.free-downloads} 
+## `2022-12-02` V9.10.11 [download](tab10/aosp-tab10-setup-9.10.11.fqs){.free-downloads} 
 >##### **IMPORTANT**
 Before the V9.10.10 `AQS` version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -208,7 +208,7 @@ Before the V9.10.10 `AQS` version, the *LAN_1* interface had priority over *WLAN
 	- deactivateApp()
 - Fix: the video and audio medias embedded inside MS-PowerPoint medias (.pptx, .ppsx) were not played   
 
-##`2022-10-21` V9.10.10 [download](tab10/aosp-tab10-setup-9.10.10.fqs){.free-downloads} 
+## `2022-10-21` V9.10.10 [download](tab10/aosp-tab10-setup-9.10.10.fqs){.free-downloads} 
 >##### **IMPORTANT**
 Before V9.10.10, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -314,7 +314,7 @@ Before V9.10.10, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.
     - in some rotation, the linear gradient was not supported properly for not rectangle shapes 
     - some background resulting on the group of shapes could be not displayed properly
 
-##`2022-08-19` V9.10.10 beta11  
+## `2022-08-19` V9.10.10 beta11  
 >##### **IMPORTANT**
 It is recommended to use `AQS` V9.10.10 beta11 (or above version). Consequently, all the previous downloading links to lower versions have been removed.
 The firmware is now delivered with the *.fqs* file extension, which is supported by the `AQS` (`AOSP Qeedji System`) 9.10.10_beta7 (or above).   
@@ -334,7 +334,7 @@ The firmware is now delivered with the *.fqs* file extension, which is supported
 	- system_button 1.11.10 (and above)
 - Fix: in some rare case, the device could not respond anymore requiring an electrical unplug/replug   
 
-##`2022-06-16` V9.10.10 beta10    
+## `2022-06-16` V9.10.10 beta10    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for LAN proxy configuration
 	- manual
@@ -345,7 +345,7 @@ The firmware is now delivered with the *.fqs* file extension, which is supported
 - Add support for MS-PowerPoint medias in WebView  
 - Add support for date setting without NTP server
  
-##`2021-11-10` V9.10.10 beta9    
+## `2021-11-10` V9.10.10 beta9    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new information display in the *Settings* Android App     
     - in the new ```About tablet > Ethernet MAC address``` screen   
@@ -403,7 +403,7 @@ The firmware is now delivered with the *.fqs* file extension, which is supported
 - NAPOE109ku 1.10.12
 - NAPOE109kt 1.10.12
 
-##`2021-04-07` V9.10.10 beta8    
+## `2021-04-07` V9.10.10 beta8    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for manual configuration for LAN interface
 	- static IP address
@@ -424,7 +424,7 @@ The firmware is now delivered with the *.fqs* file extension, which is supported
 - Fix: an unexpected AOSP pop up could be displayed above the App screen content while the user has not pressed on its `GOT IT` button  
 	- *Viewing full screen, to exit swipe down to the top, GOT IT*
 
-##`2021-03-16` V9.10.10 beta7 [download](tab10/aosp-tab10-setup-9.10.10_beta7.zip){.free-downloads}   
+## `2021-03-16` V9.10.10 beta7 [download](tab10/aosp-tab10-setup-9.10.10_beta7.zip){.free-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for a WebDAV server
 	- WebDAV directories
@@ -438,7 +438,7 @@ The firmware is now delivered with the *.fqs* file extension, which is supported
 - Change: new an APK can be installed again when its version has been incremented
 - Fix: when the TAB10s was starting after few days, the TAB10s could not store properly the date and time information after a reboot and the WIFI could not work
 
-##`2020-11-24` V9.10.10 beta6    
+## `2020-11-24` V9.10.10 beta6    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the possibility to share APK preferences so that they can be read or written:
     - with a configuration script or 
@@ -455,7 +455,7 @@ The firmware is now delivered with the *.fqs* file extension, which is supported
 - Change: now the APK with HTML interface using *Android WebView* can be executed with system rights 
 - Change: upgrade Chromium Web engine from 66.0 to 83.0 (October 2020)
 
-##`2020-10-19` V9.10.10 beta5    
+## `2020-10-19` V9.10.10 beta5    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *getColor()* method in the *SurroundLight* class
 - Change the name for some debug preferences
@@ -463,7 +463,7 @@ The firmware is now delivered with the *.fqs* file extension, which is supported
 - Fix: the Ethernet could not work when connecting a specific PoE to USB-C adapter 
 - Fix: the device was rebooting when connecting some specific USB-C hubs with Ethernet to USB bridge
 
-##`2020-10-02` V9.10.10 beta4    
+## `2020-10-02` V9.10.10 beta4    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for Russian language
 - Change: when inserting an USB storage device, the device is rebooting once after APKs installation	
@@ -472,7 +472,7 @@ The firmware is now delivered with the *.fqs* file extension, which is supported
 - Fix: it was not possible to add 802.1x certificate without activating the screen lock with PIN code or locking scheme   
 - Fix: the device could not stop rebooting when using some specific USB-C power supply 
 
-##`2020-09-16` V9.10.10 beta3    
+## `2020-09-16` V9.10.10 beta3    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version embedding:
 	- `Qeedji System` service supporting:  

@@ -1,7 +1,7 @@
 # Configuration by script
 *RELEASE NOTE*
 
-##`2024-10-08` V1.10.23 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.23/000000000000.js){.free-downloads}
+## `2024-10-08` V1.10.23 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.23/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for these new functions
 	- enableHttpsTasksManager()
@@ -21,10 +21,10 @@
 #### **DOCUMENTATION**  
 For further information, refer to the *TAB10s* and *AMP300* device user manual.
 		
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2023-07-06` V1.10.22 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.22/000000000000.js){.free-downloads}
+## `2023-07-06` V1.10.22 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.22/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for these new functions
 	- enableTestCardAppLaunchingWithKeySequence() 
@@ -45,7 +45,7 @@ For further information, refer to the *TAB10s* and *AMP300* device user manual.
 	- setAVCommandBrightnessLevelForHighlyOptimizedProfilePowerManagerTask()
 	- setAVCommandBrightnessLevelForNominalMode()
 
-##`2023-04-03` V1.10.21 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.21/000000000000.js){.free-downloads}
+## `2023-04-03` V1.10.21 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.21/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for these new functions
 	- setRebootCalendar()
@@ -55,7 +55,7 @@ For further information, refer to the *TAB10s* and *AMP300* device user manual.
 	- setPreferencesPowerManagerProfileVeryHighOptimized()
 	- setPreferencesPowerManagerProfileHighOptimized()
 
-##`2023-01-24` V1.10.20 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.20/000000000000.js){.free-downloads}
+## `2023-01-24` V1.10.20 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.20/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for these new functions
 	- enableTestCardAppLaunching()
@@ -82,7 +82,7 @@ For further information, refer to the *TAB10s* and *AMP300* device user manual.
 - Fix: the setHostname() function was not forcing the hostname set by the user
 - Fix: the clearHostname() function was not unforcing the hostname set by the user
 
-##`2022-12-02` V1.10.19 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.19/000000000000.js){.free-downloads}
+## `2022-12-02` V1.10.19 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.19/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for these new functions to handle App installed in the `AQS` desktop
 	- eraseAllApps()
@@ -90,7 +90,7 @@ For further information, refer to the *TAB10s* and *AMP300* device user manual.
 	- activateApp()
 	- deactivateApp()
 
-##`2022-10-21` V1.10.18 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.18/000000000000.js){.free-downloads}
+## `2022-10-21` V1.10.18 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.18/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for checkCompatibility() function of the beginning at the file to prevent the script to be executed on others device than *AQS* operating system
 - Add support for getPlatform() function
@@ -143,7 +143,7 @@ For further information, refer to the *TAB10s* and *AMP300* device user manual.
     - setWlanProxyPAC()
     - deleteWlanProxy()
 
-##`2022-08-19` V1.10.17 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.17/000000000000.js){.free-downloads}
+## `2022-08-19` V1.10.17 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.17/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for this new functions
 	- setAppAsSystemApp();
@@ -170,7 +170,7 @@ For further information, refer to the *TAB10s* and *AMP300* device user manual.
 - AOSP Qeedji System 9.10.10 beta3 (or above) for 
     - AMP300 device  
 
-##`2022-07-08` V1.10.16 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.16/000000000000.js){.free-downloads}
+## `2022-07-08` V1.10.16 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.16/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: English language is set by default in the *setSystemLocalLanguages* example
 - Add support for these new functions to configure Proxy server on LAN interface
@@ -192,7 +192,7 @@ For further information, refer to the *TAB10s* and *AMP300* device user manual.
 - AOSP Qeedji System 9.10.10 beta1 (or above) for 
     - AMP300 device  
   
-##`2021-11-10` V1.10.15 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.15/000000000000.js){.free-downloads}
+## `2021-11-10` V1.10.15 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.15/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new functions to configure the WLAN interface
     - setWlanByDhcp("SSID", false); 
@@ -251,7 +251,7 @@ For further information, refer to the *TAB10s* and *AMP300* device user manual.
 - AOSP firmware 9.10.10 beta9 (or above) for 
     - TAB10s device 
 
-##`2021-04-07` V1.10.14 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.14/000000000000.js){.free-downloads}
+## `2021-04-07` V1.10.14 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.14/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: the functions name to set the login credentials for the WebDAV server 
     - setWebserverNativeCredentialWebUIAdmin("admin", "admin");
@@ -274,7 +274,7 @@ For further information, refer to the *TAB10s* and *AMP300* device user manual.
 - AOSP firmware 9.10.10 beta8 (or above) for 
     - TAB10s device 
 
-##`2021-03-17` V1.10.13 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.13/000000000000.js){.free-downloads}
+## `2021-03-17` V1.10.13 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.13/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new functions to set the login credentials for the WebDAV server  
 	- setWebserverHttpPort("80");
@@ -299,7 +299,7 @@ For further information, refer to the *TAB10s* and *AMP300* device user manual.
 	- enableRfid125KHz(); 
 	- disableRfid125KHz();
 
-##`2020-10-19` V1.10.12 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.12/000000000000.js){.free-downloads}
+## `2020-10-19` V1.10.12 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.12/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the functions: 
 	- enableBluetooth();
@@ -315,7 +315,7 @@ For further information, refer to the *TAB10s* and *AMP300* device user manual.
 - AOSP firmware 9.10.10 beta5 (or above) for 
 	- TAB10s device 
 
-##`2020-09-16` V1.10.11 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.11/000000000000.js){.free-downloads}
+## `2020-09-16` V1.10.11 [Download](application-notes/aosp/configuration-by-script/delivery/V1.10.11/000000000000.js){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the functions:
 	- setDeviceModeNative();

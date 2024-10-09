@@ -1,7 +1,7 @@
 # Playzilla eLinux RMP200
 *RELEASE NOTE*
 
-##`2015-03-03` V2.50.73 [download](https://github.com/Qeedji/archives/blob/master/downloads/playzilla-g2-rmp200/playzilla-rmp200-setup-2.50.73.zip)
+## `2015-03-03` V2.50.73 [download](https://github.com/Qeedji/archives/blob/master/downloads/playzilla-g2-rmp200/playzilla-rmp200-setup-2.50.73.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix issue in calendar with "until" function (player was playing the event one day too much in configuration "0h to 0h" or "all day long")
 >##### **COMPATIBILITIES**
@@ -15,26 +15,26 @@
 - Getting started (FR) [download](https://github.com/Qeedji/archives/blob/master/downloads/playzilla-g2-rmp200/screen-composer-getting-started-manual-with-playzilla-eLinux-09A_fr.pdf)
 - Log activation (FR) [download](https://github.com/Qeedji/archives/blob/master/downloads/playzilla-g2-rmp200/Playzilla-log-activation-001A_en.pdf)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2014-09-01` V2.50.72
+## `2014-09-01` V2.50.72
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix a crash with an ics using 'TZID'
 - Fix a possible blocking situation linked to memory leak
 - Fix a very rare trouble in plugncast G2 mode : if the server is switched off, it can block the playzilla until its next reboot (red circle)
 
-##`2013-07-08` V2.50.70
+## `2013-07-08` V2.50.70
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix possible video stop playing in rebooting
 
-##`2012-09-24` V2.50.69
+## `2012-09-24` V2.50.69
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add Checkdisk during each boot. (The green led flashes quickly during checkdisk). DO NOT switch off the platform during that time
 - Remove telnet and ftp
 - Fix DHCP not working
 
-##`2011-07-05` V2.50.68
+## `2011-07-05` V2.50.68
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - RMP200 can't work anymore without sd-card. If sd-card fails, it plays nothing, but firmware release is still possible
 - Improve ntp
@@ -42,7 +42,7 @@
 - Fix a blocking when reading a very low size file
 - Fix potential internal blocking while parsing xml file
 
-##`2011-04-12` V2.50.65
+## `2011-04-12` V2.50.65
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Container with random : the same container can be used several times in the same scene, the random will be share between all containers
 - Fix a trouble with excluded dates in the calendar
@@ -50,12 +50,12 @@
 - Fix potential trouble with watchdog (never occured)
 - Fix video medias were not played when used inside a container
 
-##`2011-03-16` V2.50.63
+## `2011-03-16` V2.50.63
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix trouble which occurs when using MAFF archive (needed for MAFF templates)
 - Fix NTP adjust mode used to correct the low variation of time between the player and the NTP server
 
-##`2011-03-02` V2.50.62
+## `2011-03-02` V2.50.62
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add SAMSUNG resolutions
 - Correct audio volume
@@ -70,7 +70,7 @@
 - Fix start of certain videos which was shortened
 - Add rs232 commands
 
-##`2010-11-10` V2.50.50
+## `2010-11-10` V2.50.50
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for PlugnCast firmware downloader used in Studio
 - Player hostname is sent to DHCP server
@@ -83,7 +83,7 @@
 - Fix rare trouble with Studio, when status keeps blocked to "player.xpf 100%"
 - Fix pdf and MAFF support in containers
 
-##`2010-06-03` V2.50.27
+## `2010-06-03` V2.50.27
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add Text zone support, only fixed opaque text for the moment.
 - No scroll bars on HTML
@@ -102,7 +102,7 @@
 	hitachi_m1_on,hitachi_m1_off,hitachi_m1_hdmi,hitachi_m1_dvi-d :
 	sanyo_m1_on,sanyo_m1_off,sanyo_m1_hdmi```
 
-##`2010-05-26` V2.50.25
+## `2010-05-26` V2.50.25
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add 2.5G functionnalities (2.5 Generation) :
 	- SMIL3 standard, with intrinsic medias duration and xpath

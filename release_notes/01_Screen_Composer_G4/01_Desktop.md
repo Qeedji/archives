@@ -1,7 +1,7 @@
 # INNES Screen Composer G4
 *RELEASE NOTE*
 
-##`2024-09-27` V4.13.10 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.13.10.exe){.auth-downloads}
+## `2024-09-27` V4.13.10 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.13.10.exe){.auth-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for SLATE206 device adding with a WIS middleware                           
 >##### **KNOWN LIMITATIONS**
@@ -98,10 +98,10 @@ The supported languages are:
 - English,
 - German.
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2023-11-29` V4.12.10 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.12.10.exe){.auth-downloads}
+## `2023-11-29` V4.12.10 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.12.10.exe){.auth-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for preview of URI having *Simple Web server* services accounts with these different authentication ways:
     - *Domain/Identifier/Password for a basic authentication*
@@ -115,7 +115,7 @@ The supported languages are:
 - Fix: the synchronization of playfolder containing many files and using a services account could respond only thirty second after the files have been fetched on the disk
 - Fix: the launching of the preview of a playfolder containing many files and using a services account could take several minutes
                            
-##`2023-06-13` V4.11.14 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.11.14.exe){.auth-downloads}
+## `2023-06-13` V4.11.14 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.11.14.exe){.auth-downloads}
 >##### **IMPORTANT**
 A core license key is required to use `Screen Composer G4`.
 Projects migration from `Screen Composer G3` projects to `Screen Composer G4` projects is not yet supported.
@@ -130,7 +130,7 @@ Projects migration from `Screen Composer G3` projects to `Screen Composer G4` pr
 - Fix: the publication retrying in case publication failure was not working
 - Fix: in some case, the *App loading* popup was displayed infinitely preventing Screen Composer to the finalize the project opening        
 
-##`2023-04-04` V4.11.13 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.11.13.exe){.auth-downloads}
+## `2023-04-04` V4.11.13 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.11.13.exe){.auth-downloads}
 >##### **IMPORTANT**
 A core license key is required to use `Screen Composer G4`.
 Projects migration from `Screen Composer G3` projects to `Screen Composer G4` projects is not yet supported.
@@ -138,7 +138,7 @@ Projects migration from `Screen Composer G3` projects to `Screen Composer G4` pr
 - Add support for *services account* values drag'n drop from the *Services accounts* tab to the App form
 - Change: modify the label into the *Services account* pane from *Files/Folders, Directory, Contact, Calendar, Email, Web site* to *Files/Folders, Identity, Contact, Calendar, Email, Web site*
 
-##`2023-03-14` V4.11.12 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.11.12.exe){.auth-downloads}
+## `2023-03-14` V4.11.12 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.11.12.exe){.auth-downloads}
 >##### **IMPORTANT**
 A core license key is required to use `Screen Composer G4`.
 Projects migration from `Screen Composer G3` projects to `Screen Composer G4` projects is not yet supported.
@@ -148,7 +148,7 @@ Projects migration from `Screen Composer G3` projects to `Screen Composer G4` pr
 	- *SignWay*
 - Fix: the video inserted in the slidemaster template of MS-PowerPoint medias was not played
 
-##`2023-01-11` V4.11.11 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.11.11.exe){.auth-downloads}
+## `2023-01-11` V4.11.11 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.11.11.exe){.auth-downloads}
 >##### **IMPORTANT**
 A core license key is required to use `Screen Composer G4`.
 Projects migration from `Screen Composer G3` projects to `Screen Composer G4` projects is not yet supported.
@@ -196,7 +196,7 @@ Projects migration from `Screen Composer G3` projects to `Screen Composer G4` pr
 - Fix: the *custom* variable and *deviceInfo* variable could not work on Qeedji System AOSP device when inserted in playfolder with *Microsoft 365* or *CIFS* services accounts
 - Fix: it was possible to create a standby task with no selected day making that the other consistent standby tasks could not work
 
-##`2022-06-24` V4.11.10 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.11.10.exe){.auth-downloads}
+## `2022-06-24` V4.11.10 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.11.10.exe){.auth-downloads}
 >##### **IMPORTANT**
 A core license key is required to use `Screen Composer G4`.
 Projects migration from `Screen Composer G3` projects to `Screen Composer G4` projects is not yet supported.
@@ -225,7 +225,7 @@ Projects migration from `Screen Composer G3` projects to `Screen Composer G4` pr
 - Fix: after an import of xlsx file, containing a devices configuration, some devices could appear in doubloon in case the device MAC address value in upper case was set in the xlsx file 
 - Fix: in some case, the middleware upgrade could fail on AOSP device      
 
-##`2022-03-18` V4.10.12 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.10.12.exe){.auth-downloads}
+## `2022-03-18` V4.10.12 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.10.12.exe){.auth-downloads}
 >##### **IMPORTANT**
 A core license key is required to use `Screen Composer G4`.
 Projects migration from `Screen Composer G3` projects to `Screen Composer G4` projects is not yet supported.
@@ -281,7 +281,7 @@ Projects migration from `Screen Composer G3` projects to `Screen Composer G4` pr
 - Fix: add support for .svg drag'n drop in content model forms
 - Fix: the App content generated on an USB storage device after a publication order done on a directory was not compatible with Gekkota 3 devices    
 
-##`2021-12-09` V4.10.11 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.10.11.exe){.auth-downloads}
+## `2021-12-09` V4.10.11 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.10.11.exe){.auth-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the *license e-mail* value was not supporting identifier having letters in uppercase, numbers or special characters 
 >##### **KNOWN LIMITATIONS**
@@ -294,7 +294,7 @@ Projects migration from `Screen Composer G3` projects to `Screen Composer G4` pr
 - Not supported:
     - preview of these video/audio containers: .asf, .wmv, .vob, .mpg, .mpeg, .m2v, .avi, .ts, .wma
 
-##`2021-11-30` V4.10.10 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.10.10.exe){.auth-downloads}
+## `2021-11-30` V4.10.10 [download nt-ia32](screen-composer-g4/screen_composer-nt_ia32-setup-4.10.10.exe){.auth-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for `SignCom` App
 - Add support for button to install URI models pack (.zip) and content models pack (.zip) for Screen Composer G4 
@@ -304,7 +304,7 @@ Projects migration from `Screen Composer G3` projects to `Screen Composer G4` pr
 - Change: update the list of embedded trusted root certificates
 - Fix: in some cases, when the *Open the last project* option was checked, the last project was not opened automatically
 
-##`2021-06-25` V4.10.10 beta16
+## `2021-06-25` V4.10.10 beta16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for SignMeeting M365 licenses format
 - Add support for the new *demo licenses* format for SignMeeting 2.10.10 (and above)
@@ -314,7 +314,7 @@ Projects migration from `Screen Composer G3` projects to `Screen Composer G4` pr
 - Fix: the device port is automatically detected when a device is added to the project from a device discovery
 - Fix: in some case, the UPnP discovery could return an empty device list even if some device was available on the network
 
-##`2021-05-21` V4.10.10 beta12
+## `2021-05-21` V4.10.10 beta12
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: in some case, some resource associated to devices could be not displayed  
 - Fix: in some case, the CSS file content could appear empty
@@ -323,7 +323,7 @@ Projects migration from `Screen Composer G3` projects to `Screen Composer G4` pr
 - Fix: a *please wait* message was displayed when saving a content model instance having a picture whose size is upper than 1 MB  
 - Fix: on some MS-Windows computer, the application could close itself when importing a media or when going in the settings menu to import licenses    
 
-##`2021-04-06` V4.10.10 beta7 
+## `2021-04-06` V4.10.10 beta7 
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version supporting a Web engine based on Mozilla 47
 	- SignMeeting EWS 2.10.10

@@ -1,7 +1,7 @@
 # GRR CALENDAR
 *RELEASE NOTE*
 
-##`2012-11-14` V1.10.11 [download](applets/pcs-wa-grr-V1.10.16/grr-calendar-V1.10.11/grr-calendar-V1.10.11.saz){.auth-downloads}   
+## `2012-11-14` V1.10.11 [download](applets/pcs-wa-grr-V1.10.16/grr-calendar-V1.10.11/grr-calendar-V1.10.11.saz){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **COMPATIBILITIES**
@@ -17,5 +17,5 @@
 - DLL MySqli [download](applets/pcs-wa-grr-V1.10.16/grr-calendar-V1.10.11/php_ext/php_mysqli.zip){.auth-downloads}
 - Examples and documentation [download](applets/pcs-wa-grr-V1.10.16/models-V3.10.16/examples-and-documentation.zip){.auth-downloads}  
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************  

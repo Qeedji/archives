@@ -9,7 +9,7 @@
 
 *Never make electric unplug on your player while software upgrade is in progress (green led blinking 6 times every 4 seconds) else the player may not be able to work properly*
 
-##`2023-11-29` V5.12.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-5.12.11)
+## `2023-11-29` V5.12.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-5.12.11)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the *Identifier/password for a Web page form* authentication for the *Simple Web server* mode in the *URL launcher* App form of the *App* pane in the *Configuration* menu of the device configuration Web user interface
 - Add support for the *identifier* and *password* fields self-filling and self-validation for Web page form in some condition
@@ -64,10 +64,10 @@
     - OLE injection (MS objects)
     - Slide hiding
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2023-09-05` V5.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-5.12.10.zip)
+## `2023-09-05` V5.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-5.12.10.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for swap disk feature
 	- Add support for *Enable Virtual memory on this partition* checkbox in the *Tools* pane of the *Maintenance* tab of the device Web user interface allowing to activate swap disk feature
@@ -76,7 +76,7 @@
 - Fix: in some case, the URL launcher App could return an error message *Content temporarily unavailable (code 4)* when playing some images located in Web site sub directories
 - Fix: the unsigned CA certificates was not supported
 
-##`2023-04-19` V5.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-5.11.10.zip)
+## `2023-04-19` V5.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-5.11.10.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *URL launcher* App form of the *App* pane in the *Configuration* menu of the device configuration Web user interface
     - *Simple Web server*
@@ -97,7 +97,7 @@
 - Fix: it was possible to create a standby task with no recurring day
 - Fix: in some cases, when navigating with the Web user interface, the user could fall on the `http://<ip_address>/.playout/` page instead of falling on the applicative `http://<ip_address>/.admin/#/` Web page
 
-##`2023-02-01` V5.10.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-5.10.11.zip)
+## `2023-02-01` V5.10.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-5.10.11.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: the default value for the *innes.image.max_size* preference is now 4096 px
 - Fix: the UDP stream playback could stop after a couple of seconds with some specific streamer configuration
@@ -119,7 +119,7 @@
 - Fix: with some specific output resolutions, the *STATE: up* or *STATE: down* information could be not displayed in the test pattern
 
 
-##`2022-12-19` V5.10.10
+## `2022-12-19` V5.10.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - initial version
 >##### **IMPROVEMENTS BETWEEN GEKKOTA 3 AND GEKKOTA 5**

@@ -1,7 +1,7 @@
 # PictureFrame
 *RELEASE NOTE*
 
-##`2020-01-18` PictureFrame V1.11.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/pictureframe-slate106-setup-1.11.11.rpk)
+## `2020-01-18` PictureFrame V1.11.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/pictureframe-slate106-setup-1.11.11.rpk)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for SAP10e device
 - Add support *Restore factory preferences* button in the APPLI.HTA HTML application
@@ -40,10 +40,10 @@
 #### **DOCUMENTATION**
 - User manual (1.11.11~003A/EN) [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/slate106-user_manual-1.11.11~003A_en.pdf)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2019-06-27` PictureFrame V1.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/pictureframe-slate106-setup-1.11.10.rpk)
+## `2019-06-27` PictureFrame V1.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/pictureframe-slate106-setup-1.11.10.rpk)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for wake-up by vibration
 - Add support for `Message Overlay`
@@ -65,7 +65,7 @@
 - The file system robustness has been improved in the firmware revision V1.11.10
 - Fix: in some rare case, the SLATE106 could stay in sleep mode forever (with firmware revision V1.10.11 or below)
 
-##`2018-02-20` PictureFrame V1.10.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/pictureframe-slate106-setup-1.10.13.rpk)
+## `2018-02-20` PictureFrame V1.10.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/pictureframe-slate106-setup-1.10.13.rpk)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for working schedule policy
     - when the date is higher than 1st January 2017
@@ -82,7 +82,7 @@
 - Fix: after a file system format, the picture content could never be displayed (SMH300 configuration)
 - Fix: when power bank was plugged at boot-up, the image content update could not be done
 
-##`2017-10-12` PictureFrame V1.10.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/pictureframe-slate106-setup-1.10.12.rpk)
+## `2017-10-12` PictureFrame V1.10.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/pictureframe-slate106-setup-1.10.12.rpk)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for test card
 	- display the image *testcard.ppk*
@@ -92,12 +92,12 @@
 - Fix: files property *time* and *date* was not properly managed
 - Fix: after a new configuration (new hub association), the image was only displayed after two consecutive connections to the hub
 
-##`2017-09-15` PictureFrame V1.10.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/pictureframe-slate106-setup-1.10.11.rpk)
+## `2017-09-15` PictureFrame V1.10.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/pictureframe-slate106-setup-1.10.11.rpk)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: power consumption was too high in standby mode
 - Fix: slate106 device was blocked after an USB ejection launched from MS-Windows Desktop Task bar
 
-##`2017-07-17` PictureFrame V1.10.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/pictureframe-slate106-setup-1.10.10.rpk)
+## `2017-07-17` PictureFrame V1.10.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/slate106/pictureframe/pictureframe-slate106-setup-1.10.10.rpk)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for authentication with PIN code
 	 -pf.cfg

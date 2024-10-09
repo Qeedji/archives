@@ -1,6 +1,6 @@
 # App SignCom for Screen Composer G4 
 
-##`2024-10-09` V1.14.10 [download](app-signcom/signcom-screen_composer-addin-1.14.10.appi){.auth-downloads}
+## `2024-10-09` V1.14.10 [download](app-signcom/signcom-screen_composer-addin-1.14.10.appi){.auth-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for HTML widget with overlay for AOSP device 
 >##### **COMPATIBILITIES**
@@ -77,10 +77,10 @@ For further information, check the list of supported medias on your device in th
 
 &sup2; For further information, contact *support@innes.pro*
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2023-11-30` V1.13.10 [download](app-signcom/signcom-screen_composer-addin-1.13.10.appi){.auth-downloads}
+## `2023-11-30` V1.13.10 [download](app-signcom/signcom-screen_composer-addin-1.13.10.appi){.auth-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the *Simple web server* services accounts in URI
 	- *domain/identifier/password for a basic authentication*
@@ -113,7 +113,7 @@ For further information, check the list of supported medias on your device in th
 - Gekkota RT V3.12.59 (or above)
     - for MS-Windows PC
 	
-##`2023-01-10` V1.12.10 [download](app-signcom/signcom-screen_composer-addin-1.12.10.appi){.auth-downloads}
+## `2023-01-10` V1.12.10 [download](app-signcom/signcom-screen_composer-addin-1.12.10.appi){.auth-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support, for Qeedji System AOSP 9 devices, for *Microsoft 365* and *CIFS* services accounts  
 - Add support, for Qeedji System AOSP 9 devices, for *deviceInfo* variable type and *deviceInfo* variable type in URL of playfolders that are using *Microsoft 365* and *CIFS* services accounts
@@ -126,18 +126,18 @@ For further information, check the list of supported medias on your device in th
 - Fix: in some case, the selected value for the *transition between medias* field of the *Create a region* pane could be hidden by the *transition between medias* list
 - Fix: on Qeedji System AOSP 9 devices, in some case, the font style of widgets based on content models was not rendered
 
-##`2022-08-19` V1.11.12 [download](app-signcom/signcom-screencomposer-setup-1.11.12.appi){.auth-downloads}
+## `2022-08-19` V1.11.12 [download](app-signcom/signcom-screencomposer-setup-1.11.12.appi){.auth-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: in some case, the reboot task was not effective on AQS devices
 - Fix: in some case, the standby task was not effective on AQS devices
 
-##`2022-08-02` V1.11.11 [download](app-signcom/signcom-screencomposer-setup-1.11.11.appi){.auth-downloads}
+## `2022-08-02` V1.11.11 [download](app-signcom/signcom-screencomposer-setup-1.11.11.appi){.auth-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the code of the index.html file embedded in the widget based on content models could be displayed in overlay on AQS devices when the widget was hosted in a folder containing special characters  
 - Fix: the fonts of some widgets based on content models was not rendered on AQS devices
 
 
-##`2022-06-24` V1.11.10 [download](app-signcom/signcom-screencomposer-setup-1.11.10.appi){.auth-downloads}
+## `2022-06-24` V1.11.10 [download](app-signcom/signcom-screencomposer-setup-1.11.10.appi){.auth-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for services accounts
     - M365
@@ -149,7 +149,7 @@ For further information, check the list of supported medias on your device in th
 - Fix: in some cases, no grid area was displayed inside the intersection of a horizontal banner and a vertical banner
 - Fix: some content model could not work properly when the URI basis was containing a *#* character
 
-##`2022-03-18` V1.10.11 [download](app-signcom/signcom-screencomposer-setup-1.10.11.appi){.auth-downloads}
+## `2022-03-18` V1.10.11 [download](app-signcom/signcom-screencomposer-setup-1.10.11.appi){.auth-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**   
 - Add support for variable with the following types  
     - `Custom` variables type
@@ -185,6 +185,6 @@ For further information, check the list of supported medias on your device in th
 - Fix: the date of the calendar timeslot preview could be wrong when the preview date value was entered with the keyboard
 - Fix: when the *duration* metadata was added by the user, it was not taken into account in unitary preview or in calendar timeslot preview
 
-##`2021-11-30` V1.10.10 [download](app-signcom/signcom-screencomposer-setup-1.10.10.appi){.auth-downloads}
+## `2021-11-30` V1.10.10 [download](app-signcom/signcom-screencomposer-setup-1.10.10.appi){.auth-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**   
 - Initial version

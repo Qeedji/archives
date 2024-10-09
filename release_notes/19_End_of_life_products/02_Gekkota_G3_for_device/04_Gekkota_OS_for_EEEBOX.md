@@ -3,7 +3,7 @@
 
 *Never make electric unplug on your player while software upgrade is in progress (green led enlightened for few minutes) else the player may not be able to work properly*
 
-##`2017-03-29` V3.12.40 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-eeebox/gekkota_os-eeebox-setup-3.12.40.zip)
+## `2017-03-29` V3.12.40 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-eeebox/gekkota_os-eeebox-setup-3.12.40.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: restore value *Gekkota-3* for HTML tag *middleware* in Gekkota 3 device status.xml
 - Fix: content of remote directory was not properly updated (PlugnCast G3 configuration) in case renaming, adding or removing file (or directories)
@@ -22,10 +22,10 @@
 #### **SUPPORTED MEDIAS**
 - Gekkota supported medias and performances [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-supported-medias-and-performances.pdf)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2016-11-07` V3.12.37 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-eeebox/gekkota_os-eeebox-setup-3.12.37.zip)
+## `2016-11-07` V3.12.37 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-eeebox/gekkota_os-eeebox-setup-3.12.37.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of "download directory" hyperlink (in WebUI) permitting to save the playout as tar gz archive
 	- To decompress the archive, use one of the softwares
@@ -34,7 +34,7 @@
 - Fix: was not able to get the new content of image media updated remotely every 'n' minute from a WebDAV server
 - Fix: in some case, some image of WebUI could not be displayed after having pressed F5 key in Mozilla Firefox Web browser with preference ```network.http.pipelining = true``` activated
 
-##`2016-08-09` V3.12.33 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-eeebox/gekkota_os-eeebox-setup-3.12.33.zip)
+## `2016-08-09` V3.12.33 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-eeebox/gekkota_os-eeebox-setup-3.12.33.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of HTML DOM (Document Object Model) permitting to modify dynamically HTML page element with JavaScript file
 - Fix: player reboot several time a day due to memory leak when playing playlist of video medias
@@ -47,7 +47,7 @@
 - Fix: xpf file or media file of size 0 KB could be noticed randomly in case reboot immediately after publication (making appear unexpected *no content* message or *media temporarily unavailable* message)
 - Fix: some video could be displayed in 4-3 aspect ratio instead 16-9 aspect ratio
 
-##`2016-05-13` V3.12.31 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-eeebox/gekkota_os-eeebox-setup-3.12.31.zip)
+## `2016-05-13` V3.12.31 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-eeebox/gekkota_os-eeebox-setup-3.12.31.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add possibility to export a playout as *tar.gz* archive (from player to PC with a Web browser) (WebUI)
 	- ```http://<player_IP_address>/.playout/?export```
@@ -100,11 +100,11 @@
 	- a player reboot having ethernet cable unplugged (PlugnCast G2 configuration)
 - Fix directory opening issue when the directory name is containig special characters (WebUI)
 
-##`2016-02-12` V3.12.28 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-eeebox/gekkota_os-eeebox-setup-3.12.28.zip)
+## `2016-02-12` V3.12.28 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-eeebox/gekkota_os-eeebox-setup-3.12.28.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: unexpected error message *content temporarily unavailable* when playing a same PDF media several times
 
-##`2016-02-03` V3.12.26 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-eeebox/gekkota_os-eeebox-setup-3.12.26.zip)
+## `2016-02-03` V3.12.26 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-eeebox/gekkota_os-eeebox-setup-3.12.26.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of configuration script and gekkota software download capability from Web server http (PlugnCast G3 configuration)
 - Add support of specific directory content update with external USB mass storage (advanced user only because requiring player manifest manual modification)
@@ -145,7 +145,7 @@
 - Fix audio conflict when media with audio is played in main zone and another audio is played at the same time in audio zone (PlugnCast G3 configuration)
 - Fix Gekkota robustness issue at limit implying unexpected player reboot with some specific customer network configurations (PlugnCast G3 configuration)
 
-##`2015-09-25` V3.12.24
+## `2015-09-25` V3.12.24
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of configuration file injection through USB with file naming ```configuration.js```
 - Add support of configuration file injection through USB for identification method with file naming for ```<Mac>.js```, ```<UUID>.js```, ```<hostname>.configuration.js``` (in lower case as well as in upper case)
@@ -164,7 +164,7 @@
 - Fix publication issue when software release is programmed (PlugnCast G2 configuration without status server)
 - Fix container playlist unexpected playback blocking when trying to play a missing media (PlugnCast G2 configuration)
 
-##`2015-07-07` V3.12.21
+## `2015-07-07` V3.12.21
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change information screen when media can not be played (small rectangle with transparence instead of full screen red cross)
 	- ```content temporarily unavailable... (code <i>)```
@@ -175,7 +175,7 @@
 - Change: restore compatibility with old API *logService.getLogger* and *log* (used in legacy configuration-by-script)
 - Fix login and password was kept displayed in playback error information message for URI containing [login:password]
 
-##`2015-06-29` V3.12.20
+## `2015-06-29` V3.12.20
 >##### **INSTALLATION ERROR MESSAGE WHEN INJECTING SCRIPT JS WITH GEKKOTA 3.12.20**
 - *Installation error* message can pop with Gekkota 3.12.20 in case script installation because legacy script JS is containing obsolete command line making it not compatible with this version
 - Please refer to technical documentation to solve the issue or upgrade to above version
@@ -213,7 +213,7 @@
 - Fix red cross display while playing media whose file name is containing %, %de (PlugnCast G2 configuration)
 - Fix unexpected playout entirely redownloaded after ethernet cable unplug for more than 3 minutes (PlugnCast G2 configuration)
 
-##`2015-05-18` V3.12.19
+## `2015-05-18` V3.12.19
 >##### **IMPORTANT BEFORE UPGRADING**
 - In case software migration from Gekkota 3.12.18 to this version, the playout will be entirely redownloaded once (just after the player restart). Please wait the end of the playout download before doing any further software migration actions
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -227,7 +227,7 @@
 - Fix playout deadlock while playing playlist whose one of media name is containing '{' (PlugnCast G2 environment)
 - Fix red cross when playing media name containing '%' or '%de' (PlugnCast G2 environment)
 
-##`2015-04-10` V3.12.18
+## `2015-04-10` V3.12.18
 >##### **IMPORTANT BEFORE DOWNGRADING**
 - Especially for this version Gekkota 3.12.18, once installed, in PlugnCast G2 environment:
 	- It is forbidden to downgrade to any previous version otherwise the publication function will not work definitively
@@ -239,18 +239,18 @@
 - Fix directory HTTP download issue when containing special character ';'
 - Fix content HTTP download issue with server Proxy Squid activated [cache setup forced] (PlugnCast environment)
 
-##`2015-03-13` V3.12.17
+## `2015-03-13` V3.12.17
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix black screen when playing opt-out with variable containing special characters like "é, è, ê, ë, à" (PlugnCast G2 environment)
 
-##`2015-03-09` V3.12.16
+## `2015-03-09` V3.12.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix default scene not displayed with PlugnCast G2 configuration (issue in migration script G2-> G3)
 - Fix issue in calendar with "until" function (player was playing the event one day too much in configuration "0h to 0h" or "all day long")
 - Fix jerky video (when  played inside HTML) after one loopback
 - Fix red cross displayed when HTML was containing non-existing resource
 
-##`2015-02-17` V3.12.15
+## `2015-02-17` V3.12.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of scripts 'js' in migration module (xpf g2 to xpf g3)
 - Add support of SCXML
@@ -259,11 +259,11 @@
 - Fix media playback loopback issue with video within audio duration is longer than video duration
 - Fix debug log name (playzilla.log)
 
-##`2015-01-21` V3.12.12
+## `2015-01-21` V3.12.12
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of Mpeg4.2 codec
 
-##`2014-01-09` V3.12.11
+## `2014-01-09` V3.12.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add DHCP timeout configuration in WebUI
 - Add support of full WGT API (localization)
@@ -274,7 +274,7 @@
 - Fix random unworking UDP streaming after reboot
 - Fix SWF loading important issue
 
-##`2014-12-08` V3.12.10
+## `2014-12-08` V3.12.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add Microsoft SQL Server WebIdl
 - Add MySQL WebIdl
@@ -288,7 +288,7 @@
 - Fix empty online cache with a new publication
 - Fix take into account http code 300
 
-##`2014-10-31` V3.11.15
+## `2014-10-31` V3.11.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add UDP web socket IDL support
 - Add WebUI icons to hide/show the passwords
@@ -300,15 +300,15 @@
 - Fix WebUI identification method saving (UUID/MAC/hostname)
 - Fix WebUI button 'Validate' active in Maintenance/Preference, even without modification
 
-##`2014-10-07` V3.11.14
+## `2014-10-07` V3.11.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix support media with FTP distant ressource
 
-##`2014-09-01` V3.11.13
+## `2014-09-01` V3.11.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - New generation of Gekkota: G3. *Be careful, you can't downgrade to a G2 version (only a V2.50.90 minimum is needed)*
 
-##`2012-09-21` V2.50.82
+## `2012-09-21` V2.50.82
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add partial usb injection *refer to the separated manual for this feature ('Playilla - chargement par clé usb 003A_fr.pdf')*
 - Add security to check file system consistency on each boot. During check, the green led flashes (0.5seconds ON / 0.5seconds OFF)
@@ -346,7 +346,7 @@
 - Fix file sizes > 2Go (now, 16Go is the maximum supported size for one file on this platform)
 - Fix random unexpected scroll bars display with certain sizes of zones inside the scene
 
-##`2010-04-19` V2.50.22
+## `2010-04-19` V2.50.22
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add SMIL3 standard, with intrinsic medias duration and xpath (2.5 Generation)
 - Add WebUI rotation 90°
@@ -369,29 +369,29 @@
 - Fix text with interlines inserted not well rendered in fixed text
 - Fix volume scale linearity (0 to 100%) (in dB !! so no more sound under 60%)
 
-##`2009-07-24` V2.11.24
+## `2009-07-24` V2.11.24
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add user and password for proxy server HTTP and FTP
 - Fix random audio issue with Powerpoint
 
-##`2009-07-17` V2.11.23
+## `2009-07-17` V2.11.23
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add new RS232 configuration (3 wires)
 - Add proxy server HTTP and FTP
 
-##`2009-06-26` V2.11.21
+## `2009-06-26` V2.11.21
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add new platform : MPDSBC16. Improve USB stick automatic installation.
 
-##`2009-06-24` V2.11.20
+## `2009-06-24` V2.11.20
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add new monitoring messages (downloading date, current scene playing, channel).
 
-##`2009-06-04` V2.11.19
+## `2009-06-04` V2.11.19
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix random downloader blocking issue
 
-##`2009-05-20` V2.11.18
+## `2009-05-20` V2.11.18
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add Screen Composer support
 - Improve Powerpoint load time
@@ -399,7 +399,7 @@
 - Change start immedialtey "mms://" streams (instead of timeout 2 min)
 - Fix ".frm" file deletion (not valid during a release process)
 
-##`2009-04-09` V2.11.17
+## `2009-04-09` V2.11.17
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add WebUI test pattern
 - Add ACPI management for AOPEN platforms for better temperature management
@@ -408,7 +408,7 @@
 - Fix artefact when display jpg images
 - Fix issue in vertical mode
 
-##`2009-04-06` V2.11.16
+## `2009-04-06` V2.11.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of binary execution in a task
 - Add support of following binaries:
@@ -420,15 +420,15 @@
 - Change (optimization) clock and synchro signals
 - Fix communications blocking issue between server and players (after a server unexpected stop)
 
-##`2009-03-23` V2.11.15
+## `2009-03-23` V2.11.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix display issue in mode 1920x1080 DVI for DSA3400
 
-##`2009-03-19` V2.11.14
+## `2009-03-19` V2.11.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix video playback freeze when playing streaming on a dreambox (with input channel changed)
 
-##`2009-03-09` V2.11.13
+## `2009-03-09` V2.11.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add button press detection on RS232 port
 - Add support of "rtp://" and "mmsh://" streams
@@ -439,20 +439,20 @@
 - Fix video horizontal defaults
 - Fix downloader blocking during publishing
 
-##`2009-02-09` V2.11.11
+## `2009-02-09` V2.11.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of audio zone
 - Fix display artefact when using pixel_depth=32 option
 - Fix player shutdown during display power off
 
-##`2009-02-07` V2.11.10
+## `2009-02-07` V2.11.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of .MOV, .WMV
 - Add support of flash10
 - Add support of local html files
 - Add watchdog (for memory and playzilla robustess monitoring)
 
-##`2009-02-05` V2.10.23
+## `2009-02-05` V2.10.23
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of composite and S-VIDEO (on AOPEN MP945)
 - Add support of audio (on AOPEN MP945 and DSA3400)

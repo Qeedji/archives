@@ -6,7 +6,7 @@
     - *Windows 7+* (for Windows 7, Windows 8.X, Windows 10)
 - To avoid any unexpected network trouble with Gekkota RT, it is recommended to inactivate all LAN interfaces of your player MS-Windows (LAN Bluetooth, virtual LAN...) except MS-Windows Ethernet LAN interface. For more information refer to Gekkota application note troubleshooting options.
 
-##`2019-03-15` V3.12.59 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-3.12.59.exe) [download for Windows XP](gekkota-rt/gekkota_rt-nt5_ia32-setup-3.12.59.exe)
+## `2019-03-15` V3.12.59 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-3.12.59.exe) [download for Windows XP](gekkota-rt/gekkota_rt-nt5_ia32-setup-3.12.59.exe)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the ```.playlog/``` directory in the WebUI
 - Add support for ```Playlog``` feature
@@ -26,28 +26,28 @@
 - Hard disk: 128 GB (or more),
 - Graphics card: is depending on your needs (video decoding hardware performances, screen wall capabilities, ...). For further information, contact your computer reseller and check this point.
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2019-03-08` V3.12.58 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-3.12.58.exe) [download for Windows XP](gekkota-rt/gekkota_rt-nt5_ia32-setup-3.12.58.exe)
+## `2019-03-08` V3.12.58 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-3.12.58.exe) [download for Windows XP](gekkota-rt/gekkota_rt-nt5_ia32-setup-3.12.58.exe)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: a message *content temporarily unavailable* was raised when a video was played over UDP multicast
 - Fix: a video over UDP could not be played in case using a *DME204* encoder-streamer with the audio inactivated
 
-##`2018-10-23` V3.12.57 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-3.12.57.exe) [download for Windows XP](gekkota-rt/gekkota_rt-nt5_ia32-setup-3.12.57.exe)
+## `2018-10-23` V3.12.57 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-3.12.57.exe) [download for Windows XP](gekkota-rt/gekkota_rt-nt5_ia32-setup-3.12.57.exe)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for TLS 1.2 (Transport Layer Security)
 - Fix: attachments could be not properly attached in the email when containing some non-ASCII characters
 - Fix: the hardware acceleration was not detected anymore
 
-##`2018-03-19` V3.12.54 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-3.12.54.exe) [download for Windows XP](gekkota-rt/gekkota_rt-nt5_ia32-setup-3.12.54.exe)
+## `2018-03-19` V3.12.54 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-3.12.54.exe) [download for Windows XP](gekkota-rt/gekkota_rt-nt5_ia32-setup-3.12.54.exe)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: MS-PowerPoint media playback could lead to the display of the message *content temporarily unavailable* since a recent MS-Windows 10 system update
 - Fix: black screen could be displayed infinitely after a publication (especially on MS-Windows 10 system)
 - Fix: the content could be not displayed in full screen after having unplugged then plugged again HDMI cable (MS-Windows 10)
 - Fix: audio could be jerky when playing some HTTP stream (Mpeg-TS container)
 
-##`2017-10-03` V3.12.47 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-3.12.47.exe) [download for Windows XP](gekkota-rt/gekkota_rt-nt5_ia32-setup-3.12.47.exe)
+## `2017-10-03` V3.12.47 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-3.12.47.exe) [download for Windows XP](gekkota-rt/gekkota_rt-nt5_ia32-setup-3.12.47.exe)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add ```Overscan``` in *Output* menu (WebUI)
 - Add support for ```German``` language (WebUI)
@@ -76,7 +76,7 @@
 - Fix: some video could not be played sometimes (while they were properly decoded in a previous version)
 - Fix: when pasting from clip board a Plugncast configuration (URL, login, password), reset the password when it is not available
 
-##`2017-06-16` V3.12.42
+## `2017-06-16` V3.12.42
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for ```LaunchGekkota.bat``` (default directory ```c:\Program Files\Innes Gekkota RT\xulrunner```)  to launch manually and automatically Gekkota RT when MS-Windows User Account Control (UAC) is activated
 - Change: MS-Windows desktop (*explorer.exe*) is killed when launching Gekkota RT
@@ -86,18 +86,18 @@
 	-  MS-Windows User Account Control (UAC) is different from ```never advise``` (when *Some program try to install software or to modify my computer* and when *I modify Windows parameter* (like by exmaple computer clock, computer ip address)
 - Fix: MS-PowerPoint medias could never be played on some PC (workaround for these platforms: MS-DirectDraw instead of MS-Direct3D)
 
-##`2017-03-29` V3.12.40
+## `2017-03-29` V3.12.40
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: restore value *Gekkota-3* for HTML tag *middleware* in Gekkota 3 device status.xml
 - Fix: content of remote directory was not properly updated (PlugnCast G3 configuration) in case renaming, adding or removing file (or directories)
 - Fix: issue to connect to device WebUI/configuration with Google Chrome (Chrome version > 15th March 2017)
 
-##`2017-03-09` V3.12.39
+## `2017-03-09` V3.12.39
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: Error could be raised in device status.xml preventing playout download when an absolute media path file name length is 236 characters (PlugnCast G3 configuration)
 - Fix: Error could be raised in device status.xml preventing playout download when an absolute directory path name length is between 247 and 259 characters (PlugnCast G3 configuration)
 
-##`2017-02-24` V3.12.38
+## `2017-02-24` V3.12.38
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: keep the same file name for the device error dump (Web server) to avoid to fill the device MS-Windows hard disk
 - Fix: sometimes some unexpected screen standby exit (or enter) could be noticed (seen on PlugnCast G2 environment)
@@ -107,7 +107,7 @@
 - Fix: restore support remote media over FTP
 - Fix: an error *Net timeout for download request* could remain in status.xml (and never be cancelled) in case the PlugnCast server was manually shut down for a while (PlugnCast G3)
 
-##`2016-11-07` V3.12.37
+## `2016-11-07` V3.12.37
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of "download directory" hyperlink (in WebUI) permitting to save the playout as tar gz archive
 	- To decompress the archive, use one of the softwares
@@ -116,14 +116,14 @@
 - Fix: was not able to get the new content of image media updated remotely every 'n' minute from a WebDAV server
 - Fix: in some case, some image of WebUI could not be displayed after having pressed F5 key in Mozilla Firefox Web browser with preference ```network.http.pipelining = true``` activated
 
-##`2016-10-05` V3.12.35
+## `2016-10-05` V3.12.35
 >##### **IMPORTANT**
 - In case Gekkota RT (V3.12.31, V3.12.32 or V3.12.33) has been installed on your MS-Windows XP or MS-Windows Vista, the Gekkota network interface should not work meaning that software upgrade can not be done remotely with your INNES CMS (Screen Composer G3, PlugnCast G2/G3). To workaround the issue, copy the Gekkota installer *gekkota_rt-nt5_ia32-setup-3.12.35.exe* on your MS-Windows XP (or MS-Windows Vista) desktop and execute it by double clicking on the file. Then please follow the different installation steps
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: Gekkota network interface was not working properly with version V3.12.31, V3.12.32 & 3.12.33 on system Windows XP/Vista (implying issue with software upgrade, test card, upnp)
 - Fix: player could face issue to take a playout containing a file whose size is more than 2 GB
 
-##`2016-08-09` V3.12.33
+## `2016-08-09` V3.12.33
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of HTML DOM (Document Object Model) permitting to modify dynamically HTML page element with JavaScript file
 - Add preferences permitting to not display monitor-monitoring data *power-mode* and *input-source* in device-status (by example in case the screen is raising inconsistent data)
@@ -136,11 +136,11 @@
 - Fix: player could reboot after a publication while decoding video media (Wmv container)
 - Fix: in case a variable (inside an URI) can not be resolved, a media downloading error is raised
 
-##`2016-06-03` V3.12.32
+## `2016-06-03` V3.12.32
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: inactivate monitor monitoring (user preferences by default)
 
-##`2016-06-01` V3.12.31
+## `2016-06-01` V3.12.31
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add possibility to export a playout as *tar.gz* archive (from player to PC with a Web browser) (WebUI)
 	- ```http://<player_IP_address>/.playout/?export```
@@ -223,11 +223,11 @@
 - Fix directory opening issue when the directory name is containig special characters (WebUI)
 - Fix MS-PowerPoint viewing issue, or unexpected decoding stopping issue for Virtual Desktop size upper than 4K (Screen Wall configuration)
 -
-##`2016-02-12` V3.12.28
+## `2016-02-12` V3.12.28
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: unexpected error message *content temporarily unavailable* when playing a same PDF media several times
 
-##`2016-02-03` V3.12.26
+## `2016-02-03` V3.12.26
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of AVCmd TV standby/wake-up for 2 TV screens with rack-able PC system (internal serial bus, Gekkota_RT)
 		- ```samsung_internal```, ```nec_internal```
@@ -276,7 +276,7 @@
 - Fix audio conflict when media with audio is played in main zone and another audio is played at the same time in audio zone (PlugnCast G3 configuration)
 - Fix Gekkota robustness issue at limit implying unexpected player reboot with some specific customer network configurations (PlugnCast G3 configuration)
 
-##`2015-09-25` V3.12.24
+## `2015-09-25` V3.12.24
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of configuration file injection through USB with file naming ```configuration.js```
 - Add support of configuration file injection through USB for identification method with file naming for ```<Mac>.js```, ```<UUID>.js```, ```<hostname>.configuration.js``` (in lower case as well as in upper case)
@@ -296,11 +296,11 @@
 - Fix publication issue when software release is programmed (PlugnCast G2 configuration without status server)
 - Fix container playlist unexpected playback blocking when trying to play a missing media (PlugnCast G2 configuration)
 
-##`2015-07-16` V3.12.22
+## `2015-07-16` V3.12.22
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix software upgrade with PlugnCast G3
 
-##`2015-07-07` V3.12.21
+## `2015-07-07` V3.12.21
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change information screen when media can not be played (small rectangle with transparence instead of full screen red cross)
 	- ```content temporarily unavailable... (code <i>)```
@@ -312,7 +312,7 @@
 - Fix login and password was kept displayed in playback error information message for URI containing [login:password]
 - Fix *content temporarily unavailable* message display in case [media path size + media name size] is over 260 caracters
 
-##`2015-06-29` V3.12.20
+## `2015-06-29` V3.12.20
 >##### **INSTALLATION ERROR MESSAGE WHEN INJECTING SCRIPT JS WITH GEKKOTA 3.12.20**
 - *Installation error* message can pop with Gekkota 3.12.20 in case script installation because legacy script JS is containing obsolete command line making it not compatible with this version
 - Please refer to technical documentation to solve the issue or upgrade to above version
@@ -354,7 +354,7 @@
 - Fix red cross display while playing media whose file name is containing %, %de (PlugnCast G2 configuration)
 - Fix unexpected playout entirely redownloaded after ethernet cable unplug for more than 3 minutes (PlugnCast G2 configuration)
 
-##`2015-05-18` V3.12.19
+## `2015-05-18` V3.12.19
 >##### **IMPORTANT BEFORE UPGRADING**
 - In case software migration from Gekkota 3.12.18 to this version, the playout will be entirely redownloaded once (just after the player restart). Please wait the end of the playout download before doing any further software migration actions
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -371,7 +371,7 @@
 - Fix red cross when playing media name containig '%' or '%de' (plugncast G2 environment)
 - Fix black screen when playing opt-out with variable containing special characters like "é, è, ê, ë, à" (PlugnCast G2 environment)
 
-##`2015-04-10` V3.12.18
+## `2015-04-10` V3.12.18
 >##### **IMPORTANT BEFORE DOWNGRADING**
 - Especially for this version Gekkota 3.12.18, once installed, in PlugnCast G2 environment:
 	- It is forbidden to downgrade to any previous version otherwise the publication function will not work definitively
@@ -384,7 +384,7 @@
 - Fix directory HTTP download issue when containing special character ';'
 - Fix content HTTP download issue with server Proxy Squid activated [cache setup forced] (PlugnCast environment)
 
-##`2015-03-09` V3.12.16
+## `2015-03-09` V3.12.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix default scene not displayed with PlugnCast G2 configuration (issue in migration script G2-> G3)
 - Fix issue in calendar with "until" function (player was playing the event one day too much in configuration "0h to 0h" or "all day long")
@@ -392,7 +392,7 @@
 - Fix red cross displayed when HTML was containing non-existing resource
 - Fix installation issue with Samsung devices & OPS Plug-In Media Player with EWF activated on disk C:\
 
-##`2015-02-17` V3.12.15
+## `2015-02-17` V3.12.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of scripts 'js' in migration module (xpf g2 to xpf g3)
 - Add support of SCXML
@@ -407,11 +407,11 @@
 - Fix random consecutive scanning failed (example of message *{nsiSystemAdapterDigitalTvReceiver.startScan} has failed*)
 - Fix services list saving issue when list contains data services (example of message *Saving has failed*)
 
-##`2015-02-03` V3.12.13
+## `2015-02-03` V3.12.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix powerpoint playback issue
 
-##`2015-1-09` V3.12.11
+## `2015-1-09` V3.12.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of NEC, SAMSUNG MD control screen device through RS232 (based on EDID vendor identification)
 - Add support of LED Q-Lite display panel through RS232
@@ -426,7 +426,7 @@
 - Fix random unworking UDP streaming after reboot
 - Fix huge SWF loading issue
 
-##`2014-12-05` V3.12.10
+## `2014-12-05` V3.12.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add "player graphics HW acceleration" detection in Gekkota_rt installer : the result of HW acceleration detection will overwrite the previous value of a V3.1x.yy version
 - Add VC1 video decoder support
@@ -443,7 +443,7 @@
 - Fix take into account http code 300
 - Fix udp not correctly working with ts paquets size of different values (not all = 7x188 bytes)
 
-##`2014-10-31` V3.11.15
+## `2014-10-31` V3.11.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add UDP web socket IDL support
 - Add WebUI icons to hide/show the passwords
@@ -458,15 +458,15 @@
 - Fix WebUI : button 'Validate' active in Maintenance/Preference, even without modification
 - Fix distant pdf not played
 
-##`2014-10-07` V3.11.14
+## `2014-10-07` V3.11.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix support media with FTP distant ressource
 
-##`2014-08-28` V3.11.12
+## `2014-08-28` V3.11.12
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of .wgt file format
 
-##`2014-08-13` V3.11.10
+## `2014-08-13` V3.11.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add UPNP discovery
 - Add new parameters for device-status
@@ -480,18 +480,18 @@
 - Fix a case of ScreenComposer bad publication
 - Fix a crash with an ics using 'TZID'
 
-##`2014-06-27` V3.10.45
+## `2014-06-27` V3.10.45
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change preference ```innes.video-with-audio.skip-late-frames = true```
 - Change default HW video acceleration preference ```hardware video acceleration = OFF```
 - Fix delay between audio and video which could occur
 - Fix a case in udp when video wasn't accepted
 
-##`2014-05-20` V3.10.44
+## `2014-05-20` V3.10.44
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix a case with a quicktime video container not supported
 
-##`2014-04-30` V3.10.43
+## `2014-04-30` V3.10.43
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - 2 Installer for Playzilla-embedded Windows XP (nt5_ia32) and Windows 7+ (nt_ia32 or boxpc win)
 - Add the possibility to use flashvar in plugncast G2 mode, with variables resolution inside
@@ -532,7 +532,7 @@
 - Fix a potential trouble : if a file/directory is renammed with only a case change
 - Fix a very rare trouble in plugncast G2 mode : if the server is switched off, it can block the playzilla until its next reboot (red circle)
 
-##`2013-12-24` V3.10.38
+## `2013-12-24` V3.10.38
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add new feature in plugncast http mode : when player date is more than 24H delayed from server date, it automatically updates its date
 - Add the possibility to interrupt current publication with a newer one
@@ -545,14 +545,14 @@
 - Fix following case in plugncast mode : when changing a media while a player downloads it can affect the downloaded media => download it again if necessary
 - Fix use with proxy with domain
 
-##`2013-11-28` V3.10.36
+## `2013-11-28` V3.10.36
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix blocking installation on windows XP
 - Fix a crash during DVBT scan with incomplete services
 - Fix a potential crash when a video is inserted in an html5 tag, and then removed from dom
 - Fix a very rare trouble with flash : it may not been played correctly (red cross)
 
-##`2013-11-12` V3.10.34
+## `2013-11-12` V3.10.34
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add an html error when the maximum image surfaces has been reached
 - Add a security for cryptographic database, to prevent it from being damaged after a power off. If corrupted, a message is displayed, and database is cleaned after the next reboot. You will loose all certificates added before.
@@ -564,7 +564,7 @@
 - Fix a severe memory leak in case of plugncast G2 download, player could reboot during big downloads
 - Fix use of jquery 1 and jquery 2
 
-##`2013-10-17` V3.10.34_beta5
+## `2013-10-17` V3.10.34_beta5
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add the preference ```innes.avkit.audio-output-sample-rate``` (see after for details)
 - Add NTLM support
@@ -593,7 +593,7 @@
 - Fix performance troubles in plugncast ftp mode
 - Fix installer XP, 2 preferences were not visible ('innes.hwacceleration' for example)
 
-##`2013-07-31` V3.10.32_beta8
+## `2013-07-31` V3.10.32_beta8
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add AVI container support
 - Add configuration-by-script feature, in USB mode only : see respective documentation to obtain more information on it
@@ -637,7 +637,7 @@
 - Fix mp3 decoder with low bit rate audios and mono audios
 - Fix a trouble on certain web sites
 
-##`2013-02-11` V3.10.28_beta29
+## `2013-02-11` V3.10.28_beta29
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add hardware accelerated video support (based on intel imsdk). Please be sure that your video/audio and graphics drivers are up-to-date
 - Add DVB-T support with standard DVB-T usb dongle (DVB-T HD channels are temporarily blocked)
@@ -665,7 +665,7 @@
 - Fix a trouble on certain web sites
 - Fix background color between scenes in plugncast use
 
-##`2012-11-16` V3.10.26
+## `2012-11-16` V3.10.26
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add udp support. Considering that MPEG2 audio isn't supported yet, general cases can only work without audio
 - Fix transparency for floating zones with PlugnCast
@@ -675,21 +675,21 @@
 - Fix a memory leak while downloading
 - Fix impossible to add content with usb dongle after canceling publishing with Screen Composer
 
-##`2012-11-09` V3.10.25
+## `2012-11-09` V3.10.25
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add compatibility with PlugnCast V2.xx.yy
 - Change upgrade video decoding library version : imsdk 2012R3
 - Change WebUI change icons and logos
 - Change WebUI change the selection for g2 compatibility in the tab 'server'
 
-##`2012-10-09` V3.10.23
+## `2012-10-09` V3.10.23
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add the possibility to remove the red cross in case of media trouble : for that, modify the preference 'innes.xpf.media-error-duration', which defines the duration of the red cross. If you set this preference to the value '0', the red cross will never appear.
 - Change the information message when there is no content
 - Fix migration from G2 to G3 on platforms with ewf : the licence code was lost. Please verify on WebUI that all your parameters are correctly set after this release.
 - Fix powerpoint not working on certain windows embedded
 
-##`2012-09-21` V3.10.22 beta22
+## `2012-09-21` V3.10.22 beta22
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add audio of video
 - Add a file watcher
@@ -698,7 +698,7 @@
 - Fix Text maff models used in infinite mode
 - Fix regression with usb partial injector
 
-##`2012-08-09` V3.10.21
+## `2012-08-09` V3.10.21
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version (video decode is done in software), performances are very dependant on the platform used
 

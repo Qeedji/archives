@@ -1,7 +1,7 @@
 # SignMeeting IPORTA
 *RELEASE NOTE*
 
-##`2016-06-13` V1.12.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-iporta/signmeeting_iporta-screen_composer-setup-1.12.19.appi)
+## `2016-06-13` V1.12.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-iporta/signmeeting_iporta-screen_composer-setup-1.12.19.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add ```Attribute 1``` and ```Attribute 2``` research option in interface *Datasource* / *Advanced* permitting to get additional information coming from LDAP directory (which can be inserted in the meeting title afterwards)
 	- Attribute 1 and Attribute 2 can have any attributes of LDAP attribute editor. It is advised to use string or integer format
@@ -97,10 +97,10 @@
 	- for example, when ```.cusClass1``` is present on theme_css_generic-V1.10.12.css
 		- enter ```cusClass1``` in *device/edit/CSS class* field
 - Add the required media *./images/diagonal3.png* in Screen Composer manifest (*medias* tab)
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2016-04-26` V1.12.18 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-iporta/signmeeting_iporta-screen_composer-setup-1.12.18.appi)
+## `2016-04-26` V1.12.18 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-iporta/signmeeting_iporta-screen_composer-setup-1.12.18.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: calendar system connection trial design
 	- Add hourglass while SignMeeting is facing issue to connect the calendar system at the first SignMeeting start-up
@@ -111,7 +111,7 @@
 - Fix: in case a pop-up (calendar, add, event detail) was kept opened in "book a meeting" interface, it was not closed when returning automatically to background
 - Fix: in some case, when current meeting is finished and this meeting is the last one, the meeting could remain inconsistently in next meeting
 
-##`2015-12-07` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-iporta/signmeeting_iporta-screen_composer-setup-1.12.13.appi)
+## `2015-12-07` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-iporta/signmeeting_iporta-screen_composer-setup-1.12.13.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support new API CSS class in device edition permitting to display, when there is a meeting in room screen, to give possibility to have a CSS theme different for each player
 	- require theme_css_generic-V1.10.12.css (available for download)
@@ -125,6 +125,6 @@
 - Fix: 2th pictogram size was 10% smaller than 1st pictogram size when using pictogram from directory
 - Fix: attendees could be displayed on 2 lines instead be scrolled on 1 line (Room screen)
 
-##`2015-10-12` V1.12.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-iporta/signmeeting_iporta-screen_composer-setup-1.12.12.appi)
+## `2015-10-12` V1.12.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-iporta/signmeeting_iporta-screen_composer-setup-1.12.12.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

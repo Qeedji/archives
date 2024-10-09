@@ -38,16 +38,16 @@
 
 #INFORMATION
 ***********************************************************************
-##`2016-10-26` V1.10.11
+## `2016-10-26` V1.10.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - HTML Date & time V1.10.11 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/tools/date-et-heure-V1.10.11.zip)
 	- Add display option: day in letter (French language)
 - HTML Date V1.10.11 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/tools/date-V1.10.11.zip)
 	- Add display option: day in letter (French language)
 
-#OLD VERSION
+# OLD VERSION
 ***********************************************************************
-##`2016-10-24` V1.10.10
+## `2016-10-24` V1.10.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - HTML Date & time V1.10.10 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/tools/date-et-heure-V1.10.10.zip)
 	- Initial version

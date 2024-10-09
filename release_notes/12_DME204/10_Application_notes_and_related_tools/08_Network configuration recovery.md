@@ -12,7 +12,7 @@
 		- test pattern
 	- Connect to the media player through IPV6 with a Web browser
 
-##`2014-11-25` (last update)
+## `2014-11-25` (last update)
 
 #INFORMATION
 ***********************************************************************

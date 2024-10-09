@@ -3,7 +3,7 @@
 
 *Never make electric unplug on your player while software upgrade is in progress (green led enlightened for few minutes) else the player may not be able to work properly*
 
-##`2021-06-08` V3.12.58 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.58.zip)
+## `2021-06-08` V3.12.58 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.58.zip)
 >##### **BUG FIX, NEW FEATURE1S, MINOR UPDATES**
 - Add support for this resolution mode
 	- *1920x540 VESA 60Hz*
@@ -23,16 +23,16 @@
 #### **FEATURES & TROUBLESHOOT FIXING GUIDE**
 - Features & troubleshoot fixing guide 001A/EN [download](https://github.com/Qeedji/archives/blob/master/downloads/troubleshoot-fixing-guide-Gekkota/Gekkota-troubleshoot-fixing-guide-001A_en.pdf) 
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2018-10-13` V3.12.57 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.57.zip)
+## `2018-10-13` V3.12.57 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.57.zip)
 >##### **BUG FIX, NEW FEATURE1S, MINOR UPDATES**
 - Add support for TLS 1.2 (Transport Layer Security)
 - Fix: attachments could be not properly attached in the email when containing some non-ASCII characters
 - Fix: in some case, the device could not stop rebooting after having unplugged the power supply (very rare)
 
-##`2018-04-26` V3.12.55 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.55.zip)
+## `2018-04-26` V3.12.55 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.55.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *NTLM V2* authentication
 - Add support for ```German``` language (WebUI)
@@ -64,18 +64,18 @@
 - Fix: email attachment was not supported
 - Fix: unexpected black screen could be displayed infinitely due to the device which did not manage to boot-up properly (very rare)
 
-##`2017-04-27` V3.12.42 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.42.zip)
+## `2017-04-27` V3.12.42 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.42.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: a device reboot could occur when publishing with Screen Composer or PlugnCast G2 (rare)
 - Fix: a immediate device reboot could be noticed when playing a specific Web page
 
-##`2017-03-29` V3.12.40 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.40.zip)
+## `2017-03-29` V3.12.40 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.40.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: restore value *Gekkota-3* for HTML tag *middleware* in Gekkota 3 device status.xml
 - Fix: content of remote directory was not properly updated (PlugnCast G3 configuration) in case renaming, adding or removing file (or directories)
 - Fix: issue to connect to device WebUI/configuration with Google Chrome (Chrome version > 15th March 2017)
 
-##`2017-02-24` V3.12.38
+## `2017-02-24` V3.12.38
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: sometimes some unexpected screen standby exit (or enter) could be noticed (seen on PlugnCast G2 environment)
 - Fix: sometimes some scenes could not start (seen on PlugnCast G2 environment)
@@ -84,7 +84,7 @@
 - Fix: restore support for remote media over FTP
 - Fix: an error *Net timeout for download request* could remain in status.xml (and never be cancelled) in case the PlugnCast server was manually shut down for a while (PlugnCast G3)
 
-##`2016-11-07` V3.12.37 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.37.zip)
+## `2016-11-07` V3.12.37 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.37.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for "download directory" hyperlink (in WebUI) permitting to save the playout as tar gz archive
 	- To decompress the archive, use one of the softwares
@@ -93,16 +93,16 @@
 - Fix: was not able to get the new content of image media updated remotely every 'n' minute from a WebDAV server
 - Fix: in some case, some image of WebUI could not be displayed after having pressed F5 key in Mozilla Firefox Web browser with preference ```network.http.pipelining = true``` activated
 
-##`2016-10-19` V3.12.36 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.36.zip)
+## `2016-10-19` V3.12.36 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.36.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: was facing issue to connect to WLAN router when its SSID broadcasting is not activated (not visible)
 
-##`2016-10-05` V3.12.35 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.35.zip)
+## `2016-10-05` V3.12.35 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.35.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: in some case, player could not be not able to play any TNT channel leading to *content temporarily unavailable* (now, when DVB-T express card is not able to provide DVB-T data properly for 10 seconds, a workaround is detecting this anomaly and make reboot the player)
 - Fix: player could face issue to take a playout containing a file whose size is more than 2 GB
 
-##`2016-08-09` V3.12.33 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.33.zip)
+## `2016-08-09` V3.12.33 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb300/gekkota_os-dmb300-setup-3.12.33.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for HTML DOM (Document Object Model) permitting to modify dynamically HTML page element with JavaScript file
 - Add preferences permitting to not display monitor-monitoring data *power-mode* and *input-source* in device-status (by example in case the screen is raising inconsistent data)
@@ -120,7 +120,7 @@
 - Fix: xpf file or media file of size 0 KB could be noticed randomly in case reboot immediately after publication (making appear unexpected *no content* message or *media temporarily unavailable* message)
 - Fix: some video could be displayed in 4-3 aspect ratio instead 16-9 aspect ratio
 
-##`2016-06-01` V3.12.31
+## `2016-06-01` V3.12.31
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add possibility to export a playout as *tar.gz* archive (from player to PC with a Web browser) (WebUI)
 	- ```http://<player_IP_address>/.playout/?export```
@@ -196,7 +196,7 @@
 	- a player reboot having ethernet cable unplugged (PlugnCast G2 configuration)
 - Fix directory opening issue when the directory name is containig special characters (WebUI)
 
-##`2016-04-19` V3.12.30
+## `2016-04-19` V3.12.30
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix unexpected jerky effect on some interlaced H264 video (typically HD DVBT)
 - Fix: no content screen is displayed infinitely after a publication, due to a filesystem corruption (a reboot was solving the issue)
@@ -207,7 +207,7 @@
 - Fix: Reboot capability was not stopped at the configuration script injection (PlugnCast G2 configuration)
 - Fix: player was not able to take a playout with some custom CMS server (due to wrong management of etag file containing ```;``` character)
 
-##`2016-02-29` V3.12.29
+## `2016-02-29` V3.12.29
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add display modes
 	- "1280x720 60Hz CEA-861"
@@ -279,7 +279,7 @@
 - Fix audio conflict when media with audio is played in main zone and another audio is played at the same time in audio zone (PlugnCast G3 configuration)
 - Fix Gekkota robustness issue at limit implying unexpected player reboot with some specific customer network configurations (PlugnCast G3 configuration)
 
-##`2015-09-25` V3.12.24
+## `2015-09-25` V3.12.24
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for scroller overlay
 	- compatible with "Text défilant horizontal" v1.10.10 (or above) available in Content Model Package 3.20
@@ -306,7 +306,7 @@
 - Fix publication issue when software release is programmed (PlugnCast G2 configuration without status server)
 - Fix container playlist unexpected playback blocking when trying to play a missing media (PlugnCast G2 configuration)
 
-##`2015-09-25` V3.12.24
+## `2015-09-25` V3.12.24
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for scroller overlay
 	- compatible with "Text défilant horizontal" v1.10.10 (or above) available in Content Model Package 3.20
@@ -333,7 +333,7 @@
 - Fix publication issue when software release is programmed (PlugnCast G2 configuration without status server)
 - Fix container playlist unexpected playback blocking when trying to play a missing media (PlugnCast G2 configuration)
 
-##`2015-07-07` V3.12.21
+## `2015-07-07` V3.12.21
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change information screen when media can not be played (small rectangle with transparence containing a small triangle instead of full screen red cross)
 	- ```content temporarily unavailable... (code <i>)```
@@ -346,7 +346,7 @@
 - Fix crash when playing web site storing a lot of image in graphics memory
 - Fix login and password was kept displayed in playback error information message for URI containing [login:password]
 
-##`2015-06-29` V3.12.20
+## `2015-06-29` V3.12.20
 >##### **INSTALLATION ERROR MESSAGE WHEN INJECTING SCRIPT JS WITH GEKKOTA 3.12.20**
 - *Installation error* message can pop with Gekkota 3.12.20 in case script installation because legacy script JS is containing obsolete command line making it not compatible with this version
 - Please refer to technical documentation to solve the issue or upgrade to above version
@@ -387,7 +387,7 @@
 - Fix red cross display while playing media whose file name is containing %, %de (PlugnCast G2 configuration)
 - Fix unexpected playout entirely redownloaded after ethernet cable unplug for more than 3 minutes (PlugnCast G2 configuration)
 
-##`2015-05-18` V3.12.19
+## `2015-05-18` V3.12.19
 >##### **IMPORTANT BEFORE UPGRADING**
 - In case software migration from Gekkota 3.12.18 to this version, the playout will be entirely redownloaded once (just after the player restart). Please wait the end of the playout download before doing any further software migration actions
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -402,7 +402,7 @@
 - Fix playout deadlock while playing playlist whose one of media name is containing '{' (PlugnCast G2 environment)
 - Fix red cross when playing media name containing '%' or '%de' (PlugnCast G2 environment)
 
-##`2015-04-10` V3.12.18
+## `2015-04-10` V3.12.18
 >##### **IMPORTANT BEFORE DOWNGRADING**
 - Especially for this version Gekkota 3.12.18, once installed, in PlugnCast G2 environment:
 	- It is forbidden to downgrade to any previous version otherwise the publication function will not work definitively
@@ -416,7 +416,7 @@
 - Fix directory HTTP download issue when containing special character ';'
 - Fix content HTTP download issue with server Proxy Squid activated [cache setup forced] (PlugnCast environment)
 
-##`2015-03-09` V3.12.16
+## `2015-03-09` V3.12.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix default scene not displayed with PlugnCast G2 configuration (issue in migration script G2-> G3)
 - Fix issue in calendar with "until" function (player was playing the event one day too much in configuration "0h to 0h" or "all day long")
@@ -424,7 +424,7 @@
 - Fix red cross displayed when HTML was containing non-existing resource
 - Fix WIFI reconnexion issue (mode Infrastructure - WEP mode)
 
-##`2015-02-17` V3.12.15
+## `2015-02-17` V3.12.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for SCXML
 - Add support for Idle API (W3C listener)
@@ -438,11 +438,11 @@
 - Fix random consecutive scanning failed (example of message *{nsiSystemAdapterDigitalTvReceiver.startScan} has failed*)
 - Fix services list saving issue when list contains data services (example of message *Saving has failed*)
 
-##`2015-02-05` V3.12.14
+## `2015-02-05` V3.12.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for scripts 'js' in migration module (xpf g2 to xpf g3)
 
-##`2015-1-09` V3.12.11
+## `2015-1-09` V3.12.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for DHCP timeout  configuration in WebUI
 - Add support for full WGT API (localization)
@@ -454,7 +454,7 @@
 - Fix random unworking UDP streaming after reboot
 - Fix huge SWF loading issue
 
-##`2014-12-08` V3.12.10
+## `2014-12-08` V3.12.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add Microsoft SQL Server WebIdl
 - Add MySQL WebIdl
@@ -472,11 +472,11 @@
 - Fix take into account http code 300
 - Fix a video playing inside a flash makes all video files not played after
 
-##`2014-11-19` V3.11.16
+## `2014-11-19` V3.11.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix a definitive blocking of player in very rare cases, when a powerpoint is in use. The player will reboot instead of being idle
 
-##`2014-10-31` V3.11.15
+## `2014-10-31` V3.11.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add UDP web socket IDL support
 - Add Web UI DHCP timeout
@@ -489,22 +489,22 @@
 - Fix web UI : button 'Validate' active in Maintenance/Preference, even without modification
 - Fix URI with distant PDF
 
-##`2014-10-07` V3.11.14
+## `2014-10-07` V3.11.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix support acceleration video when video is played inside powerpoint
 - Fix support media with FTP distant ressource
 
-##`2014-08-28` V3.11.12
+## `2014-08-28` V3.11.12
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for .wgt file format
 - Fix in wifi use : it could not work according to the boot
 - Fix in wifi use : IP adress fix and automatic DNS, DNS didn't work
 
-##`2014-08-14` V3.11.11
+## `2014-08-14` V3.11.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix deinterlace mode 'linear' and 'discard' which make appear a green line on the top of video
 
-##`2014-08-13` V3.11.10
+## `2014-08-13` V3.11.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Improves plugncast g2 mode functionnalities : can receive download and/or standby and/or reboot task without the need of having an active content update task
 - Improves plugncast g2 mode functionnalities : task can be scheduled in time slot
@@ -526,7 +526,7 @@
 - Screen Composer V3.10.10 minimum (latest V3.xx.yy recommended)
 - Boootloader 2.36.8-8
 
-##`2014-05-20` V3.10.44
+## `2014-05-20` V3.10.44
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add new RS232 executables : extron_m1_input, extron_m2_input, extron_m3_input, extron_m4_input
 - Add a new display output mode '1280x720 60Hz CGV CPLine AV-HD'
@@ -535,7 +535,7 @@
 - New version of bootloader
 - Fix a case with a quicktime video container not supported
 
-##`2014-04-30` V3.10.43
+## `2014-04-30` V3.10.43
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Rename the swf file of the UI
 - Fix a case of ScreenComposer new publication not detected (when very small publications, as a .maff file)
@@ -551,14 +551,14 @@
 - multiplexing)
 - Fix UI accessible in ipv6
 
-##`2014-04-07`V3.10.42
+## `2014-04-07`V3.10.42
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add a new preference to show/hide the pointer cursor : 'innes.player.display.show-cursor'
 - Fix bad decoding of video which could occur, and green screen which could replace the video
 - Fix a case with a quicktime video container : with MPEG2 audio, it could make reboot Gekkota
 - Rename the preference ```innes.hid.pointer-event.*. authorized``` by ```innes.hid.pointer-event.*.authorized``` (remove the unwanted space character)
 
-##`2014-04-01` V3.10.41
+## `2014-04-01` V3.10.41
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add a new proxy type : automatic configuration script
 - Add support for binary type certificates

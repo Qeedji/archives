@@ -16,7 +16,7 @@ The content can be generated:
 
 Prerequisite: To use this tools, each SLATE106 devices need to be paired to a `SMH300` hub(s). For further information, read the SMH300 user manual
 
-##`2019-06-25` img2slate-V1.11.12.zip [download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/img2slate/Img2slate-V1.11.12.zip)
+## `2019-06-25` img2slate-V1.11.12.zip [download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/img2slate/Img2slate-V1.11.12.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **COMPATIBILITIES**
@@ -66,6 +66,6 @@ Prerequisite: To use this tools, each SLATE106 devices need to be paired to a `S
 				../common-sender.cmd
 				```
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 

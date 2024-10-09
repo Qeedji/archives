@@ -3,7 +3,7 @@
 
 To avoid any unexpected network trouble when working with Gekkota RT, it is recommended to inactivate all the other LAN interfaces of your player MS-Windows (LAN Bluetooth, virtual LAN...) than the main MS-Windows Ethernet LAN interface.
 
-##`2022-12-20` V4.14.13 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-4.14.13.exe)
+## `2022-12-20` V4.14.13 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-4.14.13.exe)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *Microsoft 365* services accounts
 - Add support for *CIFS* services accounts
@@ -31,10 +31,10 @@ To avoid any unexpected network trouble when working with Gekkota RT, it is reco
 - Hard disk: 128 GB (or more),
 - Graphics card: depends on your needs (video decoding hardware performances, screen wall capabilities, ...). For further information, contact your computer reseller and check this point.
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2022-04-06` V4.14.10 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-4.14.10.exe)
+## `2022-04-06` V4.14.10 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-4.14.10.exe)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for GAP App (`.gap` extension) downloading in the *Pull WebDAV* mode of the *App* pane of the *Configuration* menu of the Web user interface
 - Add support for GAP App (`.gap` extension) loading in the *Local deposit* mode of the *App* pane of the *Configuration* menu of the Web user interface
@@ -55,6 +55,6 @@ To avoid any unexpected network trouble when working with Gekkota RT, it is reco
 - Fix: some Web page could be not displayed anymore
 - Fix: after a App content updating by a USB mass storage insertion in the device, the state value of the launcher HTML tag in the device status was not updated with the right value
 
-##`2021-05-03` V4.13.15 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-4.13.15.exe)
+## `2021-05-03` V4.13.15 [download for Windows 7+](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-rt/gekkota_rt-nt_ia32-setup-4.13.15.exe)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version supporting a HTML Web configuration interface

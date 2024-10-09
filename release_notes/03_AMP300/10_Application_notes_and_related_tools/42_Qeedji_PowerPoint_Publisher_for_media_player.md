@@ -3,7 +3,7 @@
 #### **SUMMARY**
 The goal of application note is to explain how to install and use the *Qeedji PowerPoint Publisher for Media Player* PowerPoint add-in.
 
-##`2024-10-08` V1.16.10 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.16.10.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.16.10.msi){.free-downloads}
+## `2024-10-08` V1.16.10 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.16.10.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.16.10.msi){.free-downloads}
 >##### **IMPORTANT**
 In these version, the TAB10b devices cannot be detected yet when launching network UPnP discovery. To work around, the TAB10b devices must be added manually with the model type *TAB10s*. 
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -60,21 +60,21 @@ These two *.xml* configuration scripts allow to configure the UDP datagram port 
 
 Refer to the *Qeedji PowerPoint Publisher For Media Players: custom script* chapter of the device user manual to know how to import the *.xml* configuration script in your MS-PowerPoint. 
  
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2023-04-03` V1.15.10 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.15.10.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.15.10.msi){.free-downloads}
+## `2023-04-03` V1.15.10 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.15.10.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.15.10.msi){.free-downloads}
 >##### **IMPORTANT**
 In these version, the TAB10b devices cannot be detected yet when launching network UPnP discovery. To work around, the TAB10b devices must be added manually with the model type *TAB10s*. 
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: when installed on the AQS device, the App name is now *PowerPoint Publisher* instead of *PowerPoint Publisher Library* 
 - Fix: when the App was pushed on the device, it could awake the AQS device which was in standby
 
-##`2023-01-24` V1.14.10 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.14.10.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.14.10.msi){.free-downloads}
+## `2023-01-24` V1.14.10 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.14.10.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.14.10.msi){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for executable custom script thanks to a configuration .xml file loaded in the optional *Developer* menu of the MS-PowerPoint ribbon
 
-##`2022-01-10` V1.13.10 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.13.10.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.13.10.msi){.free-downloads}
+## `2022-01-10` V1.13.10 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.13.10.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.13.10.msi){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for DMB300 devices
 - Change: move the ticker configuration pane from the *Advanced* tab to the *Ticker* tab
@@ -98,7 +98,7 @@ In these version, the TAB10b devices cannot be detected yet when launching netwo
 	- AMP300
 	- TAB10s
 
-##`2022-10-17` V1.12.11 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.12.11.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.12.11.msi){.free-downloads}
+## `2022-10-17` V1.12.11 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.12.11.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.12.11.msi){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: in some poor network condition, the publication of MS-Powerpoint medias having a huge size could fail 
 >##### **COMPATIBILITIES**
@@ -112,11 +112,11 @@ In these version, the TAB10b devices cannot be detected yet when launching netwo
 	- AMP300
 	- TAB10s
 
-##`2022-10-05` V1.12.10 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.12.10.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.12.10.msi){.free-downloads}
+## `2022-10-05` V1.12.10 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.12.10.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.12.10.msi){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for scrolling text in an optional bottom banner
 - Fix: in some case, activating the `force for manual transitions an automatic progression of <m> min <n> sec` option was compressing the video medias inside the MS-PowerPoint media preventing them to be played back  
 
-##`2019-09-03` V1.10.10 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.10.10.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.10.10.msi){.free-downloads}
+## `2019-09-03` V1.10.10 [download (nt_ia64)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.10.10.msi){.free-downloads} [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.10.10.msi){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

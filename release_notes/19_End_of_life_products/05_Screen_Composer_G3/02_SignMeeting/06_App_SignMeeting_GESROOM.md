@@ -3,7 +3,7 @@
 
 *Attention not compatible with Screen Composer V3.20.10*
 
-##`2015-06-09` V1.11.17 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-gesroom/signmeeting_gesroom-screen_composer-setup-1.11.17.appi)
+## `2015-06-09` V1.11.17 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-gesroom/signmeeting_gesroom-screen_composer-setup-1.11.17.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add confirmation screen when pressing "Room is empty" button
 - Add support "book now"
@@ -53,9 +53,9 @@
 #### **DATASOURCE HOSTED ON DISTANT SERVER**
 - Some slowness could be noticed when booking (or cancelling) a meeting in case datasource is referring to distant server with poor reaction capability
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2014-10-17` V1.10.51 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-gesroom/signmeeting_gesroom-screen_composer-setup-1.10.51.appi)
+## `2014-10-17` V1.10.51 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-gesroom/signmeeting_gesroom-screen_composer-setup-1.10.51.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Compatibility with Screen Composer 3.11.x

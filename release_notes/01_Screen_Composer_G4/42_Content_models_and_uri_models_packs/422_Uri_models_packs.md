@@ -1,7 +1,7 @@
 # Addons: Uri-models packs for Screen Composer G4
 *RELEASE NOTE*
 
-##`2022-03-29` Uri models packs
+## `2022-03-29` Uri models packs
 - TV channels France 001A [Download](addons/uri_models_packs/uris-chaines_tv_france_demodulateur_dvb_t-screen_composer_g4-setup-001A.zip){.auth-downloads}
 - Device peripherals 001A [Download](addons/uri_models_packs/uris-peripheral_device-screen_composer_g4-setup-001A.zip){.auth-downloads}
 - Web TV channels 003A [Download](addons/uri_models_packs/uris-web_tv_channels-screen_composer_g4-setup-003A.zip){.auth-downloads}
@@ -86,10 +86,10 @@
         - for SMA200 devices
     - Gekkota RT V3.12.59 (or above)
 
-#OLD VERSION HISTORY
+# OLD VERSION HISTORY
 ***********************************************************************
 
-##`2022-03-07` Uri models packs
+## `2022-03-07` Uri models packs
 - TV channels France 001A [Download](addons/uri_models_packs/uris-chaines_tv_france_demodulateur_dvb_t-screen_composer_g4-setup-001A.zip){.auth-downloads}
 - Device peripherals 001A [Download](addons/uri_models_packs/uris-peripheral_device-screen_composer_g4-setup-001A.zip){.auth-downloads}
 - Web TV channels 002A [Download](addons/uri_models_packs/uris-web_tv_channels-screen_composer_g4-setup-002A.zip){.auth-downloads}
@@ -103,7 +103,7 @@
 	- *ABC7 - EN*
 	- *RT France - FR*
 
-##`2021-12-01` Uri models packs
+## `2021-12-01` Uri models packs
 - TV channels France 001A [Download](addons/uri_models_packs/uris-chaines_tv_france_demodulateur_dvb_t-screen_composer_g4-setup-001A.zip){.auth-downloads}
 - Device peripherals 001A [Download](addons/uri_models_packs/uris-peripheral_device-screen_composer_g4-setup-001A.zip){.auth-downloads}
 - Web TV channels 001A [Download](addons/uri_models_packs/uris-web_tv_channels-screen_composer_g4-setup-001A.zip){.auth-downloads}

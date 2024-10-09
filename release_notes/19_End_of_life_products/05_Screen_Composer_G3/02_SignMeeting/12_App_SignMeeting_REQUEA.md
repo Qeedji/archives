@@ -1,7 +1,7 @@
 # SignMeeting REQUEA
 *RELEASE NOTE*
 
-##`2023-08-02` V1.13.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-requea/signmeeting_requea-screen_composer-setup-1.13.13.appi)
+## `2023-08-02` V1.13.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-requea/signmeeting_requea-screen_composer-setup-1.13.13.appi)
 >##### **IMPORTANT**
 - For users having existing `SignMeeting` pro
 - jects in the previous version `SignMeeting 1.11.XX`,
@@ -206,10 +206,10 @@
 		- enter ```cusClass1``` in *device/edit/CSS class* field
 - Add the required media *./images/diagonal3.png* in Screen Composer manifest (*medias* tab)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2018-09-11` V1.12.34
+## `2018-09-11` V1.12.34
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 

@@ -5,7 +5,7 @@ SignMeeting Google Calendar is suitable for **Google Workspace** calendar. SignM
 
 Since October 2020, due to some changes in **Google Workspace** calendar, the legacy SignMeeting could not support the adding for any new resource in SignMeeting Google Calendar. To fix the issue, you have to upgrade to the SignMeeting V1.13.11.
 
-##`2021-01-13` V1.13.11
+## `2021-01-13` V1.13.11
 >##### **IMPORTANT**
 - For users having existing `SignMeeting` projects in the previous version `SignMeeting 1.12.XX`,
     - Install `Screen Composer V3.20.15`
@@ -140,10 +140,10 @@ The checkout feature with meeting shortening only works when the meeting has bee
 #### **DATASOURCE HOSTED ON DISTANT SERVER**
 - Some slowness could be noticed when booking (or cancelling) a meeting in case datasource is referring to distant server with poor reaction capability
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2016-06-13` V1.12.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-google/signmeeting_google-screen_composer-setup-1.12.19.appi)
+## `2016-06-13` V1.12.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-google/signmeeting_google-screen_composer-setup-1.12.19.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of vizualization of meeting scheduled accross several days, or all day long
 	- Note: In this case, SignMeeting is splitting the meeting accross several days as much as there is day to display the meeting from *working day start time* to *working day end time*.
@@ -207,7 +207,7 @@ The checkout feature with meeting shortening only works when the meeting has bee
 - LDAP V3 (used by Windows Server 2000/Active directory and above Windows Server version)
 - Briva LDAP
 
-##`2015-12-07` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-google/signmeeting_google-screen_composer-setup-1.12.13.appi)
+## `2015-12-07` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-google/signmeeting_google-screen_composer-setup-1.12.13.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add attendees list display with scrolling
 - Add support of a signs library (72 icons) or signs importation (for resources in summary screen)
@@ -268,7 +268,7 @@ The checkout feature with meeting shortening only works when the meeting has bee
 - Fix: pressing "room is emptied" the second time was doing nothing (in case reccurent meeting)
 - Fix: attendees could be displayed on 2 lines instead be scrolled on 1 line (Room screen)
 
-##`2015-06-09` V1.11.17 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-google/signmeeting_google-screen_composer-setup-1.11.17.appi)
+## `2015-06-09` V1.11.17 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-google/signmeeting_google-screen_composer-setup-1.11.17.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add confirmation screen when pressing "Room is empty" button
 - Add support "book now"
@@ -284,11 +284,11 @@ The checkout feature with meeting shortening only works when the meeting has bee
 - Fix "Book now" button availability issue when playing with navigation menu
 - Add possibility to set position of the banner at the top (or at the bottom) of the screen.
 
-##`2014-10-17` V1.10.51 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-google/signmeeting_google-screen_composer-setup-1.10.51.appi)
+## `2014-10-17` V1.10.51 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-google/signmeeting_google-screen_composer-setup-1.10.51.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Compatibility with Screen Composer 3.11.x
 
-##`2014-06-03` V1.10.41
+## `2014-06-03` V1.10.41
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add protection to prevent user from adding a meeting outside the current time range
 - Add protection to prevent free time calculation to go outside the current time range
@@ -320,6 +320,6 @@ The checkout feature with meeting shortening only works when the meeting has bee
 - Fix incorrect error message on startup ('Object - Object')
 - Fix in Mono : 'Show attendees' was not kept
 
-##`2014-03-10` V1.10.31
+## `2014-03-10` V1.10.31
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

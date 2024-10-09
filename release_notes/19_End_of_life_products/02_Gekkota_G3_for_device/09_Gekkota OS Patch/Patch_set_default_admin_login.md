@@ -1,7 +1,7 @@
 # Patch set default admin login
 *RELEASE NOTE*
 
-##`2015-09-14` V3.11.10 (last update)
+## `2015-09-14` V3.11.10 (last update)
 |              Platform                             |    Patch Install    |
 | :------------------------------------------------ | :------------------ |
 | SMA300 |  [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-set-default-admin-login/set%20default%20admin%20login-sma300-patch-3.11.10.frm)	|

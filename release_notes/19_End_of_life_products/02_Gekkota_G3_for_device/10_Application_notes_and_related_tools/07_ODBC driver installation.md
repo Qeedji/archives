@@ -6,7 +6,7 @@ The aim of this documentation is to explain why and how to install a driver ODBC
 - MySQL Server
 - Microsoft SQL server
 
-##`2015-07-01` (last update)
+## `2015-07-01` (last update)
 
 #INFORMATION
 ***********************************************************************

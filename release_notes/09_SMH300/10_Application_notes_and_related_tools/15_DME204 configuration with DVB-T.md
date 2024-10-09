@@ -1,6 +1,6 @@
 # DME204 configuration with DVB-T
 
-##`2015-10-09` (last update)
+## `2015-10-09` (last update)
 
 #### **SUMMARY**
 - The goal of this document is to explain how to configure properly a DME204 platform with an MOE system (RF modulator) in order to build a private TV channel

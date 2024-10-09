@@ -6,7 +6,7 @@
 	- player firmware version update
 	- configuration script loading
 
-##`2016-05-02` (last update)
+## `2016-05-02` (last update)
 
 #INFORMATION
 ***********************************************************************

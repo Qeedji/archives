@@ -14,12 +14,12 @@
 - Check your device type, and choose the appropriate *USB format* or *USB recovery* patch for your platform among the choices below.
 
 #### **USB RECOVERY**
-##`2021-09-15` DMB400 4.13.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-format-and-recovery/usb-recovery-DMB400-V4.13.15.zip)
-##`2021-09-15` DME204 4.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-format-and-recovery/usb-recovery-DME204-V4.13.10.zip)
+## `2021-09-15` DMB400 4.13.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-format-and-recovery/usb-recovery-DMB400-V4.13.15.zip)
+## `2021-09-15` DME204 4.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-format-and-recovery/usb-recovery-DME204-V4.13.10.zip)
 
 #### **USB FORMAT**
-##`2021-09-15` DMB400 4.13.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-format-and-recovery/usb-format-DMB400-V4.13.15.zip)
-##`2021-09-15` DME204 4.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-format-and-recovery/usb-format-DME204-V4.13.10.zip)
+## `2021-09-15` DMB400 4.13.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-format-and-recovery/usb-format-DMB400-V4.13.15.zip)
+## `2021-09-15` DME204 4.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/patch-format-and-recovery/usb-format-DME204-V4.13.10.zip)
 
 #INFORMATION
 ***********************************************************************

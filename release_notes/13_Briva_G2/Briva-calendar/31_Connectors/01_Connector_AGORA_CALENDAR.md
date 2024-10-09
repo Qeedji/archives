@@ -1,7 +1,7 @@
 # AGORA CALENDAR
 *RELEASE NOTE*
 
-##`2014-04-02` V1.10.10 [download](applets/pcs-wa-agora-V1.10.10/agora-calendar-V1.10.10/agora-calendar-V1.10.10.saz){.auth-downloads}   
+## `2014-04-02` V1.10.10 [download](applets/pcs-wa-agora-V1.10.10/agora-calendar-V1.10.10/agora-calendar-V1.10.10.saz){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version 
 >##### **COMPATIBILITIES**
@@ -22,6 +22,6 @@
 - Models package V3.15 (or above) for Plugncast G3 [download](applets/pcs-wa-agora-V1.10.10/models-V3.15-PNC-G3/plugncast_server_models-setup-3.15.exe){.auth-downloads}
 - Models package V3.15 (or above) for ScreenComposer and Plugncast G2 [download](applets/pcs-wa-agora-V1.10.10/models-V3.15-SC-PNC-G2/models-V3.15.zip){.auth-downloads}
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 

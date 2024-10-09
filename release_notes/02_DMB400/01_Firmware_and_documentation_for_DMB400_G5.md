@@ -9,7 +9,7 @@
 
 *Never make electric unplug on your player while software upgrade is in progress (green led blinking 6 times every 4 seconds) else the player may not be able to work properly*
 
-##`2024-06-04` V5.11.14 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-5.11.14)
+## `2024-06-04` V5.11.14 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-5.11.14)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *2304x384 60 Hz NOVASTAR* display mode
 >##### **LIMITATIONS**
@@ -91,16 +91,16 @@
     - In case trouble to use the *MS OAuth application* mode, contact support@innes.pro
 
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2024-01-19` V5.11.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-5.11.13.zip)
+## `2024-01-19` V5.11.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-5.11.13.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for additional logs for the *Power BI Online Viewer* built-in App
 - Change: the *Viewing time of the report pages* field value in the *Power BI Online Viewer* section in the *App* pane of the *Configuration* menu in the device configuration Web user interface is taken into account now to refresh the Power BI dashboards reports content as well
 - Fix: the displaying of some specific pages of *Power BI* reports could never end
 
-##`2023-11-30` V5.11.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-5.11.12.zip)
+## `2023-11-30` V5.11.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-5.11.12.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the *identifier* and *password* fields self-filling and self-validation for Web page form in some condition
 - Add support for the *Identifier/password for a Web page form* authentication for the *Simple Web server* mode in the *URL launcher* App form of the *App* pane in the *Configuration* menu of the device configuration Web user interface
@@ -118,7 +118,7 @@
 - Fix: the DNS value was not displayed in the *Network* pane of the *Information* menu of the device configuration Web interface
 - Fix: the unsigned CA certificates was not supported
 
-##`2023-09-28` V5.11.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-5.11.11.zip)
+## `2023-09-28` V5.11.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-5.11.11.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for swap disk feature
 	- *Enable Virtual memory on this partition* checkbox in the *Tools* pane of the *Maintenance* tab of the device Web user interface allowing to activate swap disk feature
@@ -129,7 +129,7 @@
 - Fix: in some case, the URL launcher App could return an error message *Content temporarily unavailable (code 4)* when playing some images located in Web site sub directories
 - Fix: the unsigned CA certificates was not supported
 
-##`2023-04-19` V5.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-5.11.10.zip)
+## `2023-04-19` V5.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-5.11.10.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version with Web engine based on Mozilla 92 and supporting these built-in App in the *App* pane in the *Configuration* menu of the device configuration Web user interface
 	- *Power BI Online viewer*

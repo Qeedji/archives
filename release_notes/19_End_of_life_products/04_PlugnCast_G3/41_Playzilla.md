@@ -1,6 +1,6 @@
 # App Playzilla for PlugnCast
 
-##`2021-12-21` V4.13.13 (.appi) [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.13.13.appi)
+## `2021-12-21` V4.13.13 (.appi) [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.13.13.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the publication on `Gekkota 5` devices was not working
 - Fix: the publication on `AQS` devices was not working
@@ -137,19 +137,19 @@ For further information, see the list of supported media on your device in the *
 
 &sup2; For further information, contact *support@innes.fr*
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2021-03-03` V4.13.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.13.12.appi)
+## `2021-03-03` V4.13.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.13.12.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for .playlist media
 - Fix: when using date and time variable, the estimated *week-in-year* value  was wrong for some year
 
-##`2020-10-06` V4.13.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.13.11.appi)
+## `2020-10-06` V4.13.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.13.11.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the content of a remote playfolder was updated only after a new publication
 
-##`2020-07-01` V4.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.13.10.appi)
+## `2020-07-01` V4.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.13.10.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for a `{$custom:<calendar>}` variable type
 - Add support for `validity variable` metadata
@@ -159,7 +159,7 @@ For further information, see the list of supported media on your device in the *
 - Change: a keyword value can now support the ```{$custom:<variable_name>}``` or ```{deviceInfo:<>}``` formats
 - Change: validity period metadata without validity end date is now supported
 
-##`2020-01-28` V4.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.12.10.appi)
+## `2020-01-28` V4.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.12.10.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for medias filtering based on *rating* or *keywords* for the playfolder
 - Add support for smart monitor:
@@ -178,7 +178,7 @@ For further information, see the list of supported media on your device in the *
 	- To work around, set a appropriate date & time for your smart monitor
 - Fix: in some case, the video media could stop on `SAMSUNG Tizen SSSP` without raising a message *content temporarily unavailable*
 
-##`2019-06-06` V4.11.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.11.13.appi)
+## `2019-06-06` V4.11.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.11.13.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the `SAMSUNG Tizen SSSP 6` smart monitors
 - Change: the support of PDF and MS-PowerPoint medias has been inactivated for `SAMSUNG Tizen SSSP` smart monitors
@@ -188,11 +188,11 @@ For further information, see the list of supported media on your device in the *
     - `LG WebOS Signage 3.0`,
     - `LG WebOS Signage 3.2`.
 
-##`2019-03-07` V4.11.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.11.11.appi)
+## `2019-03-07` V4.11.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.11.11.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: some unexpected validity behaviour could be noticed for the Gekkota 3 devices and SAMSUNG SSSP 4 monitors when the media validity was changing inside a same day
 
-##`2019-01-08` V4.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.11.10.appi)
+## `2019-01-08` V4.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.11.10.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for these new Smart Monitors:
     - `LG WebOS Signage 4.0`,
@@ -203,17 +203,17 @@ For further information, see the list of supported media on your device in the *
 - Fix: when only the WLAN was connected to the network, a wrong MAC identification method was returned for LG WebOS Smart Monitors
 - Fix: some playout scripts could not work anymore
 
-##`2018-08-09` V4.10.20 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.10.20.appi)
+## `2018-08-09` V4.10.20 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.10.20.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: some unexpected playout behaviour could be noticed on the playout when another media was played alone in a zone and outside its validity range (by example, inside a playfolder, only the 1st media could be played instead of all the medias)
 - Fix: the playout could not start properly by displaying the message *the execution of a script blocks Gekkota, rebooting* when the date of the device was more than 23 days before the date of the first event in the calendar
 
-##`2018-04-23` V4.10.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.10.19.appi)
+## `2018-04-23` V4.10.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.10.19.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: playing streamed video medias was not working anymore
 - Fix: sometimes immediately after a publication, and when several video medias had to start at the same time, all the video medias could not start and the error message *content temporarily unavailable* was not displayed
 
-##`2018-04-05` V4.10.18 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.10.18.appi)
+## `2018-04-05` V4.10.18 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.10.18.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for media metadatas (duration, validity, autoloop, different type of media with pagination)
 - Change: in alphabetical order, the file are now sorted first in the list when the filename has some number characters (for example in playfolder)
@@ -226,7 +226,7 @@ For further information, see the list of supported media on your device in the *
 - Fix: memory leak when repeating URI media (Web page with video especially)
 - Fix: sometimes nothing was played after having played a emptied playfolder
 
-##`2017-10-27` V4.10.17 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.10.17.appi)
+## `2017-10-27` V4.10.17 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.10.17.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for PPSX and PPTX playback
     - refer to the documentation *Gekkota supported media and performances* to know whether MS-PowerPoint medias are supported by your device
@@ -235,7 +235,7 @@ For further information, see the list of supported media on your device in the *
 - Fix: opt-out with non-alphabetic character was not played
 - Fix: playing of medias using a variable could failed in case the path file name is containing character ```{``` or ```}```
 
-##`2017-06-30` V4.10.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.10.16.appi)
+## `2017-06-30` V4.10.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-playzilla/playzilla-plugncast-setup-4.10.16.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 

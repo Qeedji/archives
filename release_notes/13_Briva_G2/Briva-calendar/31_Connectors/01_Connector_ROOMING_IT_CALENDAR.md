@@ -1,7 +1,7 @@
 # ROOMING'IT CALENDAR
 *RELEASE NOTE*
 
-##`2021-05-10` V1.10.10 [download](applets/connector-rooming_it-V1.10.10/delivery/roomingit-calendar-1.10.10.saz){.auth-downloads}   
+## `2021-05-10` V1.10.10 [download](applets/connector-rooming_it-V1.10.10/delivery/roomingit-calendar-1.10.10.saz){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **COMPATIBILITIES**
@@ -12,6 +12,6 @@
 #### **DOCUMENTATION**  
 - User manual 001A/EN [download](applets/connector-rooming_it-V1.10.10/delivery/rooming_it-calendar-user-manual-001A_en.pdf){.auth-downloads}
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 

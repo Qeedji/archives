@@ -127,7 +127,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 #### **MODEL METADATA**
 - The metadata other than the version number are not updated in case model version upgrade.
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
 ## `2022-02-23` V3.12.17 [download nt_ia64](https://github.com/Qeedji/archives/blob/master/downloads/plugncast-g3/plugncast_server-nt_ia64-setup-3.12.17.exe)
@@ -702,7 +702,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - User manual 3.10.39 (001E/FR) [download](https://github.com/Qeedji/archives/blob/master/downloads/plugncast-g3/plugncast-manual-3.10.39-001E_fr.pdf)
 - User manual 3.10.39 (001E/DE) [download](https://github.com/Qeedji/archives/blob/master/downloads/plugncast-g3/plugncast-manual-3.10.39-001E_de.pdf)
 
-##`2017-03-21` V3.10.38
+## `2017-03-21` V3.10.38
 >##### **IMPORTANT**
 - In case using DMB400 devices, do upgrade first the PlugnCast server version to 3.10.38 before upgrading Gekkota to the latest version (ex: 4.10.10 beta58 and above)
 - After having chosen your language in PlugnCast, set the language of your devices in the according language as well (WebUI/Regional) to raise the device status values in the appropriate language
@@ -734,7 +734,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix: error message (404) could be raised in preview when playing playfolder with recursivity
 - Fix: AVCmd was not managed properly when using device standby/wake up
 
-##`2017-02-17` V3.10.37
+## `2017-02-17` V3.10.37
 >##### **IMPORTANT**
 - In case using DMB400 devices, do upgrade first the PlugnCast server version to 3.10.37 before upgrading Gekkota to the latest version (ex: 4.10.10 beta58 and above)
 - When using PlugnCast in English, set the language of your devices in English as well (WebUI/Regional) to raise the device status values in English
@@ -761,7 +761,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix: message please wait could be displayed forever when editing twice the ACL for a unregistered device
 - Fix: playfolder with localized folder did not work properly (due to double slash character at the end of URI)
 
-##`2017-01-27` V3.10.36
+## `2017-01-27` V3.10.36
 >##### **IMPORTANT**
 - In case using DMB400 devices, do upgrade first the PlugnCast server version to 3.10.36 before upgrading Gekkota to the latest version (ex: 4.10.10 beta44 and above)
 - For any reason, in case you had to downgrade PlugnCast G3 to version V3.10.34 (or below) and DMB400 players are used, it is recommended to downgrade first your device DMB400 to Gekkota V4.10.10 beta43 (or below) and remove all DMB400 devices from your domain, remove DMB400 device status file from PlugnCast file system (default *C:\Users\Public\Documents\Innes Plugncast Server\.frontals\.webdav\demo.plugncast.com\.device-status*). Ensure also to not use Mozilla Firefox *ESR* Web browser not compatible with version 3.10.34 (and below)
@@ -775,7 +775,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix: the base URI was not taken into account with some MAFF medias of the shared repository (consequently the preview could not work)
 - Fix: playlist or playfolder could be not rendered properly in channel audio when the same playlist (same name) was present in both audio channel and visual channel
 
-##`2017-01-23` V3.10.35
+## `2017-01-23` V3.10.35
 >##### **IMPORTANT**
 - It is not recommended to use this version with Gekkota 3 devices because at this time, the task to program device reboot is not working properly. In this case, do prefer use 3.10.33
 - In case using DMB400 devices, do upgrade first the PlugnCast server version to 3.10.35 before upgrading Gekkota to the latest version (ex: 4.10.10 beta44 and above)
@@ -796,7 +796,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Change: raise an error when trying to save a URI path file which is not containing a filename at the end
 - Change: raise an error when trying to save a file whose name is empty
 
-##`2017-01-06` V3.10.34
+## `2017-01-06` V3.10.34
 >##### **IMPORTANT**
 - It is not recommended to use this version with Gekkota 3 devices because at this time, the task to program device reboot is not working properly. In this case, do prefer use 3.10.33
 - Not compatible with Firefox ESR
@@ -815,7 +815,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Gekkota RT V3.12.22 (or above)
 - Mozilla Firefox or Google Chrome Web browser (cookies must be accepted on Web browser)
 
-##`2016-11-30` V3.10.33
+## `2016-11-30` V3.10.33
 >##### **IMPORTANT**
 - Once this version is installed, in case facing issue to connect to the PlugnCast WebUI, that means that your PlugnCast domain-repository is containing a localized folder based on variable value which is containing non ASCII character (ex: accentuated character). To solve the issue
 	- Please contact support so that they can make the modification below or
@@ -963,14 +963,14 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix: floating zone zIndex could be not saved properly
 - Fix: in some case, a unexpected zIndex value could be noticed for the main zone
 
-##`2016-07-27` V3.10.32
+## `2016-07-27` V3.10.32
 >##### **MODELS PACKAGE TO INSTALL**
 - 3.34 (or above)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix publication error *resolvedPath not defined* when playout is containing URI with variable
 - Fix random publication error *getAbsoluteSpec path, error .../... urn:innes:owl:digitaltv-receiver .../... nslsupportsQuery interface* even if the playout is not containing URN
 
-##`2016-07-19` V3.10.31
+## `2016-07-19` V3.10.31
 >##### **IMPORTANT WHEN INSTALLING THIS VERSION**
 - It is recommended to backup PlugnCast file system before upgrading to this version
 - The variables of types integer, float, boolean are not supported anymore. They are kept in PlugnCast but becomes variable of type "localized" to keep compatibility
@@ -1168,7 +1168,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix: default TODO task generated by PlugnCast was not working properly (until the time&day is changed)
 - Fix: in some case, it could be not possible to save a new LDAP/SMTP/Proxy servers configuration
 
-##`2016-04-08` V3.10.25
+## `2016-04-08` V3.10.25
 >##### **MODELS PACKAGE TO INSTALL**
 - 3.31 (or above)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -1228,7 +1228,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix icon overlap display issue in case viewing on small Web browser Windows
 - Fix unexpected publication error message *that is not defined* when using layout/canevas
 
-##`2015-11-19` V3.10.24
+## `2015-11-19` V3.10.24
 >##### **IMPORTANT**
 - Once this version is installed, new user accounts created with this version will not work properly in case downgrading to PlugnCast 3.10.23
 >##### **MODELS PACKAGE TO INSTALL**
@@ -1314,7 +1314,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix unexpected double scroll bar in calendar view
 - Fix bad management of *save or cancel* pop-up when exiting library view
 
-##`2015-10-15` V3.10.23
+## `2015-10-15` V3.10.23
 >##### **MODELS PACKAGE TO INSTALL**
 - 3.20 (or above)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -1329,14 +1329,14 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix file alignment issue of an edited file in library (Google Chrome)
 - Fix unexpected edition mode of the first variable of the list in case passing from library view (file in edition) to target view
 
-##`2015-09-21` V3.10.22
+## `2015-09-21` V3.10.22
 >##### **MODELS PACKAGE TO INSTALL**
 - 3.20 (or above)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix infinite screen *please wait* when creating a first scrolling text instance of the new model 1.10.14 supporting overlay or when upgrading existing scrolling text instance
 - Fix certificates management the 23/09 (integration new certificate chain including rapid SSL) for SAAS and Off-premises solution on all customer servers allowing to not face some unexpected player deconnexion in https
 
-##`2015-09-11` V3.10.21
+## `2015-09-11` V3.10.21
 >##### **IMPORTANT**
 - Once this version is installed, it is highly recommanded to launch a new supported command line to make safe all the existing databases of your PlugnCast server domain:
 	- ```plugncast.exe -k repairdbs -domain <plugncast_customer_domain>```
@@ -1380,7 +1380,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix server crashed when adding unplayable WOFF fonts in playfolder
 - Fix impossibility in some case to select one of the available software versions
 
-##`2015-08-07` V3.10.20
+## `2015-08-07` V3.10.20
 >##### **MODELS PACKAGE TO INSTALL**
 - 3.19 (or above)
 >##### **IMPORTANT**
@@ -1491,7 +1491,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix add workaround to avoid main region overlapping over main region of the day after (for example event 00h00 to 00h00 whereas slot is mentionning 18h00 to 00h00)
 - Fix drop list display when creating group by variable with more than 4 variables
 - Fix media are disappearing from calendar temporarily when modifying event recurrence then cancelling modification
-##`2015-06-16` V3.10.19
+## `2015-06-16` V3.10.19
 >##### **MODELS PACKAGE TO INSTALL**
 - 3.17 (or above)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -1500,7 +1500,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix publication issue when using audio channel with audio area
 - Fix server crash when playing a specific power point
 - Fix add workaround to prevent unic ID to be attributed to several medias (causing for example publication issue, or handling of unexpected media in calendar area)
-##`2015-03-03` V3.10.18
+## `2015-03-03` V3.10.18
 >##### **MODELS PACKAGE TO INSTALL**
 - 3.13 (or above)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -1539,7 +1539,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix error code 500 wrong management with media using remote content (service proxy)
 >##### **WILL BE ADDED IN NEXT RELEASES**
 - In case last domain deletion is requested by user (and publishing purge is not done just before), message "wait a moment please" is displayed forever. Also consequently important memory leak could be noticed making unstable the system hosting PlugnCast
-##`2015-01-30` V3.10.17
+## `2015-01-30` V3.10.17
 >##### **MODELS PACKAGE TO INSTALL**
 - 3.11B
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -1600,7 +1600,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix root cause for error message *Erreur du serveur: une contrainte d'integrite n'a pas ete respectee*
 - Fix root cause for error message *PUBLICATION: URI is null*
 
-##`2014-12-15` V3.10.16
+## `2014-12-15` V3.10.16
 >##### **MODELS PACKAGE**
 - 3.11B
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -1612,7 +1612,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix INNES SWF models previsualization supported
 - URI with linked media supported (was blocking publication)
 
-##`2014-12-11` V3.10.15
+## `2014-12-11` V3.10.15
 >##### **MODELS PACKAGE**
 - 3.11B
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -1628,7 +1628,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix publication for linked media for SWF "Texte defilant par fichier"
 - Fix publication status pertinence and publication status (instead status never ending)
 
-##`2014-10-31` V3.10.14
+## `2014-10-31` V3.10.14
 >##### **IMPORTANT**
 - In case previous PlugnCast server version was installed, due to mix of the "layouts" interfaces into "playouts" interface, this version implements an automatical database migration that is realized immediately at first start-up PlugnCast V3.10.14 server. Consequently,
  - Unused layout will be lost
@@ -1664,13 +1664,13 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix support media with special characters in calendar event
 - Fix root cause of error message *Task UI Run method hads been stopped with an error* after entering new device with a MAC address (ensuring that address MAC is formatted AA-BB-CC-DD-EE-FF)
 
-##`2014-10-20` V3.10.13
+## `2014-10-20` V3.10.13
 >##### **MODELS PACKAGE**
 - 3.11B
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix support empty domain at PlugnCast start-up (default configuration for firzt installation)
 
-##`2014-10-03` V3.10.12
+## `2014-10-03` V3.10.12
 >##### **CONSTRAINTS**
 - NOT POSSIBLE TO USE V3.10.12 for a first installation of PnC (empty domain not supported) => only for upgrade
 >##### **MODELS PACKAGE**
@@ -1697,7 +1697,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix linked medias reference for INNES model
 - Fix login/password with special characters
 
-##`2014-09-19` V3.10.11
+## `2014-09-19` V3.10.11
 >##### **CONSTRAINTS**
 - NOT POSSIBLE TO USE V3.10.11 for a first installation of PnC (empty domain not supported) => only for upgrade
 >##### **MODELS PACKAGE**
@@ -1714,7 +1714,7 @@ PlugnCast Server SSL over-rating, powered by Qualys SSL Labs [view report](https
 - Fix wrong property management in powerpoint 2003 (ppt)
 - Fix publication deadlock when facing connexion issue with external frontal
 
-##`2014-09-05` V3.10.10
+## `2014-09-05` V3.10.10
 >##### **CONSTRAINTS**
 - For people who have installed an alpha or beta version (<=beta4), there is an incompatibility for variables. So, you have to remove all custom variables and re-create them.
 - For the field-type variables, the value will be hiden (but is still here); this behaviour will be fixed in V3.10.11 version.

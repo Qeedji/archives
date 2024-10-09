@@ -24,7 +24,7 @@ Consequently, it is highly recommended to save all the required parameters to be
 
 It is possible also to prepare a configuration script which can be injected then by USB when the migration will be completed.
 
-##`2019-10-24` Gekkota OS 3.12.57 ISO Image for SMT210 [download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/smt210_downgrade_to_gekkota-os_3/gekkota_os_smt210-3.12.57.iso)
+## `2019-10-24` Gekkota OS 3.12.57 ISO Image for SMT210 [download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/smt210_downgrade_to_gekkota-os_3/gekkota_os_smt210-3.12.57.iso)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
     - File extension: .iso

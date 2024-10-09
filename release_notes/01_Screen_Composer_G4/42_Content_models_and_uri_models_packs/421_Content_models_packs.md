@@ -3,7 +3,7 @@
 
 To ensure that a widget has properly been upgraded, install the content model in your `Screen Composer G4`, edit the form of each appropriate widget and press on the **Save** button.
 
-##`2024-10-09` Content models packs 
+## `2024-10-09` Content models packs 
 - `Education` 001F [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001F.zip){.auth-downloads}
 - `General` 001M [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001M.zip){.auth-downloads}  
 - `Signage` 002H [Download](addons/content_models_packs/content_models_signage-screen_composer_g4-setup-002H.zip){.auth-downloads}
@@ -136,10 +136,10 @@ There is 2 main modes:
 
 It is advised that the device is on time, with its system clock synchronized through a NTP time server.<br>The form is not translated for Spanish and Russian languages.
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2023-02-17` Content models packs 
+## `2023-02-17` Content models packs 
 - `Education` 001F [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001F.zip){.auth-downloads}
 - `General` 001L [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001L.zip){.auth-downloads}  
 - `Signage` 002H [Download](addons/content_models_packs/content_models_signage-screen_composer_g4-setup-002H.zip){.auth-downloads}
@@ -157,7 +157,7 @@ It is advised that the device is on time, with its system clock synchronized thr
 	- Fix: the meeting from 00h00 to 01h00 was displayed 9h00 to 1h00 when 9h00 is the start time of the working day    
  	- Fix: with the working range from 00h00 to 23h00, the event from 23h00 to 23hXX was displayed twice: once with 00h00-23h00 and once with 23h00-23h00
 
-##`2023-02-01` Content models packs 
+## `2023-02-01` Content models packs 
 - `Education` 001F [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001F.zip){.auth-downloads}
 - `General` 001L [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001L.zip){.auth-downloads}  
 - `Signage` 002G [Download](addons/content_models_packs/content_models_signage-screen_composer_g4-setup-002G.zip){.auth-downloads}
@@ -168,7 +168,7 @@ It is advised that the device is on time, with its system clock synchronized thr
 - "Education - Exams" 
 	- In some case, after a migration from the version 1.10.12 (or below) to the version 1.10.13, the widget could not run anymore on Gekkota 3 middleware  
 
-##`2023-01-25` Content models packs 
+## `2023-01-25` Content models packs 
 - `Education` 001E [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001E.zip){.auth-downloads}
 - `General` 001L [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001L.zip){.auth-downloads}  
 - `Signage` 002G [Download](addons/content_models_packs/content_models_signage-screen_composer_g4-setup-002G.zip){.auth-downloads}
@@ -181,7 +181,7 @@ It is advised that the device is on time, with its system clock synchronized thr
 - "Festivals and events - tourinsoft - Portrait" 
     - Initial version supporting tourism information for the fourteen next days for these departments of France: 33, 40, 64
 
-##`2022-12-20` Content models packs 
+## `2022-12-20` Content models packs 
 - `Education` 001E [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001E.zip){.auth-downloads}
 - `General` 001L [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001L.zip){.auth-downloads}  
 - `Signage` 002G [Download](addons/content_models_packs/content_models_signage-screen_composer_g4-setup-002G.zip){.auth-downloads}
@@ -205,7 +205,7 @@ It is advised that the device is on time, with its system clock synchronized thr
 	- Change: the colour picker button was too thin
 	- Fix: the file with upper case extension could not be dropped in the form
 
-##`2022-09-05` Content models packs 
+## `2022-09-05` Content models packs 
 - `Education` 001D [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001D.zip){.auth-downloads}
 - `General` 001L [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001L.zip){.auth-downloads}  
 - `Signage` 002F [Download](addons/content_models_packs/content_models_signage-screen_composer_g4-setup-002F.zip){.auth-downloads}
@@ -244,7 +244,7 @@ It is advised that the device is on time, with its system clock synchronized thr
 	- Fix: the tail of the letter was hidden for the *identifier* input  
 	- Fix: change the log function to match the logs name *widget.meteored_weather*    
 
-##`2022-08-19` Content models packs 
+## `2022-08-19` Content models packs 
 - `Education` 001D [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001D.zip){.auth-downloads}
 - `General` 001K [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001K.zip){.auth-downloads}  
 - `Signage` 002F [Download](addons/content_models_packs/content_models_signage-screen_composer_g4-setup-002F.zip){.auth-downloads}
@@ -257,7 +257,7 @@ It is advised that the device is on time, with its system clock synchronized thr
     - Fix: it was not possible to drop an image with .svg extension
     - Fix: it was not possible to drop an image as embedded image
 
-##`2022-06-30` Content models packs 
+## `2022-06-30` Content models packs 
 - `Education` 001D [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001D.zip){.auth-downloads}
 - `General` 001J [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001J.zip){.auth-downloads}  
 - `Signage` 002F [Download](addons/content_models_packs/content_models_signage-screen_composer_g4-setup-002F.zip){.auth-downloads}
@@ -284,7 +284,7 @@ It is advised that the device is on time, with its system clock synchronized thr
         - the content model version has been upgraded 
         - the uri basis has been changed
 
-##`2022-06-17` Content models packs 
+## `2022-06-17` Content models packs 
 - `Education` 001D [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001D.zip){.auth-downloads}
 - `General` 001J [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001J.zip){.auth-downloads}  
 - `Signage` 002E [Download](addons/content_models_packs/content_models_signage-screen_composer_g4-setup-002E.zip){.auth-downloads}
@@ -320,7 +320,7 @@ It is advised that the device is on time, with its system clock synchronized thr
     - Fix: some old linked file was present in the linked files metadata of the widget
     - Fix: the meeting could not be displayed when only the date without the time was displayed in the banner 
 
-##`2022-03-15` Content models packs 
+## `2022-03-15` Content models packs 
 - `Education` 001C [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001C.zip){.auth-downloads}
 - `General` 001H [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001H.zip){.auth-downloads}  
 - `Signage` 002D [Download](addons/content_models_packs/content_models_signage-screen_composer_g4-setup-002D.zip){.auth-downloads}
@@ -331,7 +331,7 @@ It is advised that the device is on time, with its system clock synchronized thr
 	- Fix: since the 31th of October 2021 (winter daylight saving time change), the widget could not work with the hours, minutes or seconds accuracy if the deadline was set between the 27th march 2022 (summer daylight saving time change) and the 30th Oct. 2022 (winter daylight saving time change)
 	- Fix: when a variable was dropped in a form input, the text *{$custom:variable_name}* was not pasted at the right place in the character string
 
-##`2022-03-04` Content models packs 
+## `2022-03-04` Content models packs 
 - `Education` 001C [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001C.zip){.auth-downloads}
 - `General` 001G [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001G.zip){.auth-downloads}  
 - `Traffic Info France` 001C [Download](addons/content_models_packs/content_models_traffic_info_france-screen_composer_g4-setup-001C.zip){.auth-downloads}
@@ -341,7 +341,7 @@ It is advised that the device is on time, with its system clock synchronized thr
 - `Digital clock`
 	- Initial version
 
-##`2022-01-18` Content models packs 
+## `2022-01-18` Content models packs 
 - `Education` 001C [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001C.zip){.auth-downloads}
 - `General` 001G [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001G.zip){.auth-downloads}  
 - `Traffic Info France` 001C [Download](addons/content_models_packs/content_models_traffic_info_france-screen_composer_g4-setup-001C.zip){.auth-downloads}
@@ -351,7 +351,7 @@ It is advised that the device is on time, with its system clock synchronized thr
 - `ESII - Vertical banner`
 	- Initial version
 
-##`2022-01-18` Content models packs 
+## `2022-01-18` Content models packs 
 - `Education` 001C [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001C.zip){.auth-downloads}
 - `General` 001F [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001F.zip){.auth-downloads}  
 - `Traffic Info France` 001C [Download](addons/content_models_packs/content_models_traffic_info_france-screen_composer_g4-setup-001C.zip){.auth-downloads}
@@ -361,7 +361,7 @@ It is advised that the device is on time, with its system clock synchronized thr
 - `ESII - Vertical banner`
 	- Initial version
 
-##`2021-12-01` Content models packs 
+## `2021-12-01` Content models packs 
 - `Education` 001C [Download](addons/content_models_packs/content_models_education-screen_composer_g4-setup-001C.zip){.auth-downloads}
 - `General` 001F [Download](addons/content_models_packs/content_models_general-screen_composer_g4-setup-001F.zip){.auth-downloads}  
 - `Traffic Info France` 001C [Download](addons/content_models_packs/content_models_traffic_info_france-screen_composer_g4-setup-001C.zip){.auth-downloads}

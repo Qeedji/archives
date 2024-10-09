@@ -3,7 +3,7 @@
 
 *Never make electric unplug on your SMH300 while software upgrade is in progress (green led enlightened for few minutes) else it may not be able to work properly*
 
-##`2023-04-19` V4.14.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-4.14.15.zip)
+## `2023-04-19` V4.14.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-4.14.15.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for Microsoft 365 services accounts
 - Change: after having installed this version for the first time, the *EnOcean* devices become not supported and the *Push buttons Pairing* and *Sensors Pairing* menu in the *Configuration* tab of the device Web user interface are not displayed. To activate back the *EnOcean* devices, set the `innes.wpan-hub-srv.wpan_1.observer.enable` to true
@@ -49,10 +49,10 @@ Devices supported medias and performances [download](https://github.com/Qeedji/a
 #### **FAST WAKEUP PATCH**
 A patch is available to enhance reativity for custom application allowing to wake up the SLATE106 every 15 seconds min. instead of 15 minutes min. That supposes in this case that the SLATE106 is continuously powered by a an USB cable. For further information, contact support@qeedji.tech.
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2020-01-20` V4.13.14
+## `2020-01-20` V4.13.14
 >##### **IMPORTANT**
 This version is supporting until 10 SLATE106 devices max. instead of 20 previously. Consequently, after the software upgrade, all the SLATE106 devices paired between the index 11 and the index 20 will be unpaired automatically from the hub.
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -144,7 +144,7 @@ This version is supporting until 10 SLATE106 devices max. instead of 20 previous
     - if the previous case occurs in this version while the test card is displayed, a message *Cryptographic database corrupted, please reboot for repairing* is displayed. The device needs to be restarted (Web UI, or electrical unplug)
 - Fix: the USB injection was not working with some USB stick models
 
-##`2019-06-27` V4.11.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-4.11.11.zip)
+## `2019-06-27` V4.11.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-4.11.11.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for WebUI HTML5 supporting
     - in the menu `Configuration` > `Output`:
@@ -238,7 +238,7 @@ This version is supporting until 10 SLATE106 devices max. instead of 20 previous
 - Fix: a unexpected message *Error while board initialization on the bluetooth connector* could be prompted sometimes when connecting to the device WebUI
 - Fix: in some case the SLATEs could not update its content
 
-##`2018-02-20` V3.12.52 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-3.12.52.zip)
+## `2018-02-20` V3.12.52 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-3.12.52.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the embedded version *PictureFrame V1.10.13*
 - Add support for working schedule policy
@@ -278,21 +278,21 @@ This version is supporting until 10 SLATE106 devices max. instead of 20 previous
 - Fix: WLAN interface could disappear in WebUI when the WLAN router was not available a couple of time, or when WLAN configuration was wrong
 - Fix: after a migration, pairing configuration could be lost and device could keep trying to pair without success
 
-##`2017-10-12` V3.12.48 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-3.12.48.zip)
+## `2017-10-12` V3.12.48 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-3.12.48.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the embedded version *Pictureframe V1.10.12*
 
-##`2017-09-15` V3.12.46 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-3.12.46.zip)
+## `2017-09-15` V3.12.46 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-3.12.46.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the embedded version *Pictureframe V1.10.11*
 
-##`2017-08-04` V3.12.45 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-3.12.45.zip)
+## `2017-08-04` V3.12.45 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-3.12.45.zip)
 >##### **IMPORTANT**
 - Warning: if required, do modify the PIN code only after the SLATE106 device has been paired else SMH300 may never manage to pair the device
 - When using 20 SLATE106 devices, don't set the polling period below 10 minutes else the last SLATE106 devices of the list could not be updated properly
 - Add support for the embedded version *Pictureframe V1.10.10*
 
-##`2017-07-17` V3.12.43 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-3.12.43.zip)
+## `2017-07-17` V3.12.43 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-smh300/gekkota_os-smh300-setup-3.12.43.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for authentication with PIN code
 	- ```innes.slate-hub-srv.cfg.pictureframe.```

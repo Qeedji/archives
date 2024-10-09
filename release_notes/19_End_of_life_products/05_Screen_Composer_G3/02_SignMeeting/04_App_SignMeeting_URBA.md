@@ -2,7 +2,7 @@
 *RELEASE NOTE*
 
 
-##`2016-06-13` V1.12.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.12.19.appi)
+## `2016-06-13` V1.12.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.12.19.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add ```Attribute 1``` and ```Attribute 2``` research option in interface *Datasource* / *Advanced* permitting to get additional information coming from LDAP directory (which can be inserted in the meeting title afterwards)
 	- Attribute 1 and Attribute 2 can have any attributes of LDAP attribute editor. It is advised to use string or integer format
@@ -100,23 +100,23 @@
 		- enter ```cusClass1``` in *device/edit/CSS class* field
 - Add the required media *./images/diagonal3.png* in Screen Composer manifest (*medias* tab)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2016-04-26` V1.12.18 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.12.18.appi)
+## `2016-04-26` V1.12.18 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.12.18.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: optimize data bandwidth required by SignMeeting at each polling (for each resource and each player) (average bandwidth divided by 4)
 - Change: calendar system connection trial design
 	- Add hourglass while SignMeeting is facing issue to connect the calendar system at the first SignMeeting start-up
 - Change: *room is empty* by *report as empty*
 
-##`2016-03-10` V1.12.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.12.16.appi)
+## `2016-03-10` V1.12.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.12.16.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: could not be able to collect the meeting if AVCmd profile is activated (stuck in standby mode)
 - Fix: in some rare case, on some players, could not be able to collect the meeting immediately after player reboot
 - Fix: when exiting TV screen standby, could not be able to collect the meeting until next refresh timeout (now refresh timeout is decreased to 3 minutes when screen is in standby and standby duration is upper than refresh timeout)
 
-##`2016-02-26` V1.12.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.12.15.appi)
+## `2016-02-26` V1.12.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.12.15.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of display of these URBA meeting attributes (Room screen/Menu/meeting edition)
 	-  number of attendees (at the right of attendees)
@@ -135,7 +135,7 @@
 - Fix: in case a pop-up (calendar, add, event detail) was kept opened in "book a meeting" interface, it was not closed when returning automatically to background
 - Fix: in some case, when current meeting is finished and this meeting is the last one, the meeting could remain inconsistently in next meeting
 
-##`2015-12-04` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.12.13.appi)
+## `2015-12-04` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.12.13.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add attendees list display with scrolling
 - Add support of a signs library (72 icons) or signs importation (for resources in summary screen)
@@ -193,7 +193,7 @@
 - Fix: pressing "room is emptied" the second time was doing nothing (in case reccurent meeting)
 - Fix: attendees could be displayed on 2 lines instead be scrolled on 1 line (Room screen)
 
-##`2015-06-10` V1.11.17 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.11.17.appi)
+## `2015-06-10` V1.11.17 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.11.17.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add a confirmation screen when pressing "Room is empty" button
 - Add: return to main  screen when timeout "no user activity" of screen "book a meeting" has expired (based on IDLE api)
@@ -205,36 +205,36 @@
 - Fix error message not displayed when the player not properly configured
 - Fix "Book now" and "confirm my presence" button availability issue when playing with navigation menu
 
-##`2015-01-16` V1.11.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.11.15.appi)
+## `2015-01-16` V1.11.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-urba/signmeeting_urba-screen_composer-setup-1.11.15.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change default value (to false) of parameter 'return to the background when no meeting'
 - Fix date/time format display issue when upgrading from an older version
 - Fix in case not available server at SignMeeting start-up and become available afterwards
 
-##`2014-12-24` V1.11.13
+## `2014-12-24` V1.11.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change split the date and time display in two lines with different formats
 - Change sending of the status parameter is not done anymore (in order to let unchanged the status of meeting in URBA WebUI)
 
-##`2014-12-22` V1.11.12
+## `2014-12-22` V1.11.12
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change way of datasource validation
 
-##`2014-12-08` V1.11.10
+## `2014-12-08` V1.11.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add shortcut button to make a express booking with fixed duration
 - Add confirmation button
 - Change design of the mono view (in order to display current meeting and next meeting)
 
-##`2014-10-08` V1.10.52
+## `2014-10-08` V1.10.52
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Use "ressource id" instead of "ressource label"
 - Add an automatically final '/' character in case the url doesn't have one
 
-##`2014-09-29` V1.10.50
+## `2014-09-29` V1.10.50
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add two missing files of previous release
 
-##`2014-09-23` V1.10.49
+## `2014-09-23` V1.10.49
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

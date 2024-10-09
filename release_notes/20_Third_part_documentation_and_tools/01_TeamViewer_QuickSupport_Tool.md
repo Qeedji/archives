@@ -5,7 +5,7 @@
 - This tools needs to be downloaded (defaut C:\Users\<user>\Downloads) and executed by the customer (double-click). Then Innes support team can connect on the remote PC
 - When the `TeamViewer_QuickSupport.exe` application is closed, the support session is stopped automatically
 
-##`2020-07-28` TeamViewer QuickSupport [download](https://github.com/Qeedji/archives/blob/master/downloads/third-part-tools/TeamViewer_QuickSupport.exe)
+## `2020-07-28` TeamViewer QuickSupport [download](https://github.com/Qeedji/archives/blob/master/downloads/third-part-tools/TeamViewer_QuickSupport.exe)
 
 #### **INFORMATION ON BINARY**
 - TeamViewer corporation

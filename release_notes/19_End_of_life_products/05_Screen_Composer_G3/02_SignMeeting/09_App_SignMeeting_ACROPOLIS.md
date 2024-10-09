@@ -1,7 +1,7 @@
 # SignMeeting ACROPOLIS
 *RELEASE NOTE*
 
-##`2016-03-10` V1.12.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-acropolis/signmeeting_acropolis-screen_composer-setup-1.12.16.appi)
+## `2016-03-10` V1.12.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-acropolis/signmeeting_acropolis-screen_composer-setup-1.12.16.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add: option to activate/inactivate button *close the door*
 - Add new items in event detail
@@ -86,10 +86,10 @@
 - Add the required media *./images/diagonal3.png* in Screen Composer manifest (*medias* tab)
 
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2015-12-07` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-acropolis/signmeeting_acropolis-screen_composer-setup-1.12.13.appi)
+## `2015-12-07` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-acropolis/signmeeting_acropolis-screen_composer-setup-1.12.13.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support new API CSS class in device edition permitting to display, when there is a meeting in room screen, to give possibility to have a CSS theme different for each player
 	- require theme_css_generic-V1.10.12.css (available for download)
@@ -103,7 +103,7 @@
 - Fix: when *filtering RQ Status* is unactive and accepted meeting is active, meeting was not displayed
 - Fix: attendees could be displayed on 2 lines instead be scrolled on 1 line (Room screen)
 
-##`2015-10-12` V1.12.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-acropolis/signmeeting_acropolis-screen_composer-setup-1.12.12.appi)
+## `2015-10-12` V1.12.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-acropolis/signmeeting_acropolis-screen_composer-setup-1.12.12.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of a signs library (72 icons) or signs importation (for resources in summary screen)
 - Add support of creation of several instances of different screen composition types (until 10 at all)
@@ -147,6 +147,6 @@
 - Fix: user deconnexion was possible even if user was navigating in resérvation page
 - Fix attendees list display with scrolling in summary screen
 
-##`2015-08-07` V1.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-acropolis/signmeeting_acropolis-screen_composer-setup-1.12.10.appi)
+## `2015-08-07` V1.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-acropolis/signmeeting_acropolis-screen_composer-setup-1.12.10.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

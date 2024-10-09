@@ -14,7 +14,7 @@ Your monitor has to support properly the CEC(&sup1;)(&sup2;):
 - (&sup1;) for SAMSUNG monitors, the CEC activation is often made through the *Anynet* OSD menu
 - (&sup2;) for LG monitors, the CEC activation is often made by using the *Simplink* key of the remote control
 
-##`2019-02-26` Script V1.10.12 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/cec/CEC-V1.10.12.js)
+## `2019-02-26` Script V1.10.12 [Download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/cec/CEC-V1.10.12.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **COMPATIBILITY**

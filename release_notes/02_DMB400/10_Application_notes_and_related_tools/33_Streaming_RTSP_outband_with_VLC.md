@@ -3,7 +3,7 @@
 #### **SUMMARY**
 - The goal of this document is to explain how to configure VLC to stream RTSP in outband mode
 
-##`2018-08-29` (last update)
+## `2018-08-29` (last update)
 
 #INFORMATION
 ***********************************************************************

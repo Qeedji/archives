@@ -3,7 +3,7 @@
 
 *Never make electric unplug on your device while firmware upgrade is in progress else the device may not be able to work properly*
 
-##`2024-10-08` V9.11.10_beta10 [download](amp300/aosp-amp300-setup-9.11.10_beta10.fqs){.free-downloads}
+## `2024-10-08` V9.11.10_beta10 [download](amp300/aosp-amp300-setup-9.11.10_beta10.fqs){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *Retrieve tasks to be executed from a http(s) server* section in the *Servers* pane of the *Configuration* menu of the device configuration Web user interface to self-administrate the device from a remote server
 - Change: embed these built-in Apps:
@@ -70,16 +70,16 @@ The debug mode is deactivated by default
 #### **ISO FILE FOR FACTORY RECOVERY**
 To get the `aosp-amp300-setup-9.10.19.iso` [download](https://github.com/Qeedji/aosp-AMP300-sdk/tree/main/bin) file for factory recovery
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2024-05-22` V9.10.20 [download](amp300/aosp-amp300-setup-9.10.20.fqs){.free-downloads}
+## `2024-05-22` V9.10.20 [download](amp300/aosp-amp300-setup-9.10.20.fqs){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: when a `/` character was entered as suffix of the IP address (e.g. 192.168.10.10/17) in the *No proxy for* input in the *LAN_1* pane or in the *WLAN_1* pane of the *Configuration* menu in the device configuration Web user interface, a http error 500 was returned
 - Fix: the `*` character was not supported in the *No proxy for* input (e.g. *.qeedji.tech) in the *LAN_1* pane or in the *WLAN_1* pane of the *Configuration* menu in the device configuration Web user interface  
 - Fix: after a scheduled device restart, in some cases, the App could stop running, displaying *no content* on the display device
 
-##`2024-03-27` V9.10.19 [download](amp300/aosp-amp300-setup-9.10.19.fqs){.free-downloads}
+## `2024-03-27` V9.10.19 [download](amp300/aosp-amp300-setup-9.10.19.fqs){.free-downloads}
 >##### **NOTE**
 - After having upgraded the firmware version, in case an older version of URL launcher had been installed by the end user, it is advised to remove this older version of URL launcher    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -88,7 +88,7 @@ To get the `aosp-amp300-setup-9.10.19.iso` [download](https://github.com/Qeedji/
 - Fix: the specific .p12 certificates having no password for some specific part of the certificate could not be installed in the *802.1X certificates* section of the *Certificates* pane of the *Configuration* menu in the device configuration Web user interface   
 - Fix: the Qeedji logo was not displayed in the Android desktop of activated Apps when the display rotation was set to 90°
 
-##`2024-01-18` V9.10.18 [download](amp300/aosp-amp300-setup-9.10.18.fqs){.free-downloads} 
+## `2024-01-18` V9.10.18 [download](amp300/aosp-amp300-setup-9.10.18.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 Before installing an alternative screensaver App, ensure that your AMP300 device is connected to a touch screen display device to support interactivity with the end user     
@@ -98,7 +98,7 @@ Before installing an alternative screensaver App, ensure that your AMP300 device
 - Change: embed *URL Launcher* 1.10.18
 - Fix: in some case, the playback of the video media having no audio track could not start at all or could freeze on the first image of the video media
 
-##`2023-12-20` V9.10.17 [download](amp300/aosp-amp300-setup-9.10.17.fqs){.free-downloads} 
+## `2023-12-20` V9.10.17 [download](amp300/aosp-amp300-setup-9.10.17.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 Before installing an alternative screensaver App, ensure that your AMP300 device is connected to a touch screen display device to support interactivity with the end user      
@@ -110,7 +110,7 @@ Before installing an alternative screensaver App, ensure that your AMP300 device
 - Fix: the audio volume was staying to 6% after a device start-up when the reboot task happened within a power manager task
 - Fix: in some rare case, the device could not start, and the status led was steady red 
 
-##`2023-09-28` V9.10.16 [download](amp300/aosp-amp300-setup-9.10.16.fqs){.free-downloads} 
+## `2023-09-28` V9.10.16 [download](amp300/aosp-amp300-setup-9.10.16.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 Before installing an alternative screensaver App, ensure that your AMP300 device is connected to a touch screen display device to support interactivity with the end user     
@@ -121,7 +121,7 @@ Before installing an alternative screensaver App, ensure that your AMP300 device
 - Change: embed the *Media Folder Injector* App V1.10.10 vendor App in the table of installed APK in the *Apps* menu of the *Configuration* tab in the device configuration Web user interface
 - Change: embed the *URL launcher* App V1.10.16 vendor App in the table of installed APK in the *Apps* menu of the *Configuration* tab in the device configuration Web user interface
 
-##`2023-07-06` V9.10.15 [download](amp300/aosp-amp300-setup-9.10.15.fqs){.free-downloads} 
+## `2023-07-06` V9.10.15 [download](amp300/aosp-amp300-setup-9.10.15.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -147,7 +147,7 @@ For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. Fo
 - Fix: in some case, the content could be displayed with a 0° rotation instead of with a 90° rotation
 - Fix: in some rare case, the AOSP middleware could not start anymore, and this error code was activated on the status LED of the device: 1 red period of 1 second then Off for 1 second then 1 green period of 1 second, periodic in alternance with 1 second Off
 
-##`2023-04-03` V9.10.14 [download](amp300/aosp-amp300-setup-9.10.14.fqs){.free-downloads} 
+## `2023-04-03` V9.10.14 [download](amp300/aosp-amp300-setup-9.10.14.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -176,13 +176,13 @@ For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. Fo
 - Fix: in some case, some pages of some PDF medias were drawn too slowly
 - Fix: the pictogram of the *RFID TAG Reader* App was not rendered properly
 
-##`2023-02-07` V9.10.13 [download](amp300/aosp-amp300-setup-9.10.13.fqs){.free-downloads} 
+## `2023-02-07` V9.10.13 [download](amp300/aosp-amp300-setup-9.10.13.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: in some cases, when using an *USB-C to Jack 3.5* adapter, the level of the *volume of multimedia contents* in the *Output* pane of the *Configuration* menu in the device configuration Web user interface could be reset to 20% causing a weak audio volume on the *Jack 3.5* connector
 
-##`2023-01-24` V9.10.12 [download](amp300/aosp-amp300-setup-9.10.12.fqs){.free-downloads} 
+## `2023-01-24` V9.10.12 [download](amp300/aosp-amp300-setup-9.10.12.fqs){.free-downloads} 
 >##### **IMPORTANT**
 For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -204,7 +204,7 @@ For V9.10.10_betaX version, the *LAN_1* interface had priority over *WLAN_1*. Fo
 - Fix: if a display device was plugged on the *USB 1* USB-C port while the AMP300 device was starting, with an USB cable already plugged between a computer on the *USB 2* USB-C port, the ADB software could not work properly
 - Fix: in the *Administration* pane of the *Configuration* tab in the device configuration Web user interface, the credential name with dot character could not persist after reboot
 
-##`2022-12-02` V9.10.11 [download](amp300/aosp-amp300-setup-9.10.11.fqs){.free-downloads} 
+## `2022-12-02` V9.10.11 [download](amp300/aosp-amp300-setup-9.10.11.fqs){.free-downloads} 
 >##### **IMPORTANT**
 Before V9.10.10, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -220,7 +220,7 @@ Before V9.10.10, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.
 	- deactivateApp()
 - Fix: the video and audio medias embedded inside MS-PowerPoint medias (.pptx, .ppsx) were not played
  
-##`2022-10-21` V9.10.10 [download](amp300/aosp-amp300-setup-9.10.10.fqs){.free-downloads} 
+## `2022-10-21` V9.10.10 [download](amp300/aosp-amp300-setup-9.10.10.fqs){.free-downloads} 
 >##### **IMPORTANT**
 Before V9.10.10, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.10.10 (or above), the *WLAN_1* interface is now priority. So after having upgraded the device with the `AQS` V9.10.10 (or above version), the device Web user interface or the device WebDAV server may be available with the IP address of the *WLAN_1* interface, instead of the one of the *LAN_1* interface
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -319,7 +319,7 @@ Before V9.10.10, the *LAN_1* interface had priority over *WLAN_1*. For `AQS` V9.
     - in some rotation, the linear gradient was not supported properly for not rectangle shapes 
     - some background resulting on the group of shapes could be not displayed properly   
 
-##`2022-09-12` V9.10.10 beta3  
+## `2022-09-12` V9.10.10 beta3  
 >##### **IMPORTANT**
 It is recommended to use an `AQS` V9.10.10 beta3 (or above). Consequently, all the previous downloading links to lower versions have been removed  
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -334,7 +334,7 @@ It is recommended to use an `AQS` V9.10.10 beta3 (or above). Consequently, all t
 - Fix: the *duration per page* metadata of PDF medias was not taken into account    
  
 
-##`2022-08-02` V9.10.10 beta2   
+## `2022-08-02` V9.10.10 beta2   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: the credential having the default identifier/password admin/admin has now the label *Admin* instead of the label *Default*
 - Fix: when a display device was connected on the HDMI connector, after a device reboot or a HDMI connector hot plug or a display device standby, the OS could not respond, requiring a manual device restart (electrical unplug/replug) 
@@ -343,7 +343,7 @@ It is recommended to use an `AQS` V9.10.10 beta3 (or above). Consequently, all t
 >##### **COMPATIBILITIES**
 - Configuration script V1.10.16 (or above)
 
-##`2022-07-09` V9.10.10 beta1    
+## `2022-07-09` V9.10.10 beta1    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **COMPATIBILITIES**

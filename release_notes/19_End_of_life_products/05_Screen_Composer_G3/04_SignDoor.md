@@ -1,7 +1,7 @@
 # SignDoor Demo
 *RELEASE NOTE*
 
-##`2019-02-21` V1.10.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signdoor/signdoor_xlsx_demo-screen_composer-setup-1.10.10.appi)
+## `2019-02-21` V1.10.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signdoor/signdoor_xlsx_demo-screen_composer-setup-1.10.10.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **COMPATIBILITIES**

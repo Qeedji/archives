@@ -5,7 +5,7 @@
 	- updated regularly by Gekkota
 	- sent on a WebDAV server in PlugnCast G3 configuration
 
-##`2014-10-14` (last update)
+## `2014-10-14` (last update)
 
 #INFORMATION
 ***********************************************************************

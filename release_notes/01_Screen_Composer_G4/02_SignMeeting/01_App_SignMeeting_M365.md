@@ -1,7 +1,7 @@
 # SignMeeting Microsoft 365 (or M365)
 *RELEASE NOTE*
 
-##`2024-10-07` V2.14.10 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.14.10.appi){.auth-downloads}
+## `2024-10-07` V2.14.10 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.14.10.appi){.auth-downloads}
 >##### **IMPORTANT**
 Do upgrade your SignMeeting M365 version to this version 2.14.10 only to support SLATE206 devices. For SLATE206 devices, the publication of the App from Screen Composer is done by publishing directly on the SLATE206 USB mass storage directory    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -80,14 +80,14 @@ Do upgrade your SignMeeting M365 version to this version 2.14.10 only to support
 # HISTORY
 ***********************************************************************
 
-##`2023-09-28` V2.13.10 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.13.10.appi){.auth-downloads}   
+## `2023-09-28` V2.13.10 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.13.10.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - In case your Azure AD *client secret* has been generated with *PowerShell script for Azure Active Directory Application support 1.10.12 (or below)*, your client secret may be not valid anymore. It is required to install the *PowerShell script for Azure Active Directory Application support 1.10.13 (or above)* and generate again *(application) client ID*, *tenant ID* and *client secret* for your SignMeeting M365 App
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the capability in the form to use the screensaver from operating system as well as the screensaver from the App  
 	- If the screensaver from the operating system is selected in the form but not supported by the device, the default screensaver used is the screensaver from the App
 
-##`2023-04-19` V2.12.11 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.12.11.appi){.auth-downloads}   
+## `2023-04-19` V2.12.11 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.12.11.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - In case your Azure AD *client secret* has been generated with *PowerShell script for Azure Active Directory Application support 1.10.12 (or below)*, your client secret may be not valid anymore. It is required to install the *PowerShell script for Azure Active Directory Application support 1.10.13 (or above)* and generate again *(application) client ID*, *tenant ID* and *client secret* for your SignMeeting M365 App
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -108,13 +108,13 @@ Do upgrade your SignMeeting M365 version to this version 2.14.10 only to support
 - Fix: between midnight and noon, when the time in the banner was displayed with the *12hrs* format, the time was displayed with the *PM* suffix instead of the *AM* suffix  
 - Fix: in some rare case, after a *power manager* task had been executed, some event information like the *current meeting* label, the *next meeting* label, the event *description*, the event *summary* or the *event* attendees was not displayed on the main page of the *Room Screen* layout on AQS devices      
 
-##`2022-10-19` V2.11.13 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.11.13.appi){.auth-downloads}   
+## `2022-10-19` V2.11.13 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.11.13.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - In case your Azure AD *client secret* has been generated with *PowerShell script for Azure Active Directory Application support 1.10.12 (or below)*, your client secret may be not valid anymore. It is required to install the *PowerShell script for Azure Active Directory Application support 1.10.13 (or above)* and generate again *(application) client ID*, *tenant ID* and *client secret* for your SignMeeting M365 App
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the *Book Teams meeting at the same time as the room reservation* option in the room resource pane to create automatically a *Join* button inside the meeting to be able to join the meeting with Microsoft Teams     
 
-##`2022-08-22` V2.11.12 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.11.12.appi){.auth-downloads}   
+## `2022-08-22` V2.11.12 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.11.12.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - In case your Azure AD *client secret* has been generated with *PowerShell script for Azure Active Directory Application support 1.10.12 (or below)*, your client secret may be not valid anymore. It is required to install the *PowerShell script for Azure Active Directory Application support 1.10.13 (or above)* and generate again *(application) client ID*, *tenant ID* and *client secret* for your SignMeeting M365 App
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -123,7 +123,7 @@ Do upgrade your SignMeeting M365 version to this version 2.14.10 only to support
 - Fix: the event, taking place across several days, was not displayed if the event start date was more than one month ago
 - Fix: the event was not displayed for some specific days for the event taking place across several months
 
-##`2022-05-18` V2.11.11 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.11.11.appi){.auth-downloads}   
+## `2022-05-18` V2.11.11 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.11.11.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - In case your Azure AD *client secret* has been generated with *PowerShell script for Azure Active Directory Application support 1.10.12 (or below)*, your client secret may be not valid anymore. It is required to install the *PowerShell script for Azure Active Directory Application support 1.10.13 (or above)* and generate again *(application) client ID*, *tenant ID* and *client secret* for your SignMeeting M365 App
@@ -152,7 +152,7 @@ Do upgrade your SignMeeting M365 version to this version 2.14.10 only to support
 - Fix: in case all the resource id was inconsistent, no information message was displayed
 - Fix: in some case, in the *Device* tab of SignMeeting form, the window *Setting the display profile for the device* could be opened instead of the window *Setting the resource for the display profile* (and reciprocally)
  
-##`2022-02-04` V2.11.10 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.11.10.appi){.auth-downloads}   
+## `2022-02-04` V2.11.10 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.11.10.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - In case your Azure AD *client secret* has been generated with *PowerShell script for Azure Active Directory Application support 1.10.12 (or below)*, your client secret may be not valid anymore. It is required to install the *PowerShell script for Azure Active Directory Application support 1.10.13 (or above)* and generate again *(application) client ID*, *tenant ID* and *client secret* for your SignMeeting M365 App
@@ -164,14 +164,14 @@ Do upgrade your SignMeeting M365 version to this version 2.14.10 only to support
 - Fix: the image attached to the event was not displayed
 - Fix: event title whose privacy level was *private* was not hidden or replaced by the substitution title
 
-##`2021-09-01` V2.10.12 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.10.12.appi){.auth-downloads}   
+## `2021-09-01` V2.10.12 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.10.12.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - In case your Azure AD *client secret* has been generated with *PowerShell script for Azure Active Directory Application support 1.10.12 (or below)*, your client secret may be not valid anymore. It is required to install the *PowerShell script for Azure Active Directory Application support 1.10.13 (or above)* and generate again *(application) client ID*, *tenant ID* and *client secret* for your SignMeeting M365 App
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: the product is not compatible anymore with the `client secret` value generated with the *PowerShell script for Azure Active Directory Application support 1.10.12 (and below)*
 
-##`2021-08-04` V2.10.11 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.10.11.appi){.auth-downloads}   
+## `2021-08-04` V2.10.11 [download](app-signmeeting-m365/signmeeting_m365-screen_composer-addin-2.10.11.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**

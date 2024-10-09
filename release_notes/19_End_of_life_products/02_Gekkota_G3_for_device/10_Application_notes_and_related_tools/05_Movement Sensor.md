@@ -3,7 +3,7 @@
 #### **SUMMARY**
 - The goal of this document is to explain how to plug and configure a movement sensor on a media player
 
-##`2019-06-12` (last update)
+## `2019-06-12` (last update)
 
 #INFORMATION
 ***********************************************************************

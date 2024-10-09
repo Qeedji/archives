@@ -3,7 +3,7 @@
 #### **SUMMARY**
 - The goal of this document is to explain how to modify a WebTV uri in Screen Composer G3 or in PlugnCast G3 when its YouTube video ID has changed
 
-##`2018-10-19` (last update)
+## `2018-10-19` (last update)
 
 #INFORMATION
 ***********************************************************************

@@ -3,7 +3,7 @@
 
 *Never make electric unplug on your player while software upgrade is in progress (green led blinking 6 times every 4 seconds) else the player may not be able to work properly*
 
-##`2023-11-29` V4.14.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.16)
+## `2023-11-29` V4.14.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.16)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the *identifier* and *password* fields self-filling and self-validation for Web page form in some condition
 - Fix: the unsigned CA certificates was not supported
@@ -75,15 +75,15 @@
     - Some interlaced video whose pixel ratio is 4/3 could not be played properly when the user preference ```innes.video.renderer.default``` is set to ```overlay```. To work around, set it to ```gpu```
 
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2023-04-19` V4.14.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.15.zip)
+## `2023-04-19` V4.14.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.15.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the *video* or *Cameo* inserted in the slidemaster template of MS-PowerPoint medias was not played
 - Fix: the video content coming from the HDMI-input was not played back when playing a MS-PowerPoint slide supporting a Cameo object after having hot plugged the HDMI cable connected to the HDMI-input connector
 
-##`2023-01-13` V4.14.14 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.14.zip)
+## `2023-01-13` V4.14.14 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.14.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: MS-Powerpoint medias playback
 	- the failover font loading from the Microsoft cloud was not working
@@ -106,7 +106,7 @@
 - Fix: after having previewed a calendar timeslot containing an UHD video, the video embedded in the following PowerPoint media could not start
 - Fix: changing an audio parameter value in the *Output* pane of the *Configuration* menu of the Web user interface was leading to an automatical validation of the other parameters without the user consent
 
-##`2022-12-20` V4.14.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.13.zip)
+## `2022-12-20` V4.14.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.13.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for HDMI-input playback in MS-PowerPoint slide thanks to the MS-PowerPoint's *Cameo* feature
 - Fix: MS-Powerpoint medias playback
@@ -115,12 +115,12 @@
 - Fix: in some cases, the device could finalize the App content downloading coming from *XPF* server only after a device reboot
 - Fix: after having pushed an App having a playfolder with service account M365, in some cases, the playfolder was not playing immediately the new content of the remote directory
 
-##`2022-09-14` V4.14.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.12.zip)
+## `2022-09-14` V4.14.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.12.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the `_` character was not supported in the *Name* input of the *Logs* pane in the *Maintenance* menu of the device configuration Web interface
 - Fix: in some cases, the audio channel could start several dozens of seconds after the visual channel has started (App mode in *Pull WebDAV - xpf compatibility*)
 
-##`2022-06-24` V4.14.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.11.zip)
+## `2022-06-24` V4.14.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.11.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for Microsoft 365 services accounts
 - Change: after a reboot, the default URL entry for the Web page is now `http://<device_ip_addr>/`
@@ -129,7 +129,7 @@
 - Fix: in some cases, the date shown in the Web user interface was wrong
 - Fix: the *last modified time* status value was not available for files got through FTP
 
-##`2022-04-06` V4.14.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.10.zip)
+## `2022-04-06` V4.14.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.14.10.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *1920x1200 60 Hz VESA* display mode
 - Add support for GAP App with a `.gap` extension in the URL field of the *Pull WebDAV* radio of the *App* pane of the *Configuration* menu of the Web user interface
@@ -154,7 +154,7 @@
 - Fix: some Web page could be not displayed anymore
 - Fix: after a App content updating by a USB mass storage insertion in the device, the state value of the launcher HTML tag in the device status was not updated with the right value
 
-##`2021-05-12` V4.13.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.13.15.zip)
+## `2021-05-12` V4.13.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.13.15.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change the default value for the `innes.app-profile.manifest-downloader:g3.*.*.*.heartbeat` user preference to 45 seconds instead of 1 minute and change the default value for the `innes.app-profile.manifest-downloader:g3.*.*.*.heartbeat.max-startup-time` user preference to 30000 milliseconds instead of 200 milliseconds
 - Change the default value for the `innes.app-profile.manifest-downloader:g2.*.*.*.heartbeat` user preference to 45 seconds instead of 1 minute and change the default value for the `innes.app-profile.manifest-downloader:g2.*.*.*.heartbeat.max-startup-time` user preference to 30000 milliseconds instead of 200 milliseconds
@@ -163,7 +163,7 @@
 - Fix: in case using remote file inside playfolder, and the origin directory content is empty, the playfolder could play no media after one publication of two until the next playfolder update
 - Fix: when using some App, some image could be not displayed letting appear the background image
 
-##`2020-10-06` V4.13.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.13.12.zip)
+## `2020-10-06` V4.13.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.13.12.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for content update by USB with the pattern ```manifest.<MAC>.xml```
     - with ```<MAC>``` value matching with the *AA-BB-CC-DD-EE-FF* pattern
@@ -175,7 +175,7 @@
 - Fix: a message *content temporarily unavailable* was displayed when playing a video media with .wmv container containing a `WMA Pro` audio track (media generated from the last versions of MS-PowerPoint)
 - Fix: in *Pull WebDAV (xpf compatibility)* configuration, some unexpected empty content could be noticed when using an opt-out conditioned by a date variable
 
-##`2020-08-06` V4.13.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.13.11.zip)
+## `2020-08-06` V4.13.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.13.11.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for these printable characters in the security key value in the `WLAN` pane of the WebUI
 	- ```#$%&'()*+,-./:;<=>?@[]^_{} ~|```
@@ -192,7 +192,7 @@
 - Fix: in some case, a inconsistent reboot manager calendar value could make reboot the device
 - Fix: in some case, the HDMI-input media could be not played when played after a UDP playback
 
-##`2020-04-28` V4.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.13.10.zip)
+## `2020-04-28` V4.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.13.10.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for `802.1X` security for LAN network with the authentication methods:
     - *EAP MD5*
@@ -258,21 +258,21 @@
 - Fix: the opt-out was not working properly when the variable was containing non ASCII characters (mode Pull WebDAV - xpf compatibility)
 - Fix: was not able to play a media inside a container conditioned by a date variable (mode Pull WebDAV - xpf compatibility)
 
-##`2020-02-10` V4.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.12.13.zip)
+## `2020-02-10` V4.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.12.13.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the audio of some Web radio was not working properly
 
-##`2020-01-29` V4.12.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.12.12.zip)
+## `2020-01-29` V4.12.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.12.12.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add a weak pull-up to force the GPIO level to logic 1
 - Fix: When using the `GPIO input` in a *two wires* configuration, an unexpected behavior could be noticed
 
-##`2019-11-04` V4.12.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.12.11.zip)
+## `2019-11-04` V4.12.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.12.11.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the keys combinations with the ALT key was not working with *AZERTY* keyboards (for example `@`)
 - Fix: using manifest remote file with ```smb://``` scheme URL could make reboot the device each time the downloader timer expires
 
-##`2019-08-04` V4.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.12.10.zip)
+## `2019-08-04` V4.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.12.10.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for resolution modes
     - `768x2560 60Hz LINSN`
@@ -353,7 +353,7 @@
 - Fix: the keys combinations with the ALT key was not working with *AZERTY* keyboards (for example `@`)
 - Fix: using manifest remote file with ```smb://``` scheme URL could make reboot the device each time the downloader timer expires
 
-##`2018-02-27` V4.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.11.10.zip)
+## `2018-02-27` V4.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.11.10.zip)
 >##### **IMPORTANT**
 - In case you need to use the CEC playout script, you have to set the user preference ```system.connector.*.*.cec.cec_1.enabled``` to the value `true`. Activating the CEC feature may imply some unexpected device reboots when using some monitor requiring a HDMI-DVI or a HDMI-VGA adapter
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -403,7 +403,7 @@
 - Fix: the very light grey or very dark grey could be displayed with the wrong grey color
 - Fix: some skip frames could be noticed on the played video media when a new content was pushed on the WebDAV directory at the same time
 
-##`2018-10-03` V4.10.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.10.15.zip)
+## `2018-10-03` V4.10.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.10.15.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for DASH MSE (```Media Source Extensions```)
     - The DASH MSE is activated by default (meaning the preference ```media.mediasource.enable``` is set to ```true```)
@@ -429,7 +429,7 @@
 - Fix: UDP stream could not be played in case using the streamer DME204 device whose the WebUI parameter ```Output > Ethernet > Audio ``` was unselected
 - Fix: the device could crash sometimes when starting to play an RTSP stream from the TERADEK Cube 105 encoder/streamer
 
-##`2018-07-31` V4.10.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.10.13.zip)
+## `2018-07-31` V4.10.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.10.13.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for multi-touch screen devices over USB
 	- These user preferences value must be set to ```true```:
@@ -443,7 +443,7 @@
 - Fix: a unexpected message *content temporarily unavailable* could be displayed when playing some video Mp4 with PCM audio
 - Fix: sometimes immediately after a publication, and when several video medias had to start at the same time, all the video medias could not start and the error message *content temporarily unavailable* was not displayed
 
-##`2018-04-24` V4.10.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.10.11.zip)
+## `2018-04-24` V4.10.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.10.11.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new user preference `network.udp.recv-buffer-size` (in KBytes) to adjust the buffer size used when playing UDP stream
     - default value: `2048` (KBytes)
@@ -488,7 +488,7 @@
 - Fix: a message *content temporarily unavailable* could be displayed when playing video medias on HDMI-input with zone exit transition activated
 - Fix: a device reboot could occur when playing a specific Web page with *transition between media* activated
 
-##`2018-03-02` V4.10.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.10.10.zip)
+## `2018-03-02` V4.10.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/gekkota-os-dmb400/gekkota_os-dmb400-setup-4.10.10.zip)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change: the default value for the user preference ```innes.video.decoding-group.enabled``` is now ```true```
 - Change for MS-PowerPoint media rendering
@@ -514,11 +514,11 @@
 - Fix: text overlap could be noticed when using font whose size is very large
 - Fix: EDID could not be displayed with some screen when using video adapter DVI to HDMI
 
-##`2018-02-21` V4.10.10 beta197
+## `2018-02-21` V4.10.10 beta197
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for the resolution "1920x540 60Hz VESA"
 
-##`2018-02-08` V4.10.10 beta195
+## `2018-02-08` V4.10.10 beta195
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix MS-PowerPoint
     - text *highlighting* was not supported
@@ -538,7 +538,7 @@
     - the colors and outlines of *multi-colors shapes* was not displayed
 - Fix: in some case, after a publication, some inconsistent characters could be displayed inside the HTML5 medias or MS-PowerPoint medias (random text areas). The issue was disappearing immediately after a new publication or after a device reboot
 
-##`2018-02-05` V4.10.10 beta192
+## `2018-02-05` V4.10.10 beta192
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new resolutions in EDID
 	- 1920x1080p 59.94Hz
@@ -554,7 +554,7 @@
 - Fix: when connected on HDMI-input, the resolution of a camera Full HD 60Hz was falling down to 480p
 - Fix: in very rare cases, after some reboot, some DMB400 devices may be blocked (displaying a black screen, red led always on and green led always off)
 
-##`2018-01-17` V4.10.10 beta190
+## `2018-01-17` V4.10.10 beta190
 >##### **IMPORTANT**
 - HDMI-input
 	- For optimal rendering, the resolution mode of the DMB400 devices and and the one connected to the HDMI-input have to share the same frequency (ex: 60Hz)
@@ -575,7 +575,7 @@
 - Fix: player could reboot sometimes when playing some specific Web page containing video
 - Fix: some videos whose codec is VP9 (Webm container) could crash when the user preference ```innes.video.renderer.default``` value is set to ```gpu```
 
-##`2017-11-21` V4.10.10 beta163
+## `2017-11-21` V4.10.10 beta163
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for MS-PowerPoint media
     - 2007/2010/2013/2016
@@ -598,7 +598,7 @@
 - Fix: in some rare case, the configuration-by-script could be not be taken into account in Pull WebDAV configuration
 - Fix: after a while, a player synchronized with PTP could face important jerky effects on the played video, when the user preference ```innes.video.renderer.default``` is set to ```overlay```
 
-##`2017-09-27` V4.10.10 beta147
+## `2017-09-27` V4.10.10 beta147
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for ```German``` language (WebUI)
 - Add support for ```Spanish``` language (WebUI)
@@ -697,7 +697,7 @@
 - Fix: player was blocked when device was entering in standby, with monitor-monitoring feature activated, video cable plugged on DVI input of monitor *eMachines E202H*
 - Fix: some video freeze (skip frame) could be noticed when playing video media UHD@60fps in a zone whose size is less than full screen
 
-##`2017-08-11` V4.10.10 beta128
+## `2017-08-11` V4.10.10 beta128
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for video dual-decoding in the **full HD output resolution** maximum
 	- by default, dual-decoding capability is inactivated (preference value ```innes.video.decoding-group.enabled``` is ```false```).
@@ -726,14 +726,14 @@
 		- .status
 		- .upnp
 
-##`2017-08-02` V4.10.10 beta120
+## `2017-08-02` V4.10.10 beta120
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *MeetingRoom - Summarization* content model
 - Add support for *Scrolling text from file* content model (overlay accelerated)
 - Fix: some unexpected video artefact could be noticed when playing custom player.html containing video elements
 - Fix: UDP datagram was not working properly
 
-##`2017-07-21` V4.10.10 beta111
+## `2017-07-21` V4.10.10 beta111
 >##### **IMPORTANT**
 - Do not activate *Overlay* option in model Scrolling Text form else some unexpected rendering issues could be noticed for some medias using white color (widget HTML5, PDF, ...) when played at the same time
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -756,13 +756,13 @@
 - Fix: some video could be displayed with a wrong aspect ratio (mp4 container)
 - Fix: in some case, some artefacts could be displayed on the video after a reboot in an Ultra HD resolution with a specific HDMI cable (rare)
 
-##`2017-06-06` V4.10.10 beta99
+## `2017-06-06` V4.10.10 beta99
 >##### **IMPORTANT**
 - In some pull WebDAV configuration, once upgrade is done, a black screen will appear because the publication mechanism has changed in this version. Publish again to work around
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: in some case, some artefacts could be displayed on the video after a reboot in an Ultra HD resolution with a specific HDMI cable (rare)
 
-##`2017-06-02` V4.10.10 beta98
+## `2017-06-02` V4.10.10 beta98
 >##### **IMPORTANT**
 - In some pull WebDAV configuration, once upgrade is done, a black screen will appear because the publication mechanism has changed in this version. Publish again to work around
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -789,7 +789,7 @@
 - Fix: one of the scene could be not played properly (in case using the same id) (Pull WebDAV - xpf compatibility configuration)
 - Fix: device reboot could be noticed when playing widget HTML in a hidden floating zone
 
-##`2017-05-16` V4.10.10 beta89
+## `2017-05-16` V4.10.10 beta89
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for PTP/IEEE1588
     - supported mode: PTP L2
@@ -801,7 +801,7 @@
 - Fix: player could reboot after a couple of hours when playing several time a short video (AVI container)
 - Fix: player could reboot after a couple of hours when playing several time a scrolling text (by inserting a text in a channel) (Pull WebDAV - xpf compatibility configuration)
 
-##`2017-04-28` V4.10.10 beta82
+## `2017-04-28` V4.10.10 beta82
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for USB keyboard management
 - Add support for infrared sensor
@@ -816,7 +816,7 @@
 - Fix: some device could reboot after several hours (mode 2T) (rare)
 
 
-##`2017-04-12` V4.10.10 beta80
+## `2017-04-12` V4.10.10 beta80
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for Matroska container (.mkv, .mka, .mks)
 	- Codec video: VP8, VP9, HEVC, AVC
@@ -830,12 +830,12 @@
 - Fix: error message content temporarily unavailable was missing when playing video whose codec is  WMV2) (not supported media)
 - Fix: the canal could stop to be played after a while with scenes generated with old version of Pull WebDAV software
 
-##`2017-03-29` V4.10.10 beta75
+## `2017-03-29` V4.10.10 beta75
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: stuck on background (don't play the next media) in case playing a playlist containing a not existing PDF
 - Fix: issue to connect to device WebUI/configuration with Google Chrome (Chrome version > 15th March 2017)
 
-##`2017-03-24` V4.10.10 beta72
+## `2017-03-24` V4.10.10 beta72
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for UDP streaming playback
 - Add support for AVCommand
@@ -850,7 +850,7 @@
 - Fix: restore support remote media over FTP
 - Fix: device reboot (or black screen) when playing PDF media with huge size
 
-##`2017-02-08` V4.10.10 beta58
+## `2017-02-08` V4.10.10 beta58
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for monitor-monitoring
 - Change user agent identifiant
@@ -863,10 +863,10 @@
 - Fix: playback could be stuck when playing a same media WMA several times (X2)
 - Fix: decoding issue with some TNT stream (interlacement)
 
-##`2017-02-02` V4.10.10 beta54
+## `2017-02-02` V4.10.10 beta54
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Maintenance version (beta version)
 
-##`2017-01-20` V4.10.10 beta43
+## `2017-01-20` V4.10.10 beta43
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Maintenance version (beta version)

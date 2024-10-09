@@ -3,7 +3,7 @@
 
 The *Regular* application supports the light driving, with the device Web user interface and with Web services. This application is put by default on the SBL10e device at factory.
 
-##`2023-06-22` V1.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/regular/V1.12.10/bm0032_regular-sbl10e-setup-1.12.10.bin)
+## `2023-06-22` V1.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/regular/V1.12.10/bm0032_regular-sbl10e-setup-1.12.10.bin)
 >##### **IMPORTANT**
 - Change: support only the *discover* command from Qether V1.12.10 (and above)
 - Change: support only the *configure* command from Qether V1.12.10 (and above)
@@ -29,17 +29,17 @@ User manual 1.12.10~002A_en [download](https://github.com/Qeedji/archives/blob/m
 `000000000000.js` template 004A for `regular` 1.12.10 (or above) [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/regular/V1.12.10/configuration-script-template/000000000000.js)
 
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2022-05-13` V1.11.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/regular/V1.11.12/bm0032_regular-sbl10e-setup-1.11.12.bin)
+## `2022-05-13` V1.11.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/regular/V1.11.12/bm0032_regular-sbl10e-setup-1.11.12.bin)
 >##### **IMPORTANT**
 - Change: does support the *discover* command from only Qether V1.12.10 (and above)
 - Change: does support the *configure* command from only Qether V1.12.10 (and above)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: in some rare case, if an error was raised during the configuration upgrade by Qether, the application could not work properly
 
-##`2022-01-11` V1.11.11
+## `2022-01-11` V1.11.11
 >##### **IMPORTANT**
 - Change: do not support the *discover* command from Qether V1.11.13 (and below)
 - Change: do not support the *configure* command from Qether V1.11.13 (and below)
@@ -52,7 +52,7 @@ User manual 1.12.10~002A_en [download](https://github.com/Qeedji/archives/blob/m
 - Add support for the *system.tftp.enable* user preference
 - Fix: in some case, in case the device had a static IP address and DNS servers was found automatically, the device network access was down until the timeout for the connexion attempts to the DHCP server had expired
 
-##`2021-10-08` V1.11.10
+## `2021-10-08` V1.11.10
 >##### **IMPORTANT**
 - Change: do not support anymore the *discover* command from Qether V1.11.13 (and below)
 - Change: do not support anymore the *configure* command from Qether V1.11.13 (and below)
@@ -62,7 +62,7 @@ User manual 1.12.10~002A_en [download](https://github.com/Qeedji/archives/blob/m
 - SBL10e device
 - Qether 1.12.10 (or above)
 
-##`2021-10-01` V1.10.15
+## `2021-10-01` V1.10.15
 >##### **IMPORTANT**
 - Change: do not support anymore the *discover* command from Qether V1.11.13 (and below)
 - Change: do not support anymore the *configure* command from Qether V1.11.13 (and below)
@@ -96,7 +96,7 @@ User manual 1.12.10~002A_en [download](https://github.com/Qeedji/archives/blob/m
 >#### **PREFS.JSON EXAMPLE**
 `prefs.json` example for `regular` [download](https://github.com/Qeedji/archives/blob/master/downloads/sbl10e/regular/V1.10.15/prefs-json-example/prefs.json)
 
-##`2021-09-07` V1.10.13
+## `2021-09-07` V1.10.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for UPnP (discovery)
 - Add support for *.js* configuration script put on the .conf directory of the WebDAV root directory
@@ -114,7 +114,7 @@ User manual 1.12.10~002A_en [download](https://github.com/Qeedji/archives/blob/m
 - SBL10e device
 - Qether 1.11.13 (or above)
 
-##`2020-10-01` V1.10.12
+## `2020-10-01` V1.10.12
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for `info` and `discover` commands from Qether tool
 - Add support for 5 consecutive blue flashes when receiving `configure` command from Qether tool

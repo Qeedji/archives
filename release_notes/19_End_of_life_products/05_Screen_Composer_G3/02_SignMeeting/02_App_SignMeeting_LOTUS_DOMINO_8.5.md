@@ -1,7 +1,7 @@
 # SignMeeting LOTUS DOMINO 8.5
 *RELEASE NOTE*
 
-##`2015-12-28` V1.12.14 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-domino-8.5/signmeeting_domino85-screen_composer-setup-1.12.14.appi)
+## `2015-12-28` V1.12.14 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-domino-8.5/signmeeting_domino85-screen_composer-setup-1.12.14.appi)
 >##### **IMPORTANT**
 - The previous signmeet.nsf has to be uninstalled and the new one needs to be installed on the Domino 8.5 server (the previous version is not compatible)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -78,10 +78,10 @@ http://www-10.lotus.com/ldd/ddwiki.nsf/dx/Authenticating_Domino_REST_Service_Req
 		- enter ```cusClass1``` in *device/edit/CSS class* field
 - Add the required media *./images/diagonal3.png* in Screen Composer manifest (*medias* tab)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2015-12-07` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-domino-8.5/signmeeting_domino85-screen_composer-setup-1.12.13.appi)
+## `2015-12-07` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-domino-8.5/signmeeting_domino85-screen_composer-setup-1.12.13.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support of *display agent activity in Domino console*
 - Add attendees list display with scrolling
@@ -143,11 +143,11 @@ http://www-10.lotus.com/ldd/ddwiki.nsf/dx/Authenticating_Domino_REST_Service_Req
 - Fix: when *filtering RQ Status* is unactive and accepted meeting is active, meeting was not displayed
 - Fix: attendees could be displayed on 2 lines instead be scrolled on 1 line (Room screen)
 
-##`2014-11-27` V1.10.52
+## `2014-11-27` V1.10.52
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - New app format : .appi (Compatibility with Screen Composer 3.11.x)
 
-##`2014-09-18` V1.10.49
+## `2014-09-18` V1.10.49
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add attendees list for repeated meetings
 - Add security to prevent any special characters typing like <> () {} [] = | + \  : * % ! # $ ^ ? , " ; @ and /.
@@ -156,13 +156,13 @@ http://www-10.lotus.com/ldd/ddwiki.nsf/dx/Authenticating_Domino_REST_Service_Req
 - Fix the LED behavior when using an SMT210 player
 
 
-##`2014-06-02` V1.10.41
+## `2014-06-02` V1.10.41
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change the full list of characters that are allowed are A-Z, a-z, 0-9, dash (-), full stop (.), underscore (_) and Space
 - Fix allow the character '.' for resource name
 - Fix incorrect view in spanish and deutsch player language
 
-##`2014-05-28` V1.10.40
+## `2014-05-28` V1.10.40
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add security to prevent user from adding a meeting outside the current time range
 - Add security to prevent free time calculation from going outside the current time range
@@ -175,7 +175,7 @@ http://www-10.lotus.com/ldd/ddwiki.nsf/dx/Authenticating_Domino_REST_Service_Req
 - Fix exception handling on DHCP when IP is not yet defined (black screen in case DHCP server is slow)
 
 
-##`2014-05-27` V1.10.39
+## `2014-05-27` V1.10.39
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add scrolling for attendees in edit/consult meeting- Change update 'signmeet.nsf'
 - Add support of *filtering RQ Status*
@@ -194,7 +194,7 @@ http://www-10.lotus.com/ldd/ddwiki.nsf/dx/Authenticating_Domino_REST_Service_Req
 - Fix font size to be taken into account when displaying event
 - Fix attendees list now displays the full names.
 
-##`2014-04-17` V1.10.36
+## `2014-04-17` V1.10.36
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add description and capacity of a room
 - Add customization of banner (mono display)
@@ -207,17 +207,17 @@ http://www-10.lotus.com/ldd/ddwiki.nsf/dx/Authenticating_Domino_REST_Service_Req
 - Fix "Modify" function does not work (except if there is an "Add" just before)
 - Fix stuck request when response is not correct
 
-##`2014-04-08` V1.10.34
+## `2014-04-08` V1.10.34
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add French language
 - Change update 'signmeet.nsf' file to permit multi-server databases
 - Fix incorrect error message on startup ('Object - Object')
 - Fix 'Show attendees' was not kept (mono mode)
 
-##`2014-03-14` V1.10.33
+## `2014-03-14` V1.10.33
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change rename application name to 'signmeeting-domino-8.5'
 
-##`2014-03-13` V1.10.32
+## `2014-03-13` V1.10.32
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

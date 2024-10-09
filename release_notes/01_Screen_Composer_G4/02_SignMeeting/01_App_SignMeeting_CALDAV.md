@@ -1,7 +1,7 @@
 # SignMeeting CalDAV
 *RELEASE NOTE*
     
-##`2023-06-16` V2.12.12 [download](app-signmeeting-caldav/signmeeting_caldav-screen_composer-addin-2.12.12.appi){.auth-downloads}   
+## `2023-06-16` V2.12.12 [download](app-signmeeting-caldav/signmeeting_caldav-screen_composer-addin-2.12.12.appi){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the organizer name was not displayed 
 - Fix: it was not possible to create event with SignMeeting when using MDaemon messaging server
@@ -90,7 +90,7 @@
 # HISTORY
 ***********************************************************************
 
-##`2023-04-19` V2.12.11 [download](app-signmeeting-caldav/signmeeting_caldav-screen_composer-addin-2.12.11.appi){.auth-downloads}   
+## `2023-04-19` V2.12.11 [download](app-signmeeting-caldav/signmeeting_caldav-screen_composer-addin-2.12.11.appi){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *Gekkota 5*
 - Add support for PDF media or MS-PowerPoint media as screen saver
@@ -106,6 +106,6 @@
 - Fix: in the previous version, between midnight and noon, when the time in the banner was displayed with the *12hrs* format, the time was displayed with the *PM* suffix instead of the *AM* suffix  
 - Fix: in some rare case, after a *power manager* task had been executed, some event information like the *current meeting* label, the *next meeting* label, the event *description*, the event *summary* or the *event* attendees was not displayed on the main page of the *Room Screen* layout on AQS devices      
 
-##`2022-08-22` V2.11.10 [download](app-signmeeting-caldav/signmeeting_caldav-screen_composer-addin-2.11.10.appi){.auth-downloads}   
+## `2022-08-22` V2.11.10 [download](app-signmeeting-caldav/signmeeting_caldav-screen_composer-addin-2.11.10.appi){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version

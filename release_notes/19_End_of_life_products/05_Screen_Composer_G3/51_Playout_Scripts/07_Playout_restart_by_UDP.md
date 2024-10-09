@@ -4,7 +4,7 @@
 - When executed by the device, this script permits to restart the playout each time a specific UDP  message value is received by the player
 - Both UDP port and message value can be configured
 
-##`2018-11-23` Script V1.10.11 [Download](https://github.com/Qeedji/archives/blob/master/downloads/playout-scripts/playout-restart-by-udp/Playout-restart-by-UDP-V1.10.11.js)
+## `2018-11-23` Script V1.10.11 [Download](https://github.com/Qeedji/archives/blob/master/downloads/playout-scripts/playout-restart-by-udp/Playout-restart-by-UDP-V1.10.11.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: was not working with Playzilla 4.10.18 (and above)
 >##### **COMPATIBILITY**
@@ -26,10 +26,10 @@
 - Step 3
 	- With a software (not provided bey Innes), send the appropriate UDP message on the network
 
-#OLD VERSIONS
+# OLD VERSIONS
 ***********************************************************************
 
-##`2017-10-18` Script V1.10.10 [Download](https://github.com/Qeedji/archives/blob/master/downloads/playout-scripts/playout-restart-by-udp/Playout-restart-by-UDP-V1.10.10.js)
+## `2017-10-18` Script V1.10.10 [Download](https://github.com/Qeedji/archives/blob/master/downloads/playout-scripts/playout-restart-by-udp/Playout-restart-by-UDP-V1.10.10.js)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 - Playzilla 4.10.17 (or above)

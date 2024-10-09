@@ -1,7 +1,7 @@
 # SignMeeting SIMULATOR
 *RELEASE NOTE*
 
-##`2020-01-13` V1.13.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.13.11.appi)
+## `2020-01-13` V1.13.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.13.11.appi)
 >##### **IMPORTANT**
 - For users having existing `SignMeeting` projects in the previous version `SignMeeting 1.12.XX`,
 	- Install `Screen Composer V3.20.15`
@@ -71,10 +71,10 @@
 	- the check in by script can work only when the meeting is really pending (does not work inside the anticipated display period)
 	- the *pendingFreeDelay* variable at the beginning of the script allows to define the timeout (by default, 15 minutes) before checking out (declaring that the room is empty and has to be shortened)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2019-06-17` V1.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.13.10.appi)
+## `2019-06-17` V1.13.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.13.10.appi)
 >##### **IMPORTANT**
 - For users having existing `SignMeeting` projects in the previous version `SignMeeting 1.12.XX`,
 	- Install `Screen Composer V3.20.15`
@@ -141,7 +141,7 @@
 - Fix: the label of the *Notification* button could be too large
 - Fix: add possibility for several SLATE106 device to display the meeting information of a same room
 
-##`2017-08-04` V1.12.27 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.27.appi)
+## `2017-08-04` V1.12.27 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.27.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *Room label* display profil for SMH300 device (connected with SLATE106 devices)
 - Fix: time zone management
@@ -163,12 +163,12 @@
 - CSS File for *Summary screen by resource* display profil V1.12.22 (for SignMeeting version V1.10.22 or above) [download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes-signmeeting/summary_screen_by_resource/theme_roomgrid_sm_1.12.22.css)
 - CSS File for *Room Label* display profil V1.12.27B (for SignMeeting version V1.12.27 or above) [download](https://github.com/Qeedji/archives/blob/master/downloads/application-notes-signmeeting/room_label/label_default_sm_1.12.27B.css)
 
-##`2017-05-22` V1.12.26 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.26.appi)
+## `2017-05-22` V1.12.26 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.26.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for *German* language
 - Fix: it was not possible to program a meeting the day after with SignMeeting (german language only)
 
-##`2017-01-12` V1.12.23 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.23.appi)
+## `2017-01-12` V1.12.23 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.23.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add new day format (Summary screen by resource)
 	- *ddd mm yyyy*
@@ -203,7 +203,7 @@
 	- ex: ```start```: *Monday 9th*, ```all day``` long (no recurrence) until ```end:``` *Friday 13th*
 - Fix: In order to be able to display background content, general theme needed to be activated first. By contrary, in order to be able to display Playzilla background, general theme needed to be inactivated
 
-##`2016-06-13` V1.12.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.19.appi)
+## `2016-06-13` V1.12.19 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.19.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add ```Attribute 1``` and ```Attribute 2``` research option in interface *Datasource* / *Advanced* permitting to get additional information coming from LDAP directory (which can be inserted in the meeting title afterwards)
 	- Attribute 1 and Attribute 2 can have any attributes of LDAP attribute editor. It is advised to use string or integer format
@@ -234,12 +234,12 @@
 - Fix: connection error was not well raised to the user when LDAP server was not responding
 - Fix: In console mode, check LDAP filter matching for each RFID badging
 
-##`2016-03-10` V1.12.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.16.appi)
+## `2016-03-10` V1.12.16 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.16.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: could not be able to collect the meeting if AVCmd profile is activated (stuck in standby mode)
 - Fix: when exiting TV screen standby, could not be able to collect the meeting until next refresh timeout (now refresh timeout is decreased to 3 minutes when screen is in standby and standby duration is upper than refresh timeout)
 
-##`2016-02-26` V1.12.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.15.appi)
+## `2016-02-26` V1.12.15 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.15.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add new items in event detail
 	-  number of attendees (at the right of attendees)
@@ -257,7 +257,7 @@
 - Fix: in some cases, when current meeting is finished and this meeting is the last one, the meeting could remain inconsistently in next meeting
 - Fix: sometimes after a publishing, event was not displayed before refresh timeout (specific to SIMUL where access time to server is close to 0 sec)
 
-##`2015-12-07` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.13.appi)
+## `2015-12-07` V1.12.13 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.13.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support new API CSS class in device edition permitting to display, when there is a meeting in room screen, to give possibility to have a CSS theme different for each player
 	- require theme_css_generic-V1.10.12.css (available for download)
@@ -270,7 +270,7 @@
 - Fix: pressing "room is emptied" the second time was doing nothing (in case reccurent meeting)
 - Fix: attendees could be displayed on 2 lines instead be scrolled on 1 line (Room screen)
 
-##`2015-10-12` V1.12.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.12.appi)
+## `2015-10-12` V1.12.12 [download](https://github.com/Qeedji/archives/blob/master/downloads/app-signmeeting-simulator/signmeeting_simul-screen_composer-setup-1.12.12.appi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add attendees list display with scrolling
 - Add support for a signs library (72 icons) or signs importation (for resources in summary screen)
@@ -318,7 +318,7 @@
 - Fix unexpected error message title *Error lost translation: this.thisStr is undefined* when resource is missing or when using button *room is emptied* and/or button *confirm my presence*
 - Fix: reservation and consultation page date was dynamically become SignMeeting current date (room screen)
 
-##`2015-06-09` V1.11.17
+## `2015-06-09` V1.11.17
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add a confirmation screen when pressing "Room is empty" button
 - Add: return to main  screen when timeout "no user activity" of screen "book a meeting" has expired (based on IDLE api)
@@ -330,19 +330,19 @@
 - Fix error message not displayed when the player not properly configured
 - Fix "Book now" and "confirm my presence" button availability issue when playing with navigation menu
 
-##`2015-01-16` V1.11.15
+## `2015-01-16` V1.11.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add shortcut button to make a express booking with fixed duration
 - Add a confirmation button
 - Change design of the mono view to display current and next meeting
 
-##`2014-10-17` V1.10.51
+## `2014-10-17` V1.10.51
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix version was not display correctly (Form)
 - Set the color of the app icons black color
 - Compatibility with Screen Composer 3.11.x
 
-##`2014-02-15` V1.10.36
+## `2014-02-15` V1.10.36
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add multi landscape and portrait functionnality
 - Improve touch screen response on scroll buttons
@@ -351,6 +351,6 @@
 - Change remove the button "Add", "Del", "Modify" & "View" when not active
 - Change separate the datasource and the resource into two separate lists
 
-##`2013-11-21` V1.10.26
+## `2013-11-21` V1.10.26
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initital version

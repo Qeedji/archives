@@ -3,7 +3,7 @@
 
 **With these version, the Excel resources needs to be downloaded and dropped again in your manifest**
 
-##`2024-10-08` V2.10.10_beta7 [download](app-signway/signway_demo-screen_composer-addin-2.10.10_beta07.appi){.free-downloads}
+## `2024-10-08` V2.10.10_beta7 [download](app-signway/signway_demo-screen_composer-addin-2.10.10_beta07.appi){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **COMPATIBILITIES** 
@@ -75,14 +75,14 @@
 #PREVIOUS VERSIONS
 ***********************************************************************
 
-##`2021-05-03` V1.10.17 [download](app-signway/signway_demo-screen_composer-setup-1.10.17.appi){.free-downloads}
+## `2021-05-03` V1.10.17 [download](app-signway/signway_demo-screen_composer-setup-1.10.17.appi){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Remove support for license for Demo App
 >##### **COMPATIBILITIES** 
 - Screen Composer G3 V3.20.15 (or above)
 - Gekkota RT 4.14.10 (or above)
 
-##`2018-12-11` V1.10.13 beta12 [download](app-signway/signway_demo-screen_composer-setup-1.10.13_beta12.appi){.free-downloads}
+## `2018-12-11` V1.10.13 beta12 [download](app-signway/signway_demo-screen_composer-setup-1.10.13_beta12.appi){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for resolution responsivity in landscape mode 
 	- minimal: 1200x800 (for example touch tablet devices)
@@ -95,11 +95,11 @@
 - Screen Composer G3 V3.20.15 (or above)
 - Gekkota RT 4.10.18 beta3 (demo version)
 
-##`2018-09-27` V1.10.13 beta5 (demo) [download](app-signway/signway_demo-screen_composer-setup-1.10.13_beta5.appi){.free-downloads}
+## `2018-09-27` V1.10.13 beta5 (demo) [download](app-signway/signway_demo-screen_composer-setup-1.10.13_beta5.appi){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change the license format
 
-##`2018-09-06` V1.10.13 beta3 (demo) [download](app-signway/signway_demo-screen_composer-setup-1.10.13beta3.appi){.free-downloads}
+## `2018-09-06` V1.10.13 beta3 (demo) [download](app-signway/signway_demo-screen_composer-setup-1.10.13beta3.appi){.free-downloads}
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Inital version for demo
 >##### **COMPATIBILITIES** 

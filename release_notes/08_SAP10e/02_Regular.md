@@ -8,7 +8,7 @@ Once paired to up to 10 SLATEs, the **Regular** application allows to:
 
 This application is put by default on the SAP10e devices at factory.
 
-##`2023-06-06` V1.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/sap10e/regular/V1.12.10/bm0032_regular-sap10e-setup-1.12.10.bin)
+## `2023-06-06` V1.12.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/sap10e/regular/V1.12.10/bm0032_regular-sap10e-setup-1.12.10.bin)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: in some rare cases, it was not possible to reach the device on the local network
 - Fix: in some case, the device was not restarting automatically after having clicked on the *restore factory preferences* button in the device configuration Web user interface
@@ -27,10 +27,10 @@ User manual 1.12.10~002A_en [download](https://github.com/Qeedji/archives/blob/m
 #### **CONFIGURATION SCRIPT TEMPLATE**
 `000000000000.js` template 001A for `regular` V1.11.10 (or above) [download](https://github.com/Qeedji/archives/blob/master/downloads/sap10e/regular/V1.11.10/configuration-script-template/000000000000.js)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2022-11-15` V1.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/sap10e/regular/V1.11.10/bm0032_regular-sap10e-setup-1.11.10.bin)
+## `2022-11-15` V1.11.10 [download](https://github.com/Qeedji/archives/blob/master/downloads/sap10e/regular/V1.11.10/bm0032_regular-sap10e-setup-1.11.10.bin)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for new panes in the device configuration Web user interface
     - *Configuration > Tasks*
@@ -58,14 +58,14 @@ User manual 1.12.10~002A_en [download](https://github.com/Qeedji/archives/blob/m
 - Fix: setting as static IP address, the same IP address value as the one previously given by DHCP prevent the user to connect to the device Web user interface after the device reboot
 - Fix: when a SLATE was previously paired to another SAP10e device, it was possible to pair it for a while but it was disappearing afterwards in less than 15 minutes
 
-##`2021-02-25` V1.10.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/sap10e/regular/V1.10.11/bm0032_regular-sap10e-setup-1.10.11.bin)
+## `2021-02-25` V1.10.11 [download](https://github.com/Qeedji/archives/blob/master/downloads/sap10e/regular/V1.10.11/bm0032_regular-sap10e-setup-1.10.11.bin)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: the device could not detect SLATEs coming straight from factory
 >##### **COMPATIBILITIES**
 - SAP10e device
 - Qether 1.11.13 (or above)
 
-##`2021-02-10` V1.10.10
+## `2021-02-10` V1.10.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **COMPATIBILITIES**

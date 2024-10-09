@@ -1,7 +1,7 @@
 # WIS (Wasm Innes System)
 *RELEASE NOTE*
 
-##`2024-10-08` V1.10.10 [download](slate206/wis/wis_qeedji_slate206a_occident-ep26w-setup.1.10.10.rpk){.free-downloads}      
+## `2024-10-08` V1.10.10 [download](slate206/wis/wis_qeedji_slate206a_occident-ep26w-setup.1.10.10.rpk){.free-downloads}      
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version       
 >##### **COMPATIBILITIES**
@@ -25,5 +25,5 @@
 
 Note: if required, the `.ppk` file can be renamed inside the `configuration.js`
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************

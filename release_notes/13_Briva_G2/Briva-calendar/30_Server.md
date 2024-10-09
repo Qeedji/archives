@@ -1,7 +1,7 @@
 # Briva-calendar server
 *RELEASE NOTE*
 
-##`2014-12-31` V2.10.10 [download](briva-calendar_server/Innes%20Briva%20Server%20Setup%20V2.10.10.exe){.auth-downloads}   
+## `2014-12-31` V2.10.10 [download](briva-calendar_server/Innes%20Briva%20Server%20Setup%20V2.10.10.exe){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**  
 - Initial version
 >##### **COMPATIBILITIES**

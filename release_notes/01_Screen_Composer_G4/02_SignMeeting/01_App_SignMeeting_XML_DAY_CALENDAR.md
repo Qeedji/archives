@@ -1,7 +1,7 @@
 # SignMeeting XML DAY CALENDAR
 *RELEASE NOTE*
     
-##`2024-10-07` V2.14.10 [download](app-signmeeting-xml-day-calendar/signmeeting_briva_xml_day_calendar-screen_composer-addin-2.14.10.appi){.auth-downloads}   
+## `2024-10-07` V2.14.10 [download](app-signmeeting-xml-day-calendar/signmeeting_briva_xml_day_calendar-screen_composer-addin-2.14.10.appi){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version      
 >##### **KNOWN LIMITATIONS**
@@ -55,11 +55,11 @@
 # HISTORY
 ***********************************************************************
 
-##`2022-08-22` V2.11.12 [download](app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-addin-2.11.12.appi){.auth-downloads}   
+## `2022-08-22` V2.11.12 [download](app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-addin-2.11.12.appi){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for `AQS` for AMP300 media players
 
-##`2022-05-18` V2.11.11 [download](app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-addin-2.11.11.appi){.auth-downloads}   
+## `2022-05-18` V2.11.11 [download](app-signmeeting-jooxter/signmeeting_jooxter-screen_composer-addin-2.11.11.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - Once this SignMeeting version is installed, in case you had to install the previous SignMeeting version afterwards, contact support@innes.pro 

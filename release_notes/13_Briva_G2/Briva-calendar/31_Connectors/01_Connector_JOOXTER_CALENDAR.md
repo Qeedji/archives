@@ -1,7 +1,7 @@
 # JOOXTER CALENDAR
 *RELEASE NOTE*
 
-##`2023-01-25` V1.11.11 [download](applets/connector-jooxter-calendar-V1.11.11/delivery/jooxter-calendar-V1.11.11.saz){.auth-downloads}   
+## `2023-01-25` V1.11.11 [download](applets/connector-jooxter-calendar-V1.11.11/delivery/jooxter-calendar-V1.11.11.saz){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix: when the working range was activated, the .xml calendar file could contain events that was out of the working range     
 >##### **COMPATIBILITIES**
@@ -21,10 +21,10 @@
 - URL to get the *.xml* calendar file output by the connector:
 	- ```http://<briva_calendar_server_domain>/plugnCast/.applets/.jooxter-calendar/2xml-daycalendar.php?id=<calendarId>```
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2022-12-28` V1.11.10 [download](applets/connector-jooxter-calendar-V1.11.10/delivery/jooxter-calendar-V1.11.10.saz){.auth-downloads}   
+## `2022-12-28` V1.11.10 [download](applets/connector-jooxter-calendar-V1.11.10/delivery/jooxter-calendar-V1.11.10.saz){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version supporting these outputs format:
 	- *.ics* 

@@ -1,7 +1,7 @@
 # ADESOFT CALENDAR
 *RELEASE NOTE*
 
-##`2015-11-25` V1.10.10 [download](applets/connector-adesoft-V1.10.10/delivery/adesoft-calendar-V1.10.10.saz){.auth-downloads}   
+## `2015-11-25` V1.10.10 [download](applets/connector-adesoft-V1.10.10/delivery/adesoft-calendar-V1.10.10.saz){.auth-downloads}   
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version
 >##### **MODELS PACKAGE**
@@ -30,6 +30,6 @@
 - Note: this URL can be used also with suffix *&debug=yes* (for technical support only)
    - ```http://<domain>/plugnCast/.applets/.adesoft-calendar/2ical.php?calendarId=<roomId>&debug=yes```
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 

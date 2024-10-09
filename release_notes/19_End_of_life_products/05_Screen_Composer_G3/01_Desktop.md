@@ -5,7 +5,7 @@
 
 *The App Playzilla is not part of Screen Composer delivery. It needs to be imported in Screen Composer to work with any gekkota 4 projects types.*
 
-##`2019-06-17` V3.20.15
+## `2019-06-17` V3.20.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for project supporting `Gekkota 4 DME204` devices
 - Add support for SignMeeting project migration from 1.12.XX to 1.13.XX
@@ -106,10 +106,10 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 #### **POWER POINT BULLET REQUIRING FONTS**
 - The bullet rendering which is based on a specific font requires to add the approriate fonts manually in the playout manifest
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 ***********************************************************************
 
-##`2018-04-12` V3.20.14
+## `2018-04-12` V3.20.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for MS-PowerPoint medias for *gekkota4 sma300* devices
 - Add support for SignMeeting project 1.13.XX (and above)
@@ -120,7 +120,7 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 - Change: embeds ontology HID detection V1.10.16
 - Fix: when using a portrait 4/3 grid, the content was not downscaled properly on Gekkota4 devices connected to 16-9 monitors
 
-##`2018-01-30` V3.20.13
+## `2018-01-30` V3.20.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for other apps than ```Playzilla``` App & ```SignMeeting``` App
 	- for example: ```WayFinding``` App
@@ -131,7 +131,7 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 - Fix: it was not possible to create a model from the content model library in case the workspace path file name was containing ```&``` character
 - Fix: it was not possible to wake up a device in standby by publishing a playout having no standby task programmed
 
-##`2017-07-25` V3.20.12
+## `2017-07-25` V3.20.12
 >##### **IMPORTANT**
 - Innes Models are not part of Screen Composer delivery anymore. Please visit ```http://www.innes.pro/fr/support/``` to get the last model pack for Screen Composer
 - Model pack version 3.48 (or above) is required to support onthologies and model in german language
@@ -162,7 +162,7 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 - Fix: resource drag'n drop was not working when Screen Composer was displayed on MS-Windows secondary screen
 - Fix: when possible, in content template library, display the content model name on two lines (to avoid three dots)
 
-##`2017-01-25` V3.20.11
+## `2017-01-25` V3.20.11
 >##### **IMPORTANT**
 - In case using DMB400 devices, Screen Composer is compatible with Playzilla 4.10.11 (or above)
 - This version does not support properly URN TNT
@@ -181,7 +181,7 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 - Change: ensure serial numbers unicity in the license manager (*Project and App* menu)
 - Change: remove support for layout tolerence
 
-##`2017-01-03` V3.20.10
+## `2017-01-03` V3.20.10
 >##### **IMPORTANT**
 - Note for devices types Gekkota4 dmb400:
 	- supports content model pack V3.41 (or above)
@@ -227,7 +227,7 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 - Fix: resource of old App are removed when installing a new App
 - Fix: multimedia sequence was not sorted in alphabetic order (*scenario* tab)
 - Fix: publication time on directory is optimized (shortened) when the same files are copied on the directory
-##`2014-12-23` V3.11.12
+## `2014-12-23` V3.11.12
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support WGT
 - Add support distant powerpoint
@@ -238,14 +238,14 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 - Fix several instances of the same app were using same database
 - Fix default reboot in task preferences did not work
 
-##`2014-09-30` V3.11.11
+## `2014-09-30` V3.11.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add versionning management regarding appi loading and app (zip) importation (ex: signMeeting)
 - Homogeneity in publication order
 >##### **MODELS PACKAGE**
 - V3.10.16
 
-##`2014-07-20` V3.11.10
+## `2014-07-20` V3.11.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add new screen "select the App to use" (.appi) when creating new projet is- Change embeds
 - Add support GPIO 5 and 6 for DMB300 plateform (dependance DMB300 3.11.10) Playzilla V3.11.10 beta5
@@ -258,7 +258,7 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 >##### **MODELS PACKAGE**
 - V3.10.16
 
-##`2014-07-17` V3.10.18
+## `2014-07-17` V3.10.18
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change embeds Playzilla V3.11.10 beta5
 - Fix system fonts doubloons display clean-up (several same types of fonts was displayed)
@@ -275,7 +275,7 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 >##### **MODELS PACKAGE**
 - V3.10.16
 
-##`2014-04-29` V3.10.17
+## `2014-04-29` V3.10.17
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change embeds Playzilla V3.10.41_beta1
 - Fix .pptx file corrupted after changing the slides' duration
@@ -285,7 +285,7 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 >##### **MODELS PACKAGE**
 - V3.10.15
 
-##`2014-01-29` V3.10.16
+## `2014-01-29` V3.10.16
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add feature 'import models' in a zip format file
 - Add feature 'watching variables in xpath functions' (for playfolder for example)
@@ -307,7 +307,7 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 >##### **MODELS PACKAGE**
 - V3.10.15
 
-##`2013-08-02` V3.10.15
+## `2013-08-02` V3.10.15
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change embeds Playzilla V3.10.32
 - Fix trouble when the project name is the same as the worspace directory
@@ -318,13 +318,13 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 - V3.10.10
 
 
-##`2013-06-07` V3.10.14
+## `2013-06-07` V3.10.14
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Fix trouble when saving a project after upgrading from V3.10.12 to V3.10.13
 >##### **MODELS PACKAGE**
 - V3.10.10
 
-##`2013-05-30` V3.10.13
+## `2013-05-30` V3.10.13
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add one digit after the dot for estimated size of medias (medias tab)
 - Change embeds Playzilla V3.10.31_beta12
@@ -337,14 +337,14 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 >##### **MODELS PACKAGE**
 - V3.10.10
 
-##`2013-02-14` V3.10.12
+## `2013-02-14` V3.10.12
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Change embeds Playzilla V3.10.28_beta30
 - Add player type when creating a new schedule
 >##### **MODELS PACKAGE**
 - V3.10.10
 
-##`2013-01-02` V3.10.12 beta2
+## `2013-01-02` V3.10.12 beta2
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add variables
 - Add user commands
@@ -359,7 +359,7 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 >##### **MODELS PACKAGE**
 - V3.10.10
 
-##`2012-08-30` V3.10.11
+## `2012-08-30` V3.10.11
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add feature 'obsolete project cleaning'
 - Change (optimization) publication time
@@ -371,7 +371,7 @@ To work with the `SignDoor Demo` App, refer to the `SignDoor Demo` App release n
 >##### **MODELS PACKAGE**
 - V3.10.10
 
-##`2012-06-29` V3.10.10
+## `2012-06-29` V3.10.10
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Initial version for G3 playzilla/gekkota
 >##### **MODELS PACKAGE**

@@ -3,7 +3,7 @@
 #### **SUMMARY**
 - The goal of this document is to explain how to plug and configure a brightness sensor on a player DMC200
 
-##`2015-06-20` (last update)
+## `2015-06-20` (last update)
 
 #INFORMATION
 ***********************************************************************

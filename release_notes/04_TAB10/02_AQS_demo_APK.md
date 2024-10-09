@@ -3,7 +3,7 @@
 
 *Never make electric unplug on your device while APK installation is in progress*
 
-##`2024-01-12` Demo APK for TAB10 device
+## `2024-01-12` Demo APK for TAB10 device
 - `device_power_standby` 1.10.11 [download](tab10/APK/device_power_standby-qeedjisystem_aosp-setup-1.10.11.apk){.free-downloads}
 - `power_manager_calendar` 1.10.10 [download](tab10/APK/power_manager_calendar-qeedjisystem_aosp-setup-1.10.10.apk){.free-downloads}
 - `proximity_sensor` 1.10.11 [download](tab10/APK/proximity_sensor-tab10-setup-1.10.11.apk){.free-downloads} 
@@ -36,10 +36,10 @@
 
 [Link to URL Webview configuration script](https://github.com/Qeedji/aosp-TAB10s-sdk/tree/master/examples/url_webview/configuration/000000000000.js)
 
-#OLD VERSIONS HISTORY
+# OLD VERSIONS HISTORY
 *********************************************************************************************************
 
-##`2023-01-25` Demo APK for TAB10 device
+## `2023-01-25` Demo APK for TAB10 device
 - `device_power_standby` 1.10.11 [download](tab10/APK/device_power_standby-qeedjisystem_aosp-setup-1.10.11.apk){.free-downloads}
 - `proximity_sensor` 1.10.11 [download](tab10/APK/proximity_sensor-tab10-setup-1.10.11.apk){.free-downloads} 
 - `rfid_reader` 1.11.10 [download](tab10/APK/rfid_reader-tab10-setup-1.11.10.apk){.free-downloads} 
@@ -51,7 +51,7 @@
 	- `device_power_standby`
 	- `system_button`
 	- 
-##`2022-12-13` Demo APK for TAB10 device
+## `2022-12-13` Demo APK for TAB10 device
 - `device_power_standby` 1.10.11 
 - `proximity_sensor` 1.10.11 
 - `rfid_reader` 1.11.10 
@@ -64,7 +64,7 @@
 	- `surround_light`
 	- `system_button`
 
-##`2021-03-17` Demo APK for TAB10 device
+## `2021-03-17` Demo APK for TAB10 device
 - `device_info` 1.10.12 
 - `device_power_standby` 1.10.11
 - `proximity_sensor` 1.10.11
@@ -85,7 +85,7 @@
 	- for TAB10s device
 	- for TAB10b device  
 
-##`2020-11-24` Demo APK for TAB10 device
+## `2020-11-24` Demo APK for TAB10 device
 - `device_info` 1.10.11 
 - `device_power_standby` 1.10.10
 - `proximity_sensor` 1.10.10 
@@ -110,7 +110,7 @@
 - `proximity_sensor` 
 	- Initial version
 
-##`2020-10-19` Demo APK for TAB10 device
+## `2020-10-19` Demo APK for TAB10 device
 - `device_info` 1.10.10 
 - `presence_sensor` 1.10.10 
 - `rfid_reader` 1.10.10

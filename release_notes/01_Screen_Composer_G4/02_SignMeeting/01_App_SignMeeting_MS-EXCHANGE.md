@@ -3,7 +3,7 @@
     
 **Since October 2020, any new or inactive tenants of Exchange Online have Basic Authentication disabled by default. In the second half of 2022, active Exchange Online users will have Basic Authentication disabled. In both cases, the authentication will be replaced by the Modern authentication. That implies to create an Azure Active Directory (Azure AD) application for your SignMeeting Appi then enter the required values resulting from the application creation in the SignMeeting form. For further information, refer to the SignMeeting user manual.**
 
-##`2023-06-13` V2.12.12 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.12.12.appi){.auth-downloads}   
+## `2023-06-13` V2.12.12 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.12.12.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - In case your Azure AD client secret has been generated with *PowerShell script for Azure Active Directory Application support 1.10.12 (or below)*, your client secret may be not valid anymore. It is required to install the *PowerShell script for Azure Active Directory Application support 1.10.13 (or above)* and generate again *(application) client ID*, *tenant ID* and *client secret* for your SignMeeting MS-Exchange App    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -79,7 +79,7 @@
 # HISTORY
 ***********************************************************************
 
-##`2023-04-19` V2.12.11 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.12.11.appi){.auth-downloads}   
+## `2023-04-19` V2.12.11 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.12.11.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - In case your Azure AD client secret has been generated with *PowerShell script for Azure Active Directory Application support 1.10.12 (or below)*, your client secret may be not valid anymore. It is required to install the *PowerShell script for Azure Active Directory Application support 1.10.13 (or above)* and generate again *(application) client ID*, *tenant ID* and *client secret* for your SignMeeting MS-Exchange App    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -99,7 +99,7 @@
 - Fix: between midnight and noon, when the time in the banner was displayed with the *12hrs* format, the time was displayed with the *PM* suffix instead of the *AM* suffix  
 - Fix: in some rare case, on AQS devices, after a *power manager* task had been executed, some event information like the *current meeting* label, the *next meeting* label, the event *description*, the event *summary* or the *event* attendees was not displayed on the main page of the *Room Screen* layout   
 
-##`2022-08-22` V2.11.12 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.11.12.appi){.auth-downloads}   
+## `2022-08-22` V2.11.12 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.11.12.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - In case your Azure AD client secret has been generated with *PowerShell script for Azure Active Directory Application support 1.10.12 (or below)*, your client secret may be not valid anymore. It is required to install the *PowerShell script for Azure Active Directory Application support 1.10.13 (or above)* and generate again *(application) client ID*, *tenant ID* and *client secret* for your SignMeeting MS-Exchange App    
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
@@ -108,7 +108,7 @@
 - Fix: the event, taking place across several days, was not displayed if the event start date was more than one month ago
 - Fix: the event was not displayed some specific days for the events taking place across several months
 
-##`2022-05-18` V2.11.11 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.11.11.appi){.auth-downloads}   
+## `2022-05-18` V2.11.11 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.11.11.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - Migration from SignMeeting 1.13.11 to SignMeeting 2.10.zz is not yet supported
@@ -137,7 +137,7 @@
 - Fix: a publication error was raised when a font file or an image file was added in the *linked medias* part of the form   
 - Fix: in some case, in the *Device* tab of SignMeeting form, the window *Setting the display profile for the device* could be opened instead of the window *Setting the resource for the display profile* (and reciprocally)
 
-##`2022-02-04` V2.11.10 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.11.10.appi){.auth-downloads}   
+## `2022-02-04` V2.11.10 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.11.10.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - Migration from SignMeeting 1.13.11 to SignMeeting 2.10.zz is not yet supported
@@ -150,7 +150,7 @@
 - Fix: some events from some consistent resource id could not be displayed when the data source was containing some resource with inconsistent resource ids     
 - Fix: it was not possible anymore to watch the reservation for the room resources situated into the second reservation and consultation page
 
-##`2021-09-01` V2.10.12 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.10.12.appi){.auth-downloads}   
+## `2021-09-01` V2.10.12 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.10.12.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - This version implies to load a *.css* file to customize the color of the theme for the *Summary screen by event* display profile
@@ -162,7 +162,7 @@
 >##### **COMPATIBILITIES** 
 - PowerShell script for Azure Active Directory Application support 1.10.13 (or above)
 
-##`2021-08-04` V2.10.11 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.10.11.appi){.auth-downloads}   
+## `2021-08-04` V2.10.11 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.10.11.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - This version implies to load a *.css* file to customize the color of the theme for the *Summary screen by event* display profile
@@ -177,7 +177,7 @@
 >##### **COMPATIBILITIES** 
 - PowerShell script for Azure Active Directory Application support 1.10.12 (or below)
 
-##`2021-06-02` V2.10.10 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.10.10.appi){.auth-downloads}   
+## `2021-06-02` V2.10.10 [download](app-signmeeting-ews/signmeeting_ews-screen_composer-addin-2.10.10.appi){.auth-downloads}   
 >##### **IMPORTANT**
 - One SignMeeting license key is required per device
 - This version implies to load a .css file to customize the color of the theme for the *Summary screen by event* display profile

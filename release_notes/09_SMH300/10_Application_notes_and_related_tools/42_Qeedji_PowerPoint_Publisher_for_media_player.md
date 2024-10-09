@@ -3,7 +3,7 @@
 #### **SUMMARY**
 The goal of application note is to explain how to install and use the *Qeedji PowerPoint Publisher for Media Player* PowerPoint addin.
 
-##`2022-08-04` V1.11.10 [download (nt_ia64)](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.11.10.msi) [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.11.10.msi)
+## `2022-08-04` V1.11.10 [download (nt_ia64)](https://github.com/Qeedji/archives/blob/master/downloads/application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia64-setup-1.11.10.msi) [download (nt_ia32)](application-notes/qeedji_powerpoint_publisher_addin/qeedji_powerpoint_publisher_for_media_players-nt_ia32-setup-1.11.10.msi)
 >##### **BUG FIX, NEW FEATURES, MINOR UPDATES**
 - Add support for AQS for device
 	- AMP300

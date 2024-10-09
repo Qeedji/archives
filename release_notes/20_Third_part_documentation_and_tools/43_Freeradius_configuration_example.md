@@ -3,7 +3,7 @@
 #### **SUMMARY**
 The aim of this documentation is to show a short overview of a FreeRadius configuration.
 
-##`2020-04-27` (last update)
+## `2020-04-27` (last update)
 
 #INFORMATION
 ***********************************************************************
