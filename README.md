@@ -1,2 +1,2 @@
 # archives
-Archives des produits Inovelec-Innes en téléchargement
+Archives des produits Innes en téléchargement
